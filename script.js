@@ -63,8 +63,8 @@ function addComponnestButtonsFloat(){
                 button.style.width = '50px'
                 button.style.height = '50px'
             }else{
-                button.style.width = '30px'
-                button.style.height = '30px'
+                button.style.width = '40px'
+                button.style.height = '40px'
 
                 buttonsFloat.style.border = 'none'
                 buttonsFloat.style.right = '10px'
@@ -118,21 +118,24 @@ function addComponnestButtonsFloat(){
 
 }
 
-addComponnestButtonsFloat()
-
 
 //SOLUÇÃO ZOOM PRODUTO
-let zoomImg = document.querySelector('.zoomImg')
-let swiperLazy = document.querySelector('.swiper-lazy')
-
-if(zoomImg && swiperLazy){
-  zoomImg.addEventListener('mouseenter', ()=>{
-    zoomImg.style.transform  = 'scale(1.5)'
-    swiperLazy.style.display = 'none'
-  })
-  
-  zoomImg.addEventListener('mouseleave', ()=>{
-    zoomImg.style.transform  = 'scale(1)'
-    swiperLazy.style.display = 'block'
-  })
+function zoomCorrection(){
+    let zoomImg = document.querySelector('.zoomImg')
+    let swiperLazy = document.querySelector('.swiper-lazy')
+    
+    if(zoomImg && swiperLazy){
+      zoomImg.addEventListener('mouseenter', ()=>{
+        zoomImg.style.transform  = 'scale(1.5)'
+        swiperLazy.style.display = 'none'
+      })
+      
+      zoomImg.addEventListener('mouseleave', ()=>{
+        zoomImg.style.transform  = 'scale(1)'
+        swiperLazy.style.display = 'block'
+      })
+    }
 }
+
+zoomCorrection()
+addComponnestButtonsFloat()
