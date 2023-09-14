@@ -139,3 +139,45 @@ function zoomCorrection(){
 
 zoomCorrection()
 addComponnestButtonsFloat()
+
+
+
+//ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
+function addBurronSaibaMais(){
+    document.querySelectorAll('div .actions').forEach((e) => {
+        const productContainer = e.parentElement.querySelector('.product-info');
+        const productName = productContainer.querySelector('.product-name')?.innerText || 'Nome do Produto não encontrado';
+        const productValue = productContainer.querySelector('.current-price')?.innerText || 'Valor do Produto não encontrado';
+        const productLink = e.children[0].href || 'Link não encontrado';
+      
+        const mensagem = `Oi, tudo bem? Quero saber mais sobre o produto: ${productName}, Link: ${productLink} e Valor: ${productValue}`;
+      
+        const saibaMais = document.createElement('a');
+        saibaMais.target = '_blank';
+        saibaMais.href = `https://api.whatsapp.com/send?phone=5592992376689&text=${encodeURIComponent(mensagem)}`;
+        saibaMais.style.display = 'flex';
+        saibaMais.style.alignItems = 'center';
+        saibaMais.style.justifyContent = 'center';
+        saibaMais.style.width = '100%';
+        saibaMais.style.height = '40px';
+        saibaMais.style.backgroundColor = 'green';
+        saibaMais.style.borderRadius = '4px';
+        saibaMais.style.marginTop = '5px';
+      
+        const text = document.createElement('p');
+        text.innerText = 'SAIBA MAIS';
+        text.style.color = 'white';
+        text.style.fontWeight = '700';
+        text.style.fontSize = '12px';
+      
+        const img = document.createElement('img');
+        img.src = 'https://mendoncagabriel.github.io/shopdosbaloes/icons/icons8-whatsapp-96.png';
+        img.style.height = '60%';
+        img.style.marginRight = '5px';
+      
+        saibaMais.appendChild(img);
+        saibaMais.appendChild(text);
+      
+        e.appendChild(saibaMais);
+    });
+}addBurronSaibaMais()
