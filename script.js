@@ -290,7 +290,7 @@ function addCarouselCustom(){
         banner.style.backgroundImage = `url(${element})`;
         banner.style.backgroundPosition = 'center';
         banner.style.backgroundRepeat = 'no-repeat';
-        banner.style.backgroundSize = 'cover';
+        banner.style.backgroundSize = '100%';
         banner.style.left = index === 0 ? '0%' : '100%';
         banners.push(banner);
         containerBanner.appendChild(banner);
