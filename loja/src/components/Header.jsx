@@ -1,0 +1,95 @@
+// import menu from './src/assets/manu.png'
+function Header(){
+
+    const menu = {
+        backgroundImage: 'url(./src/assets/menu.png)',
+        backgroundSize: '80%',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center'
+    }
+
+    const user = {
+        backgroundImage: 'url(./src/assets/user.png)',
+        backgroundSize: '80%',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center'
+    }
+
+    const card = {
+        backgroundImage: 'url(./src/assets/car.png)',
+        backgroundSize: '80%',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center'
+    }
+
+    const bloom = {
+        backgroundImage: 'url(./src/assets/bloom.png)',
+        backgroundSize: '80%',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center'
+    }
+
+    let locationDropOpen = false
+    function dropDownLocation(){
+        if(locationDropOpen == false){
+            locationDropOpen = true
+            document.getElementById('itensDrowpDown').style.display = 'block'
+        }else{
+            locationDropOpen = false
+            document.getElementById('itensDrowpDown').style.display = 'none'
+        }
+    }
+
+    return(
+        <>
+            <div className="bg-red-600 h-auto w-full pt-2">
+                {/* menu */}
+                <div className="flex items-center justify-between">
+                    <div className="flex w-1/2 justify-around items-center">
+                        <button  className="w-10 h-10 bg-center cursor-pointer" style={menu}></button>
+                        <img src="https://images.tcdn.com.br/img/img_prod/1238052/1692902488_logotipo_03.png" alt="logo"  className="w-20 "/>
+                    </div>
+
+                    <div className="flex w-1/3 justify-around items-center">
+                        <a href="/usuario" className="w-10 h-10 cursor-pointer" style={user}></a>
+                        <a href="/carrinho" className="w-10 h-10 cursor-pointer" style={card}></a>
+                    </div>
+                </div>
+
+
+                {/* pesquisa */}
+                <div className=" py-2 px-5 ">
+                    <div className="flex items-center justify-center  w-full  relative m-auto">
+                        <input type="text" className="bg-white w-full h-10 rounded-md pl-2 text-gray-600" placeholder="Pesquisar..."/>
+                        <button className="w-10 h-10  rounded-md bg-blue-500 absolute right-0" style={bloom}></button>
+                    </div>
+                </div>
+
+
+                {/* localização */}
+                <div className="w-full h-14 bg-red-500  flex items-center px-5">
+
+
+                    <div className="relative">
+                        <div className="flex items-center justify-center space-x-2">
+                            <span><img src="./src/assets/location.png" alt="icone location" className="w-3 " /></span>
+                            <button className="text-white" onClick={()=>{dropDownLocation()}}>
+                            Selecione o endereço 
+                            </button>
+                        </div>
+        
+
+                        <ul id="itensDrowpDown" className="absolute hidden bg-white p-3 rounded-md border text-gray-600" >
+                            <li><a  href="#">Birro 1</a></li>
+                            <li><a  href="#">Birro 2</a></li>
+                            <li><a  href="#">Birro 3</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </>
+    )
+}
+export default Header
