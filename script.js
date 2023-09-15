@@ -284,7 +284,7 @@ function addCarouselCustom(){
         banner.style.width = '100%';
         banner.style.height = '100%';
         banner.style.transition = '700ms';
-        banner.style.backgroundColor = 'blue';
+        banner.style.backgroundColor = 'gay';
         banner.style.position = 'absolute';
         banner.style.top = '0%';
         banner.style.backgroundImage = `url(${element})`;
