@@ -118,7 +118,6 @@ function addComponnestButtonsFloat(){
 
 }
 
-
 //SOLUÇÃO ZOOM PRODUTO
 function zoomCorrection(){
     let zoomImg = document.querySelector('.zoomImg')
@@ -137,13 +136,8 @@ function zoomCorrection(){
     }
 }
 
-zoomCorrection()
-addComponnestButtonsFloat()
-
-
-
 //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
-function addBurronSaibaMais(){
+function addButtonSaibaMais(){
     document.querySelectorAll('div .actions').forEach((e) => {
         const productContainer = e.parentElement.querySelector('.product-info');
         const productName = productContainer.querySelector('.product-name')?.innerText || 'Nome do Produto não encontrado';
@@ -180,4 +174,10 @@ function addBurronSaibaMais(){
       
         e.appendChild(saibaMais);
     });
-}addBurronSaibaMais()
+}
+
+
+
+zoomCorrection()
+addComponnestButtonsFloat()
+addButtonSaibaMais()
