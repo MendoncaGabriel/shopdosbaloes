@@ -313,9 +313,19 @@ function addCarouselCustom(){
     }, 5000);
 }
 
+function borderRadius(){
+    let product = document.querySelectorAll('.product')
+    if(product){
+        product.forEach((e)=>{
+            e.style.borderRadius = '8px'
+        })
+    }
+}
+
 
 
 addCarouselCustom()
 zoomCorrection()
 addComponnestButtonsFloat()
 addButtonSaibaMais()
+borderRadius()
