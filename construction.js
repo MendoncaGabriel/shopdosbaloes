@@ -91,9 +91,9 @@ function addCarouselCustom(){
 
     //BANNERS
     let ContainerBanners = [
-      'https://cursinhoparamedicina.com.br/wp-content/uploads/2022/10/Paisagem-1.jpg',
-      'https://static.todamateria.com.br/upload/pa/is/paisagem-natural-og.jpg',
-      'https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg'
+      'https://mendoncagabriel.github.io/shopdosbaloes/images/banner/Banner%20pc%20v2-min.png',
+      'https://mendoncagabriel.github.io/shopdosbaloes/images/banner/Banner%20pc%20v2-min.png',
+      'https://mendoncagabriel.github.io/shopdosbaloes/images/banner/Banner%20pc%20v2-min.png'
     ];
     
 
