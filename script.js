@@ -33,6 +33,9 @@ function addComponnestButtonsFloat(){
     buttonsFloat.addEventListener('mouseenter', ()=>{
         buttonsFloat.style.border = '2px solid #2196F3'
     })
+    buttonsFloat.addEventListener('mouseleave', ()=>{
+        buttonsFloat.style.border = ''
+    })
 
     //BOLTAR AO TOPO
     function backToTop(button){
