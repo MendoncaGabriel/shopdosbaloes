@@ -2,7 +2,6 @@
 function addComponnestButtonsFloat(){
     //CONTAINER
     var buttonsFloat = document.createElement('div')
-    buttonsFloat.style.border = '2px solid #2196F3'
     buttonsFloat.style.position = 'fixed'
     buttonsFloat.style.transform = 'translate(0%, -50%)'
     buttonsFloat.style.top = '50%'
@@ -19,6 +18,7 @@ function addComponnestButtonsFloat(){
     buttonsFloat.style.zIndex = "9999";
 
 
+
     //HOVER
     function hoverButton(button){
         button.addEventListener('mouseenter', ()=>{
@@ -29,6 +29,10 @@ function addComponnestButtonsFloat(){
         })
     }
 
+    //HOVER CONTAINER
+    buttonsFloat.addEventListener('mouseenter', ()=>{
+        buttonsFloat.style.border = '2px solid #2196F3'
+    })
 
     //BOLTAR AO TOPO
     function backToTop(button){
