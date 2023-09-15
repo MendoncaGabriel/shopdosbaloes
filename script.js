@@ -2,6 +2,7 @@
 function addComponnestButtonsFloat(){
     //CONTAINER
     var buttonsFloat = document.createElement('div')
+    buttonsFloat.style.transition = '400ms'
     buttonsFloat.style.position = 'fixed'
     buttonsFloat.style.transform = 'translate(0%, -50%)'
     buttonsFloat.style.top = '50%'
