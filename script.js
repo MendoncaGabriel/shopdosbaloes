@@ -206,10 +206,10 @@ function addCarouselCustom(){
     containerBanner.style.width = '100%';
     containerBanner.style.position = 'relative';
     containerBanner.style.overflow = 'hidden';
-    containerBanner.style.height = '40vh'
+    containerBanner.style.height = '80vh'
 
-    if(window.innerWidth < 720){containerBanner.style.height = '40vh'}
-    else{containerBanner.style.height = '80vh';}
+    if(window.innerWidth < 720){containerBanner.style.height = 'auto'}
+
 
     //VOLTAR BTN
     let Voltar = document.createElement('button')
