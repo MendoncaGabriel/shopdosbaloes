@@ -210,11 +210,11 @@ function addCarouselCustom(){
 
     if(window.innerWidth < 720){containerBanner.style.height = '40vh'}
     else{containerBanner.style.height = '80vh';}
-    
+
     //VOLTAR BTN
     let Voltar = document.createElement('button')
     Voltar.style.position = 'absolute'
-    Voltar.style.transform = 'translate(0%, -50%)'
+    Voltar.style.transform = 'translate(0%, -50%) scaleX(-1)'
     Voltar.style.top = '50%'
     Voltar.style.left = '1%'
     Voltar.style.width = '50px'
@@ -226,7 +226,6 @@ function addCarouselCustom(){
     Voltar.style.backgroundImage = 'url(https://mendoncagabriel.github.io/shopdosbaloes/icons/btnPass.png)'
     Voltar.style.backgroundPositionX = 'center'
     Voltar.style.backgroundSize = 'cover'
-    Voltar.style.transform = 'scaleX(-1)'
     Voltar.style.borderRadius = '4px'
     Voltar.onclick = voltar
     
@@ -234,7 +233,7 @@ function addCarouselCustom(){
     //PASSAR BTN
     let Passar = document.createElement('button')
     Passar.style.position = 'absolute'
-    Passar.style.transform = 'translate(0%, -50%)'
+    Passar.style.transform = 'translate(0%, -50%) scaleX(1'
     Passar.style.top = '50%'
     Passar.style.right = '1%'
     Passar.style.width = '50px'
@@ -246,7 +245,6 @@ function addCarouselCustom(){
     Passar.style.backgroundImage = 'url(https://mendoncagabriel.github.io/shopdosbaloes/icons/btnPass.png)'
     Passar.style.backgroundPositionX = 'center'
     Passar.style.backgroundSize = 'cover'
-    Passar.style.transform = 'scaleX(1)'
     Passar.style.borderRadius = '4px'
     Passar.onclick = passar
     
