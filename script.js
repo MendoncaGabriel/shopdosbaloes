@@ -317,7 +317,7 @@ function addCarouselCustom(){
     //passar automatico
     setInterval(() => {
       passar()
-    }, 10000);
+    }, 20000);
 }
 
 function borderRadius(){
