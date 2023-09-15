@@ -185,23 +185,21 @@ function addButtonSaibaMais(){
 
 //SUBSTITUI O CARROSEL POR OUTRO
 function addCarouselCustom(){
+  if(document.location.href == 'http://www.shopdosbaloes.com.br/' || document.location.href == 'https://www.shopdosbaloes.com.br/'){
+
     //LOCAL DE INJEÇÃO
     let container;
-
     if(window.innerWidth > 720){
       container = document.querySelector('header');
     }else{
       container = document.querySelector('.bg')
     }
-     
-    
-
+      
     //DESATIVAR BANNER PADRÃO
     let bannerHome = document.querySelector('.banner-home')
     if(bannerHome){
       bannerHome.style.display = 'none'
     }
-
 
     //CONTAINER MAIN
     let containerBanner = document.createElement('div');
@@ -210,13 +208,9 @@ function addCarouselCustom(){
     containerBanner.style.overflow = 'hidden';
     containerBanner.style.height = '40vh'
 
-    if(window.innerWidth < 720){
-      containerBanner.style.height = '40vh'
-    }else{
-      containerBanner.style.height = '80vh';
-    }
+    if(window.innerWidth < 720){containerBanner.style.height = '40vh'}
+    else{containerBanner.style.height = '80vh';}
     
-
     //VOLTAR BTN
     let Voltar = document.createElement('button')
     Voltar.style.position = 'absolute'
@@ -318,6 +312,8 @@ function addCarouselCustom(){
     setInterval(() => {
       passar()
     }, 20000);
+  }
+  
 }
 
 //DEIXAR BORDAS ARREDONDADAS
