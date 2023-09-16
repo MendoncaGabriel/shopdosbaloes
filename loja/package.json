@@ -2,7 +2,7 @@
   "name": "loja",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mendoncagabriel.github.io/shopdosbaloes/loja/",
+  "homepage": "https://mendoncagabriel.github.io/shopdosbaloes/",
   "type": "module",
   "scripts": {
     "dev": "vite",
