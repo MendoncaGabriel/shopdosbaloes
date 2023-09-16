@@ -43,11 +43,13 @@ function Header(){
     return(
         <>
             <div className="bg-red-600 h-auto w-full pt-2">
-                {/* menu */}
                 <div className="flex items-center justify-between">
                     <div className="flex w-1/2 justify-around items-center">
+                        {/* menu */}
                         <button  className="w-10 h-10 bg-center cursor-pointer" style={menu}></button>
-                        <img src="https://images.tcdn.com.br/img/img_prod/1238052/1692902488_logotipo_03.png" alt="logo"  className="w-20 "/>
+
+                        {/* logo */}
+                        <img src="https://images.tcdn.com.br/img/img_prod/1238052/1692902488_logotipo_03.png" alt="logo"  className="w-36 "/>
                     </div>
 
                     <div className="flex w-1/3 justify-around items-center">
