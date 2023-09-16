@@ -83,14 +83,14 @@ function Brands(){
     return(
         <>  
         
-            <div className="border-b-2 overflow-x-auto flex snap-mandatory snap-x">
-                {brands.map((item, index)=>(
-                    <div key={index} className="flex-none w-full h-40 snap-center mx-2 p-5">
-                        <img key={index} src={item.img} alt="marcas parceiras" className="h-full m-auto  " />
-                    </div>
-                
-                ))}
-            </div>
+          <div className="border-b-2 overflow-x-auto flex snap-mandatory snap-x">
+            {brands.map((item, index)=>(
+              <div key={index} className="flex-none w-full h-40 snap-center mx-2 p-5">
+                <img key={index} src={item.img} alt="marcas parceiras" className="h-full m-auto  " />
+              </div>
+            ))}
+          </div>
+          
         </>
     )
 }

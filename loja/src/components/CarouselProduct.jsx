@@ -11,7 +11,7 @@ function CarouselProduct({title}){
             <div className="border p-2">
                 <h2 className="font-semibold text-blue-500">{title}</h2>
 
-                <div className=" flex w-full gap-2 overflow-x-auto snap-x">
+                <div className=" flex  sm:grid sm:grid-cols-4 w-full gap-2 sm:gap-8 overflow-x-auto snap-x">
 
                     {
                         itens.map((item, index)=>(

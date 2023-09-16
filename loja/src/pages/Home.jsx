@@ -8,6 +8,7 @@ import Banner from "../components/Banner"
 import Brands from "../components/Brands"
 import Newsletter from "../components/Newsletter"
 import LogoBar from "../components/LogoBar"
+import MakeBudget from "../components/MakeBudget"
 
 function Home(){
     return(
@@ -23,6 +24,7 @@ function Home(){
             <Brands />
             <Newsletter />
             <LogoBar />
+            <MakeBudget />
 
 
 

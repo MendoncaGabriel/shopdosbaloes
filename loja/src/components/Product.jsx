@@ -5,7 +5,7 @@ function Product({img, name, price, width, url}){
 
     return(
         <>
-            <div  className={`border rounded-md flex-none scroll-snap-align snap-center ${width === 'full' ? 'w-full' : 'w-1/2'}`} >
+            <div  className={`border rounded-md flex-none scroll-snap-align snap-center ${width === 'full' ? 'w-full' : 'w-1/2'} sm:w-full`} >
                 <img src={img} alt="" />
                 <img src="./src/assets/2star.png" className="w-4/5 p-2" />
                    
