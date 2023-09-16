@@ -26,6 +26,21 @@ function MakeBudget(){
     }
 
     function SizeItem(item){
+        const size = item.target.innerText
+        console.log(size)
+        
+        let FontSize = 16
+        if(size == 'Mine'){FontSize = 12}
+        if(size == 'Pequeno'){FontSize = 14}
+        if(size == 'Medio'){FontSize = 16}
+        if(size == 'Grande'){FontSize = 18}
+        if(size == 'Extra Grande'){FontSize = 20}
+        if(size == 'Maximo'){FontSize = 22}
+        
+        const textBallon = document.getElementById('textBallon')
+        textBallon.style.fontSize = FontSize + 'px'
+
+
     
         // reset
         document.querySelectorAll('.SizeItem').forEach((i)=>{
@@ -60,7 +75,7 @@ function MakeBudget(){
 
                     {/* Text */}
                     <div className=" backgroundWhiteTranspaent z-50 w-40 h-40 border-2 rounded-full absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        <p id='textBallon'  className='rounded-full w-full h-full p-4 flex text-center overflow-hidden items-center justify-center border whitespace-pre-wrap font-semibold text-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>{inputMessage}</p>
+                        <p id='textBallon'  className='duration-300 rounded-full w-full h-full p-4 flex text-center overflow-hidden items-center justify-center border whitespace-pre-wrap font-semibold text-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>{inputMessage}</p>
                     </div>
 
                     {/* Carousel */}
@@ -104,7 +119,7 @@ function MakeBudget(){
                         <div className=' flex space-x-2 snap-mandatory snap-x overflow-y-auto py-2 pb-5'>
                             <button onClick={(item)=>{SizeItem(item)}} className='SizeItem flex-none snap-start border px-3 py-2 bg-gray-100 font-semibold'>Mine</button>
                             <button onClick={(item)=>{SizeItem(item)}} className='SizeItem flex-none snap-start border px-3 py-2 bg-gray-100 font-semibold'>Pequeno</button>
-                            <button onClick={(item)=>{SizeItem(item)}} className='SizeItem flex-none snap-start border px-3 py-2 bg-gray-100 font-semibold'>Medio</button>
+                            <button onClick={(item)=>{SizeItem(item)}} className='SizeItem flex-none snap-start border px-3 py-2 bg-blue-500 text-white font-semibold'>Medio</button>
                             <button onClick={(item)=>{SizeItem(item)}} className='SizeItem flex-none snap-start border px-3 py-2 bg-gray-100 font-semibold'>Grande</button>
                             <button onClick={(item)=>{SizeItem(item)}} className='SizeItem flex-none snap-start border px-3 py-2 bg-gray-100 font-semibold'>Extra Grande</button>
                             <button onClick={(item)=>{SizeItem(item)}} className='SizeItem flex-none snap-start border px-3 py-2 bg-gray-100 font-semibold'>Maximo</button>
@@ -133,7 +148,7 @@ function MakeBudget(){
                     <div>
                         <h2>Cor:</h2>
                         <div className=' flex space-x-2 snap-mandatory snap-x overflow-y-auto py-3 pb-5'>
-                            <div onClick={(cor)=>{selectColor(cor)}} className='duration-300 SelectColor flex-none snap-start border-2 w-10 h-10 rounded-full bg-black'></div>
+                            <div onClick={(cor)=>{selectColor(cor)}} className='transform scale-125 duration-300 SelectColor flex-none snap-start border-2 border-blue-500 w-10 h-10 rounded-full bg-black'></div>
                             <div onClick={(cor)=>{selectColor(cor)}} className='duration-300 SelectColor flex-none snap-start border-2 w-10 h-10 rounded-full bg-white'></div>
                             <div onClick={(cor)=>{selectColor(cor)}} className='duration-300 SelectColor flex-none snap-start border-2 w-10 h-10 rounded-full bg-blue-500'></div>
                             <div onClick={(cor)=>{selectColor(cor)}} className='duration-300 SelectColor flex-none snap-start border-2 w-10 h-10 rounded-full bg-red-500'></div>
