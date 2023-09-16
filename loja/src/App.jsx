@@ -6,7 +6,7 @@ function App() {
     <>
     <BrowserRouter>
         <Routes>
-          <Route path="https://mendoncagabriel.github.io/shopdosbaloes/loja/" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>
