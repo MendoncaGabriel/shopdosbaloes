@@ -4,7 +4,9 @@ import Categories from "../components/Categories"
 import Gallery from "../components/Gallery"
 import CarouselProduct from "../components/CarouselProduct"
 import FloatingButtons from "../components/FloatingButtons"
-
+import Banner from "../components/Banner"
+import Brands from "../components/Brands"
+import Newsletter from "../components/Newsletter"
 
 function Home(){
     return(
@@ -13,8 +15,20 @@ function Home(){
             <Carousel />
             <Categories />
             <CarouselProduct title="Novidades" />
+            <Banner img="https://abrakadabra.vteximg.com.br/arquivos/ids/235923/banner_640x500_hotsite_infantil.jpg?v=637302549736800000"/>
             <Gallery title="Mais Vendidos" />
+            <Banner img="https://media.istockphoto.com/id/1298151082/pt/vetorial/carnival-party-banner-invitation-card.jpg?s=1024x1024&w=is&k=20&c=L6Bi3BNeL6LYOHf9Z8PRC_md9mcudV0T6yOuINvK9TY=" />
             <FloatingButtons />
+            <Brands />
+            <Newsletter />
+
+
+
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            
+
         </>
     )
 }
