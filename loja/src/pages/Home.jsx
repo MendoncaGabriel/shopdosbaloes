@@ -7,6 +7,7 @@ import FloatingButtons from "../components/FloatingButtons"
 import Banner from "../components/Banner"
 import Brands from "../components/Brands"
 import Newsletter from "../components/Newsletter"
+import LogoBar from "../components/LogoBar"
 
 function Home(){
     return(
@@ -21,6 +22,7 @@ function Home(){
             <FloatingButtons />
             <Brands />
             <Newsletter />
+            <LogoBar />
 
 
 
