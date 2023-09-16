@@ -37,7 +37,7 @@ function addComponnestButtonsFloat(){
       buttonsFloat.style.border = ''
     })
 
-    //BOLTAR AO TOPO
+    //VOLTAR AO TOPO
     function backToTop(button){
         button.addEventListener("click", function () {
           window.scrollTo({ top: 0, behavior: "smooth" });
