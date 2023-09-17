@@ -1,29 +1,29 @@
-// import menu from '/src/assets/manu.png'
+
 function Header(){
 
     const menu = {
-        backgroundImage: "url(/src/assets/menu.png)",
+        backgroundImage: "url(public/icones/menu.png)",
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
     }
 
     const user = {
-        backgroundImage: 'url(/src/assets/user.png)',
+        backgroundImage: 'url(public/icones/user.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
     }
 
     const card = {
-        backgroundImage: 'url(/src/assets/car.png)',
+        backgroundImage: 'url(public/icones/car.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
     }
 
     const bloom = {
-        backgroundImage: 'url(/src/assets/bloom.png)',
+        backgroundImage: 'url(public/icones/bloom.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
