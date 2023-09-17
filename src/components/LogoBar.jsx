@@ -12,11 +12,11 @@ function LogoBar(){
             <h2 className="text-center text-blue-400 font-semibold ">Atendimento</h2>
             <div className="flex justify-around mt-5">
                 <div className="flex items-center justify-center">
-                    <img src="/src/assets/icons8-telefone-a-chamar-100.png" alt="" className="w-7 mr-2"/>
+                    <img src="./icones/icons8-telefone-a-chamar-100.png" alt="" className="w-7 mr-2"/>
                     <a href="tel:+9232284328" className="font-semibold text-blue-400">92 3228-4328</a> 
                 </div>
                 <div className="flex items-center justify-center">
-                    <img src="/src/assets/icons8-telefone-100.png" alt="" className="w-7 mr-2"/>
+                    <img src="./icones/icons8-telefone-100.png" alt="" className="w-7 mr-2"/>
                     <a href="tel:+92992376689" className="font-semibold text-blue-400">92 99237-6689</a>
                 </div>
             </div>

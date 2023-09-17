@@ -2,20 +2,23 @@
 function Header(){
 
     const menu = {
-        backgroundImage: "url(/src/public/icones/menu.png)",
+        // local: não funciona
+        backgroundImage: "url(./icones/menu.png)", 
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
     }
 
     const user = {
-        backgroundImage: 'url(./src/public/icones/user.png)',
+        // local: não funciona
+        backgroundImage: 'url(./icones/user.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
     }
 
     const card = {
+        // local: funciona
         backgroundImage: 'url(./icones/car.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
@@ -23,7 +26,7 @@ function Header(){
     }
 
     const bloom = {
-        backgroundImage: 'url(public/icones/bloom.png)',
+        backgroundImage: 'url(./icones/bloom.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
@@ -74,7 +77,7 @@ function Header(){
 
                     <div className="relative">
                         <div className="flex items-center justify-center space-x-2">
-                            <span><img src="/src/assets/location.png" alt="icone location" className="w-3 " /></span>
+                            <span><img src="./icones/location.png" alt="icone location" className="w-3 " /></span>
                             <button className="text-white" onClick={()=>{dropDownLocation()}}>
                             Selecione o endereço 
                             </button>
