@@ -2,21 +2,21 @@
 function Header(){
 
     const menu = {
-        backgroundImage: "url(public/icones/menu.png)",
+        backgroundImage: "url(/src/public/icones/menu.png)",
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
     }
 
     const user = {
-        backgroundImage: 'url(public/icones/user.png)',
+        backgroundImage: 'url(./src/public/icones/user.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
     }
 
     const card = {
-        backgroundImage: 'url(public/icones/car.png)',
+        backgroundImage: 'url(./icones/car.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
