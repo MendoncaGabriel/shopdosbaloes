@@ -71,10 +71,13 @@ function MakeBudget(){
         <>
             <div className="border-2py-2 max-w-sm">
                 <h2 className='text-blue-500 font-bold text-center py-5'>CRIE SEU ORNAMENTO PERSONALIZADO</h2>
-                <div className="relative">
+
+                {/* CONTENT */}
+                
+                <div className=" relative">
 
                     {/* Text */}
-                    <div className=" backgroundWhiteTranspaent z-50 w-40 h-40 border-2 rounded-full absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <div className=" backgroundWhiteTranspaent z-50 w-40 h-40 border-2 rounded-full absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
                         <p id='textBallon'  className='duration-300 rounded-full w-full h-full p-4 flex text-center overflow-hidden items-center justify-center border whitespace-pre-wrap font-semibold text-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>{inputMessage}</p>
                     </div>
 

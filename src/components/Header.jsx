@@ -2,7 +2,7 @@
 function Header(){
 
     const menu = {
-        backgroundImage: 'url(./src/assets/menu.png)',
+        backgroundImage: "url(./src/assets/menu.png)",
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
