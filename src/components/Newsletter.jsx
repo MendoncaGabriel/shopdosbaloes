@@ -5,8 +5,8 @@ function Newsletter(){
                 <h2 className="font-bold text-lg">Nossas Redes Sociais</h2>
 
                 <div className="w-full h-10 mb-3 flex items-center " >
-                    <img src="./src/assets/icons8-facebook-100.png" alt="redes sociais"  className="h-full"/>
-                    <img src="./src/assets/icons8-instagram-100.png" alt="redes sociais"  className="h-full"/>
+                    <img src="/src/assets/icons8-facebook-100.png" alt="redes sociais"  className="h-full"/>
+                    <img src="/src/assets/icons8-instagram-100.png" alt="redes sociais"  className="h-full"/>
                 </div>
 
                 <p className="text-center ">Siga nosso perfil no Instagram</p>
