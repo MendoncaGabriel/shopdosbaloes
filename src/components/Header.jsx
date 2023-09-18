@@ -3,7 +3,7 @@ function Header(){
 
     const menu = {
         // local: não funciona
-        backgroundImage: "url(./icones/menu.png)", 
+        backgroundImage: "url(/icones/menu.png)", 
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
@@ -11,7 +11,7 @@ function Header(){
 
     const user = {
         // local: não funciona
-        backgroundImage: 'url(./icones/user.png)',
+        backgroundImage: 'url(/icones/user.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
@@ -19,14 +19,14 @@ function Header(){
 
     const card = {
         // local: funciona
-        backgroundImage: 'url(./icones/car.png)',
+        backgroundImage: 'url(/icones/car.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'
     }
 
     const bloom = {
-        backgroundImage: 'url(./icones/bloom.png)',
+        backgroundImage: 'url(/icones/bloom.png)',
         backgroundSize: '80%',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center'

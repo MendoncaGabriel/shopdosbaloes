@@ -19,7 +19,7 @@ function Product({img, name, price, width, url}){
                             <img src="./icones/whatsapp.png" alt="icone do whatsapp" className="w-7" />
                             <h2 className="text-green-800 font-bold">Saber Mais</h2>
                         </a>
-                        <a href={'/comprar/' + treatedName} className="bg-blue-800 flex items-center justify-center space-x-2 py-1 rounded-sm">
+                        <a href={'/produto/' + treatedName} className="bg-blue-800 flex items-center justify-center space-x-2 py-1 rounded-sm">
                             <img src="./icones/car.png" alt="icone do whatsapp" className="w-7" />
                             <h2 className="text-white font-bold">Comprar</h2>
                         </a>
