@@ -8,8 +8,8 @@ function Gallery({title}){
     ]
     return(
         <>
-            <div className="border p-2">
-                <h2 className="font-semibold text-blue-500">{title}</h2>
+            <div className=" p-3">
+                <h2 className="font-semibold text-blue-500 text-xl mb-3">{title}</h2>
 
                 <div className=" grid grid-cols-2 gap-2">
 

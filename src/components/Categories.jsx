@@ -40,10 +40,10 @@ function Categories(){
 
     return(
         <>
-            <div className="p-3 my-5">
-                <h2 className="text-blue-500 font-semibold">Categorias</h2>
+            <div className="p-3 ">
+                <h2 className="text-blue-500 font-semibold text-xl mb-3">Categorias</h2>
 
-                <div className="m-auto w-full grid grid-cols-3 p-3 gap-5 ">
+                <div className="m-auto w-full grid grid-cols-3  gap-5 ">
                     {categories.map((e, index)=>{
                         return <a key={index}  href={e.url} className="w-full max-w-24 h-24 border rounded-md  bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${e.img})` }} ></a>
                     })}

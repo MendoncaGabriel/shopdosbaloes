@@ -10,8 +10,8 @@ function CarouselProduct({title}){
     ]
     return(
         <>
-            <div className="p-2">
-                <h2 className="font-semibold text-blue-500">{title}</h2>
+            <div className="p-3 ">
+                <h2 className="font-semibold text-blue-500 text-xl mb-3">{title}</h2>
 
                 <div className=" flex  sm:grid sm:grid-cols-4 w-full gap-2 sm:gap-8 overflow-x-auto snap-x pb-5">
 

@@ -104,14 +104,15 @@ function MakeBudget(){
 
     return(
         <>
+        <hr />
             <div className="border-2py-2 ">
-                <h2 className='text-blue-500 font-bold text-center py-5'>CRIE SEU ORNAMENTO PERSONALIZADO</h2>
+                <h2 className='text-blue-500 font-bold  p-3'>CRIE SEU ORNAMENTO PERSONALIZADO</h2>
 
                 {/* CONTENT */}
                 <div className=" sticky top-0 z-50">
 
                     {/* Text */}
-                    <div className=" backgroundWhiteTranspaent z-50 w-40 h-40 border-2 rounded-full absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                    <div className=" backgroundWhiteTranspaent z-50 w-40 h-40  rounded-full absolute top-32 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
                         <p 
                             id='textBallon'  
                             className='duration-300 rounded-full w-full h-full p-4 flex text-center overflow-hidden items-center justify-center border whitespace-pre-wrap font-semibold text-2xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'
@@ -128,12 +129,12 @@ function MakeBudget(){
                         <img 
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRozvK2s_YKdv5bwrfITqlrDRXHPvUHBGoj9w&usqp=CAU" 
                             alt=""
-                            className="border-2  w-full flex-none snap-center"
+                            className="  w-full flex-none snap-center"
                         />
                         <img 
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRozvK2s_YKdv5bwrfITqlrDRXHPvUHBGoj9w&usqp=CAU" 
                             alt=""
-                            className="border-2 w-full flex-none snap-center"
+                            className=" w-full flex-none snap-center"
                         />
 
                     </div>
@@ -141,13 +142,14 @@ function MakeBudget(){
 
 
                 {/* CONFIGURAÇÕES    */}
-                <div className="border-2  py-2 px-5 space-y-2 text-gray-700">
+                <div className="  py-2 px-5 space-y-2 text-gray-700">
+
                     {/* Quanidade */}
                     <div>
                         <h2>Quantidade:</h2>
                         <input 
                         type="number" 
-                        className='border w-full py-2 px-2' 
+                        className='border-2 rounded-md w-full py-2 px-2' 
                         placeholder='QTD: 1' 
                         onChange={(e) => setAmount(e.target.value)}
                         />
@@ -163,7 +165,7 @@ function MakeBudget(){
                             id="" 
                             cols="30" 
                             rows="3" 
-                            className="border-2 rounded-sm px-2 py-1 m-auto block w-full"
+                            className="border-2 px-2 py-1 m-auto block w-full rounded-md"
                             onChange={(e) => setInputMessage(e.target.value)}
                         ></textarea>
 
@@ -219,14 +221,14 @@ function MakeBudget(){
                     {/* Nome Pessoa */}
                     <div>
                         <h2>Nome Completo:</h2>
-                        <input type="text"  className='border w-full p-2' placeholder='Digite seu nome aqui...' onChange={(e)=>{setNameClient(e.target.value)}} />
+                        <input type="text"  className='border-2 rounded-md w-full p-2' placeholder='Digite seu nome aqui...' onChange={(e)=>{setNameClient(e.target.value)}} />
                     </div>
 
 
                     {/* Observações */}
                     <div>
                         <h2>Observações:</h2>
-                        <textarea cols="30" rows="5" className='border w-full' onChange={(e)=>setComments(e.target.value)}></textarea>
+                        <textarea cols="30" rows="5" className='border-2 w-full rounded-md' onChange={(e)=>setComments(e.target.value)}></textarea>
                     </div>
 
                     <a 

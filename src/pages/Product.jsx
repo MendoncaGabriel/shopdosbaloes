@@ -82,7 +82,7 @@ function Product() {
 
           {/* Avaliar produto */}
           <div>
-            <h2 className=' text-blue-500 font-semibold text-2xl'>Avalie este produto:</h2>
+            <h2 className='text-blue-500 font-semibold text-xl'>Avalie este produto:</h2>
             <div className=' bg-yellow-50 p-5'>
                 
               <img src="/public/icones/0star.png" alt="sistema de abaliação" className='w-full ' />

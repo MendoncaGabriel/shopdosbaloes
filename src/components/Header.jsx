@@ -1,3 +1,4 @@
+import Cart from "../components/Cart"
 
 function Header(){
 
@@ -45,6 +46,7 @@ function Header(){
 
     return(
         <>
+        <Cart />
             <div className="bg-red-600 h-auto w-full pt-2">
                 <div className="flex items-center justify-between">
                     <div className="flex w-1/2 justify-around items-center">
@@ -57,7 +59,7 @@ function Header(){
 
                     <div className="flex w-1/3 justify-around items-center">
                         <a href="/usuario" className="w-10 h-10 cursor-pointer" style={user}></a>
-                        <a href="/carrinho" className="w-10 h-10 cursor-pointer" style={card}></a>
+                        <button onClick={()=>{document.getElementById('cart').style.display = 'block'}} className="w-10 h-10 cursor-pointer" style={card}></button>
                     </div>
                 </div>
 

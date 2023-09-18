@@ -6,14 +6,19 @@ function ProductItem({img, name, price, width, url}){
     return(
         <>
             <div  className={`border rounded-md flex-none scroll-snap-align snap-center ${width === 'full' ? 'w-full' : 'w-1/2'} sm:w-full`} >
-                <img src={img} alt="" />
-                <img src="/icones/2star.png" className="w-4/5 p-2" />
-                   
-                <div className="p-2">
-                    <h2 className="text-gray-700 font-semibold">{name}</h2>
-                    <h2 className="text-blue-800 font-bold text-xl">R${price}</h2>
+                <a href={'/produto/' + treatedName}>
+                    <img src={img} alt="imagem produto" />
+                    <img src="/icones/2star.png" className="w-4/5 p-2" />
 
-                    <div className="space-y-2 mt-5">
+                    <div className=" p-2">
+                        <h2 className="text-gray-700 font-semibold">{name}</h2>
+                        <h2 className="text-blue-800 font-bold text-xl">R${price}</h2>
+                    </div>
+
+                </a>
+
+                <div className="p-2 ">
+                    <div className="space-y-2">
 
                         <a href={goZap} target="_blank" className="bg-green-100 flex items-center justify-center space-x-2 py-1 rounded-sm">
                             <img src="/icones/whatsapp.png" alt="icone do whatsapp" className="w-7" />

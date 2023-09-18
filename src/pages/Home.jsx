@@ -11,10 +11,13 @@ import LogoBar from "../components/LogoBar"
 import MakeBudget from "../components/MakeBudget"
 import Footer from "../components/Footer"
 
+
 function Home(){
     return(
         <>
+        
             <Header />
+            
             <Carousel />
             <Categories />
             <CarouselProduct title="Novidades" />
