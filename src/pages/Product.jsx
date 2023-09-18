@@ -82,17 +82,17 @@ function Product() {
 
           {/* Avaliar produto */}
           <div>
-            <h2 className='text-blue-500 font-semibold text-xl'>Avalie este produto:</h2>
-            <div className=' bg-yellow-50 p-5'>
+            <h2 className='text-blue-500 font-semibold text-xl text-center'>Avalie este Produto</h2>
+            <div className=' p1-5 flex items-center justify-center'>
                 
-              <img src="/public/icones/0star.png" alt="sistema de abaliação" className='w-full ' />
+              <img src="/public/icones/0star.png" alt="sistema de abaliação" className='w-6/7  ' />
                 
             </div>
           </div>
 
           {/* Mais produtos */}
-          <div className='my-5'>
-            <h2 className=' text-blue-500 font-semibold text-xl'>Veja tambem!</h2>
+          <div className='mt-7'>
+            <h2 className=' text-blue-500 font-semibold text-xl'>Veja Tambem!</h2>
             <CarouselProduct />
           </div>
         </div>

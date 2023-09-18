@@ -1,13 +1,13 @@
 function Cart(){
     const cart = {
-        width: '95%',
-        height: '95vh'
+        width: '100%',
+        height: '100%'
     } 
     return(
         <>
             <div 
                 id="cart" 
-                className="z-50 hidden border fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  bg-white rounded-md p-5 shadow-2xl" 
+                className="z-50 hidden border fixed top-0 left-1/2 transform -translate-x-1/2   bg-white rounded-md p-5 shadow-2xl" 
                 style={cart}
             >
            
