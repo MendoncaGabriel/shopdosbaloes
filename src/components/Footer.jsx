@@ -25,7 +25,7 @@ function Footer(){
 
                 
             </div>
-            <div className="bg-blue-400 p-2">
+            <div className="bg-blue-500 p-2">
                 <p className="text-white text-center">&copy; 09/2023 Shop dos Balões - Todos os direitos reservados.</p>
             </div>
         </>
