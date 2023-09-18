@@ -8,6 +8,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/shopdosbaloes" element={<Home />} />
+          <Route path="https://mendoncagabriel.github.io/shopdosbaloes/" element={<Home />} />
           <Route path="/produto/:nomeDoProduto" element={<Product />} />
         </Routes>
       </BrowserRouter>
