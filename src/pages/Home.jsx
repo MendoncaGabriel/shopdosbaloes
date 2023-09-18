@@ -9,6 +9,7 @@ import Brands from "../components/Brands"
 import Newsletter from "../components/Newsletter"
 import LogoBar from "../components/LogoBar"
 import MakeBudget from "../components/MakeBudget"
+import Footer from "../components/Footer"
 
 function Home(){
     return(
@@ -25,13 +26,11 @@ function Home(){
             <Newsletter />
             <LogoBar />
             <MakeBudget />
+            <Footer />
 
 
 
-            <br /><br /><br /><br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br /><br /><br /><br />
-            
+          
 
         </>
     )
