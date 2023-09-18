@@ -1,0 +1,2 @@
+* Se clonar este projeto e rodar no terminal um "npm run dev" e der erro vite,
+use o seguinte comando "npm install vite --save-dev", depois rode "npm run dev" novamente.
