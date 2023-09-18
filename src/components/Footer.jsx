@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <>
-            <div className="border p-5">
+            <div className=" p-5">
                 <h2 className="text-2xl font-semibold text-blue-500">Institucional</h2>
 
                 <ul className="space-y-3 text-gray-600 text-lg mt-5">

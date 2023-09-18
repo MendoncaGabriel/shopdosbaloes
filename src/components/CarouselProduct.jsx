@@ -1,5 +1,7 @@
 import Product from "./ProductItem"
 
+
+
 function CarouselProduct({title}){
     const itens = [
         '', '', '',
@@ -8,10 +10,10 @@ function CarouselProduct({title}){
     ]
     return(
         <>
-            <div className="border p-2">
+            <div className="p-2">
                 <h2 className="font-semibold text-blue-500">{title}</h2>
 
-                <div className=" flex  sm:grid sm:grid-cols-4 w-full gap-2 sm:gap-8 overflow-x-auto snap-x">
+                <div className=" flex  sm:grid sm:grid-cols-4 w-full gap-2 sm:gap-8 overflow-x-auto snap-x pb-5">
 
                     {
                         itens.map((item, index)=>(

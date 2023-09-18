@@ -2,7 +2,7 @@ function LogoBar(){
     return(
         <>
 
-        <div className="border-2 p-5">
+        <div className=" p-5">
             <img src="https://images.tcdn.com.br/img/img_prod/1238052/1692902488_logotipo_03.png" alt="logotipo"  />
             <h2 className="text-center font-bold text-blue-400 text-xl">Balões do tamanho da sua festa</h2>
             <p className="text-sm text-center">Agende seu arranjo de balões para sua festa!</p>
