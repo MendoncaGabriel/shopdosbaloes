@@ -77,7 +77,7 @@ function Header(){
 
                     <div className="relative">
                         <div className="flex items-center justify-center space-x-2">
-                            <span><img src="./icones/location.png" alt="icone location" className="w-3 " /></span>
+                            <span><img src="/icones/location.png" alt="icone location" className="w-3 " /></span>
                             <button className="text-white" onClick={()=>{dropDownLocation()}}>
                             Selecione o endereço 
                             </button>

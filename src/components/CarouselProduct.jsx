@@ -1,4 +1,4 @@
-import Product from "./Product"
+import Product from "./ProductItem"
 
 function CarouselProduct({title}){
     const itens = [

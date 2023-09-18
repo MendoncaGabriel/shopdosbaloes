@@ -1,19 +1,19 @@
 function FloatingButtons(){
     const whatsApp = {
-        backgroundImage: 'url(./icones/whatsappColor.png)',
+        backgroundImage: 'url(/icones/whatsappColor.png)',
         backgroundPosition: 'center',
         backgroundSize: '125%',
         backgroundRepeat: 'no-repeat'
     }
     const instagram = {
-        backgroundImage: 'url(./icones/instagramColor.jpg)',
+        backgroundImage: 'url(/icones/instagramColor.jpg)',
         backgroundPosition: 'center',
         backgroundSize: '145%',
         backgroundRepeat: 'no-repeat'
     }
 
     const goToUp = {
-        backgroundImage: 'url(./icones/GoToUp.png)',
+        backgroundImage: 'url(/icones/GoToUp.png)',
         backgroundPosition: 'center',
         backgroundSize: '100%',
         backgroundRepeat: 'no-repeat'

@@ -17,10 +17,10 @@ function Footer(){
                 </ul>
 
                 <h2 className="text-2xl font-semibold text-blue-500 mt-7 mb-2">Formas de pagamento</h2>
-                <img src="./public/img/formas-de-pagamento.png" alt="formas de pagamento" className="w-full" />
+                <img src="/public/img/formas-de-pagamento.png" alt="formas de pagamento" className="w-full" />
 
                 <h2 className="text-2xl font-semibold text-blue-500 mt-7 mb-2">Selo de Segurança</h2>
-                <img src="./public/img/selo-de-segurança.png" alt="formas de pagamento" className="w-1/2" />
+                <img src="/public/img/selo-de-segurança.png" alt="formas de pagamento" className="w-1/2" />
 
 
                 
