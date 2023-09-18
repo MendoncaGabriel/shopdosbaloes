@@ -92,7 +92,7 @@ function Product() {
 
           {/* Mais produtos */}
           <div className='my-5'>
-            <h2 className=' text-blue-500 font-semibold text-xl'>Veja tambem!:</h2>
+            <h2 className=' text-blue-500 font-semibold text-xl'>Veja tambem!</h2>
             <CarouselProduct />
           </div>
         </div>
