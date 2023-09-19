@@ -1,17 +1,14 @@
-import express from 'express';
+import express from "express"; // Importando express
 
-// Crie uma instância do Express
-const app = express();
+const app = express(); //iniciando variavel princial express em app
 
-// Defina uma rota básica
-app.get('/', (req, res) => {
-  res.send('Bem-vindo ao servidor Express!');
-});
 
-// Defina a porta em que o servidor irá ouvir
-const port = 3000;
+app.get("/", function(req, res){
+  res.sendFile("C:/Users/Gabriel/Documents/GitHub/shopdosbaloes/dist/index.html")
+})
 
-// Inicie o servidor na porta especificada
-app.listen(port, () => {
-  console.log(`Servidor Express está ouvindo na porta ${port}`);
+
+
+app.listen(8081, function(){
+  console.log('Servidor rodando na url: http://localhost:8081')
 });
