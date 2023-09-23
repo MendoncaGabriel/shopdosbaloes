@@ -38008,6 +38008,7 @@ const COR = {
   // cor de 1 palavra
   "AZUL": "AZUL",
   "AMARELO": "AMARELO",
+  "CARAMELO ": "CARAMELO ",
   "AMARELA": "AMARELA",
   "PAPAYA": "AMARELO PAPAYA",
   "BRANCA": "BRANCA",
@@ -38034,22 +38035,45 @@ const COR = {
   "VIOLETA": "VIOLETA",
   "VERDE": "VERDE",
   "LARANJA": "LARANJA",
+  "TANGERINA ": "TANGERINA ",
   "LILAS": "LILAS",
   "SORTIDO": "SORTIDO"
 }
 const TIPO = {
- 
-  "SORTIDO": "SORTIDO", 
+
+  // 2 palavras
+  "CANDY PEROLIZADO": "CANDY PEROLIZADO", 
+  "CRISTAL": "CRISTAL", 
+  "SORTIDO": "SORTIDO",
+  "KIT SUPORTE": "KIT SUPORTE",
+  "CINTILANTE": "CINTILANTE",
+
+  // 1 palavra
+  "PERA" :"PERA",
+  "GF" :"GRANFESTA",
+  "PEROLIZADO": "PEROLIZADO", 
+  "NEON": "NEON", 
   "BIG": "BIG", 
+  "LISA": "LISO", 
   "LISO": "LISO", 
   "CANDY": "CANDY", 
   "REDONDO": "REDONDO", 
   "RED": "REDONDO", 
   "CROMADO": "CROMADO", 
-  "260": "260", 
   "METALIZADO": "METALIZADO", 
+  "METALIC": "METALIC", 
+  "METALLIC": "METALLIC", 
+  "260": "260", 
+  "CANUDO": "260", 
+  "160": "160", 
   "PLATINO": "PLATINO", 
   "GIGANTE" :"GIGANTE",
+  "PEROLA" :"PEROLA",
+  "PÉROLA" :"PÉROLA",
+  "ALUMINIO" :"ALUMINIO",
+  "ALUMÍNIO" :"ALUMÍNIO",
+
+ 
   "":"NAO DEFINIDO",
 };
 const TAMANHO = {
@@ -38146,40 +38170,45 @@ const TAMANHO = {
   "NUMERO14": ' 14" ',
   "NUMERO15": ' 15" ',
 
-  "10 CM": ' 10" ',
-  "10CM": ' 10" ',
-  "10 cm": ' 10" ',
-  "10cm": ' 10" ',
+  "10 CM": ' 10CM ',
+  "10CM": ' 10CM ',
+  "10 cm": ' 10CM ',
+  "10cm": ' 10CM ',
 
-  "12 CM": ' 12" ',
-  "12CM": ' 12" ',
-  "12 cm": ' 12" ',
-  "12cm": ' 12" ',
+  "12 CM": ' 12CM ',
+  "12CM": ' 12CM ',
+  "12 cm": ' 12CM ',
+  "12cm": ' 12CM ',
 
-  "50CM": ' 50" ',
-  "50 CM": ' 50" ',
-  "50 cm": ' 50" ',
-  "50cm": ' 50" ',
+  "50CM": ' 50CM ',
+  "50 CM": ' 50CM ',
+  "50 cm": ' 50CM ',
+  "50cm": ' 50CM ',
 
-  "40CM": ' 40" ',
-  "40 CM": ' 40" ',
-  "40 cm": ' 40" ',
-  "40cm": ' 40" ',
+  "40CM": ' 40CM ',
+  "40 CM": ' 40CM ',
+  "40 cm": ' 40CM ',
+  "40cm": ' 40CM ',
 
-  "45CM": ' 45" ',
-  "45 CM": ' 45" ',
-  "45 cm": ' 45" ',
-  "45cm": ' 45" ',
+  "45CM": ' 45CM ',
+  "45 CM": ' 45CM" ',
+  "45 cm": ' 45CM ',
+  "45cm": ' 45CM ',
 
-  "25CM": ' 25" ',
-  "25 CM": ' 25" ',
-  "25 cm": ' 25" ',
-  "25cm": ' 25" ',
+  "25CM": ' 25CM ',
+  "25 CM": ' 25CM ',
+  "25 cm": ' 25CM ',
+  "25cm": ' 25CM ',
 
-  "68 CM": ' 68" ',
-  "68CM": ' 68" ',
-  "68cm": ' 68" ',
-  "68 cm": ' 68" ',
+  "68 CM": ' 68CM ',
+  "68CM": ' 68CM ',
+  "68cm": ' 68CM ',
+  "68 cm": ' 68CM ',
+
+  "350": ' 350 ',
+  "250": ' 250 ',
+  "260": ' 260 ',
+
   "":"NAO DEFINIDO",
 
   
@@ -38263,6 +38292,7 @@ const MARCA = {
 }
 
 
+
 // ORGANIZADOR
 let newProdutos = []
 produtos.forEach((element) => {
@@ -38335,20 +38365,24 @@ produtos.forEach((element) => {
       }
       produto.nome += " - SHOP DOS BALÕES";
 
+
       //CRONTRUÇÃO URL IMAGEM
-      
       if (
-        produto.cor !== "" &&
-        produto.tipo !== "" &&
-        produto.marca !== "" 
-        
-        ) {
-          newProdutos.push(produto)
+        produto.cor !== "" && 
+        produto.tipo !== "" && 
+        produto.quantidade !== "" && 
+        produto.tamanho !== "" && 
+        produto.marca !== ""
+      ){
+        newProdutos.push(newProdutos)
         produto.img = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/' + produto.marca.replace(' ', '').toLowerCase() + '/' + produto.tipo + '/' + produto.cor.replace(' ', '') + '.png'
-        
       }
   }
 
-  });
+});
+
+console.log(newProdutos.length);
   
-  console.log(newProdutos.length);
+
+
+  
