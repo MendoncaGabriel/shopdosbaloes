@@ -4314,402 +4314,6 @@ const produtos = [
       "": ""
   },
   {
-      "CODIGOS": "00000000003462",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM- C/10 - AMARELO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640012",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003463",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - AMARELO CANDY",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634642566",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003464",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - AZUL CLARO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640029",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003465",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - AZUL CANDY",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634642580",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003466",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - AZUL ESCURO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640036",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003467",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - BRANCO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640043",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003468",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - CANDY COLORS",
-      "PRECO": "3.33",
-      "CUSTO": "1.66",
-      "EAN": "07898634640005",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003469",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - CRISTAL",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640067",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003470",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - DOURADO PEROLIZADO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634642405",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003472",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - FLUO.AMARELO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640401",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003473",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - FLUO. LARANJA",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640418",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003474",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - FLUO. ROSA",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640425",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003475",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - FLUO. VERDE",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640432",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003476",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - LILÁS",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640081",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003477",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - LILÁS CANDY",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634642610",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003478",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - LARANJA",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640074",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003479",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - PINK",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640111",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003480",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - PRETO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640128",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003481",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - ROSA",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640135",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003482",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - ROSA CANDY",
-      "PRECO": "3.33",
-      "CUSTO": "1.66",
-      "EAN": "07898634642573",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003483",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - SORTIDO HASTE SORTIDA",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640142",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003484",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - VERDE ESCURO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640173",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003485",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - VERMELHO",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640180",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003486",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - AMARELO",
-      "PRECO": "6.38",
-      "CUSTO": "3.30",
-      "EAN": "07898634641491",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003487",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - AZUL CLARO",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634640548",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003488",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - AZUL FRANÇA",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634642016",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003489",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - BRANCO",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634640586",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003490",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 -CRISTAL",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634640593",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003491",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - PRETO",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634641439",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003492",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - LARANJA",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634640555",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003493",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - PRETO",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634640616",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003494",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - ROSA",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634640562",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003495",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - SORTIDO",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634641507",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003496",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - VERMELHO",
-      "PRECO": "6.11",
-      "CUSTO": "2.97",
-      "EAN": "07898634640609",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003497",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - AZUL CLARO",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640227",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003498",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - AZUL ESCURO",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640210",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003499",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - LILÁS",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640265",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003500",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - LARANJA",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640258",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003501",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - PINK",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640272",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003502",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - ROSA",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640289",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003503",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - SORTIDO HASTE SORTIDA",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640326",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003504",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - VERDE ESCURO",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640296",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003505",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - VERMELHO",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640319",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000003506",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - VERDE LIMA",
-      "PRECO": "2.99",
-      "CUSTO": "1.33",
-      "EAN": "07898213346601",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
       "CODIGOS": "00000000003540",
       "DESCRICAO": "BALAO LISO RED. 05 AMARELO PIC PIC 50 UN",
       "PRECO": "7.49",
@@ -10082,15 +9686,7 @@ const produtos = [
       "FORNECEDOR": "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)",
       "": ""
   },
-  {
-      "CODIGOS": "00000000004637",
-      "DESCRICAO": "FIXA BALAO PCT C/ 10 259",
-      "PRECO": "15.99",
-      "CUSTO": "7.02",
-      "EAN": "07898923824895",
-      "FORNECEDOR": "SILENE DOMINGUES SCHLOSSMACHER METTE EPP",
-      "": ""
-  },
+
   {
       "CODIGOS": "00000000004641",
       "DESCRICAO": "BALAO REDONDO 5 ALUMINIO ONIX C/ 25 CX 10 EAN: 7898055155973 RAL05OXOX2510",
@@ -13556,15 +13152,7 @@ const produtos = [
       "FORNECEDOR": "KLEFA COMERCIO IMPORTACAO E EXPORTACAO LTDA",
       "": ""
   },
-  {
-      "CODIGOS": "00000000005046",
-      "DESCRICAO": "BASE UNITARIA PARA SUPORTE DE BALAO- C/10 - BRANCO BUS10",
-      "PRECO": "4.99",
-      "CUSTO": "2.07",
-      "EAN": "07898634642382",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
+
   {
       "CODIGOS": "00000000005049",
       "DESCRICAO": "BALAO MET PARTIL CORACAO 18'' AZUL 7898707785558",
@@ -13574,138 +13162,13 @@ const produtos = [
       "FORNECEDOR": "KLEFA COMERCIO IMPORTACAO E EXPORTACAO LTDA",
       "": ""
   },
-  {
-      "CODIGOS": "00000000005052",
-      "DESCRICAO": "BASE UNITARIA PARA SUPORTE DE BALAO C/10 - CRISTAL BUS10CR",
-      "PRECO": "4.99",
-      "CUSTO": "2.07",
-      "EAN": "07898634642603",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
+
   {
       "CODIGOS": "00000000005055",
       "DESCRICAO": "INFLADOR ELÉTRICO PARA BALÃO 1 BICOS- 110V MCP1110",
       "PRECO": "210.00",
       "CUSTO": "102.01",
       "EAN": "07898634642917",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005057",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - PRATA PEROLIZADO VC10PPE",
-      "PRECO": "3.33",
-      "CUSTO": "1.67",
-      "EAN": "07898634642450",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005058",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - MARROM VC10MR",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640098",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005059",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - ROSA PEROLIZADO VC10RPE",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634642399",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005060",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - VERDE MENTA VC10VDM",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634640166",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005061",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - VERDE CANDY VC10VDCDY",
-      "PRECO": "3.33",
-      "CUSTO": "1.67",
-      "EAN": "07898634642597",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005062",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 70CM - C/50 - CRISTAL VCE70CR",
-      "PRECO": "1.99",
-      "CUSTO": "0.60",
-      "EAN": "07898634642368",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005063",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM - C/10 - VERDE LIMA VC10VDL",
-      "PRECO": "3.33",
-      "CUSTO": "1.67",
-      "EAN": "07898634640159",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005064",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/05 - VERDE´VCE5VD",
-      "PRECO": "6.38",
-      "CUSTO": "3.30",
-      "EAN": "07898634640579",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005066",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - MARROM VCPQ10MR",
-      "PRECO": "2.78",
-      "CUSTO": "1.39",
-      "EAN": "07898634641415",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005067",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 50CM - C/50 - CRISTAL VCECR",
-      "PRECO": "1.39",
-      "CUSTO": "0.52",
-      "EAN": "07898213348568",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005068",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - AMARELO VCPQ10AM",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640203",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005069",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - CRISTAL VCPQ10CR",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640241",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005070",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO PEQUENO 28CM - C/10 - BRANCO VCPQ10BC",
-      "PRECO": "3.49",
-      "CUSTO": "1.48",
-      "EAN": "07898634640234",
       "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
       "": ""
   },
@@ -13733,15 +13196,6 @@ const produtos = [
       "PRECO": "22.99",
       "CUSTO": "6.21",
       "EAN": "07869315197569",
-      "FORNECEDOR": "BRASIMPEX COMERCIO IMPORTACAO E EXPORTACAO LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000005083",
-      "DESCRICAO": "PONTOS ADESIVOS P/ FIXACAO DE BALAO CX C/ 360 UNI Q20493",
-      "PRECO": "5.55",
-      "CUSTO": "1.39",
-      "EAN": "07869315204939",
       "FORNECEDOR": "BRASIMPEX COMERCIO IMPORTACAO E EXPORTACAO LTDA",
       "": ""
   },
@@ -35075,33 +34529,7 @@ const produtos = [
       "FORNECEDOR": "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)",
       "": ""
   },
-  {
-      "CODIGOS": "00000000008663",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO GRANDE 90CM - C/50 - CRISTAL   VCE90CR",
-      "PRECO": "2.99",
-      "CUSTO": "0.77",
-      "EAN": "07898634644300",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000008665",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO CLIQUE MÉDIO 33CM - C/10 - BRANCO  VK10BC",
-      "PRECO": "4.99",
-      "CUSTO": "2.04",
-      "EAN": "07898634644676",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
-  {
-      "CODIGOS": "00000000008666",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO CLIQUE MÉDIO 33CM - C/10 - CRISTAL   VK10CR",
-      "PRECO": "4.99",
-      "CUSTO": "2.04",
-      "EAN": "07898634644683",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
+
   {
       "CODIGOS": "00000000008728",
       "DESCRICAO": "BA- BALAO METALIZADO COQUEIRO 91X80CM C/1 UN 699  PF10018",
@@ -39287,15 +38715,7 @@ const produtos = [
       "FORNECEDOR": "FOX IMPORT LTDA ME (PONTO DAS FESTAS)",
       "": ""
   },
-  {
-      "CODIGOS": "00000000009892",
-      "DESCRICAO": "KIT SUPORTE PARA BALÃO MÉDIO 33CM- C/10 - ROSA ROSE  VC10RR",
-      "PRECO": "3.99",
-      "CUSTO": "1.66",
-      "EAN": "07898634644362",
-      "FORNECEDOR": "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA",
-      "": ""
-  },
+
   {
       "CODIGOS": "00000000009900",
       "DESCRICAO": "ACESSORIO INFLADOR MANUAL P/BALAO AZUL 5,3X29 PT C/10 39000525",
@@ -39851,6 +39271,8 @@ const produtos = [
 
 // VARIANTES
 const COR = {
+
+
   //cor de 2 palavras
   "PRATA METALICO": "PRATA METALICO",
   "INCOLOR/BRANCO": "INCOLOR/BRANCO",
@@ -39897,9 +39319,19 @@ const COR = {
   "LARANJA TOPAZIO": "LARANJA TOPAZIO",
   "VERMELHO RUBY": "VERMELHO RUBY",
   "VERMELHO RUBI": "VERMELHO RUBI",
+  "VERM.RUBI": "VERMELHO RUBY   ",
+  "CAFE FOSCO": "CAFE FOSCO",
  
   // cor de 1 palavra
-  
+  "CAFE": "CAFE",
+  "MOCA": "MOCA",
+  "MOCHA": "MOCHA",
+  "GRANITO": "GRANITO",
+  "VINHO": "VINHO",
+  "MOSTARDA": "MOSTARDA",
+  "BRANC": "BRANCO",
+  "PRATA": "PRATA",
+  "DOURADO": "DOURADO",
   "CIANO":"CIANO",
   "ONIX":"ONIX",
   "NATURAL":"NATURAL",
@@ -39935,6 +39367,7 @@ const COR = {
   "OURO": "OURO",
   "ORQUIDEA": "ORQUIDEA",
   "PRETO": "PRETO",
+  "ROSE": "ROSE",
   "PINK": "PINK",
   "ROSA": "ROSA",
   "ROXO": "ROXO",
@@ -39948,19 +39381,60 @@ const COR = {
   "SALMAO": "SALMAO",
   "UVA": "UVA",
   "CORAL": "CORAL",
-  "AMETISTA": "AMETISTA"
+  "AMETISTA": "AMETISTA",
+  "TRANSPARENTE": "TRANSPARENTE",
 
+
+  //abreviado
+  "RS BABY":"ROSA BABY",
+  "RS SHOCK":"ROSA SHOCK",
+
+  "VD":"VERDE FOLHA",
+  "AZ":"AZUL COBALTO",
+  "LR":"LARANJA MANDARIM",
+  "VM":"VERMELHOR QUENTE",
+  "RS TI":"ROSA TUTIFRUIT",
+  "RS TT FRUTTI":"ROSA TUTIFRUIT",
+  "AM":"AMARELO CITRINO",
+  "PR":"PRETO EBANO",
+  "BR":"BRANCO POLAR",
+  "AZ":"AZUL BABY",
+  "LIL":"LILAS",
+  "LI":"LILAS",
+  "MARR":"MARROM",
+  "MRO":"MARROM",
+  "BCO":"BRANCO",
+  "LAR":"LARANJA",
+  "PTO":"PRETO",
+  "RS":"ROSA",
+  "MARF":"MARFIM",
+  "CRIS": "CRISTAL",
+  "CRIS": "CRISTAL",
+  "ROX": "ROXO",
+  "PK": "PINK",
+  "PTA": "PRATA",
+  "TRANS": "TRANSPARENTE",
+  "CLEAN": "CLEAN",
+  
 }
 const TIPO = {
 
   // 2 palavras
+  "SORTIDO CROMADO": "SORTIDO CROMADO", 
+  "SORTIDO NEON": "SORTIDO NEON", 
+  "SORTIDO CANDY": "SORTIDO CANDY", 
   "CANDY PEROLIZADO": "CANDY PEROLIZADO", 
+  "KIT SUPORTE": "KIT SUPORTE",
   "CRISTAL": "CRISTAL", 
   "SORTIDO": "SORTIDO",
-  "KIT SUPORTE": "KIT SUPORTE",
   "CINTILANTE": "CINTILANTE",
 
   // 1 palavra
+  "CANUDO" :"CANUDO",
+  "SORT" :"SORTIDO",
+  "PLATINO" :"PLATINO",
+  "LETRA" :"LETRA",
+  "MET." :"METALIZADO",
   "PERA" :"PERA",
   "GF" :"GRANFESTA",
   "PEROLIZADO": "PEROLIZADO", 
@@ -39973,11 +39447,9 @@ const TIPO = {
   "RED": "REDONDO", 
   "CROMADO": "CROMADO", 
   "METALIZADO": "METALIZADO", 
-  "METALIC": "METALIZADO", 
+  "METALIC": "METALLIC", 
   "METALLIC": "METALLIC", 
-  "260": "260", 
-  "CANUDO": "260", 
-  "160": "160", 
+
   "PLATINO": "PLATINO", 
   "GIGANTE" :"GIGANTE",
   "PEROLA" :"PEROLIZADO",
@@ -39985,23 +39457,161 @@ const TIPO = {
   "ALUMINIO" :"ALUMINIO",
   "ALUMÍNIO" :"ALUMÍNIO",
 
-};
+}
 const TAMANHO = {
-  "N.1": ' 1" ',
-  "N.2": ' 2" ',
-  "N.3": ' 3" ',
-  "N.4": ' 4" ',
-  "N.5": ' 5" ',
-  "N.6": ' 6" ',
-  "N.7": ' 7" ',
-  "N.8": ' 8" ',
-  "N.9": ' 9" ',
-  "N.10": ' 10" ',
-  "N.11": ' 11" ',
-  "N.12": ' 12" ',
-  "N.13": ' 13" ',
-  "N.14": ' 14" ',
-  "N.15": ' 15" ',
+
+
+    "6.5": '6"',
+
+    "10 POL": '10"',
+    "12 POL": '12"',
+
+    "10X25": '10X25',
+    "19X40": '19X40',
+    "27X43": '27X43',
+    "6X37": '6X37',
+    "48X67": '48X67',
+    "48X44": '48X44',
+    "49X48": '49X48',
+    "57X54": '57X54',
+    "48X54": '48X54',
+    "91X56": '91X56',
+    "52X60": '52X60',
+    "5X83": '5X83',
+    "5X94": '5X94',
+    "59X43": '59X43',
+    "117X60": '117X60',
+    "72X48": '72X48',
+    "50X48": '50X48',
+    "5X62": '5X62',
+    "101X67": '101X67',
+    "54X67": '54X67',
+    "56X77CM": '56X77',
+    "5X28": '5X28',
+    "3X29": '3X29',
+    "43X43CM": '43X43',
+    "5X43CM": '5X43',
+    "17X17CM": '17X17',
+    "60X94,5CM": '60X94',
+    "100X36": '100X36',
+    "75X60CM": '75X60',
+    "108X65": '108X65',
+    "89X58CM": '89X58',
+    "48X73CM": '48X73',
+    "48X73CM": '48X73',
+    "48X58CM": '48X58',
+    "77X89CM": '77X89',
+    "82X41": '82X41',
+    "81X69CM": '81X69',
+    "48X63CM": '48X63',
+    "44X64CM": '44X64',
+    "76X72CM": '76X72',
+    "98X49": '98X49',
+    "77X65": '77X65',
+    "100X73": '100X73',
+    "87X117": '87X117',
+    "5,514CM": '5"',
+    "92X31": '92X31',
+    "82X53": '82X53',
+    "43X102": '43X102',
+    "43,5X46CM": '16"',
+    "58X43,5CM": '22"',
+    '22X18':'22X18',
+    '32X28':'32X28',
+    '43X43CM':'43X43',
+    '65X79CM':'65X79',
+    '70X79CM':'65X70X79',
+
+
+    ' P ':'P',
+    ' M ':'M',
+    ' G ':'G',
+
+
+    " R16 ": '16"',
+    " R12 ": '12"',
+    " R24 ": '24"',
+    " R5 ": '5"',
+    " R5 ": '5"',
+
+    "99 CM": ' 99 CM ',
+
+   ' 5"" ': ' 5" ',
+   ' 16"" ': ' 16" ',
+   ' 18"" ': ' 18" ',
+   ' 32"" ': ' 32" ',
+   ' 40"" ': ' 40" ',
+   ' 17"" ': ' 17" ',
+   ' 29"" ': ' 29" ',
+
+
+
+   
+
+   " 40' ":' 40" ',
+   " N.6.5 ":' 6" ',
+
+   " 18 ": ' 18" ',
+   " 24 ": ' 24" ',
+   " 36 ": ' 36" ',
+   " 32 ": ' 32" ',
+
+
+   " PARTIU 32 ": ' 32" ',
+   " PARTIU 16 ": ' 16" ',
+
+   "260": "260", 
+   "CANUDO": "260", 
+   "160": "160", 
+   "360": "360", 
+
+   "18''":'18"',
+   "40''":'40"',
+
+
+   " 01 ": ' 1" ',
+   " 02 ": ' 2" ',
+   " 03 ": ' 3" ',
+   " 04 ": ' 4" ',
+   " 05 ": ' 5" ',
+   " 06 ": ' 6" ',
+   " 07 ": ' 7" ',
+   " 08 ": ' 8" ',
+   " 09 ": ' 9" ',
+   " 10 ": ' 10" ',
+   " 11 ": ' 11" ',
+   " 12 ": ' 12" ',
+   " 13 ": ' 13" ',
+   " 14 ": ' 14" ',
+   " 15 ": ' 15" ',
+   " 16 ": ' 16" ',
+   " 17 ": ' 17" ',
+   " 18 ": ' 18" ',
+   " 19 ": ' 19" ',
+   " 20 ": ' 20" ',
+   " 22 ": ' 22" ',
+   " 30 ": ' 30" ',
+   " 40 ": ' 40" ',
+   " 45 ": ' 45" ',
+   " 50 ": ' 50" ',
+   " 60 ": ' 60" ',
+
+
+  " N.1 ": ' 1" ',
+  " N.2 ": ' 2" ',
+  " N.3 ": ' 3" ',
+  " N.4 ": ' 4" ',
+  " N.5 ": ' 5" ',
+  " N.6 ": ' 6" ',
+  " N.7 ": ' 7" ',
+  " N.8 ": ' 8" ',
+  " N.9 ": ' 9" ',
+  " N.10 ": ' 10" ',
+  " N.11 ": ' 11" ',
+  " N.12 ": ' 12" ',
+  " N.13 ": ' 13" ',
+  " N.14 ": ' 14" ',
+  " N.15 ": ' 15" ',
 
   "1.0": ' 1" ',
   "2.0": ' 2" ',
@@ -40012,6 +39622,9 @@ const TAMANHO = {
   "7.0": ' 7" ',
   "8.0": ' 8" ',
   "9.0": ' 9" ',
+  "9.0": ' 9" ',
+
+
   "N 1": ' 1" ',
   "N 2": ' 2" ',
   "N 3": ' 3" ',
@@ -40027,6 +39640,17 @@ const TAMANHO = {
   "N 13": ' 13" ',
   "N 14": ' 14" ',
   "N 15": '15" ',
+  "N 16": '16" ',
+  "N 17": '17" ',
+  "N 18": '18" ',
+  "N 19": '19" ',
+  "N 20": '20" ',
+  "N 30": '30" ',
+  "N 35": '35" ',
+  "N 40": '40" ',
+  "N 45": '45" ',
+  "N 50": '50" ',
+  "N 68": '68" ',
 
   "N1": ' 1" ',
   "N2": ' 2" ',
@@ -40043,47 +39667,31 @@ const TAMANHO = {
   "N13": ' 13" ',
   "N14": ' 14" ',
   "N15": ' 15" ',
+  "N16": ' 16" ',
+  "N17": ' 17" ',
+  "N18": ' 18" ',
+  "N19": ' 19" ',
+  "N20": ' 20" ',
+  "N25": ' 25" ',
+  "N30": ' 30" ',
+  "N35": ' 35" ',
+  "N40": ' 40" ',
+  "N45": ' 45" ',
+  "N50": ' 50" ',
+  "N68": ' 68" ',
 
-  "NUMERO 1": ' 1" ',
-  "NUMERO 2": ' 2" ',
-  "NUMERO 1": ' 1" ',
-  "NUMERO 2": ' 2" ',
-  "NUMERO 3": ' 3" ',
-  "NUMERO 4": ' 4" ',
-  "NUMERO 5": ' 5" ',
-  "NUMERO 6": ' 6" ',
-  "NUMERO 7": ' 7" ',
-  "NUMERO 8": ' 8" ',
-  "NUMERO 9": ' 9" ',
-  "NUMERO 10": ' 10" ',
-  "NUMERO 11": ' 11" ',
-  "NUMERO 12": ' 12" ',
-  "NUMERO 13": ' 13" ',
-  "NUMERO 14": ' 14" ',
-  "NUMERO 15": ' 15" ',
+  
 
-  "NUMERO1": ' 1" ',
-  "NUMERO2": ' 2" ',
-  "NUMERO1": ' 1" ',
-  "NUMERO2": ' 2" ',
-  "NUMERO3": ' 3" ',
-  "NUMERO4": ' 4" ',
-  "NUMERO5": ' 5" ',
-  "NUMERO6": ' 6" ',
-  "NUMERO7": ' 7" ',
-  "NUMERO8": ' 8" ',
-  "NUMERO9": ' 9" ',
-  "NUMERO10": ' 10" ',
-  "NUMERO11": ' 11" ',
-  "NUMERO12": ' 12" ',
-  "NUMERO13": ' 13" ',
-  "NUMERO14": ' 14" ',
-  "NUMERO15": ' 15" ',
+
 
   "10 CM": ' 4" ',
   "10CM": ' 4" ',
   "10 cm": ' 4" ',
   "10cm": ' 4" ',
+
+  "35CM":'13"',
+  "80CM":'31"',
+
 
   "12 CM": ' 5" ',
   "12CM": ' 5" ',
@@ -40115,75 +39723,93 @@ const TAMANHO = {
   "68cm": ' 27" ',
   "68 cm": ' 27" ',
 
-  "350": ' 350 ',
-  "250": ' 250 ',
-  "260": ' 260 ',
+  "350": ' 350" ',
+  "250": ' 250" ',
+  "260": ' 260" ',
+  "150": "150",
+  "160": "160",
+  "100CM": '39"',
+  "75CM": '29"',
+
+
+  " 8 ": ' 8" ',
+   " 9 ": ' 9" ',
+   " 6 5": ' 6" ',
+   " 6 ": ' 6" ',
+   " 5 ": ' 5" ',
+   " 7 ": ' 7" ',
 
 }
 const QUANTIDADE = {
   // 50 unidades
-    "C50": "50UN",
-    "C/50": "50UN",
-    "C/ 50": "50UN",
-    "C50": "50UN",
-    "50 UN": "50UN",
-    "50 UNIDADE": "50UN",
-    "50 UNIDADES": "50UN",
+    "C50": "50 UNIDADES",
+    "C/50": "50 UNIDADES",
+    "C/ 50": "50 UNIDADES",
+    "C50": "50 UNIDADES",
+    "50 UN": "50 UNIDADES",
+    "50 UNIDADE": "50 UNIDADES",
+    "50 UNIDADES": "50 UNIDADES",
+    "C/ 3": "3UN",
     
 
   // 20 unidades
-    "C20": "20UN",
-    "C/20": "20UN",
-    "C 20": "20UN",
-    "20 UN": "20UN",
-    "20UN": "20UN",
-    "20 UNIDADE": "20UN",
-    "20 UNIDADES": "20UN",
+    "C20": "20 UNIDADES",
+    "C/20": "20 UNIDADES",
+    "C 20": "20 UNIDADES",
+    "20 UN": "20 UNIDADES",
+    "20UN": "20 UNIDADES",
+    "20 UNIDADE": "20 UNIDADES",
+    "20 UNIDADES": "20 UNIDADES",
 
   // 25 unidades
-    "C25": "25UN",
-    "C/25": "25UN",
-    "C 25": "25UN",
-    "25 UN": "25UN",
-    "25UN": "25UN",
-    "25 UNIDADE": "25UN",
-    "25 UNIDADES": "25UN",
+    "C25": "25 UNIDADES",
+    "C/25": "25 UNIDADES",
+    "C 25": "25 UNIDADES",
+    "25 UN": "25 UNIDADES",
+    "25UN": "25 UNIDADES",
+    "25 UNIDADE": "25 UNIDADES",
+    "25 UNIDADES": "25 UNIDADES",
 
   // 10 unidades
-    "C10": "10UN",
-    "C/10": "10UN",
-    "C/ 10": "10UN",
-    "10UN": "10UN",
-    "10 UN": "10UN",
-    "10 UNIDADE": "10UN",
-    "10 UNIDADES": "10UN",
+    "C10": "10 UNIDADES",
+    "C/10": "10 UNIDADES",
+    "C/ 10": "10 UNIDADES",
+    "10UN": "10 UNIDADES",
+    "10 UN": "10 UNIDADES",
+    "10 UNIDADE": "10 UNIDADES",
+    "10 UNIDADES": "10 UNIDADES",
   
   // 12 unidades
-    "C12": "12UN",
-    "C/12": "12UN",
-    "C/ 12": "12UN",
-    "12 UN": " 12UN",
-    "12UN": "12UN",
-    "12 UNIDADE": "12UN",
-    "12 UNIDADES": "12UN",
+    "C12": "12 UNIDADES",
+    "C/12": "12 UNIDADES",
+    "C/ 12": "12 UNIDADES",
+    "12 UN": " 12 UNIDADES",
+    "12UN": "12 UNIDADES",
+    "12 UNIDADE": "12 UNIDADES",
+    "12 UNIDADES": "12 UNIDADES",
 
   // 5 unidades
-    "C5": "5UN",
-    "C/5": "5UN",
-    "C/ 5": "5UN",
-    "5 UN": "5UN",
-    "5UN": "5UN",
-    "5 UNIDADE": "5UN",
-    "5 UNIDADES": "5UN",
+    "C5": "5 UNIDADES",
+    "C/5": "5 UNIDADES",
+    "C/ 5": "5 UNIDADES",
+    "5 UN": "5 UNIDADES",
+    "5UN": "5 UNIDADES",
+    "5 UNIDADE": "5 UNIDADES",
+    "5 UNIDADES": "5 UNIDADES",
 
   // 1 unidade
-    "C1": "1UN",
-    "C/1": "1UN",
-    "C/ 1": "1UN",
-    "1 UN": "1UN",
-    "1UN": "1UN",
-    "1 UNIDADE": "1UN",
-    "1 UNIDADES": "1UN",
+    "C1": "1 UNIDADE",
+    "C/1": "1 UNIDADE",
+    "C/ 1": "1 UNIDADE",
+    "1 UN": "1 UNIDADE",
+    "1UN": "1 UNIDADE",
+    "1 UNIDADE": "1 UNIDADE",
+    "1 UNIDADES": "1 UNIDADE",
+
+    "300": "300 UNIDADES",
+    "100": "100 UNIDADES",
+    "240": "240 UNIDADES",
+    "C/100": "100 UNIDADES",
  
 }
 const MARCA = {
@@ -40213,6 +39839,215 @@ const MARCA = {
   "SILVER PLASTIC COM. IMP. EXP. LTDA EPP": "SILVER PLASTIC",
   "BRDECOR COM E IMP DE ARTIGOS PARA FESTA": "BRDECOR",
 }
+const MODELO = {
+   "HALLOWEEN":"HALLOWEEN",
+   "BLACK FRIDAY":"BLACK FRIDAY",
+   "BOTECO":"BOTECO",
+   "MULHER MARAVILHA":"MULHER MARAVILHA",
+   "JURASSIC WORLD":"JURASSIC WORLD",
+   "CORACAO":"CORACAO",
+   "BOLA DE FUTEBOL":"BOLA DE FUTEBOL",
+   "NUVEM":"NUVEM",
+   "ESPECIAL BATMAN GEEK":"ESPECIAL BATMAN GEEK",
+   "MELANCIA":"MELANCIA",
+   "ONCINHA":"ONCINHA",
+   "TEIA DE ARANHA":"TEIA DE ARANHA",
+   "VAQUINHA":"VAQUINHA",
+   "GIRASSOL":"GIRASSOL",
+   "PATINHAS E OSSINHOS":"PATINHAS E OSSINHOS",
+   "BOLOFOFOS":"BOLOFOFOS",
+   "APAIXONADOS POR FUTEBOL":"APAIXONADOS POR FUTEBOL",
+   "RAIO DE SOL":"RAIO DE SOL",
+   "DINO BABY":"DINO BABY",
+   "SUPERMAN":"SUPERMAN",
+   "SEREIA":"SEREIA",
+   "TURMA DA MONICA":"TURMA DA MONICA",
+   "NARUTO":"NARUTO",
+   "HARRY POTTER":" HARRY POTTER",
+   "CORINTHIANS":"CORINTHIANS",
+   "DRAGON BALL":"DRAGON BALL",
+   "PALMEIRAS":"PALMEIRAS",
+   "SAO PAULO":"SAO PAULO",
+   "MULHER MARAVILHA":"MULHER MARAVILHA",
+   "BARBIE":"BARBIE",
+   "ZOO":"ZOO",
+   "NUMERO 0":"NUMERO 0",
+   "NUMERO 2":"NUMERO 2",
+   "NUMERO 3":"NUMERO 3",
+   "NUMERO 5":"NUMERO 5",
+   "NUMERO 6":"NUMERO 6",
+   "NUMERO 7":"NUMERO 7",
+   "NUMERO 8":"NUMERO 8",
+   "NUMERO 9":"NUMERO 9",
+   "I LOVE YOU":"I LOVE YOU",
+   "DIA DAS MAES":"DIA DAS MAES",
+   "NUMERO 1":"NUMERO 1",
+   "FUNDO DO MAR":"FUNDO DO MAR",
+   "SAFARI":"SAFARI",
+   "GALAXIA":"GALAXIA",
+   "HEROIS":"HEROIS",
+   "FOLHAS TROPICAIS":"FOLHAS TROPICAIS",
+   "PIXEL":"PIXEL",
+   "SEREIA":"SEREIA",
+   "MUSICA":"MUSICA",
+   "EMOCOES":"EMOCOES",
+   "SAFARI":"SAFARI",
+   "DIA DOS PAIS":"DIA DOS PAIS",
+   "BALAO 9":"BALAO 9",
+   "JARDIM DAS BORBOLETAS":"JARDIM DAS BORBOLETAS",
+   "MONICA":"MONICA",
+   "FESTA JUNINA":"FESTA JUNINA",
+   "CACTO":"CACTO",
+   "ARCO IRIS":"ARCO IRIS",
+   "DINOSSAURO":"DINOSSAURO",
+   "HAPPY VING":"HAPPY VING",
+   "PATAS DE CACHORRO":"PATAS DE CACHORRO",
+   "NUMERO 4":"NUMERO 4",
+   "MINIONS":"MINIONS",
+   "CHOCOLATE":"CHOCOLATE",
+   "TWIST":"TWIST",
+   "FESTA DI BUTECO":"FESTA DI BUTECO",
+   "HOMEM DE FERRO":"HOMEM DE FERRO",
+   "MINNIE MOUSE ":"MINNIE MOUSE ",
+   " PET DOG":" PET DOG",
+   "FESTA CHA REVELACAO":"FESTA CHA REVELACAO",
+   "FESTA TROPICAL":"FESTA TROPICAL",
+   "PET GATO":"PET GATO",
+   "SPIDER MAN":"SPIDER MAN",
+   "ARIEL SEREISMO":"ARIEL SEREISMO",
+   "TOY STORY 4":"TOY STORY 4",
+   "MUNDO BITA 2":"MUNDO BITA 2",
+   "BELA":"BELA",
+   "SPIDEY":"SPIDEY",
+   "MEU JARDIM":"MEU JARDIM",
+   "ARCOIRIS A":"ARCOIRIS A",
+   "ARCOIRIS C":"ARCOIRIS C",
+   "ARCOIRIS D":"ARCOIRIS D",
+   "ARCOIRIS E":"ARCOIRIS E",
+   "ARCOIRIS H":"ARCOIRIS H",
+   "ARCOIRIS I":"ARCOIRIS I",
+   "ARCOIRIS L":"ARCOIRIS L",
+   "ARCOIRIS M":"ARCOIRIS M",
+   "ARCOIRIS N":"ARCOIRIS N",
+   "ARCOIRIS R":"ARCOIRIS R",
+   "ARCOIRIS S":"ARCOIRIS S",
+   "ARCOIRIS 1":"ARCOIRIS 1",
+   "ARCOIRIS 2":"ARCOIRIS 2",
+   "ARCOIRIS 3":"ARCOIRIS 3",
+   "ARCOIRIS 4":"ARCOIRIS 4",
+   "ARCOIRIS 5":"ARCOIRIS 5",
+   "ARCOIRIS 7":"ARCOIRIS 7",
+   "ARCOIRIS ?":"ARCOIRIS ?",
+   "ARCOIRIS F":"ARCOIRIS F",
+   "ARCOIRIS J":"ARCOIRIS J",
+   "ARCOIRIS G":"ARCOIRIS G",
+   "ARCOIRIS K":"ARCOIRIS K",
+   "ARCOIRIS O":"ARCOIRIS O",
+   "ARCOIRIS P":"ARCOIRIS P",
+   "ARCOIRIS Q":"ARCOIRIS Q",
+   "ARCOIRIS T":"ARCOIRIS T",
+   "ARCOIRIS U":"ARCOIRIS U",
+   "ARCOIRIS V":"ARCOIRIS V",
+   "ARCOIRIS W":"ARCOIRIS W",
+   "ARCOIRIS X":"ARCOIRIS X",
+   "ARCOIRIS Y":"ARCOIRIS Y",
+   "ARCOIRIS Z":"ARCOIRIS Z",
+   "ARCOIRIS 0":"ARCOIRIS 0",
+   "ARCOIRIS 1":"ARCOIRIS 1",
+   "ARCOIRIS 2":"ARCOIRIS 2",
+   "ARCOIRIS 3":"ARCOIRIS 3",
+   "ARCOIRIS 4":"ARCOIRIS 4",
+   "ARCOIRIS 5":"ARCOIRIS 5",
+   "ARCOIRIS 6":"ARCOIRIS 6",
+   "ARCOIRIS 7":"ARCOIRIS 7",
+   "ARCOIRIS 8":"ARCOIRIS 8",
+   "ARCOIRIS 9":"ARCOIRIS 9",
+   "ARCOIRIS ?":"ARCOIRIS ?",
+   "COCOZINHO":"COCOZINHO",
+   "ESTRELA":"ESTRELA",
+    "ROSQUINHA":"ROSQUINHA",
+    "SORVETE":"SORVETE",
+    "COROA":"COROA",
+    "GIRAFA":"GIRAFA",
+    "AVIAO":"AVIAO",
+    "MACACO":"MACACO",
+    "EMOJI MENINA":"EMOJI MENINA",
+    "EMOJI MENINO":"EMOJI MENINO",
+    "LEAO":"LEAO",
+    "CAVALO MARINHO":"CAVALO MARINHO",
+    "BORBOLETA":"BORBOLETA",
+    "PARABENS":"PARABENS",
+    "COPA BANDEIRA":"COPA BANDEIRA",
+    "PATRULHA CANINA":"PATRULHA CANINA",
+    "O PODEROSO CHEFINHO":"O PODEROSO CHEFINHO",
+    "SONIC":"SONIC",
+    "DISNEY":"DISNEY",
+    "MICKEY MOUSE":"MICKEY MOUSE",
+    "DISNEY FROZEN":"DISNEY FROZEN",
+    "CINDERELA CLASSICA":"CINDERELA CLASSICA",
+    "HULK ANIMACAO":"HULK ANIMACAO",
+    "MARVEL QUADRINHOS":"MARVEL QUADRINHOS",
+    "ENCANTO":"ENCANTO",
+    "LETRA A":"LETRA A",
+    "LETRA B":"LETRA B",
+    "LETRA C":"LETRA C",
+    "LETRA D":"LETRA D",
+    "LETRA E":"LETRA E",
+    "LETRA F":"LETRA F",
+    "LETRA G":"LETRA G",
+    "LETRA H":"LETRA H",
+    "LETRA I":"LETRA I",
+    "LETRA J":"LETRA J",
+    "LETRA K":"LETRA K",
+    "LETRA L":"LETRA L",
+    "LETRA M":"LETRA M",
+    "LETRA N":"LETRA N",
+    "LETRA O":"LETRA O",
+    "LETRA P":"LETRA P",
+    "LETRA Q":"LETRA Q",
+    "LETRA R":"LETRA R",
+    "LETRA S":"LETRA S",
+    "LETRA T":"LETRA T",
+    "LETRA U":"LETRA U",
+    "LETRA V":"LETRA V",
+    "LETRA W":"LETRA W",
+    "LETRA X":"LETRA X",
+    "LETRA Y":"LETRA Y",
+    "LETRA Z":"LETRA Z",
+    "MINI":"MINI",
+    "ASTRONAUTA":"ASTRONAUTA",
+    "MERRY CHRISTMAS":"MERRY CHRISTMAS",
+    "BONECO DE NEVE":"BONECO DE NEVE",
+    "PAPAI NOEL":"PAPAI NOEL",
+    "HAPPY BIRTHDAY":"HAPPY BIRTHDAY",
+    "MET WARNA":"MET WARNA",
+    "PASCOA":"PASCOA",
+    "COELHOS":"COELHOS",
+    "LUXO":"LUXO",
+    "CHA DE COZINHA":"CHA DE COZINHA",
+    "O REI LEAO":"O REI LEAO",
+    "FESTA FUTEBOL":"FESTA FUTEBOL",
+    "LADYBUG":"LADYBUG",
+    "CONFETTI":"CONFETTI",
+    "TRES CORACOES I LOVE":"TRES CORACOES I LOVE",
+    "CIRCULO COLORIDO":"CIRCULO COLORIDO",
+    "MILHO":"MILHO",
+    "FOGUEIRA":"FOGUEIRA",
+    "MINIONS 2":"MINIONS 2",
+    "AGUA MARINHA":"AGUA MARINHA",
+    "PESSEGO":"PESSEGO",
+    "CAFE C/LEITE":"CAFE COM LEITE",
+    "ARLEQUINA":"ARLEQUINA",
+    "BONECA":"BONECA",
+    "MENINO OU MENINA":"MENINO OU MENINA",
+    "MOANA DISNEY":"MOANA DISNEY",
+    "PEPPA PIG":"PEPPA PIG",
+    "UNICORNIO":"UNICORNIO",
+    "BUFFET":"BUFFET",
+    "RAYA E O ULTIMO DRAGAO":"RAYA E O ULTIMO DRAGAO",
+    "MASKS":"MASKS",
+
+}
 
 
 
@@ -40223,7 +40058,7 @@ let newProdutos = [
     tipo: "Código categoria adicional 1 (ID)",
     tamanho: "Código categoria adicional 3 (ID)",
     quantidade: "Código categoria adicional 4 (ID)",
-    marca: "Código da categoria principal (ID)",
+    marca: "Nome da categoria - nível 1",
     referencia: "Referência (código fornecedor)",
     ean: "Código EAN/GTIN/UPC",
     custo: "Preço de custo em reais",
@@ -40231,7 +40066,7 @@ let newProdutos = [
     estoque: "Estoque do produto",
     peso: "Peso do produto (gramas)",
     nome: "Nome do produto",
-    caminho: "Endereço da imagem principal do produto",
+    caminho: 'Endereço da imagem principal do produto',
     html: "HTML da descrição completa",
   }
 ]
@@ -40243,6 +40078,7 @@ produtos.forEach((element) => {
     produto.tamanho = "";
     produto.quantidade = "";
     produto.marca = "";
+    produto.modelo = "";
 
     // IDENTIFICAR COR
     for (const cor in COR) {
@@ -40263,7 +40099,8 @@ produtos.forEach((element) => {
     // IDENTIFICAR TAMANHO
     for (const tamanho in TAMANHO) {
       if (element.DESCRICAO.toUpperCase().includes(tamanho.toUpperCase())) {
-        produto.tamanho = TAMANHO[tamanho];
+        // produto.tamanho = element.DESCRICAO
+         produto.tamanho = TAMANHO[tamanho];
         break; 
       }
     }
@@ -40276,6 +40113,14 @@ produtos.forEach((element) => {
       }
     }
 
+    // IDENTIFICAR MODELO
+    for (const modelo in MODELO) {
+      if (element.DESCRICAO.toUpperCase().includes(modelo.toUpperCase())) {
+        produto.modelo = MODELO[modelo];
+        break;
+      }
+    }
+
     // IDENTIFICAR MARCA
     for (const marca in MARCA) {
       if (element.FORNECEDOR.toUpperCase().includes(marca.toUpperCase())) {
@@ -40284,29 +40129,17 @@ produtos.forEach((element) => {
       }
     }
 
-    // referencia
-    produto.referencia = element.CODIGOS
+    
+    produto.referencia = element.CODIGOS        // referencia
+    produto.ean = element.EAN                   // codigo de barras
+    produto.custo = element.CUSTO               // custo
+    produto.preco = element.PRECO               // venda
+    produto.estoque = 10                        // estoque
+    produto.peso = 100                          // peso
+    produto.varejoDescricao = element.DESCRICAO // descrição varejo
+    produto.nome = "BALÃO DE FESTA LATEX";      // CONSTRUÇÃO DO NOME
 
-    // codigo de barras
-    produto.ean = element.EAN
-
-    // custo
-    produto.custo = element.CUSTO
-
-    // venda
-    produto.preco = element.PRECO
-
-
-
-    // estoque
-    produto.estoque = 10
-
-    //peso
-    produto.peso = 100
-
-    //CONSTRUÇÃO DO NOME
-    produto.nome = "BALÃO DE FESTA";
-    if (produto.cor !== "") {
+    if (produto.cor !== "") {  
       produto.nome += " " + produto.cor;
     }
     if (produto.tipo !== "") {
@@ -40316,7 +40149,10 @@ produtos.forEach((element) => {
       produto.nome += " " + produto.quantidade;
     }
     if (produto.tamanho !== "") {
-      produto.nome += " " + produto.tamanho;
+        produto.nome += " " + produto.tamanho;
+    }
+    if (produto.modelo !== "" ) {
+      produto.nome += " " + produto.modelo;
     }
     if (produto.marca !== "") {
       produto.nome += " " + produto.marca;
@@ -40348,21 +40184,18 @@ produtos.forEach((element) => {
     }
     produto.nome = removerPalavrasRepetidas(produto.nome)
 
-    // salvar
-    if(produto.marca && produto.tipo && produto.cor){
-      newProdutos.push(produto)  
-    }
-
-
     // imagem
-    produto.caminho = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
-    produto.caminho += produto.marca.replace(' ', '-').toLowerCase() + '/'
-    produto.caminho += produto.tipo.replace(' ', '-').toLowerCase() + '/'
-    produto.caminho += produto.cor.replace(' ', '-').toLowerCase() + '.png'
+    let caminho = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
+    caminho += produto.marca + '/'
+    caminho += produto.tipo + '/'
+    caminho += produto.cor + '.png'
 
+    produto.caminho = caminho.replace(' ', '-').toLowerCase()
+
+    
     // html
     produto.html = `${produto.nome} 
-
+    
     Marca: ${produto.marca}
     
     Cor: ${produto.cor}
@@ -40370,16 +40203,28 @@ produtos.forEach((element) => {
     Tamanho: ${produto.tamanho} polegadas
     
     Quantidade: Pacote com ${produto.quantidade}`
+
+
+
+        // salvar
+        if(
+            produto.marca == 'PICPIC' && 
+            produto.tipo && 
+            produto.cor 
+        ){
+          newProdutos.push(produto)  
+        }
+    
+    
+   
   }
 
 
 });
-console.log(newProdutos)
 
-
-
-
-
+newProdutos.forEach(element=>{
+    console.log(element.nome, element.varejoDescricao)
+})
 
 
 
@@ -40399,9 +40244,5 @@ function salvarArrayComoExcel(array, nomeArquivo) {
         }
     });
 }
-
-
-
-const nomeDoArquivo = 'produtos.js';
-salvarArrayComoExcel(newProdutos, nomeDoArquivo);
+salvarArrayComoExcel(newProdutos, 'produtos.js');
   
