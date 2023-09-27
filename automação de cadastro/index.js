@@ -39701,7 +39701,7 @@ function TOOLS(){
         })
 
         //VERIFICAR VARIANTES
-        let outputItem = [];
+        let variables = [];
         singleProduct.forEach((element)=>{
             data.output.forEach((item)=>{
                 if(
@@ -39711,13 +39711,23 @@ function TOOLS(){
                     element.size !== item.size
                 ){
                     
-                    element.variable = []
-                    element.variable.push(item)
+                    item.id = element.id
+                    variables.push(item)
                 }
             })
         })
 
+        //ROOT
         console.log(singleProduct[0])
+        //VARIABLE
+        console.log(variables[0])
+
+        //VISUALIZAR ID DE VARIANTES
+        variables.forEach((i)=>{
+            console.log(i.id)
+        })
+
+
     }
 
     return{buildImg, checkIncludedWord, quiz, saveInExcel, buildDescription, buildName, printSingleItem, prinAllItems, getRootProduct}
