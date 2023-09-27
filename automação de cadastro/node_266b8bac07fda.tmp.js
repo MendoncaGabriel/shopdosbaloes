@@ -4440,7 +4440,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000003570",
-            "DESCRICAO": "BALAO LISO RED. SORTIDO 05 CANDY PIC PIC 50 UN",
+            "DESCRICAO": "BALAO LISO RED. 05 CANDY PIC PIC 50 UN",
             "PRECO": "7.49",
             "CUSTO": "3.88",
             "EAN": "07896968314081",
@@ -6132,7 +6132,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000004103",
-            "DESCRICAO": "BALAO LISO GF 09 CANDY SORTIDO PIC PIC 50 UN 1001GF9980050",
+            "DESCRICAO": "BALAO LISO GF 09 CANDY PIC PIC 50 UN 1001GF9980050",
             "PRECO": "11.49",
             "CUSTO": "5.75",
             "EAN": "07896968313855",
@@ -39276,116 +39276,561 @@ function DATA(){
     ]
     const color = {
     
-        "AZUL PISCINA": "AZUL PISCINA",
-        "AZUL INDIGO": "AZUL INDIGO",
-        "AMARELO PAPAYA":"AMARELO PAPAYA",
-        "VERDE MILITAR":"VERDE MILITAR",
-        "VERDE oliva":"VERDE oliva",
-        "VINHO TINTO":"VINHO TINTO",
-        "Azul Claro":"Azul Claro",
-        "Azul Turquesa":"Azul Turquesa",
-        "Azul Escuro":"Azul Escuro",
-        "Verde Limão":"Verde Limão",
-        "Verde Baby":"Verde Baby",
-        "Verde Tropical":"Verde Tropical",
-        "Rosa Baby":"Rosa Baby",
-        "Rosa Forte":"Rosa Forte",
-        "Rosa blush":"Rosa blush",
-        "Verde Claro":"Verde Claro",
-        "Verde menta":"Verde menta",
-        "Verde Bandeira":"Verde Bandeira",
-        "Azul Escuro":"Azul Escuro",
-        "lilas orquidea":"lilas orquidea",
-
-
-        "MAGENTA":"MAGENTA",
-        "NUDE":"NUDE",
-        "SKIN":"SKIN",
-        "BRONZE":"BRONZE",
-        "CHUMBO":"CHUMBO",
-        "CARAMELO":"CARAMELO",
-        "CLEAR":"CLEAR",
-        "ROSA":"ROSA",
-        "ROSE":"ROSE",
-        "Branco":"Branco",
-        "Preto":"Preto",
-        "Amarelo":"Amarelo",
-        "Laranja":"Laranja",
-        "Vermelho":"Vermelho",
-        "Azul":"Azul",
-        "Verde":"Verde",
-        "Pink":"Pink",
-        "Coral":"Coral",
-        "Lilás":"Lilás",
-        "Lilas":"Lilás",
-        "Violeta":"Violeta",
-        "Cinza":"Cinza",
-        "Marfim":"Marfim",
-        "Bege":"Bege",
-        "Marrom":"Marrom",
-
-        "Amarelo":"Amarelo",
-        "Laranja":"Laranja",
-        "Vermelho":"Vermelho",
-
-        "Branco":"Branco",
-        "Preto":"Preto",
-        "Amarelo":"Amarelo",
-        "Laranja":"Laranja",
-        "Vermelho":"Vermelho",
-        "Azul":"Azul",
-        "Lilás":"Lilás",
-        "Lilas":"Lilás",
-        "Marrom":"Marrom",
-        "Sortido": "Sortido",
-        "Branco":"Branco",
-        "Prata":"Prata",
-        "Ouro":"Ouro",
+    
+    //cor de 2 palavras
+    " PRATA METALICO  ": "PRATA METALICO",
+    " INCOLOR/BRANCO": "INCOLOR/BRANCO",
+    " OURO METALICO ": "OURO METALICO",
+    " VERDE LIMAO ": "VERDE LIMAO",
+    " VERDE LIMAO ": "VERDE LIMAO",
+    " VERDE LIMÃO ": "VERDE LIMAO",
+    " VERDE MENTA ": "VERDE MENTA",
+    " VERDE MILITAR ": "VERDE MILITAR",
+    " VERDE AGUA ": "VERDE AGUA",
+    " VERDE TROPICAL ": "VERDE TROPICAL",
+    " VERDE BANDEIRA ": "VERDE BANDEIRA",
+    " VERDE EUCALIPTO ": "VERDE EUCAPTO",
+    " VERDE ESMERALDA ": "VERDE ESMERALDA",
+    " VERDE MUSGO ": "VERDE MUSGO",
+    " VERDE OLIVA ": "VERDE OLIVA",
+    " VERDE BEBE ": "VERDE BEBE",
+    " VERDE BABY ": "VERDE BABY",
+    " AZUL CLARO ": "AZUL CLARO",
+    " AZUL ESCURO ": "AZUL ESCURO",
+    " AZUL MEIA NOITE ": "AZUL MEIA NOITE",
+    " AZUL INDIGO ": "AZUL INDIGO",
+    " AZUL JADE ": "AZUL JADE",
+    " AZUL PISCINA ": "AZUL PISCINA",
+    " AZUL BEBE ": "AZUL BEBE",
+    " AZUL ARTICO ": "AZUL ARTICO",
+    " AZUL FRANCA ": "AZUL FRANCA",
+    " AZUL TURQUESA ": "AZUL TURQUESA",
+    " AZUL TURQUEZA ": "AZUL TURQUEZA",
+    " AZUL TIFFANY ": "AZUL TIFFANY",
+    " AZUL TIFANY ": "AZUL TIFFANY",
+    " AMARELO GEMA ": "AMARELO GEMA",
+    " AMARELO OCRE ": "AMARELO OCRE",
+    " AMARELO PAPAYA ": "AMARELO PAPAYA",
+    " ROSA CANDY ": "ROSA CANDY",
+    " ROSA BABY ": "ROSA BABY",
+    " ROSA TURMALINA ": "ROSA TURMALINA",
+    " ROSA BEBE ": "ROSA BEBE",
+    " ROSA BLUSH ": "ROSA BLUSH",
+    " ROSA FORTE ": "ROSA FORTE",
+    " VERMELHO PAIXAO ": "VERMELHO PAIXAO",
+    " VIOLETA AMETISTA ": "VIOLETA AMETISTA",
+    " AMARELO CITRINO ": "AMARELO CITRINO",
+    " LARANJA TOPAZIO ": "LARANJA TOPAZIO",
+    " VERMELHO RUBY ": "VERMELHO RUBY",
+    " VERMELHO RUBI ": "VERMELHO RUBI",
+    " VERM.RUBI ": "VERMELHO RUBY   ",
+    " CAFE FOSCO ": "CAFE FOSCO",
+    
+    //cor de 1 palavra
+    " CAFE ": "CAFE",
+    " MOCA ": "MOCA",
+    " MOCHA ": "MOCHA",
+    " GRANITO ": "GRANITO",
+    " VINHO ": "VINHO",
+    " MOSTARDA ": "MOSTARDA",
+    " BRANC ": "BRANCO",
+    " PRATA ": "PRATA",
+    " DOURADO ": "DOURADO",
+    " CIANO ":"CIANO",
+    " ONIX ":"ONIX",
+    " NATURAL ":"NATURAL",
+    " FUCSIA ":"FUCSIA",
+    " CHUMBO ":"CHUMBO",
+    " CHANPAGNE ":"CHANPAGNE",
+    " MARSALA ":"MARSALA",
+    " TIFANY ":"TIFFANY",
+    " TIFFANY ":"TIFFANY",
+    " TERRACOTA ":"TERRACOTA",
+    " TERRA COTA ":"TERRACOTA",
+    " AREIA ":"AREIA",
+    " AZUL ": "AZUL",
+    " AMARELO ": "AMARELO",
+    " AMARELA ": "AMARELA",
+    " CARAMELO ": "CARAMELO ",
+    " PAPAYA ": "AMARELO PAPAYA",
+    " BRANCA ": "BRANCA",
+    " BEGE ": "BEGE",
+    " BRANCO ": "BRANCO",
+    " BRONZE ": "BRONZE",
+    " CRISTAL ": "CRISTAL",
+    " CINZA ": "CINZA",
+    " LIMA ": "LIMA",
+    " CLEAR ": "CLEAR",
+    " CORAL ": "CORAL",
+    " GOLD ": "GOLD",
+    " MARROM ": "MARROM",
+    " MARFIM ": "MARFIM",
+    " MAGENTA ": "MAGENTA",
+    " MARGENTA ": "MARGENTA",
+    " NUDE ": "NUDE",
+    " OURO ": "OURO",
+    " ORQUIDEA ": "ORQUIDEA",
+    " PRETO ": "PRETO",
+    " ROSE ": "ROSE",
+    " PINK ": "PINK",
+    " ROSA ": "ROSA",
+    " ROXO ": "ROXO",
+    " VERMELHA ": "VERMELHA",
+    " VERMELHO ": "VERMELHO",
+    " VIOLETA ": "VIOLETA",
+    " VERDE ": "VERDE",
+    " LARANJA ": "LARANJA",
+    " TANGERINA ": "TANGERINA ",
+    " LILAS ": "LILAS",
+    " SALMAO ": "SALMAO",
+    " UVA ": "UVA",
+    " CORAL ": "CORAL",
+    " AMETISTA ": "AMETISTA",
+    " TRANSPARENTE ": "TRANSPARENTE",
+    
+    
+    //abreviado
+    //   " RS BABY ":"ROSA BABY",
+    //   " RS SHOCK ":"ROSA SHOCK",
+    
+    //   " VD ":"VERDE FOLHA",
+    //   " AZ ":"AZUL COBALTO",
+    //   "LR ":"LARANJA MANDARIM",
+    //   "VM ":"VERMELHOR QUENTE",
+    //   "RS TI":"ROSA TUTIFRUIT",
+    //   "RS TT FRUTTI":"ROSA TUTIFRUIT",
+    //   " AM ":"AMARELO CITRINO",
+    //   "PR ":"PRETO EBANO",
+    //   "BR ":"BRANCO POLAR",
+    //   "AZ ":"AZUL BABY",
+    //   "LIL ":"LILAS",
+    //   "LI":"LILAS",
+    //   "MARR":"MARROM",
+    //   "MRO":"MARROM",
+    //   "BCO":"BRANCO",
+    //   "LAR":"LARANJA",
+    //   "PTO":"PRETO",
+    //   "RS":"ROSA",
+    //   "MARF":"MARFIM",
+    //   "CRIS": "CRISTAL",
+    //   "CRIS": "CRISTAL",
+    //   "ROX": "ROXO",
+    //   "PK": "PINK",
+    //   "PTA": "PRATA",
+    //   "TRANS": "TRANSPARENTE",
+    //   "CLEAN": "CLEAN",
     
     }
     const type = {
-        //TIPOS PIC PIC
-        "LISO": "LISO",
-        "PLATINO": "PLATINO",
-        "NEON": "NEON",
-        "CLEAR": "CLEAR",
-        "CRISTAL": "CRISTAL",
-        "METALIZADO": "METALIZADO",
-        "RED.": "REDONDO", 
-        "REDONDO": "REDONDO", 
-        "GRANFESTA": "GRANFESTA", 
-        "GF": "GRANFESTA", 
-
+    
+    // 2 palavras
+    "PEROLA RED.": "PEROLA REDONDO", 
+    "SORTIDO CROMADO": "SORTIDO CROMADO", 
+    "SORTIDO NEON": "SORTIDO NEON", 
+    "SORTIDO CANDY": "SORTIDO CANDY", 
+    "CANDY PEROLIZADO": "CANDY PEROLIZADO", 
+    "KIT SUPORTE": "KIT SUPORTE",
+    "CRISTAL": "CRISTAL", 
+    "SORTIDO": "SORTIDO",
+    "CINTILANTE": "CINTILANTE",
+    
+    // 1 palavra
+    "CANUDO" :"CANUDO",
+    "SORT" :"SORTIDO",
+    "PLATINO" :"PLATINO",
+    "LETRA" :"LETRA",
+    "MET." :"METALIZADO",
+    "PERA" :"PERA",
+    
+    "LISO GF": "LISO GRANFESTA",
+    "GF" :"GRANFESTA",
+    "GRANFESTA" :"GRANFESTA",
+    
+    "PEROLIZADO": "PEROLIZADO", 
+    "NEON": "NEON", 
+    " BIG ": "BIG", 
+    "LISA": "LISO", 
+    "LISO": "LISO", 
+    "CANDY": "CANDY", 
+    "REDONDO": "REDONDO", 
+    "RED": "REDONDO", 
+    "RED.": "REDONDO", 
+    "CROMADO": "CROMADO", 
+    "METALIZADO": "METALIZADO", 
+    "METALIC": "METALLIC", 
+    "METALLIC": "METALLIC", 
+    
+    "PLATINO": "PLATINO", 
+    "GIGANTE" :"GIGANTE",
+    "PEROLA" :"PEROLIZADO",
+    "PÉROLA" :"PEROLIZADO",
+    "ALUMINIO" :"ALUMINIO",
+    "ALUMÍNIO" :"ALUMÍNIO",
+    
     }
     const size = {
-        // TAMANHOS PIC PIC
-       " 7.0 ": '7"',
-       " 09 ": '9"',
-       " 250 ": '250"',
-       " 260 ": '260"',
-       " 150 ": '150"',
-       " 350 ": '350"',
-       " 10 ": '10"',
-       " 16 ": '16"',
-       " 06 ": '6"',
-       " 08 ": '8"',
-       " 05 ": '5"',
-       " 2.5 ": '2.5"',
-       " 12 ": '12"',
+    
+        " 1.0 ": ' 1" ',
+        " 2.0 ": ' 2" ',
+        " 3.0 ": ' 3" ',
+        " 4.0 ": ' 4" ',
+        " 5.0 ": ' 5" ',
+        " 6.0 ": ' 6" ',
+        " 7.0 ": ' 7" ',
+        " 8.0 ": ' 8" ',
+        " 9.0 ": ' 9" ',
+        " 10.0 ": ' 10" ',
+        " 11.0 ": ' 11" ',
+        " 12.0 ": ' 12" ',
+        " 24.0 ": ' 24" ',
+        " 16.0 ": ' 16" ',
+        " 32.0 ": ' 32" ',
+        " 40.0 ": ' 40" ',
+    
+        " 6.5 ": '6.5"',
+    
+        " 10 POL ": '10"',
+        " 12 POL ": '12"',
+    
+        " 10X25 ": '10X25',
+        " 19X40 ": '19X40',
+        " 27X43 ": '27X43',
+        " 6X37 ": '6X37',
+        " 48X67 ": '48X67',
+        " 48X44 ": '48X44',
+        " 49X48 ": '49X48',
+        " 57X54 ": '57X54',
+        " 48X54 ": '48X54',
+        " 91X56 ": '91X56',
+        " 52X60 ": '52X60',
+        " 5X83 ": '5X83',
+        " 5X94 ": '5X94',
+        " 59X43 ": '59X43',
+        " 117X60 ": '117X60',
+        " 72X48 ": '72X48',
+        " 50X48 ": '50X48',
+        " 5X62 ": '5X62',
+        " 101X67 ": '101X67',
+        " 54X67 ": '54X67',
+        " 56X77CM ": '56X77',
+        " 5X28 ": '5X28',
+        " 3X29 ": '3X29',
+        " 43X43CM ": '43X43',
+        " 5X43CM ": '5X43',
+        " 17X17CM ": '17X17',
+        " 60X94,5CM ": '60X94',
+        " 100X36 ": '100X36',
+        " 75X60CM ": '75X60',
+        " 108X65 ": '108X65',
+        " 89X58CM ": '89X58',
+        " 48X73CM ": '48X73',
+        " 48X73CM ": '48X73',
+        " 48X58CM ": '48X58',
+        " 77X89CM ": '77X89',
+        " 82X41 ": '82X41',
+        " 81X69CM ": '81X69',
+        " 48X63CM ": '48X63',
+        " 44X64CM ": '44X64',
+        " 76X72CM ": '76X72',
+        " 98X49 ": '98X49',
+        " 77X65 ": '77X65',
+        " 100X73 ": '100X73',
+        " 87X117 ": '87X117',
+        " 5,514CM ": '5"',
+        " 92X31 ": '92X31',
+        " 82X53 ": '82X53',
+        " 43X102 ": '43X102',
+        " 43,5X46CM ": '16"',
+        " 58X43,5CM ": '22"',
+        ' 22X18 ':'22X18',
+        ' 32X28 ':'32X28',
+        ' 43X43CM ':'43X43',
+        ' 65X79CM ':'65X79',
+        ' 70X79CM ':'65X70X79',
+    
+    
+        ' P ':'P',
+        ' M ':'M',
+        ' G ':'G',
+    
+    
+        " R16 ": '16"',
+        " R12 ": '12"',
+        " R24 ": '24"',
+        " R5 ": '5"',
+        " R5 ": '5"',
+    
+        " 99 CM ": ' 99 CM ',
+    
+        ' 5"" ': ' 5" ',
+        ' 16"" ': ' 16" ',
+        ' 18"" ': ' 18" ',
+        ' 32"" ': ' 32" ',
+        ' 40"" ': ' 40" ',
+        ' 17"" ': ' 17" ',
+        ' 29"" ': ' 29" ',
+    
+    
+    
+        
+    
+        " 40' ":' 40" ',
+        " N.6.5 ":' 6" ',
+    
+        " 18 ": ' 18" ',
+        " 24 ": ' 24" ',
+        " 36 ": ' 36" ',
+        " 32 ": ' 32" ',
+    
+    
+        " PARTIU 32 ": ' 32" ',
+        " PARTIU 16 ": ' 16" ',
+    
+        " 260 ": "260", 
+        " CANUDO ": "260", 
+        " 160 ": "160", 
+        " 360 ": "360", 
+    
+        " 18'' ":'18"',
+        " 40'' ":'40"',
+    
+    
+        " 01 ": ' 1" ',
+        " 02 ": ' 2" ',
+        " 03 ": ' 3" ',
+        " 04 ": ' 4" ',
+        " 05 ": ' 5" ',
+        " 06 ": ' 6" ',
+        " 07 ": ' 7" ',
+        " 08 ": ' 8" ',
+        " 09 ": ' 9" ',
+        " 10 ": ' 10" ',
+        " 11 ": ' 11" ',
+        " 12 ": ' 12" ',
+        " 13 ": ' 13" ',
+        " 14 ": ' 14" ',
+        " 15 ": ' 15" ',
+        " 16 ": ' 16" ',
+        " 17 ": ' 17" ',
+        " 18 ": ' 18" ',
+        " 19 ": ' 19" ',
+        " 20 ": ' 20" ',
+        " 22 ": ' 22" ',
+        " 30 ": ' 30" ',
+        " 40 ": ' 40" ',
+        " 45 ": ' 45" ',
+        " 50 ": ' 50" ',
+        " 60 ": ' 60" ',
+    
+    
+    " N.1 ": ' 1" ',
+    " N.2 ": ' 2" ',
+    " N.3 ": ' 3" ',
+    " N.4 ": ' 4" ',
+    " N.5 ": ' 5" ',
+    " N.6 ": ' 6" ',
+    " N.7 ": ' 7" ',
+    " N.8 ": ' 8" ',
+    " N.9 ": ' 9" ',
+    " N.10 ": ' 10" ',
+    " N.11 ": ' 11" ',
+    " N.12 ": ' 12" ',
+    " N.13 ": ' 13" ',
+    " N.14 ": ' 14" ',
+    " N.15 ": ' 15" ',
+    
+    
+    
+    
+    " N 1 ": ' 1" ',
+    " N 2 ": ' 2" ',
+    " N 3 ": ' 3" ',
+    " N 4 ": ' 4" ',
+    " N 5 ": ' 5" ',
+    " N 6 ": ' 6" ',
+    " N 7 ": ' 7" ',
+    " N 8 ": ' 8" ',
+    " N 9 ": ' 9" ',
+    " N 10 ": ' 10" ',
+    " N 11 ": ' 11" ',
+    " N 12 ": ' 12" ',
+    " N 13 ": ' 13" ',
+    " N 14 ": ' 14" ',
+    " N 15 ": '15" ',
+    " N 16 ": '16" ',
+    " N 17 ": '17" ',
+    " N 18 ": '18" ',
+    " N 19 ": '19" ',
+    " N 20 ": '20" ',
+    " N 30 ": '30" ',
+    " N 35 ": '35" ',
+    " N 40 ": '40" ',
+    " N 45 ": '45" ',
+    " N 50 ": '50" ',
+    " N 68 ": '68" ',
+    
+    " N1 ": ' 1" ',
+    " N2 ": ' 2" ',
+    " N3 ": ' 3" ',
+    " N4 ": ' 4" ',
+    " N5 ": ' 5" ',
+    " N6 ": ' 6" ',
+    " N7 ": ' 7" ',
+    " N8 ": ' 8" ',
+    " N9 ": ' 9" ',
+    " N10 ": ' 10" ',
+    " N11 ": ' 11" ',
+    " N12 ": ' 12" ',
+    " N13 ": ' 13" ',
+    " N14 ": ' 14" ',
+    " N15 ": ' 15" ',
+    " N16 ": ' 16" ',
+    " N17 ": ' 17" ',
+    " N18 ": ' 18" ',
+    " N19 ": ' 19" ',
+    " N20 ": ' 20" ',
+    " N25 ": ' 25" ',
+    " N30 ": ' 30" ',
+    " N35 ": ' 35" ',
+    " N40 ": ' 40" ',
+    " N45 ": ' 45" ',
+    " N50 ": ' 50" ',
+    " N68 ": ' 68" ',
+    
+        
+    
+    
+    
+    " 10 CM ": ' 4" ',
+    " 10CM ": ' 4" ',
+    " 10 cm ": ' 4" ',
+    " 10cm ": ' 4" ',
+    
+    " 35CM ":'13"',
+    " 80CM ":'31"',
+    
+    
+    " 12 CM ": ' 5" ',
+    " 12CM ": ' 5" ',
+    " 12 cm ": ' 5" ',
+    " 12cm ": ' 5" ',
+    
+    " 50CM ": ' 20" ',
+    " 50 CM ": ' 20" ',
+    " 50 cm ": ' 20" ',
+    " 50cm ": ' 20" ',
+    
+    "40CM": ' 16" ',
+    "40 CM": ' 16" ',
+    "40 cm": ' 16" ',
+    "40cm": ' 16" ',
+    
+    " 45CM ": ' 18" ',
+    " 45 CM ": ' 18" ',
+    " 45 cm ": ' 18" ',
+    " 45cm ": ' 18" ',
+    
+    " 25CM ": ' 10" ',
+    " 25 CM ": ' 10" ',
+    " 25 cm ": ' 10" ',
+    " 25cm ": ' 10" ',
+    
+    " 68 CM ": ' 27" ',
+    " 68CM ": ' 27" ',
+    " 68cm ": ' 27" ',
+    " 68 cm ": ' 27" ',
+    
+    " 350 ": ' 350" ',
+    " 250 ": ' 250" ',
+    " 260 ": ' 260" ',
+    " 150 ": "150",
+    " 160 ": ' 160" ',
+    " 100CM ": '39"',
+    " 75CM ": '29"',
+    
+    
+        " 8 ": ' 8" ',
+        " 9 ": ' 9" ',
+        " 6 5": ' 6" ',
+        " 6 ": ' 6" ',
+        " 5 ": ' 5" ',
+        " 7 ": ' 7" ',
+    
     }
     const amount = {
     
-        '50 UNIDADES': "50 UNIDADES",
-        '25 UNIDADES': "25 UNIDADES", 
-        '1 UNIDADE': "1 UNIDADE", 
-        '12 UNIDADES': "12 UNIDADES",
-        '100 UN': '100 UNIDADES',
-        '50 UN': '50 UNIDADES',
-        '25 UN': '25 UNIDADES',
-        '1 UN': '1 UNIDADE',
-        '12 UN': '12 UNIDADES',
-        ' 50 ': '50 UNIDADES',
-
+        // 25 unidades
+        "C25": "25 UNIDADES",
+        "C/25": "25 UNIDADES",
+        "C 25": "25 UNIDADES",
+        "25 UN": "25 UNIDADES",
+        "25UN": "25 UNIDADES",
+        "25 UNIDADE": "25 UNIDADES",
+        "25 UNIDADES": "25 UNIDADES",
+    
+    
+    // 50 unidades
+        "C50": "50 UNIDADES",
+        "C/50": "50 UNIDADES",
+        "C/ 50": "50 UNIDADES",
+        "C50": "50 UNIDADES",
+        "50 UN": "50 UNIDADES",
+        "50 UNIDADE": "50 UNIDADES",
+        "50 UNIDADES": "50 UNIDADES",
+        "C/ 3": "3UN",
+        
+    
+    // 20 unidades
+        "C20": "20 UNIDADES",
+        "C/20": "20 UNIDADES",
+        "C 20": "20 UNIDADES",
+        "20 UN": "20 UNIDADES",
+        "20UN": "20 UNIDADES",
+        "20 UNIDADE": "20 UNIDADES",
+        "20 UNIDADES": "20 UNIDADES",
+    
+    
+    
+    
+    
+    // 10 unidades
+        "C10": "10 UNIDADES",
+        "C/10": "10 UNIDADES",
+        "C/ 10": "10 UNIDADES",
+        "10UN": "10 UNIDADES",
+        "10 UN": "10 UNIDADES",
+        "10 UNIDADE": "10 UNIDADES",
+        "10 UNIDADES": "10 UNIDADES",
+    
+    // 12 unidades
+        "C12": "12 UNIDADES",
+        "C/12": "12 UNIDADES",
+        "C/ 12": "12 UNIDADES",
+        "12 UN": " 12 UNIDADES",
+        "12UN": "12 UNIDADES",
+        "12 UNIDADE": "12 UNIDADES",
+        "12 UNIDADES": "12 UNIDADES",
+    
+    // 5 unidades
+        "C5": "5 UNIDADES",
+        "C/5": "5 UNIDADES",
+        "C/ 5": "5 UNIDADES",
+        "5 UN": "5 UNIDADES",
+        "5UN": "5 UNIDADES",
+        "5 UNIDADE": "5 UNIDADES",
+        "5 UNIDADES": "5 UNIDADES",
+    
+    // 1 unidade
+        "C1": "1 UNIDADE",
+        "C/1": "1 UNIDADE",
+        "C/ 1": "1 UNIDADE",
+        "1 UN": "1 UNIDADE",
+        "1UN": "1 UNIDADE",
+        "1 UNIDADE": "1 UNIDADE",
+        "1 UNIDADES": "1 UNIDADE",
+    
+    
+        "C/100": "100 UNIDADES",
     
     }
     const brand = {
@@ -39416,166 +39861,222 @@ function DATA(){
     "BRDECOR COM E IMP DE ARTIGOS PARA FESTA": "BRDECOR",
     }
     const model = {
-        "Branco com Preto":"Branco com Preto","Amarelo com Preto":"Amarelo com Preto","Vermelho com Preto":"Vermelho com Preto","Azul Claro com Preto":"Azul Claro com Preto","Verde com Preto":"Verde com Preto","Rosa Baby com Preto":"Rosa Baby com Preto","Lilás com Preto":"Lilás com Preto",
-        "Amarelo com Branco":"Amarelo com Branco","Vermelho com Branco":"Vermelho com Branco","Azul com Branco":"Azul com Branco","Verde com Branco":"Verde com Branco","Rosa Forte com Branco":"Rosa Forte com Branco","Violeta com Branco":"Violeta com Branco",
-        "Amarelo com Colorido":"Amarelo com Colorido","Azul Turquesa com Colorido":"Azul Turquesa com Colorido","Rosa Forte com Colorido":"Rosa Forte com Colorido","Violeta com Colorido":"Violeta com Colorido","Amarelo com Colorido":"Amarelo com Colorido","Azul com Colorido":"Azul com Colorido",
-        "Rosa Baby com Branco":"Rosa Baby com Branco","Azul Claro com Branco":"Azul Claro com Branco","Preto com Branco":"Preto com Branco",
-        "Preto com Branco":"Preto com Branco",
-        "Rosa Baby com Branco":"Rosa Baby com Branco","Lilás com Branco":"Lilás com Branco","Azul Claro com Branco":"Azul Claro com Branco","Azul Turquesa com Branco":"Azul Turquesa com Branco",
-        "Branco com Rosa Baby":"Branco com Rosa Baby","Rosa Baby com Branco":"Rosa Baby com Branco","Rosa Forte com Branco":"Rosa Forte com Branco","Branco com Azul":"Branco com Azul","Azul Claro com Branco":"Azul Claro com Branco","Azul com Branco":"Azul com Branco",
-        "Rosa Baby com Branco":"Rosa Baby com Branco","Rosa Forte com Branco":"Rosa Forte com Branco","Azul Claro com Branco":"Azul Claro com Branco","Azul Turquesa com Branco":"Azul Turquesa com Branco","Marfim com Branco":"Marfim com Branco",
-        "Rosa Baby com Dourado":"Rosa Baby com Dourado","Azul Claro com Dourado":"Azul Claro com Dourado",
-        "Amarelo com Branco":"Amarelo com Branco","Laranja com Branco":"Laranja com Branco","Vermelho com Branco":"Vermelho com Branco","Azul com Branco":"Azul com Branco","Verde com Branco":"Verde com Branco",
-        "Amarelo com Branco":"Amarelo com Branco","Laranja com Branco":"Laranja com Branco","Vermelho com Branco":"Vermelho com Branco","Azul Claro com Branco":"Azul Claro com Branco","Verde Limão com Branco":"Verde Limão com Branco",
-        "Branco com Prata":"Branco com Prata","Azul Claro com Prata":"Azul Claro com Prata","Violeta com Prata":"Violeta com Prata","Azul Claro com Branco":"Azul Claro com Branco",
-        "Azul Turquesa com Violeta":"Azul Turquesa com Violeta","Lilás com Violeta":"Lilás com Violeta","Violeta com Branco":"Violeta com Branco",
-        "Preto com Azul":"Preto com Azul","Vermelho com Preto":"Vermelho com Preto","Vermelho com Azul":"Vermelho com Azul","Azul com Preto":"Azul com Preto","Azul com Vermelho":"Azul com Vermelho",
-        "Branco com Preto":"Branco com Preto","Amarelo com Preto":"Amarelo com Preto","Laranja com Preto":"Laranja com Preto","Marfim com Marrom":"Marfim com Marrom",
-        "Branco com Preto":"Branco com Preto",
-        "Amarelo com Preto":"Amarelo com Preto","Laranja com Preto":"Laranja com Preto","Verde Limão com Preto":"Verde Limão com Preto","Verde com Preto":"Verde com Preto","Marfim com Preto":"Marfim com Preto","Marrom com Preto":"Marrom com Preto",
-        "Azul Claro com Branco":"Azul Claro com Branco","Azul Turquesa com Branco":"Azul Turquesa com Branco","Rosa Baby com Branco":"Rosa Baby com Branco","Lilás com Branco":"Lilás com Branco","Marfim com Branco":"Marfim com Branco",
-        "Branco com Preto":"Branco com Preto","Preto com Branco":"Preto com Branco","Rosa Baby com Branco":"Rosa Baby com Branco","Rosa Forte com Preto":"Rosa Forte com Preto",
-        "Amarelo com Branco":"Amarelo com Branco","Vermelho com Branco":"Vermelho com Branco","Azul com Branco":"Azul com Branco","Verde com Branco":"Verde com Branco",
-        "Azul Claro com Marrom":"Azul Claro com Marrom","Marfim com Marrom":"Marfim com Marrom","Branco com Preto":"Branco com Preto","Marfim com Pink":"Marfim com Pink",
-        "Branco com Rosa":"Branco com Rosa","Rosa Baby com Branco":"Rosa Baby com Branco","Rosa Forte com Branco":"Rosa Forte com Branco","Azul Claro com Branco":"Azul Claro com Branco","Lilás com Branco":"Lilás com Branco","Azul com Branco":"Azul com Branco","Verde com Branco":"Verde com Branco","Amarelo com Branco":"Amarelo com Branco","Vermelho com Branco":"Vermelho com Branco","Preto com Branco":"Preto com Branco","Branco com Preto":"Branco com Preto","Amarelo com Preto":"Amarelo com Preto","Pink com Preto":"Pink com Preto","Vermelho com Preto":"Vermelho com Preto","Sortido":"Sortido",
-        "Clear com Colorido":"Clear com Colorido",
-        "Branco com Vermelho":"Branco com Vermelho","Vermelho com Branco":"Vermelho com Branco","Rosa Forte com Branco":"Rosa Forte com Branco","Violeta com Branco":"Violeta com Branco",
-        "Branco com Colorido":"Branco com Colorido","Clear com Colorido":"Clear com Colorido",
-        "Branco com Vermelho":"Branco com Vermelho","Vermelho com Branco":"Vermelho com Branco",
-        "Amarelo com Branco":"Amarelo com Branco","Vermelho com Branco":"Vermelho com Branco","Azul com Branco":"Azul com Branco","Verde Limão com Branco":"Verde Limão com Branco","Rosa Baby com Branco":"Rosa Baby com Branco",
-        "Amarelo com Branco":"Amarelo com Branco","Vermelho com Branco":"Vermelho com Branco","Azul com Branco":"Azul com Branco","Verde Limão com Branco":"Verde Limão com Branco","Rosa Forte com Branco":"Rosa Forte com Branco",
-        "Amarelo com Branco":"Amarelo com Branco","Azul Claro com Branco":"Azul Claro com Branco","Laranja com Branco":"Laranja com Branco","Vermelho com Branco":"Vermelho com Branco","Verde Limão com Branco":"Verde Limão com Branco","Rosa Forte com Branco":"Rosa Forte com Branco","Lilás com Branco":"Lilás com Branco",
-        "Amarelo com Branco":"Amarelo com Branco","Laranja com Branco":"Laranja com Branco","Vermelho com Branco":"Vermelho com Branco","Verde Limão com Branco":"Verde Limão com Branco","Rosa Forte com Branco":"Rosa Forte com Branco","Lilás com Branco":"Lilás com Branco",
-        "Branco com Rosa":"Branco com Rosa","Rosa Baby com Rosa":"Rosa Baby com Rosa","Rosa Forte com Branco":"Rosa Forte com Branco","Pink com Branco":"Pink com Branco",
-        "Clear com Colorido":"Clear com Colorido",
-        "Branco com Preto":"Branco com Preto","Preto com Branco":"Preto com Branco",
-        "Branco com Preto":"Branco com Preto","Preto com Branco":"Preto com Branco","Amarelo com Preto":"Amarelo com Preto","Vermelho com Preto":"Vermelho com Preto",
-        "Branco com Preto":"Branco com Preto","Preto com Branco":"Preto com Branco",
-        "Branco com Preto":"Branco com Preto","Preto com Branco":"Preto com Branco",
-        "Branco com Azul":"Branco com Azul","Azul Turquesa com Azul":"Azul Turquesa com Azul","Azul com Azul Escuro":"Azul com Azul Escuro","Azul Escuro com Branco":"Azul Escuro com Branco",
-        "Branco com Verde":"Branco com Verde","Amarelo com Verde":"Amarelo com Verde","Azul com Amarelo":"Azul com Amarelo","Verde com Amarelo":"Verde com Amarelo",
-        "Preto com Laranja":"Preto com Laranja","Laranja com Preto":"Laranja com Preto","Violeta com Laranja":"Violeta com Laranja",
-        "Preto com Laranja":"Preto com Laranja","Laranja com Preto":"Laranja com Preto","Violeta com Laranja":"Violeta com Laranja",
-        "Amarelo com Marrom":"Amarelo com Marrom","Laranja com Amarelo":"Laranja com Amarelo","Verde Limão com Verde":"Verde Limão com Verde",
-        "Vermelho com Preto":"Vermelho com Preto","Verde Limão com Verde":"Verde Limão com Verde","Verde com Verde Claro":"Verde com Verde Claro",
-        "Branco com Colorido":"Branco com Colorido","Azul Claro com Colorido":"Azul Claro com Colorido","Rosa Forte com Colorido":"Rosa Forte com Colorido",
-
-
+        "@ (ARROBA)": "@ (ARROBA)",
+        "BIGODE": "BIGODE",
+        "HASHTAG": "HASHTAG",
+        "HALLOWEEN":"HALLOWEEN",
+        "BLACK FRIDAY":"BLACK FRIDAY",
+        "BOTECO":"BOTECO",
+        "MULHER MARAVILHA":"MULHER MARAVILHA",
+        "JURASSIC WORLD":"JURASSIC WORLD",
+        "CORACAO":"CORACAO",
+        "BOLA DE FUTEBOL":"BOLA DE FUTEBOL",
+        "NUVEM":"NUVEM",
+        "ESPECIAL BATMAN GEEK":"ESPECIAL BATMAN GEEK",
+        "MELANCIA":"MELANCIA",
+        "ONCINHA":"ONCINHA",
+        "TEIA DE ARANHA":"TEIA DE ARANHA",
+        "VAQUINHA":"VAQUINHA",
+        "GIRASSOL":"GIRASSOL",
+        "PATINHAS E OSSINHOS":"PATINHAS E OSSINHOS",
+        "BOLOFOFOS":"BOLOFOFOS",
+        "APAIXONADOS POR FUTEBOL":"APAIXONADOS POR FUTEBOL",
+        "RAIO DE SOL":"RAIO DE SOL",
+        "DINO BABY":"DINO BABY",
+        "SUPERMAN":"SUPERMAN",
+        "SEREIA":"SEREIA",
+        "TURMA DA MONICA":"TURMA DA MONICA",
+        "NARUTO":"NARUTO",
+        "HARRY POTTER":" HARRY POTTER",
+        "CORINTHIANS":"CORINTHIANS",
+        "DRAGON BALL":"DRAGON BALL",
+        "PALMEIRAS":"PALMEIRAS",
+        "SAO PAULO":"SAO PAULO",
+        "MULHER MARAVILHA":"MULHER MARAVILHA",
+        "BARBIE":"BARBIE",
+        "ZOO":"ZOO",
+        "NUMERO 0":"NUMERO 0",
+        "NUMERO 2":"NUMERO 2",
+        "NUMERO 3":"NUMERO 3",
+        "NUMERO 5":"NUMERO 5",
+        "NUMERO 6":"NUMERO 6",
+        "NUMERO 7":"NUMERO 7",
+        "NUMERO 8":"NUMERO 8",
+        "NUMERO 9":"NUMERO 9",
+        "I LOVE YOU":"I LOVE YOU",
+        "DIA DAS MAES":"DIA DAS MAES",
+        "NUMERO 1":"NUMERO 1",
+        "FUNDO DO MAR":"FUNDO DO MAR",
+        "SAFARI":"SAFARI",
+        "GALAXIA":"GALAXIA",
+        "HEROIS":"HEROIS",
+        "FOLHAS TROPICAIS":"FOLHAS TROPICAIS",
+        "PIXEL":"PIXEL",
+        "SEREIA":"SEREIA",
+        "MUSICA":"MUSICA",
+        "EMOCOES":"EMOCOES",
+        "SAFARI":"SAFARI",
+        "DIA DOS PAIS":"DIA DOS PAIS",
+        "BALAO 9":"BALAO 9",
+        "JARDIM DAS BORBOLETAS":"JARDIM DAS BORBOLETAS",
+        "MONICA":"MONICA",
+        "FESTA JUNINA":"FESTA JUNINA",
+        "CACTO":"CACTO",
+        "ARCO IRIS":"ARCO IRIS",
+        "DINOSSAURO":"DINOSSAURO",
+        "HAPPY VING":"HAPPY VING",
+        "PATAS DE CACHORRO":"PATAS DE CACHORRO",
+        "NUMERO 4":"NUMERO 4",
+        "MINIONS":"MINIONS",
+        "CHOCOLATE":"CHOCOLATE",
+        "TWIST":"TWIST",
+        "FESTA DI BUTECO":"FESTA DI BUTECO",
+        "HOMEM DE FERRO":"HOMEM DE FERRO",
+        "MINNIE MOUSE ":"MINNIE MOUSE ",
+        " PET DOG":" PET DOG",
+        "FESTA CHA REVELACAO":"FESTA CHA REVELACAO",
+        "FESTA TROPICAL":"FESTA TROPICAL",
+        "PET GATO":"PET GATO",
+        "SPIDER MAN":"SPIDER MAN",
+        "ARIEL SEREISMO":"ARIEL SEREISMO",
+        "TOY STORY 4":"TOY STORY 4",
+        "MUNDO BITA 2":"MUNDO BITA 2",
+        "BELA":"BELA",
+        "SPIDEY":"SPIDEY",
+        "MEU JARDIM":"MEU JARDIM",
+        "ARCOIRIS A":"ARCOIRIS A",
+        "ARCOIRIS C":"ARCOIRIS C",
+        "ARCOIRIS D":"ARCOIRIS D",
+        "ARCOIRIS E":"ARCOIRIS E",
+        "ARCOIRIS H":"ARCOIRIS H",
+        "ARCOIRIS I":"ARCOIRIS I",
+        "ARCOIRIS L":"ARCOIRIS L",
+        "ARCOIRIS M":"ARCOIRIS M",
+        "ARCOIRIS N":"ARCOIRIS N",
+        "ARCOIRIS R":"ARCOIRIS R",
+        "ARCOIRIS S":"ARCOIRIS S",
+        "ARCOIRIS 1":"ARCOIRIS 1",
+        "ARCOIRIS 2":"ARCOIRIS 2",
+        "ARCOIRIS 3":"ARCOIRIS 3",
+        "ARCOIRIS 4":"ARCOIRIS 4",
+        "ARCOIRIS 5":"ARCOIRIS 5",
+        "ARCOIRIS 7":"ARCOIRIS 7",
+        "ARCOIRIS ?":"ARCOIRIS ?",
+        "ARCOIRIS F":"ARCOIRIS F",
+        "ARCOIRIS J":"ARCOIRIS J",
+        "ARCOIRIS G":"ARCOIRIS G",
+        "ARCOIRIS K":"ARCOIRIS K",
+        "ARCOIRIS O":"ARCOIRIS O",
+        "ARCOIRIS P":"ARCOIRIS P",
+        "ARCOIRIS Q":"ARCOIRIS Q",
+        "ARCOIRIS T":"ARCOIRIS T",
+        "ARCOIRIS U":"ARCOIRIS U",
+        "ARCOIRIS V":"ARCOIRIS V",
+        "ARCOIRIS W":"ARCOIRIS W",
+        "ARCOIRIS X":"ARCOIRIS X",
+        "ARCOIRIS Y":"ARCOIRIS Y",
+        "ARCOIRIS Z":"ARCOIRIS Z",
+        "ARCOIRIS 0":"ARCOIRIS 0",
+        "ARCOIRIS 1":"ARCOIRIS 1",
+        "ARCOIRIS 2":"ARCOIRIS 2",
+        "ARCOIRIS 3":"ARCOIRIS 3",
+        "ARCOIRIS 4":"ARCOIRIS 4",
+        "ARCOIRIS 5":"ARCOIRIS 5",
+        "ARCOIRIS 6":"ARCOIRIS 6",
+        "ARCOIRIS 7":"ARCOIRIS 7",
+        "ARCOIRIS 8":"ARCOIRIS 8",
+        "ARCOIRIS 9":"ARCOIRIS 9",
+        "ARCOIRIS ?":"ARCOIRIS ?",
+        "COCOZINHO":"COCOZINHO",
+        "ESTRELA":"ESTRELA",
+        "ROSQUINHA":"ROSQUINHA",
+        "SORVETE":"SORVETE",
+        "COROA":"COROA",
+        "GIRAFA":"GIRAFA",
+        "AVIAO":"AVIAO",
+        "MACACO":"MACACO",
+        "EMOJI MENINA":"EMOJI MENINA",
+        "EMOJI MENINO":"EMOJI MENINO",
+        "LEAO":"LEAO",
+        "CAVALO MARINHO":"CAVALO MARINHO",
+        "BORBOLETA":"BORBOLETA",
+        "PARABENS":"PARABENS",
+        "COPA BANDEIRA":"COPA BANDEIRA",
+        "PATRULHA CANINA":"PATRULHA CANINA",
+        "O PODEROSO CHEFINHO":"O PODEROSO CHEFINHO",
+        "SONIC":"SONIC",
+        "DISNEY":"DISNEY",
+        "MICKEY MOUSE":"MICKEY MOUSE",
+        "DISNEY FROZEN":"DISNEY FROZEN",
+        "CINDERELA CLASSICA":"CINDERELA CLASSICA",
+        "HULK ANIMACAO":"HULK ANIMACAO",
+        "MARVEL QUADRINHOS":"MARVEL QUADRINHOS",
+        "ENCANTO":"ENCANTO",
+        "LETRA A":"LETRA A",
+        "LETRA B":"LETRA B",
+        "LETRA C":"LETRA C",
+        "LETRA D":"LETRA D",
+        "LETRA E":"LETRA E",
+        "LETRA F":"LETRA F",
+        "LETRA G":"LETRA G",
+        "LETRA H":"LETRA H",
+        "LETRA I":"LETRA I",
+        "LETRA J":"LETRA J",
+        "LETRA K":"LETRA K",
+        "LETRA L":"LETRA L",
+        "LETRA M":"LETRA M",
+        "LETRA N":"LETRA N",
+        "LETRA O":"LETRA O",
+        "LETRA P":"LETRA P",
+        "LETRA Q":"LETRA Q",
+        "LETRA R":"LETRA R",
+        "LETRA S":"LETRA S",
+        "LETRA T":"LETRA T",
+        "LETRA U":"LETRA U",
+        "LETRA V":"LETRA V",
+        "LETRA W":"LETRA W",
+        "LETRA X":"LETRA X",
+        "LETRA Y":"LETRA Y",
+        "LETRA Z":"LETRA Z",
+        "MINI":"MINI",
+        "ASTRONAUTA":"ASTRONAUTA",
+        "MERRY CHRISTMAS":"MERRY CHRISTMAS",
+        "BONECO DE NEVE":"BONECO DE NEVE",
+        "PAPAI NOEL":"PAPAI NOEL",
+        "HAPPY BIRTHDAY":"HAPPY BIRTHDAY",
+        "MET WARNA":"MET WARNA",
+        "PASCOA":"PASCOA",
+        "COELHOS":"COELHOS",
+        "LUXO":"LUXO",
+        "CHA DE COZINHA":"CHA DE COZINHA",
+        "O REI LEAO":"O REI LEAO",
+        "FESTA FUTEBOL":"FESTA FUTEBOL",
+        "LADYBUG":"LADYBUG",
+        "CONFETTI":"CONFETTI",
+        "TRES CORACOES I LOVE":"TRES CORACOES I LOVE",
+        "CIRCULO COLORIDO":"CIRCULO COLORIDO",
+        "MILHO":"MILHO",
+        "FOGUEIRA":"FOGUEIRA",
+        "MINIONS 2":"MINIONS 2",
+        "AGUA MARINHA":"AGUA MARINHA",
+        "PESSEGO":"PESSEGO",
+        "CAFE C/LEITE":"CAFE COM LEITE",
+        "ARLEQUINA":"ARLEQUINA",
+        "BONECA":"BONECA",
+        "MENINO OU MENINA":"MENINO OU MENINA",
+        "MOANA DISNEY":"MOANA DISNEY",
+        "PEPPA PIG":"PEPPA PIG",
+        "UNICORNIO":"UNICORNIO",
+        "BUFFET":"BUFFET",
+        "RAYA E O ULTIMO DRAGAO":"RAYA E O ULTIMO DRAGAO",
+        "MASKS":"MASKS",
+    
     }
     let output = [];
 
     return {product, color, type, size, amount, amount, brand, model, output}
 }
 function TOOLS(){
-    function prinAllItems(object){
-        data.output.forEach((element)=>{
-            if(!object || object == 'objeto'){
-                console.log(element)
-            }else if(object == 'name'){
-                console.log(element.name)
-            }else if(object == 'type'){
-                console.log(element.type)
-            }else if(object == 'color'){
-                console.log(element.color)
-            }else if(object == 'size'){
-                console.log(element.size)
-            }else if(object == 'brand'){
-                console.log(element.brand)
-            }
-        })
-    }
-    function printSingleItem(object){
-        let repeat = []
-    
-        data.output.forEach((element)=>{
-            let push = true
-
-            if(object == 'type'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.type){push = false}
-                }
-                if(push == true){
-                    repeat.push(element.type)
-
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.type == ''){
-                        console.log('Tipo faltando:', element)
-                    }
-                }
-            }
-            if(object == 'model'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.model){push = false}
-                }
-                if(push == true){
-                    repeat.push(element.model)
-
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.color == '' || !element.color && element.model == ''){
-                        console.log('Modelo faltando:', element)
-                    }
-                }
-            }
-            if(object == 'amount'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.amount){push = false}
-                }
-                if(push == true){
-                    repeat.push(element.amount)
-
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.amount == ''){
-                        console.log('Quantidade faltando:', element)
-                    }
-                }
-            }
-            
-            else if(object == 'brand'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.brand){push = false}
-                }
-                if(push == true){
-                    repeat.push(element.brand)
-
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.brand == ''){
-                        console.log('Marca faltando:', element)
-                    }
-                }
-            }
-            
-            else if(object == 'color'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.color){push = false}
-                }
-                if(push == true){
-                    repeat.push(element.color)
-
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.color == ''){
-                        console.log('Cor faltando:', element)
-                    }
-
-                }
-            }
-
-            else if(object == 'size'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.size){push = false}
-                }
-                if(push == true){
-                    repeat.push(element.size)
-
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.size == ''){
-                        console.log('Tamanho faltando:', element)
-                    }
-
-                }
-            }
-        })
-        console.log(repeat)
-    }
     function saveInExcel(array, nomeArquivo) {
 
 
@@ -39615,7 +40116,9 @@ function TOOLS(){
         
         return novoTexto;
     }
-
+    function addFinish(){
+        return "- SHOP DOS BALÕES"
+    }
     function quiz() {
 
         const Quiz = `
@@ -39638,6 +40141,15 @@ function TOOLS(){
         
         
     }
+    function addImg(product){
+        
+        let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
+        url += product.brand + '/'
+        url += product.type + '/'
+        url += product.color + '.png'
+       
+        return url.replace(' ', '-').toLowerCase()
+    }
     function checkIncludedWord(word, check){ //verifica se a palavra esta inclusa
         if (word.toUpperCase().includes(check.toUpperCase())) {
             return true
@@ -39646,14 +40158,13 @@ function TOOLS(){
         }
     }
     function buildDescription(name, brand, color, size, amount){
-        let description = `${name} \n\n
-        Marca: ${brand}, \n
-        Cor: ${color}, \n
-        Tamanho: ${size}, \n
-        Quantidade: Pacote com ${amount}.
-        `
+        let description = ''
+        if(name && name !== ''){`${name} \n\n`}
+        if(brand && brand !== ''){`Marca: ${brand} \n`}
+        if(color && color !== ''){`Cor: ${color} \n`}
+        if(size && size !== ''){`Tamanho: ${size} \n`}
+        if(amount && amount !== ''){`Quantidade: Pacote com ${amount} \n`}
         return description
-        
     }
     function buildName(type, color, amount, model, brand){
         let name = 'BALÃO DE LATEX'
@@ -39661,66 +40172,15 @@ function TOOLS(){
         if(type && type !== ''){name += ' ' + type.toUpperCase()}
         if(color && color !== ''){name += ' ' + color.toUpperCase()}
         if(amount && amount !== ''){name += ' ' + amount.toUpperCase()}
-        if(model && model !== '' && color == ''){name += ' ' + model.toUpperCase()}
+        if(model && model !== ''){name += ' ' + model.toUpperCase()}
         if(brand && brand !== ''){name += ' ' + brand.toUpperCase()}
 
         name += ' '+ '- SHOP DOS BALÕES'
     
         return name
     }
-    function buildImg(brand, type, color){
-        if(brand && type && color){
-            let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
-            url += brand + '/'
-            url += type + '/'
-            url += color + '.png'
-           
-            return url.replace(' ', '-').toLowerCase()
-        }
-    }
 
-    function getRootProduct(){
-        var singleProduct = [];
-
-        //CONDIÇÕES PARA SER UM PRODUTO RAIZ
-        data.output.forEach((element)=>{
-            let push = true
-            for(let i = 0; i < singleProduct.length; i++){
-                if(
-                    element.type == singleProduct[i].type &&
-                    element.color == singleProduct[i].color &&
-                    element.amount == singleProduct[i].amount 
-                ){
-                    push = false
-                  
-                }
-            }
-            if(push == true){
-                singleProduct.push(element)
-            } 
-        })
-
-        //VERIFICAR VARIANTES
-        let outputItem = [];
-        singleProduct.forEach((element)=>{
-            data.output.forEach((item)=>{
-                if(
-                    element.type == item.type &&
-                    element.color == item.color &&
-                    element.amount == item.amount &&
-                    element.size !== item.size
-                ){
-                    
-                    element.variable = []
-                    element.variable.push(item)
-                }
-            })
-        })
-
-        console.log(singleProduct[0])
-    }
-
-    return{buildImg, checkIncludedWord, quiz, saveInExcel, buildDescription, buildName, printSingleItem, prinAllItems, getRootProduct}
+    return{addFinish, addImg, checkIncludedWord, quiz, saveInExcel, buildDescription, buildName}
 }
 const data = DATA()
 const tools = TOOLS()
@@ -39728,19 +40188,16 @@ const tools = TOOLS()
 
 //EXECUÇÃO ####################################################################
 function RUN(){
-
     data.product.forEach((element)=>{
 
         // CONTRUIR OBJETO DO PRODUTO ####################################################################################
         //PRE CONSTRUÇÃO
-        let product = {};
-        product.id = element.CODIGOS         //id varejo                      
+        let product = {};                    
         product.color = ''                   //cor do produto
         product.brand = ''                   //marca
         product.amount = ''                  //quantidade
         product.size = ''                    //tamanho
         product.model = ''                   //modelo
-        product.type = ''                    //tipo
         product.reference = element.CODIGOS  //referencia do fornecedor      
         product.ean = element.EAN            //codigo de barras     
         product.cost = element.CUSTO         //custo      
@@ -39748,8 +40205,7 @@ function RUN(){
         product.stock = 10                   //estoque de produtos     
         product.weight = 100                 //peso do produto          
         product.varejo = element.DESCRICAO   //descrição do varejo facil
-        product.vaiable = []                 //variantes do produto
-        
+        product.description = tools.buildDescription()
 
 
         // TRATAR E SUBSTITUIT PALAVRAS ####################################################################################
@@ -39788,77 +40244,24 @@ function RUN(){
                 break;
             }
         }
-        for (const type in data.type) { //identifica o tipo do produto
-            let includedIn =  tools.checkIncludedWord(element.DESCRICAO, type) //verifica se a palavra esta inclusa na descrição
-            if(includedIn == true){
-                product.type = data.type[type]
-                break;
-            }
-        }
-
-
 
         //POS CONTRUÇÃO
         product.name = tools.buildName(product.type, product.color, product.amount, product.model, product.brand)
         product.description = tools.buildDescription(product.name, product.brand, product.color, product.size, product.amount)
-        product.url = tools.buildImg(product.brand, product.type, product.color)
-
 
 
         //CONFIÇÃO PARA SALVAR
         if(
             product.brand == 'PICPIC'
         ){
-
-            
             data.output.push(product)
+            console.log(product.type)
         }
         
     })
-
-
-
-    //tools.printSingleItem('color') //model, types, size, color
-    
-    //tools.prinAllItems('name') //name
-
-    tools.getRootProduct()
   
 
 } 
 
 
 tools.quiz()
-
-
-
-
-
-
-
-// esta função serve para executar no console do navegador parta pegar o nome dos modelos e jogar para o clipboar ctrl+c
-// function copiarParaClipboard(texto) {
-//     const elementoTemporario = document.createElement('textarea');
-//     elementoTemporario.value = texto;
-  
-//     // Adicione o elemento à página
-//     document.body.appendChild(elementoTemporario);
-  
-//     // Selecione o texto do elemento
-//     elementoTemporario.select();
-//     elementoTemporario.setSelectionRange(0, 99999); // Para dispositivos móveis
-  
-//     // Copie o texto para a área de transferência
-//     document.execCommand('copy');
-  
-//     // Remova o elemento temporário
-//     document.body.removeChild(elementoTemporario);
-  
-//     console.log(`"${texto}" copiado para a área de transferência.`);
-//   }
-// let itens = ''
-// document.querySelectorAll('h3').forEach((i)=>{
-//     itens += `"${i.innerText}":"${i.innerText}",`
-// })
-
-// copiarParaClipboard(itens)
