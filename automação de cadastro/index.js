@@ -1,10 +1,6 @@
 import fs from 'fs'
 import XLSX from 'xlsx';
-import readline from 'readline'
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+
 
 //DADOS E FERRAMENTAS ##########################################################
 
@@ -39275,17 +39271,35 @@ function DATA(){
         }
     ]
     const color = {
-    
+        // candy
+        "AZUL CANDY": "AZUL CANDY",
+        "verde CANDY": "verde CANDY",
+        "AMARELO CANDY": "AMARELO CANDY",
+        "LARANJA CANDY":"LARANJA CANDY",
+        "VERDE CANDY":"VERDE CANDY",
+        "ROSA CANDY":"ROSA CANDY",
+        "LILAS CANDY":"ROSA CANDY",
+        "LILÁS CANDY":"LILAS CANDY",
+        "Sortido CANDY": "Sortido CANDY",
+        
+        //dupla
+        "VERMELHO RUBI": "VERMELHO RUBI",
+        "AZUL ROYAL": "AZUL ROYAL",
+        "AZUL REGATA": "AZUL REGATA",
+        "AZUL SAFIRA": "AZUL SAFIRA",
         "AZUL PISCINA": "AZUL PISCINA",
+        "OURO VELHO": "OURO VELHO",
         "AZUL INDIGO": "AZUL INDIGO",
         "AMARELO PAPAYA":"AMARELO PAPAYA",
         "VERDE MILITAR":"VERDE MILITAR",
         "VERDE oliva":"VERDE oliva",
         "VINHO TINTO":"VINHO TINTO",
+        "VERDE ESCURO":"VERDE ESCURO",
         "Azul Claro":"Azul Claro",
         "Azul Turquesa":"Azul Turquesa",
         "Azul Escuro":"Azul Escuro",
         "Verde Limão":"Verde Limão",
+        "Verde LimAO":"Verde LimAO",
         "Verde Baby":"Verde Baby",
         "Verde Tropical":"Verde Tropical",
         "Rosa Baby":"Rosa Baby",
@@ -39294,10 +39308,10 @@ function DATA(){
         "Verde Claro":"Verde Claro",
         "Verde menta":"Verde menta",
         "Verde Bandeira":"Verde Bandeira",
-        "Azul Escuro":"Azul Escuro",
         "lilas orquidea":"lilas orquidea",
+        "ROSE GOLD":"ROSE GOLD",
 
-
+        //solo
         "MAGENTA":"MAGENTA",
         "NUDE":"NUDE",
         "SKIN":"SKIN",
@@ -39307,28 +39321,13 @@ function DATA(){
         "CLEAR":"CLEAR",
         "ROSA":"ROSA",
         "ROSE":"ROSE",
-        "Branco":"Branco",
-        "Preto":"Preto",
-        "Amarelo":"Amarelo",
-        "Laranja":"Laranja",
-        "Vermelho":"Vermelho",
-        "Azul":"Azul",
         "Verde":"Verde",
         "Pink":"Pink",
         "Coral":"Coral",
-        "Lilás":"Lilás",
-        "Lilas":"Lilás",
         "Violeta":"Violeta",
         "Cinza":"Cinza",
         "Marfim":"Marfim",
         "Bege":"Bege",
-        "Marrom":"Marrom",
-
-        "Amarelo":"Amarelo",
-        "Laranja":"Laranja",
-        "Vermelho":"Vermelho",
-
-        "Branco":"Branco",
         "Preto":"Preto",
         "Amarelo":"Amarelo",
         "Laranja":"Laranja",
@@ -39345,13 +39344,21 @@ function DATA(){
     }
     const type = {
         //TIPOS PIC PIC
+        "LISO GRANFESTA": "LISO GRANFESTA",
+        "LISO GF": "LISO GRANFESTA",
+        "LISO REDONDO": "LISO REDONDO",
+        "LISO RED.": "LISO REDONDO",
         "LISO": "LISO",
-        "PLATINO": "PLATINO",
-        "NEON": "NEON",
-        "CLEAR": "CLEAR",
         "CRISTAL": "CRISTAL",
         "METALIZADO": "METALIZADO",
+        "PLATINO RED.": "PLATINO RED.",
+        "NEON": "NEON",
+        "PLATINO": "PLATINO",
+        "PEROLA": "PEROLA",
+        "PÉROLA": "PÉROLA",
+        
         "RED.": "REDONDO", 
+        "RED": "REDONDO", 
         "REDONDO": "REDONDO", 
         "GRANFESTA": "GRANFESTA", 
         "GF": "GRANFESTA", 
@@ -39359,19 +39366,19 @@ function DATA(){
     }
     const size = {
         // TAMANHOS PIC PIC
-       " 7.0 ": '7"',
-       " 09 ": '9"',
-       " 250 ": '250"',
-       " 260 ": '260"',
-       " 150 ": '150"',
-       " 350 ": '350"',
-       " 10 ": '10"',
-       " 16 ": '16"',
-       " 06 ": '6"',
-       " 08 ": '8"',
-       " 05 ": '5"',
-       " 2.5 ": '2.5"',
-       " 12 ": '12"',
+        " 250 ": '250"',
+        " 260 ": '260"',
+        " 150 ": '150"',
+        " 350 ": '350"',
+       " 7.0 ":'7" - 18cm',
+       " 09 ": '9" - 23cm',
+       " 10 ": '10" - 25cm',
+       " 16 ": '16" - 41cm',
+       " 06 ": '6" - 15cm',
+       " 08 ": '8" - 20cm',
+       " 05 ": '5" - 13cm',
+       " 2.5 ":'2.5" - 6cm',
+       " 12 ": '12" - 30cm',
     }
     const amount = {
     
@@ -39460,15 +39467,35 @@ function DATA(){
         "Vermelho com Preto":"Vermelho com Preto","Verde Limão com Verde":"Verde Limão com Verde","Verde com Verde Claro":"Verde com Verde Claro",
         "Branco com Colorido":"Branco com Colorido","Azul Claro com Colorido":"Azul Claro com Colorido","Rosa Forte com Colorido":"Rosa Forte com Colorido",
 
-
+        "CORACAO": "CORACAO",
     }
-    let output = [];
+    let output = {
+        "singleProduct": [],
+        "variable": [],
+        "product":[
+            {
+                "id":"Código do produto (ID Tray)",
+                "brand":"Nome da categoria - nível 1",
+                "reference":"Referência (código fornecedor)",
+                "ean":"Código EAN/GTIN/UPC",
+                "cost":"Preço de custo em reais",
+                "price":"Preço de venda em reais",
+                "stock":"Estoque do produto",
+                "weight":"Peso do produto (gramas)",
+                "name":"Nome do produto",
+                "url":"Endereço da imagem principal do produto",
+                "description":"HTML da descrição completa",
+                "display":"Exibir produto ativo",
+                "color": "Nome da categoria - nível 2"
+            }
+        ]
+    };
 
     return {product, color, type, size, amount, amount, brand, model, output}
 }
 function TOOLS(){
     function prinAllItems(object){
-        data.output.forEach((element)=>{
+        data.output.product.forEach((element)=>{
             if(!object || object == 'objeto'){
                 console.log(element)
             }else if(object == 'name'){
@@ -39487,7 +39514,7 @@ function TOOLS(){
     function printSingleItem(object){
         let repeat = []
     
-        data.output.forEach((element)=>{
+        data.output.product.forEach((element)=>{
             let push = true
 
             if(object == 'type'){
@@ -39615,29 +39642,6 @@ function TOOLS(){
         
         return novoTexto;
     }
-
-    function quiz() {
-
-        const Quiz = `
-        close: 0
-        start: 1
-        salvar em excel: 2
-        :`
-        rl.question(Quiz, (resposta) => {
-            if (resposta === '1') {
-                RUN(); quiz()
-            } else if (resposta === '2') {
-                tools.saveInExcel(data.output, 'output')
-            } else if (resposta === '0') {
-                rl.close();
-            }
-           
-        });
-          
-      
-        
-        
-    }
     function checkIncludedWord(word, check){ //verifica se a palavra esta inclusa
         if (word.toUpperCase().includes(check.toUpperCase())) {
             return true
@@ -39673,64 +39677,120 @@ function TOOLS(){
             let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
             url += brand + '/'
             url += type + '/'
-            url += color + '.png'
+            
+            url += color.replace(' ', '-')
+            .replace('í', 'i')
+            .replace('á', 'a')
+            .replace('à', 'a')
+            .replace('ã', 'a')
+            .replace('â', 'a')
+            .replace('ó', 'o')
+            .replace('ô', 'o')
+            .replace('.', '')
+            .replace(',', '')
+            .replace('<', '')
+            .replace('>', '')
+            .replace('?', '')
+            .replace(':', '')
+            .replace(';', '')
+            .replace('/', '')
+            .replace('!', '')
+            .replace('^', '')
+            .replace('~', '')
+            
+
+
+
+
+            url += '.png'
            
             return url.replace(' ', '-').toLowerCase()
         }
     }
-
     function getRootProduct(){
-        var singleProduct = [];
+        let product = data.output.product;
+    
+        
+        
+        //CONDIÇÕES PARA SER UM PRODUTO RAIZ ------------------------------
+        let singleProduct = [
+        ];
 
-        //CONDIÇÕES PARA SER UM PRODUTO RAIZ
-        data.output.forEach((element)=>{
+        product.forEach((element)=>{
             let push = true
+
             for(let i = 0; i < singleProduct.length; i++){
                 if(
-                    element.type == singleProduct[i].type &&
+                    
                     element.color == singleProduct[i].color &&
-                    element.amount == singleProduct[i].amount 
+                    element.amount == singleProduct[i].amount &&
+                    element.type == singleProduct[i].type
+                   
                 ){
                     push = false
-                  
+                    break
                 }
             }
+
             if(push == true){
                 singleProduct.push(element)
             } 
-        })
+        });
+        
+        tools.saveInExcel(singleProduct, 'produtos') ; //salvar produtos raiz
+        
 
-        //VERIFICAR VARIANTES
-        let variables = [];
+
+        //VERIFICAR VARIANTES ---------------------------------------------
+        var variable = [
+            {
+                "id":"Código da variação (ID)",
+                "idRef":"Código do produto (ID)",
+                "reference":"Referência da Variação",
+                "variante":"Nome da variação 1 (exemplo: Branco)",
+                "amount":"Estoque da variação",
+                "price":"Preço de venda em reais",
+                "type":"Tipo da variação 1 (exemplo: Cor)",
+            },
+        ];
+
         singleProduct.forEach((element)=>{
-            data.output.forEach((item)=>{
+            product.forEach((item)=>{
+                //uma variante de uma raiz tem que: ser do mesmo tipo, ser da mesma cor, mesma quantidade por pacote, e [tamanho diferente]
                 if(
                     element.type == item.type &&
+                    element.brand == item.brand &&
                     element.color == item.color &&
                     element.amount == item.amount &&
                     element.size !== item.size
                 ){
+                    let productVariant = {}
+                    productVariant.id = ''                    //A Código da variação (ID) //vazio para gerar id automatico
+                    productVariant.idRef = element.id         //B Código do produto (ID) //aponta ao id do produto raiz
+                    productVariant.reference = item.reference+1 //C Referência da Variação 
+                    productVariant.variante = item.size       //D Nome da variação 1 (exemplo: Branco)
+                    productVariant.amount = item.stock        //E Estoque da variação
+                    productVariant.price = item.price         //F Preço de venda em reais
+                    productVariant.type = 'tamanho'           //G Tipo da variação 1 (exemplo: Cor)
+                    productVariant.name = item.varejo
+                    productVariant.typeRoot = item.type
                     
-                    item.id = element.id
-                    variables.push(item)
+                    
+                    variable.push(productVariant)
                 }
             })
-        })
+        });
 
-        //ROOT
-        console.log(singleProduct[0])
-        //VARIABLE
-        console.log(variables[0])
-
-        //VISUALIZAR ID DE VARIANTES
-        variables.forEach((i)=>{
-            console.log(i.id)
-        })
-
-
+        tools.saveInExcel(variable, 'variantes') ; //salvar variantes
+            
+        console.table([
+            { 'Categoria': 'TOTAL', 'Quantidade': product.length },
+            { 'Categoria': 'RAIZ', 'Quantidade': singleProduct.length },
+            { 'Categoria': 'VARIANTE', 'Quantidade': variable.length }
+        ]);
     }
 
-    return{buildImg, checkIncludedWord, quiz, saveInExcel, buildDescription, buildName, printSingleItem, prinAllItems, getRootProduct}
+    return{buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName, printSingleItem, prinAllItems, getRootProduct}
 }
 const data = DATA()
 const tools = TOOLS()
@@ -39741,24 +39801,26 @@ function RUN(){
 
     data.product.forEach((element)=>{
 
-        // CONTRUIR OBJETO DO PRODUTO ####################################################################################
-        //PRE CONSTRUÇÃO
+        // PRE CONSTRUÇÃO DO PRODUTO ####################################################################################
         let product = {};
-        product.id = element.CODIGOS         //id varejo                      
-        product.color = ''                   //cor do produto
-        product.brand = ''                   //marca
-        product.amount = ''                  //quantidade
-        product.size = ''                    //tamanho
-        product.model = ''                   //modelo
-        product.type = ''                    //tipo
-        product.reference = element.CODIGOS  //referencia do fornecedor      
-        product.ean = element.EAN            //codigo de barras     
-        product.cost = element.CUSTO         //custo      
-        product.price = element.PRECO        //preço     
-        product.stock = 10                   //estoque de produtos     
-        product.weight = 100                 //peso do produto          
-        product.varejo = element.DESCRICAO   //descrição do varejo facil
-        product.vaiable = []                 //variantes do produto
+        product.id = element.CODIGOS         //id varejo                 //A Código do produto (ID Tray)  
+        product.brand = ''                   //marca                     //B Nome da categoria - nível 1
+        product.reference = element.CODIGOS  //referencia do fornecedor  //C Referência (código fornecedor)   
+        product.ean = element.EAN            //codigo de barras          //D Código EAN/GTIN/UPC
+        product.cost = element.CUSTO         //custo                     //E Preço de custo em reais
+        product.price = element.PRECO        //preço                     //F Preço de venda em reais
+        product.stock = 10                   //estoque de produtos       //G Estoque do produto
+        product.weight = 100                 //peso do produto           //H Peso do produto (gramas)
+        product.name = ''                    //nome do produto           //I Nome do produto
+        product.url = ''                     //imagem do produto         //J Endereço da imagem principal do produto
+        product.description = ''             //descrição do produto      //K HTML da descrição completa
+        product.display = 'Sim'              //exibir                    //L Exibir produto ativo
+        product.color = ''                   //cor do produto            //M Nome da categoria - nível 2
+        product.amount = ''                  //quantidade                //N
+        product.size = ''                    //tamanho                   //O
+        product.model = ''                   //modelo                    //P
+        product.type = ''                    //tipo                      //Q
+        product.varejo = element.DESCRICAO   //descrição do varejo       //R
         
 
 
@@ -39808,67 +39870,43 @@ function RUN(){
 
 
 
-        //POS CONTRUÇÃO
+        //POS CONTRUÇÃO ####################################################################################
         product.name = tools.buildName(product.type, product.color, product.amount, product.model, product.brand)
         product.description = tools.buildDescription(product.name, product.brand, product.color, product.size, product.amount)
         product.url = tools.buildImg(product.brand, product.type, product.color)
 
 
 
-        //CONFIÇÃO PARA SALVAR
+        //CONFIÇÃO PARA SALVAR ####################################################################################
         if(
             product.brand == 'PICPIC'
         ){
-
-            
-            data.output.push(product)
+            data.output.product.push(product)
         }
         
     })
 
 
-
-    //tools.printSingleItem('color') //model, types, size, color
-    
-    //tools.prinAllItems('name') //name
-
     tools.getRootProduct()
+
+
+    
+    // tools.saveInExcel(data.output.variable, 'variantes') ;quiz()
+
+       
+    
+
+
+    //CONFIGURAÇÕES DE CONSOLE ####################################################################################
+        //tools.printSingleItem('color') //model, types, size, color
+        
+        //tools.prinAllItems('name') //name
+
+       
+
+        
   
 
-} 
+} RUN()
 
 
-tools.quiz()
-
-
-
-
-
-
-
-// esta função serve para executar no console do navegador parta pegar o nome dos modelos e jogar para o clipboar ctrl+c
-// function copiarParaClipboard(texto) {
-//     const elementoTemporario = document.createElement('textarea');
-//     elementoTemporario.value = texto;
-  
-//     // Adicione o elemento à página
-//     document.body.appendChild(elementoTemporario);
-  
-//     // Selecione o texto do elemento
-//     elementoTemporario.select();
-//     elementoTemporario.setSelectionRange(0, 99999); // Para dispositivos móveis
-  
-//     // Copie o texto para a área de transferência
-//     document.execCommand('copy');
-  
-//     // Remova o elemento temporário
-//     document.body.removeChild(elementoTemporario);
-  
-//     console.log(`"${texto}" copiado para a área de transferência.`);
-//   }
-// let itens = ''
-// document.querySelectorAll('h3').forEach((i)=>{
-//     itens += `"${i.innerText}":"${i.innerText}",`
-// })
-
-// copiarParaClipboard(itens)
