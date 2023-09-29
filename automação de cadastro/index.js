@@ -39929,8 +39929,6 @@ function RUN(){
 
         if(product.size == '250"' || product.size == '350"'){
             product.categ2 = 'GIGANTE E SUPER GIGANTE'
-        }else{
-            product.categ2 = product.type
         }
 
      
