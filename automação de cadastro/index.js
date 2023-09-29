@@ -39650,17 +39650,21 @@ function TOOLS(){
         }
     }
     function buildDescription(name, brand, color, size, amount){
-        let description = `${name} \n\n
-        Marca: ${brand}, \n
-        Cor: ${color}, \n
-        Tamanho: ${size}, \n
+        let description = `<p>${name} <br><br>
+        Marca: ${brand}, <br>
+        Cor: ${color}, <br>
+        Tamanho: ${size}, <br>
         Quantidade: Pacote com ${amount}.
+        </p>
         `
         return description
         
     }
-    function buildName(type, color, amount, model, brand){
+    function buildName(type, color, amount, model, brand, size){
+        //BALÃO DE LÁTEX GIGANTE - AMARELO - 01 UNIDADE - PIC PIC - SHOP DOS BALÕES
         let name = 'BALÃO DE LATEX'
+
+        if(size == '250"' || size == '350"'){name += ' ' + 'GIGANTE'}
 
         if(type && type !== ''){name += ' ' + type.toUpperCase()}
         if(color && color !== ''){name += ' ' + color.toUpperCase()}
@@ -39922,7 +39926,7 @@ function RUN(){
 
 
         //POS CONTRUÇÃO ####################################################################################
-        product.name = tools.buildName(product.type, product.color, product.amount, product.model, product.brand)
+        product.name = tools.buildName(product.type, product.color, product.amount, product.model, product.brand, product.size)
         product.description = tools.buildDescription(product.name, product.brand, product.color, product.size, product.amount)
         product.url = tools.buildImg(product.brand, product.type, product.color, product.size)
 
