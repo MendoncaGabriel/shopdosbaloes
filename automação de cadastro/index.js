@@ -39672,12 +39672,11 @@ function TOOLS(){
     
         return name
     }
-    function buildImg(brand, type, color){
+    function buildImg(brand, type, color, size){
         if(brand && type && color){
             let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
             url += brand + '/'
             url += type + '/'
-            
             url += color.replace(' ', '-')
             .replace('í', 'i')
             .replace('á', 'a')
@@ -39697,6 +39696,17 @@ function TOOLS(){
             .replace('!', '')
             .replace('^', '')
             .replace('~', '')
+
+
+            if(
+                size == '250"' ||
+                size == '260"' ||
+                size == '150"' ||
+                size == '350"' 
+            ){
+             
+                url += size.replace(' ', '').replace('-', '').replace('"', '')
+            }
             
 
 
@@ -39914,7 +39924,7 @@ function RUN(){
         //POS CONTRUÇÃO ####################################################################################
         product.name = tools.buildName(product.type, product.color, product.amount, product.model, product.brand)
         product.description = tools.buildDescription(product.name, product.brand, product.color, product.size, product.amount)
-        product.url = tools.buildImg(product.brand, product.type, product.color)
+        product.url = tools.buildImg(product.brand, product.type, product.color, product.size)
 
 
 
