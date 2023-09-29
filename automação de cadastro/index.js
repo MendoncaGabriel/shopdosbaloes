@@ -39634,6 +39634,9 @@ function TOOLS(){
         }
     }
     function buildDescription(name, brand, color, size, amount){
+
+
+
         let description = `<p>${name} <br><br>
         Marca: ${brand}, <br>
         Cor: ${color}, <br>
@@ -39648,8 +39651,8 @@ function TOOLS(){
         //BALÃO DE LÁTEX GIGANTE - AMARELO - 01 UNIDADE - PIC PIC - SHOP DOS BALÕES
         let name = 'BALÃO DE LATEX'
 
-        // if(size == '250"' || size == '350"'){name += ' ' + 'GIGANTE'}
-
+        if(size == '250"'){name += ' ' + 'GIGANTE'}
+        if(size == '350"'){name += ' ' + 'SUPER GIGANTE'}
         if(type && type !== ''){name += ' ' + type.toUpperCase()}
         if(color && color !== ''){name += ' ' + color.toUpperCase()}
         if(amount && amount !== ''){name += ' ' + amount.toUpperCase()}
@@ -39861,6 +39864,8 @@ function RUN(){
         product.model = ''                   //modelo                    //P
         product.color = ''                   //cor                       //Q
         product.varejo = element.DESCRICAO   //descrição do varejo       //R
+        product.categ1 = ''
+        product.categ2 = ''
 
 
 
@@ -39906,11 +39911,6 @@ function RUN(){
             if(includedIn == true){
                 product.size = data.size[size]
 
-                if(data.size[size] == '250"'){
-                    product.type = "Gigante"
-                }else if(data.size[size] == '350"'){
-                    product.type = "Super Gigante"
-                }
 
                 break;
             }
@@ -39929,6 +39929,8 @@ function RUN(){
 
         if(product.size == '250"' || product.size == '350"'){
             product.categ2 = 'GIGANTE E SUPER GIGANTE'
+        }else{
+            product.categ2 = product.type
         }
 
      
