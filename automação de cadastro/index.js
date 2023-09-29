@@ -39398,7 +39398,7 @@ function DATA(){
     const brand = {
     "DEL REI INDUSTRIA DE ARTEFATOS DE LATEX LTDA - ME (FESTBALL)": "FESTBALL",
     "GAUCHO IND COM IMPORTACAO E EXPORTACAO DE POLIMEROS EIRELI (JOY)": "JOY",
-    "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)": "PICPIC",
+    "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)": "PIC PIC",
     "FESTCOLOR ARTIGOS DE FESTAS LTDA": "FESTCOLOR",
     "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA": "SAO ROQUE",
     "ANDREIA NEGRI BERNARDT LTDA": "ANDREIA",
@@ -39472,23 +39472,7 @@ function DATA(){
     let output = {
         "singleProduct": [],
         "variable": [],
-        "product":[
-            {
-                "id":"Código do produto (ID Tray)",
-                "brand":"Nome da categoria - nível 1",
-                "reference":"Referência (código fornecedor)",
-                "ean":"Código EAN/GTIN/UPC",
-                "cost":"Preço de custo em reais",
-                "price":"Preço de venda em reais",
-                "stock":"Estoque do produto",
-                "weight":"Peso do produto (gramas)",
-                "name":"Nome do produto",
-                "url":"Endereço da imagem principal do produto",
-                "description":"HTML da descrição completa",
-                "display":"Exibir produto ativo",
-                "color": "Nome da categoria - nível 2"
-            }
-        ]
+        "product":[]
     };
 
     return {product, color, type, size, amount, amount, brand, model, output}
@@ -39664,7 +39648,7 @@ function TOOLS(){
         //BALÃO DE LÁTEX GIGANTE - AMARELO - 01 UNIDADE - PIC PIC - SHOP DOS BALÕES
         let name = 'BALÃO DE LATEX'
 
-        if(size == '250"' || size == '350"'){name += ' ' + 'GIGANTE'}
+        // if(size == '250"' || size == '350"'){name += ' ' + 'GIGANTE'}
 
         if(type && type !== ''){name += ' ' + type.toUpperCase()}
         if(color && color !== ''){name += ' ' + color.toUpperCase()}
@@ -39680,8 +39664,9 @@ function TOOLS(){
         if(brand && type && color){
             let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
             url += brand + '/'
-            url += type + '/'
-            url += color.replace(' ', '-')
+            url += type.replace(' ', '-').toLowerCase() + '/'
+            url += color.toLowerCase() 
+            .replace(' ', '-')
             .replace('í', 'i')
             .replace('á', 'a')
             .replace('à', 'a')
@@ -39876,7 +39861,7 @@ function RUN(){
         product.model = ''                   //modelo                    //P
         product.color = ''                   //cor                       //Q
         product.varejo = element.DESCRICAO   //descrição do varejo       //R
-        
+
 
 
         // TRATAR E SUBSTITUIT PALAVRAS ####################################################################################
@@ -39901,13 +39886,6 @@ function RUN(){
                 break;
             }
         }
-        for (const size in data.size) { //identifica a quantidade
-            let includedIn =  tools.checkIncludedWord(element.DESCRICAO, size) //verifica se a palavra esta inclusa na descrição
-            if(includedIn == true){
-                product.size = data.size[size]
-                break;
-            }
-        }
         for (const model in data.model) { //identifica o modelo
             let includedIn =  tools.checkIncludedWord(element.DESCRICAO, model) //verifica se a palavra esta inclusa na descrição
             if(includedIn == true){
@@ -39919,6 +39897,21 @@ function RUN(){
             let includedIn =  tools.checkIncludedWord(element.DESCRICAO, type) //verifica se a palavra esta inclusa na descrição
             if(includedIn == true){
                 product.type = data.type[type]
+
+                break;
+            }
+        }
+        for (const size in data.size) { //identifica a quantidade
+            let includedIn =  tools.checkIncludedWord(element.DESCRICAO, size) //verifica se a palavra esta inclusa na descrição
+            if(includedIn == true){
+                product.size = data.size[size]
+
+                if(data.size[size] == '250"'){
+                    product.type = "Gigante"
+                }else if(data.size[size] == '350"'){
+                    product.type = "Super Gigante"
+                }
+
                 break;
             }
         }
@@ -39930,11 +39923,24 @@ function RUN(){
         product.description = tools.buildDescription(product.name, product.brand, product.color, product.size, product.amount)
         product.url = tools.buildImg(product.brand, product.type, product.color, product.size)
 
+        //CAREGORIAS
+        product.categ1 = product.brand
+        
+
+        if(product.size == '250"' || product.size == '350"'){
+            product.categ2 = 'GIGANTE E SUPER GIGANTE'
+        }else{
+            product.categ2 = product.type
+        }
+
+     
+        
+
 
 
         //CONFIÇÃO PARA SALVAR ####################################################################################
         if(
-            product.brand == 'PICPIC'
+            product.brand == 'PIC PIC'
         ){
             data.output.product.push(product)
         }
