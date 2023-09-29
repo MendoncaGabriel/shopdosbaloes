@@ -39344,14 +39344,14 @@ function DATA(){
     }
     const type = {
         //TIPOS PIC PIC
-        "LISO GRANFESTA": "LISO GRANFESTA",
-        "LISO GF": "LISO GRANFESTA",
-        "LISO REDONDO": "LISO REDONDO",
-        "LISO RED.": "LISO REDONDO",
+        "LISO GRANFESTA": "LISO",
+        "LISO GF": "LISO",
+        "LISO REDONDO": "LISO",
+        "LISO RED.": "LISO",
+        "PLATINO RED.": "PLATINO",
         "LISO": "LISO",
         "CRISTAL": "CRISTAL",
         "METALIZADO": "METALIZADO",
-        "PLATINO RED.": "PLATINO RED.",
         "NEON": "NEON",
         "PLATINO": "PLATINO",
         "PEROLA": "PEROLA",
@@ -39711,83 +39711,124 @@ function TOOLS(){
         let product = data.output.product;
     
         
-        
         //CONDIÇÕES PARA SER UM PRODUTO RAIZ ------------------------------
-        let singleProduct = [
-        ];
+            let singleProduct = [];
+            product.forEach((element)=>{
+                let push = true
 
-        product.forEach((element)=>{
-            let push = true
-
-            for(let i = 0; i < singleProduct.length; i++){
-                if(
+                for(let i = 0; i < singleProduct.length; i++){
+                    if(
+                        element.brand == singleProduct[i].brand &&
+                        element.color == singleProduct[i].color &&
+                        element.type == singleProduct[i].type &&
+                        element.amount == singleProduct[i].amount 
                     
-                    element.color == singleProduct[i].color &&
-                    element.amount == singleProduct[i].amount &&
-                    element.type == singleProduct[i].type
-                   
-                ){
-                    push = false
-                    break
+                    ){
+                        push = false
+                        break
+                    }
                 }
-            }
 
-            if(push == true){
-                singleProduct.push(element)
-            } 
-        });
-        
-        tools.saveInExcel(singleProduct, 'produtos') ; //salvar produtos raiz
-        
+                if(push == true){
+                    singleProduct.push(element)
+                } 
+            });
+            tools.saveInExcel(singleProduct, 'produtos') ; //salvar produtos raiz
+            
 
 
         //VERIFICAR VARIANTES ---------------------------------------------
-        var variable = [
-            {
-                "id":"Código da variação (ID)",
-                "idRef":"Código do produto (ID)",
-                "reference":"Referência da Variação",
-                "variante":"Nome da variação 1 (exemplo: Branco)",
-                "amount":"Estoque da variação",
-                "price":"Preço de venda em reais",
-                "type":"Tipo da variação 1 (exemplo: Cor)",
-            },
-        ];
+            var variable = [];
+            product.forEach((element)=>{
+                // "id":"Código da variação (ID)",
+                // "idRef":"Código do produto (ID)",
+                // "reference":"Referência da Variação",
+                // "variante":"Nome da variação 1 (exemplo: Branco)",
+                // "amount":"Estoque da variação",
+                // "price":"Preço de venda em reais",
+                // "type":"Tipo da variação 1 (exemplo: Cor)",
 
-        singleProduct.forEach((element)=>{
-            product.forEach((item)=>{
-                //uma variante de uma raiz tem que: ser do mesmo tipo, ser da mesma cor, mesma quantidade por pacote, e [tamanho diferente]
-                if(
-                    element.type == item.type &&
-                    element.brand == item.brand &&
-                    element.color == item.color &&
-                    element.amount == item.amount &&
-                    element.size !== item.size
-                ){
-                    let productVariant = {}
-                    productVariant.id = ''                    //A Código da variação (ID) //vazio para gerar id automatico
-                    productVariant.idRef = element.id         //B Código do produto (ID) //aponta ao id do produto raiz
-                    productVariant.reference = item.reference+1 //C Referência da Variação 
-                    productVariant.variante = item.size       //D Nome da variação 1 (exemplo: Branco)
-                    productVariant.amount = item.stock        //E Estoque da variação
-                    productVariant.price = item.price         //F Preço de venda em reais
-                    productVariant.type = 'tamanho'           //G Tipo da variação 1 (exemplo: Cor)
-                    productVariant.name = item.varejo
-                    productVariant.typeRoot = item.type
-                    
-                    
-                    variable.push(productVariant)
+                let push = true
+                for(let i = 0; i<variable.length;i++){
+                    if(
+                        element.brand == variable[i].brand &&
+                        element.color == variable[i].color &&
+                        element.amount == variable[i].amount &&
+                        element.size == variable[i].size &&
+                        element.type == variable[i].type
+                    ){
+                        push = false
+                        break
+                    }
                 }
+                if(push == true){
+                    variable.push(element)
+                }    
             })
-        });
 
-        tools.saveInExcel(variable, 'variantes') ; //salvar variantes
-            
-        console.table([
-            { 'Categoria': 'TOTAL', 'Quantidade': product.length },
-            { 'Categoria': 'RAIZ', 'Quantidade': singleProduct.length },
-            { 'Categoria': 'VARIANTE', 'Quantidade': variable.length }
-        ]);
+
+
+        //IMPRESSÃO EXCEL VARIAVEIS ------------------------------
+            let variableExcel = []
+            variable.forEach((variante)=>{
+                singleProduct.forEach((raiz)=>{
+                    if(
+                        variante.color == raiz.color &&
+                        variante.amount == raiz.amount &&
+                        variante.type == raiz.type 
+                    
+                    ){
+
+                        let variableproduct = {}
+                        variableproduct.id = ''
+                        variableproduct.idRef = raiz.reference
+                        variableproduct.reference = variante.reference+1
+                        variableproduct.variante = 'tamanho'
+                        variableproduct.amount = variante.amount
+                        variableproduct.price = variante.price
+                        variableproduct.type = variante.type
+                        variableproduct.size = variante.size
+                        variableproduct.color = variante.color
+                        variableproduct.stock = 10
+                        variableproduct.ean = variante.ean
+                        variableExcel.push(variableproduct)
+
+        
+                    }
+
+
+                })
+            })
+            function compararTamanhos(a, b) {
+                // Verifica se a e b têm a propriedade size e são strings
+                if (a.size && typeof a.size === 'string' && b.size && typeof b.size === 'string') {
+                    // Extrai os números dos tamanhos usando expressões regulares
+                    let tamanhoA = parseInt(a.size.match(/\d+/)[0]);
+                    let tamanhoB = parseInt(b.size.match(/\d+/)[0]);
+                
+                    // Compara os tamanhos numéricos
+                    if (tamanhoA < tamanhoB) {
+                        return -1;
+                    }
+                    if (tamanhoA > tamanhoB) {
+                        return 1;
+                    }
+                    return 0;
+                }
+                // Se size não for uma string válida, retorna 0 para indicar que a ordem não importa
+                return 0;
+            }
+            let order = variableExcel.sort(compararTamanhos)
+            tools.saveInExcel(order, 'variantes') ; //salvar variantes
+                
+
+
+        //CONSOLE IMPRESSÃO ----------------------------------------
+            console.table([
+                { 'Categoria': 'TOTAL', 'Quantidade': product.length },
+                { 'Categoria': 'RAIZ', 'Quantidade': singleProduct.length },
+                { 'Categoria': 'VARIANTE', 'Quantidade': variable.length }
+            ]);
     }
 
     return{buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName, printSingleItem, prinAllItems, getRootProduct}
@@ -39815,11 +39856,11 @@ function RUN(){
         product.url = ''                     //imagem do produto         //J Endereço da imagem principal do produto
         product.description = ''             //descrição do produto      //K HTML da descrição completa
         product.display = 'Sim'              //exibir                    //L Exibir produto ativo
-        product.color = ''                   //cor do produto            //M Nome da categoria - nível 2
+        product.type = ''                    //tipo                      //M Nome da categoria - nível 2
         product.amount = ''                  //quantidade                //N
         product.size = ''                    //tamanho                   //O
         product.model = ''                   //modelo                    //P
-        product.type = ''                    //tipo                      //Q
+        product.color = ''                   //cor                       //Q
         product.varejo = element.DESCRICAO   //descrição do varejo       //R
         
 
