@@ -95,3 +95,5 @@ function Brands(){
     )
 }
 export default Brands
+
+//add img
