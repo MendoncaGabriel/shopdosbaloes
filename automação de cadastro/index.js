@@ -39344,6 +39344,9 @@ function DATA(){
     }
     const type = {
         //TIPOS PIC PIC
+        "ESPECIAL": "ESPECIAL",
+        "FANTASIA": "FANTASIA",
+        "CANDY": "CANDY",
         "LISO GRANFESTA": "LISO",
         "LISO GF": "LISO",
         "LISO REDONDO": "LISO",
@@ -39353,6 +39356,7 @@ function DATA(){
         "CRISTAL": "CRISTAL",
         "METALIZADO": "METALIZADO",
         "NEON": "NEON",
+        "PERA": "PERA",
         "PLATINO": "PLATINO",
         "PEROLA": "PEROLA",
         "PÉROLA": "PÉROLA",
