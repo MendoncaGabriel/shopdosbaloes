@@ -96,4 +96,4 @@ function Brands(){
 }
 export default Brands
 
-//add img
+//add img 2
