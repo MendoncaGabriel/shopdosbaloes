@@ -39675,7 +39675,7 @@ function TOOLS(){
             if(size.includes('250"')){
                 url += 'gigante/'
             }
-            if(size.includes('260"')){
+            else if(size.includes('260"')){
                 url += 'tripinha/'
             }
             else if(size.includes('350"')){
