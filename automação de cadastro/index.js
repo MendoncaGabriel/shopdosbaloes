@@ -39743,13 +39743,6 @@ function TOOLS(){
         //VERIFICAR VARIANTES ---------------------------------------------
             var variable = [];
             product.forEach((element)=>{
-                // "id":"Código da variação (ID)",
-                // "idRef":"Código do produto (ID)",
-                // "reference":"Referência da Variação",
-                // "variante":"Nome da variação 1 (exemplo: Branco)",
-                // "amount":"Estoque da variação",
-                // "price":"Preço de venda em reais",
-                // "type":"Tipo da variação 1 (exemplo: Cor)",
 
                 let push = true
                 for(let i = 0; i<variable.length;i++){
