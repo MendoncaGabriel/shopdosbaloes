@@ -39672,12 +39672,12 @@ function TOOLS(){
             let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
             url += brand + '/'
 
-            
-
             if(size.includes('250"')){
                 url += 'gigante/'
             }
-
+            if(size.includes('260"')){
+                url += 'tripinha/'
+            }
             else if(size.includes('350"')){
                 url += 'super-gigante/'
             }
@@ -39706,23 +39706,7 @@ function TOOLS(){
             .replace('^', '')
             .replace('~', '')
 
-
-            if(
-                size == '250"' ||
-                size == '260"' ||
-                size == '150"' ||
-                size == '350"' 
-            ){
-             
-                url += size.replace(' ', '').replace('-', '').replace('"', '')
-            }
-            
-
-
-
-
             url += '.png'
-           
             return url.replace(' ', '-').toLowerCase()
         }
     }
@@ -39948,6 +39932,10 @@ function RUN(){
             product.categ2 = 'GIGANTE E SUPER GIGANTE'
         }else{
             product.categ2 = product.type
+        }
+
+        if(product.size.includes('260"')){
+            product.categ2 = 'TRIPINHA'
         }
 
      
