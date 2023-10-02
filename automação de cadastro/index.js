@@ -39671,7 +39671,20 @@ function TOOLS(){
         if(brand && type && color){
             let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
             url += brand + '/'
-            url += type.replace(' ', '-').toLowerCase() + '/'
+
+            
+
+            if(size.includes('250"')){
+                url += 'gigante/'
+            }
+
+            else if(size.includes('350"')){
+                url += 'super-gigante/'
+            }
+            else{
+                url += type.replace(' ', '-').toLowerCase() + '/'
+            }
+
             url += color.toLowerCase() 
             .replace(' ', '-')
             .replace('í', 'i')
