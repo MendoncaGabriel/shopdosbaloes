@@ -39716,6 +39716,7 @@ function TOOLS(){
         
         //CONDIÇÕES PARA SER UM PRODUTO RAIZ ------------------------------
             let singleProduct = [];
+
             product.forEach((element)=>{
                 let push = true
 
@@ -39745,7 +39746,7 @@ function TOOLS(){
             product.forEach((element)=>{
 
                 let push = true
-                for(let i = 0; i<variable.length;i++){
+                for(let i = 0; i<variable.length;i++){ //remover repetidos
                     if(
                         element.brand == variable[i].brand &&
                         element.color == variable[i].color &&
@@ -39772,7 +39773,7 @@ function TOOLS(){
                         variante.color == raiz.color &&
                         variante.amount == raiz.amount &&
                         variante.type == raiz.type 
-                    
+        
                     ){
 
                         let variableproduct = {}
@@ -39787,14 +39788,48 @@ function TOOLS(){
                         variableproduct.color = variante.color
                         variableproduct.stock = 10
                         variableproduct.ean = variante.ean
-                        variableExcel.push(variableproduct)
 
-        
+                        //salvar 150, 250, 260, 350 ...
+                        if(
+                            variante.size == '150"' && raiz.size == '150"' ||
+                            variante.size == '150"' && raiz.size == '250"' ||
+                            variante.size == '150"' && raiz.size == '260"' ||
+                            variante.size == '150"' && raiz.size == '350"' ||
+
+                            variante.size == '250"' && raiz.size == '150"' ||
+                            variante.size == '250"' && raiz.size == '250"' ||
+                            variante.size == '250"' && raiz.size == '260"' ||
+                            variante.size == '250"' && raiz.size == '350"' ||
+
+                            variante.size == '260"' && raiz.size == '150"' ||
+                            variante.size == '260"' && raiz.size == '250"' ||
+                            variante.size == '260"' && raiz.size == '260"' ||
+                            variante.size == '260"' && raiz.size == '350"' ||
+
+                            variante.size == '350"' && raiz.size == '150"' ||
+                            variante.size == '350"' && raiz.size == '250"' ||
+                            variante.size == '350"' && raiz.size == '260"' ||
+                            variante.size == '350"' && raiz.size == '350"' 
+                    
+                        ){
+                            variableExcel.push(variableproduct)
+                        }
+                        //salvar diferente de 260, 250, 350, 150 ...
+                        else if(
+                            variante.size !== '250"' && raiz.size !== '250"' &&
+                            variante.size !== '260"' && raiz.size !== '260"' &&
+                            variante.size !== '350"' && raiz.size !== '350"' &&
+                            variante.size !== '150"' && raiz.size !== '150"'
+                        ){
+                            variableExcel.push(variableproduct)
+                        }else{
+                            variableproduct = {};
+                        }
+
                     }
-
-
                 })
             })
+
             function compararTamanhos(a, b) {
                 // Verifica se a e b têm a propriedade size e são strings
                 if (a.size && typeof a.size === 'string' && b.size && typeof b.size === 'string') {
@@ -39815,9 +39850,9 @@ function TOOLS(){
                 return 0;
             }
             let order = variableExcel.sort(compararTamanhos)
+
             tools.saveInExcel(order, 'variantes') ; //salvar variantes
                 
-
 
         //CONSOLE IMPRESSÃO ----------------------------------------
             console.table([
@@ -39945,28 +39980,5 @@ function RUN(){
         
     })
 
-
     tools.getRootProduct()
-
-
-    
-    // tools.saveInExcel(data.output.variable, 'variantes') ;quiz()
-
-       
-    
-
-
-    //CONFIGURAÇÕES DE CONSOLE ####################################################################################
-        //tools.printSingleItem('color') //model, types, size, color
-        
-        //tools.prinAllItems('name') //name
-
-       
-
-        
-  
-
 } RUN()
-
-
-//add
