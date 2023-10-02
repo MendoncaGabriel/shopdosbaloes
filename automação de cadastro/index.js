@@ -804,7 +804,7 @@ function DATA(){
             "PRECO": "5.26",
             "CUSTO": "2.81",
             "EAN": "07896243144884",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -813,7 +813,7 @@ function DATA(){
             "PRECO": "5.26",
             "CUSTO": "2.81",
             "EAN": "07896243145027",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -822,7 +822,7 @@ function DATA(){
             "PRECO": "6.99",
             "CUSTO": "3.00",
             "EAN": "07896243145164",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -831,7 +831,7 @@ function DATA(){
             "PRECO": "6.99",
             "CUSTO": "3.00",
             "EAN": "07896243145133",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -840,7 +840,7 @@ function DATA(){
             "PRECO": "6.99",
             "CUSTO": "3.00",
             "EAN": "07896243145126",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -849,7 +849,7 @@ function DATA(){
             "PRECO": "6.99",
             "CUSTO": "5.99",
             "EAN": "07896243145119",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -858,7 +858,7 @@ function DATA(){
             "PRECO": "6.99",
             "CUSTO": "5.99",
             "EAN": "07896243145157",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -867,7 +867,7 @@ function DATA(){
             "PRECO": "6.99",
             "CUSTO": "3.00",
             "EAN": "07896243145140",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -876,7 +876,7 @@ function DATA(){
             "PRECO": "18.99",
             "CUSTO": "9.48",
             "EAN": "07896243138142",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -885,7 +885,7 @@ function DATA(){
             "PRECO": "18.99",
             "CUSTO": "18.49",
             "EAN": "07896243120208",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -894,7 +894,7 @@ function DATA(){
             "PRECO": "18.99",
             "CUSTO": "18.49",
             "EAN": "07896243120246",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -903,7 +903,7 @@ function DATA(){
             "PRECO": "18.99",
             "CUSTO": "18.49",
             "EAN": "07896243120253",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -912,7 +912,7 @@ function DATA(){
             "PRECO": "18.99",
             "CUSTO": "9.48",
             "EAN": "07896243120260",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -921,7 +921,7 @@ function DATA(){
             "PRECO": "18.99",
             "CUSTO": "18.49",
             "EAN": "07896243128419",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -930,7 +930,7 @@ function DATA(){
             "PRECO": "18.99",
             "CUSTO": "18.49",
             "EAN": "07896243120277",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -939,7 +939,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "9.48",
             "EAN": "07896243135646",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1236,7 +1236,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243118786",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1245,7 +1245,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243106301",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1254,7 +1254,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106318",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1263,7 +1263,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "4.76",
             "EAN": "07896243106325",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1272,7 +1272,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106349",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1281,7 +1281,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106363",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1290,7 +1290,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243106387",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1299,7 +1299,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106400",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1308,7 +1308,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106417",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1317,7 +1317,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106431",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1326,7 +1326,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106462",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1335,7 +1335,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106479",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1344,7 +1344,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243118908",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1353,7 +1353,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106585",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1362,7 +1362,7 @@ function DATA(){
             "PRECO": "14.21",
             "CUSTO": "7.82",
             "EAN": "07896243144341",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1371,7 +1371,7 @@ function DATA(){
             "PRECO": "17.49",
             "CUSTO": "9.23",
             "EAN": "07896243135738",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1380,7 +1380,7 @@ function DATA(){
             "PRECO": "17.49",
             "CUSTO": "9.23",
             "EAN": "07896243135769",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1389,7 +1389,7 @@ function DATA(){
             "PRECO": "17.49",
             "CUSTO": "9.23",
             "EAN": "07896243135783",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1398,7 +1398,7 @@ function DATA(){
             "PRECO": "17.49",
             "CUSTO": "9.23",
             "EAN": "07896243135929",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1407,7 +1407,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.99",
             "EAN": "07896243109098",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1416,7 +1416,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104321",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1425,7 +1425,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104345",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1434,7 +1434,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.99",
             "EAN": "07896243104369",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1443,7 +1443,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104383",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1452,7 +1452,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104406",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1461,7 +1461,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104420",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1470,7 +1470,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104444",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1479,7 +1479,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104451",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1488,7 +1488,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104475",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1497,7 +1497,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104499",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1506,7 +1506,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104505",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1515,7 +1515,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104581",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1524,7 +1524,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104529",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1533,7 +1533,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.64",
             "EAN": "07896243144358",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1542,7 +1542,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.36",
             "EAN": "07896243129713",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1551,7 +1551,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126781",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1560,7 +1560,7 @@ function DATA(){
             "PRECO": "11.99",
             "CUSTO": "6.58",
             "EAN": "07896243126934",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1569,7 +1569,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126873",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1578,7 +1578,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126712",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1587,7 +1587,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126736",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1596,7 +1596,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126743",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1605,7 +1605,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126705",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1614,7 +1614,7 @@ function DATA(){
             "PRECO": "10.49",
             "CUSTO": "5.60",
             "EAN": "07896243126866",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1623,7 +1623,7 @@ function DATA(){
             "PRECO": "10.49",
             "CUSTO": "5.60",
             "EAN": "07896243126842",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1632,7 +1632,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126835",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1641,7 +1641,7 @@ function DATA(){
             "PRECO": "10.49",
             "CUSTO": "5.60",
             "EAN": "07896243126767",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1650,7 +1650,7 @@ function DATA(){
             "PRECO": "14.99",
             "CUSTO": "7.68",
             "EAN": "07896243119912",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1659,7 +1659,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243119929",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1668,7 +1668,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.53",
             "EAN": "07896243111794",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1677,7 +1677,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102013",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1686,7 +1686,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102037",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1695,7 +1695,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102044",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1704,7 +1704,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.53",
             "EAN": "07896243102051",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1713,7 +1713,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102075",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1722,7 +1722,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102105",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1731,7 +1731,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102112",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1740,7 +1740,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102136",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1749,7 +1749,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102143",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1758,7 +1758,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102167",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1767,7 +1767,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102181",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1776,7 +1776,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102198",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1785,7 +1785,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243118984",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1794,7 +1794,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243119110",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1803,7 +1803,7 @@ function DATA(){
             "PRECO": "21.99",
             "CUSTO": "8.38",
             "EAN": "07896243112135",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1812,7 +1812,7 @@ function DATA(){
             "PRECO": "7.99",
             "CUSTO": "3.25",
             "EAN": "07896243108817",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1821,7 +1821,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243127405",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1830,7 +1830,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243115235",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1839,7 +1839,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243115228",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1848,7 +1848,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243115266",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1857,7 +1857,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243115211",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1866,7 +1866,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243115273",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1875,7 +1875,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243115242",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1884,7 +1884,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243108763",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1893,7 +1893,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243115259",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1902,7 +1902,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243108787",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -1911,7 +1911,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243108800",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7392,7 +7392,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243109203",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7401,7 +7401,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106288",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7410,7 +7410,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243106455",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7419,7 +7419,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "4.92",
             "EAN": "07896243118922",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7437,7 +7437,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.68",
             "EAN": "07896243135066",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7464,7 +7464,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.68",
             "EAN": "07896243135073",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7482,7 +7482,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243135080",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7500,7 +7500,7 @@ function DATA(){
             "PRECO": "5.26",
             "CUSTO": "2.87",
             "EAN": "07896243147243",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7518,7 +7518,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.99",
             "EAN": "07896243116676",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7545,7 +7545,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104352",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7554,7 +7554,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104512",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7572,7 +7572,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104567",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7581,7 +7581,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104574",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7590,7 +7590,7 @@ function DATA(){
             "PRECO": "9.47",
             "CUSTO": "4.99",
             "EAN": "07896243135110",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7617,7 +7617,7 @@ function DATA(){
             "PRECO": "7.89",
             "CUSTO": "4.27",
             "EAN": "07896243135127",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7635,7 +7635,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243118434",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7653,7 +7653,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.42",
             "EAN": "07896243108794",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7671,7 +7671,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243125487",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7689,7 +7689,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243127443",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7707,7 +7707,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243118441",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7734,7 +7734,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243115471",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7752,7 +7752,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243115464",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7770,7 +7770,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243115501",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7788,7 +7788,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243115457",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7806,7 +7806,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243115518",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7824,7 +7824,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243115488",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7842,7 +7842,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243108824",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7860,7 +7860,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243115495",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7878,7 +7878,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243108831",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7896,7 +7896,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243108848",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7905,7 +7905,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243108855",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7932,7 +7932,7 @@ function DATA(){
             "PRECO": "10.00",
             "CUSTO": "5.49",
             "EAN": "07896243108862",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7959,7 +7959,7 @@ function DATA(){
             "PRECO": "12.63",
             "CUSTO": "6.88",
             "EAN": "07896243127412",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7977,7 +7977,7 @@ function DATA(){
             "PRECO": "12.63",
             "CUSTO": "6.88",
             "EAN": "07896243127429",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -7995,7 +7995,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243118847",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8013,7 +8013,7 @@ function DATA(){
             "PRECO": "17.99",
             "CUSTO": "5.35",
             "EAN": "07896243118793",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8022,7 +8022,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102211",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8040,7 +8040,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102228",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8058,7 +8058,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102235",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8076,7 +8076,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243118816",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8094,7 +8094,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102266",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8112,7 +8112,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102273",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8130,7 +8130,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102280",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8157,7 +8157,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102303",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8175,7 +8175,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102327",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8193,7 +8193,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243118854",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8202,7 +8202,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243119080",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8211,7 +8211,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243118861",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8220,7 +8220,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243102341",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8229,7 +8229,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243119103",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8238,7 +8238,7 @@ function DATA(){
             "PRECO": "17.99",
             "CUSTO": "5.35",
             "EAN": "07896243119127",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8247,7 +8247,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125173",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8256,7 +8256,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125135",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8265,7 +8265,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125166",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8274,7 +8274,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125012",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8283,7 +8283,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125159",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8292,7 +8292,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125036",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8301,7 +8301,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125180",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8310,7 +8310,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125029",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8319,7 +8319,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125128",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8328,7 +8328,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125111",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8337,7 +8337,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243125142",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -8346,7 +8346,7 @@ function DATA(){
             "PRECO": "8.42",
             "CUSTO": "4.58",
             "EAN": "07896243126484",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12010,7 +12010,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.45",
             "EAN": "07896243144235",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12019,7 +12019,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243119998",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12028,7 +12028,7 @@ function DATA(){
             "PRECO": "5.26",
             "CUSTO": "2.81",
             "EAN": "07896243144266",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12037,7 +12037,7 @@ function DATA(){
             "PRECO": "5.26",
             "CUSTO": "2.81",
             "EAN": "07896243144297",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12046,7 +12046,7 @@ function DATA(){
             "PRECO": "5.99",
             "CUSTO": "3.11",
             "EAN": "07896243144198",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12055,7 +12055,7 @@ function DATA(){
             "PRECO": "5.99",
             "CUSTO": "3.11",
             "EAN": "07896243144167",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12064,7 +12064,7 @@ function DATA(){
             "PRECO": "5.99",
             "CUSTO": "3.11",
             "EAN": "07896243144129",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12073,7 +12073,7 @@ function DATA(){
             "PRECO": "5.99",
             "CUSTO": "3.11",
             "EAN": "07896243144174",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12082,7 +12082,7 @@ function DATA(){
             "PRECO": "5.26",
             "CUSTO": "2.81",
             "EAN": "07896243144983",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12091,7 +12091,7 @@ function DATA(){
             "PRECO": "5.26",
             "CUSTO": "2.81",
             "EAN": "07896243144259",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12100,7 +12100,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "11.00",
             "EAN": "07896243128044",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12109,7 +12109,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243128358",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12118,7 +12118,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243128372",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12127,7 +12127,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243128068",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12136,7 +12136,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243129034",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12145,7 +12145,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243128402",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12154,7 +12154,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243135325",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12163,7 +12163,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243128839",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12172,7 +12172,7 @@ function DATA(){
             "PRECO": "18.49",
             "CUSTO": "9.90",
             "EAN": "07896243143573",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12181,7 +12181,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243135356",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12190,7 +12190,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243150397",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12199,7 +12199,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243150380",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12208,7 +12208,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120079",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12217,7 +12217,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120093",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12226,7 +12226,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243147892",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12235,7 +12235,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120116",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12244,7 +12244,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120109",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12253,7 +12253,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120130",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12262,7 +12262,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120123",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12271,7 +12271,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120154",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12280,7 +12280,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120147",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12289,7 +12289,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120192",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12298,7 +12298,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243120178",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12307,7 +12307,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "11.00",
             "EAN": "07896243135400",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12316,7 +12316,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243126057",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12325,7 +12325,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243128914",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12334,7 +12334,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243136490",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12343,7 +12343,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243136506",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12352,7 +12352,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243119394",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12361,7 +12361,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243110575",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12370,7 +12370,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243119424",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12379,7 +12379,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243110759",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12388,7 +12388,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243119486",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12397,7 +12397,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243119431",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12406,7 +12406,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243119592",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12415,7 +12415,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243127375",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12424,7 +12424,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145805",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12433,7 +12433,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243127498",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12442,7 +12442,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145829",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12451,7 +12451,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145812",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12460,7 +12460,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145843",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12469,7 +12469,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145850",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12478,7 +12478,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145867",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12487,7 +12487,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145874",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12496,7 +12496,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145836",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12505,7 +12505,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145898",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12514,7 +12514,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145881",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12523,7 +12523,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145911",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12532,7 +12532,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145904",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12541,7 +12541,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145935",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12550,7 +12550,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145928",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12568,7 +12568,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145966",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12577,7 +12577,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145942",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12586,7 +12586,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145973",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12595,7 +12595,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145980",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12604,7 +12604,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145959",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12613,7 +12613,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243146000",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12622,7 +12622,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243145997",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12631,7 +12631,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243146024",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12640,7 +12640,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.37",
             "EAN": "07896243146017",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12658,7 +12658,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146208",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12667,7 +12667,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146109",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12676,7 +12676,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146215",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12685,7 +12685,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146192",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12694,7 +12694,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146239",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12703,7 +12703,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146222",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12712,7 +12712,7 @@ function DATA(){
             "PRECO": "16.99",
             "CUSTO": "9.11",
             "EAN": "07896243146246",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12721,7 +12721,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146260",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12730,7 +12730,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146253",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12739,7 +12739,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146284",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12748,7 +12748,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146277",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12757,7 +12757,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146307",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12766,7 +12766,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146314",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12775,7 +12775,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146291",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12784,7 +12784,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146338",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12793,7 +12793,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146345",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12802,7 +12802,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146321",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12811,7 +12811,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146369",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12820,7 +12820,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146352",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12829,7 +12829,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146390",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12838,7 +12838,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146376",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12847,7 +12847,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146383",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12856,7 +12856,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.19",
             "EAN": "07896243146406",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -12865,7 +12865,7 @@ function DATA(){
             "PRECO": "16.84",
             "CUSTO": "8.95",
             "EAN": "07896243126088",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13398,7 +13398,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.38",
             "EAN": "07896243144631",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13407,7 +13407,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.38",
             "EAN": "07896243144648",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13416,7 +13416,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.38",
             "EAN": "07896243144587",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13425,7 +13425,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.35",
             "EAN": "07896243147533",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13434,7 +13434,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.38",
             "EAN": "07896243144594",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13443,7 +13443,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.35",
             "EAN": "07896243147496",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13452,7 +13452,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.38",
             "EAN": "07896243144600",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13461,7 +13461,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.35",
             "EAN": "07896243147557",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13470,7 +13470,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.35",
             "EAN": "07896243147502",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13479,7 +13479,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.38",
             "EAN": "07896243144617",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13488,7 +13488,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.35",
             "EAN": "07896243147540",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13497,7 +13497,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.35",
             "EAN": "07896243147519",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13506,7 +13506,7 @@ function DATA(){
             "PRECO": "15.99",
             "CUSTO": "8.31",
             "EAN": "07896243144372",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13515,7 +13515,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.35",
             "EAN": "07896243147526",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13524,7 +13524,7 @@ function DATA(){
             "PRECO": "17.49",
             "CUSTO": "9.23",
             "EAN": "07896243135776",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13533,7 +13533,7 @@ function DATA(){
             "PRECO": "17.49",
             "CUSTO": "9.23",
             "EAN": "07896243135745",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13542,7 +13542,7 @@ function DATA(){
             "PRECO": "4.99",
             "CUSTO": "2.65",
             "EAN": "07896243144433",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13551,7 +13551,7 @@ function DATA(){
             "PRECO": "17.49",
             "CUSTO": "9.23",
             "EAN": "07896243135752",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13560,7 +13560,7 @@ function DATA(){
             "PRECO": "4.99",
             "CUSTO": "2.65",
             "EAN": "07896243144440",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13569,7 +13569,7 @@ function DATA(){
             "PRECO": "14.21",
             "CUSTO": "7.82",
             "EAN": "07896243150007",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13578,7 +13578,7 @@ function DATA(){
             "PRECO": "4.99",
             "CUSTO": "2.65",
             "EAN": "07896243144419",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13587,7 +13587,7 @@ function DATA(){
             "PRECO": "4.99",
             "CUSTO": "2.65",
             "EAN": "07896243144402",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13596,7 +13596,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.70",
             "EAN": "07896243128778",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13605,7 +13605,7 @@ function DATA(){
             "PRECO": "4.99",
             "CUSTO": "2.65",
             "EAN": "07896243144426",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13614,7 +13614,7 @@ function DATA(){
             "PRECO": "4.99",
             "CUSTO": "2.65",
             "EAN": "07896243144853",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13623,7 +13623,7 @@ function DATA(){
             "PRECO": "4.99",
             "CUSTO": "2.65",
             "EAN": "07896243144457",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13632,7 +13632,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.70",
             "EAN": "07896243128754",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13641,7 +13641,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.70",
             "EAN": "07896243128761",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13668,7 +13668,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.70",
             "EAN": "07896243128785",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13677,7 +13677,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.70",
             "EAN": "07896243128808",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13686,7 +13686,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.70",
             "EAN": "07896243128792",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13695,7 +13695,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.36",
             "EAN": "07896243129720",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13704,7 +13704,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.70",
             "EAN": "07896243128969",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13713,7 +13713,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.36",
             "EAN": "07896243129737",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13722,7 +13722,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.36",
             "EAN": "07896243129706",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13731,7 +13731,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.36",
             "EAN": "07896243129690",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13740,7 +13740,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.36",
             "EAN": "07896243144389",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13749,7 +13749,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.64",
             "EAN": "07896243150014",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13758,7 +13758,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.36",
             "EAN": "07896243135943",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13767,7 +13767,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.36",
             "EAN": "07896243129744",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13776,7 +13776,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.64",
             "EAN": "07896243129676",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13785,7 +13785,7 @@ function DATA(){
             "PRECO": "7.99",
             "CUSTO": "4.14",
             "EAN": "07896243144501",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13794,7 +13794,7 @@ function DATA(){
             "PRECO": "7.99",
             "CUSTO": "4.14",
             "EAN": "07896243144495",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13803,7 +13803,7 @@ function DATA(){
             "PRECO": "7.99",
             "CUSTO": "4.14",
             "EAN": "07896243144471",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13812,7 +13812,7 @@ function DATA(){
             "PRECO": "7.99",
             "CUSTO": "4.14",
             "EAN": "07896243144464",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13821,7 +13821,7 @@ function DATA(){
             "PRECO": "7.99",
             "CUSTO": "4.14",
             "EAN": "07896243144860",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13830,7 +13830,7 @@ function DATA(){
             "PRECO": "7.99",
             "CUSTO": "4.14",
             "EAN": "07896243144488",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13839,7 +13839,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151158",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13848,7 +13848,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151189",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13857,7 +13857,7 @@ function DATA(){
             "PRECO": "7.99",
             "CUSTO": "4.14",
             "EAN": "07896243144518",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13866,7 +13866,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151141",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13875,7 +13875,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151172",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13884,7 +13884,7 @@ function DATA(){
             "PRECO": "14.74",
             "CUSTO": "7.87",
             "EAN": "07896243135912",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13893,7 +13893,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151219",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13902,7 +13902,7 @@ function DATA(){
             "PRECO": "14.74",
             "CUSTO": "7.87",
             "EAN": "07896243135899",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13911,7 +13911,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151127",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13920,7 +13920,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151165",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13929,7 +13929,7 @@ function DATA(){
             "PRECO": "6.32",
             "CUSTO": "3.13",
             "EAN": "07896243144716",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13938,7 +13938,7 @@ function DATA(){
             "PRECO": "34.74",
             "CUSTO": "18.82",
             "EAN": "07896243151202",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13947,7 +13947,7 @@ function DATA(){
             "PRECO": "34.74",
             "CUSTO": "18.82",
             "EAN": "07896243151226",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13956,7 +13956,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151134",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -13965,7 +13965,7 @@ function DATA(){
             "PRECO": "31.49",
             "CUSTO": "16.94",
             "EAN": "07896243151196",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28338,7 +28338,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243128426",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28347,7 +28347,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243109197",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28356,7 +28356,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243109210",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28365,7 +28365,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243128433",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28374,7 +28374,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243149469",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28383,7 +28383,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243149544",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28392,7 +28392,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243106448",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28401,7 +28401,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243149551",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28410,7 +28410,7 @@ function DATA(){
             "PRECO": "9.47",
             "CUSTO": "4.99",
             "EAN": "07896243128464",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28419,7 +28419,7 @@ function DATA(){
             "PRECO": "9.47",
             "CUSTO": "4.99",
             "EAN": "07896243109104",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28428,7 +28428,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243106295",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28437,7 +28437,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.99",
             "EAN": "07896243109111",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28446,7 +28446,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.99",
             "EAN": "07896243128471",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28455,7 +28455,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243149476",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28464,7 +28464,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243149568",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28473,7 +28473,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.99",
             "EAN": "07896243149575",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28482,7 +28482,7 @@ function DATA(){
             "PRECO": "9.47",
             "CUSTO": "4.99",
             "EAN": "07896243104338",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28491,7 +28491,7 @@ function DATA(){
             "PRECO": "8.49",
             "CUSTO": "4.49",
             "EAN": "07896243104413",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28500,7 +28500,7 @@ function DATA(){
             "PRECO": "9.47",
             "CUSTO": "4.99",
             "EAN": "07896243104482",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28509,7 +28509,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.99",
             "EAN": "07896243135103",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28518,7 +28518,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243128549",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28527,7 +28527,7 @@ function DATA(){
             "PRECO": "11.99",
             "CUSTO": "6.58",
             "EAN": "07896243128556",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28536,7 +28536,7 @@ function DATA(){
             "PRECO": "10.49",
             "CUSTO": "5.60",
             "EAN": "07896243149483",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28545,7 +28545,7 @@ function DATA(){
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07896243149599",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28554,7 +28554,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126910",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28563,7 +28563,7 @@ function DATA(){
             "PRECO": "11.99",
             "CUSTO": "6.58",
             "EAN": "07896243126750",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28572,7 +28572,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126774",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28581,7 +28581,7 @@ function DATA(){
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07896243126927",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28590,7 +28590,7 @@ function DATA(){
             "PRECO": "10.99",
             "CUSTO": "6.58",
             "EAN": "07896243126828",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28599,7 +28599,7 @@ function DATA(){
             "PRECO": "10.49",
             "CUSTO": "5.60",
             "EAN": "07896243126811",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28608,7 +28608,7 @@ function DATA(){
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07896243135158",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -28617,7 +28617,7 @@ function DATA(){
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07896243135219",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29004,7 +29004,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.53",
             "EAN": "07896243128501",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29013,7 +29013,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243149490",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29022,7 +29022,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.53",
             "EAN": "07896243149605",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29031,7 +29031,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.53",
             "EAN": "07896243149612",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29040,7 +29040,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.53",
             "EAN": "07896243102020",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29049,7 +29049,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102099",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29058,7 +29058,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.53",
             "EAN": "07896243102174",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29067,7 +29067,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243102204",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29823,7 +29823,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243135097",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29832,7 +29832,7 @@ function DATA(){
             "PRECO": "8.99",
             "CUSTO": "4.99",
             "EAN": "07896243135134",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29841,7 +29841,7 @@ function DATA(){
             "PRECO": "4.49",
             "CUSTO": "2.34",
             "EAN": "07896243137626",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29850,7 +29850,7 @@ function DATA(){
             "PRECO": "4.49",
             "CUSTO": "2.34",
             "EAN": "07896243137596",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29859,7 +29859,7 @@ function DATA(){
             "PRECO": "4.49",
             "CUSTO": "2.34",
             "EAN": "07896243137619",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29868,7 +29868,7 @@ function DATA(){
             "PRECO": "4.49",
             "CUSTO": "2.34",
             "EAN": "07896243137602",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29877,7 +29877,7 @@ function DATA(){
             "PRECO": "4.49",
             "CUSTO": "2.34",
             "EAN": "07896243137589",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29886,7 +29886,7 @@ function DATA(){
             "PRECO": "4.49",
             "CUSTO": "2.34",
             "EAN": "07896243138159",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29895,7 +29895,7 @@ function DATA(){
             "PRECO": "4.49",
             "CUSTO": "2.34",
             "EAN": "07896243137633",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29904,7 +29904,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.53",
             "EAN": "07896243128518",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -29913,7 +29913,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.53",
             "EAN": "07896243135196",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30606,7 +30606,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.38",
             "EAN": "07896243144624",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30615,7 +30615,7 @@ function DATA(){
             "PRECO": "6.49",
             "CUSTO": "3.45",
             "EAN": "07896243145102",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30624,7 +30624,7 @@ function DATA(){
             "PRECO": "9.99",
             "CUSTO": "5.46",
             "EAN": "07896243106424",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30633,7 +30633,7 @@ function DATA(){
             "PRECO": "5.99",
             "CUSTO": "3.11",
             "EAN": "07896243144143",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30642,7 +30642,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.53",
             "EAN": "07896243119936",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30651,7 +30651,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.53",
             "EAN": "07896243102150",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30660,7 +30660,7 @@ function DATA(){
             "PRECO": "15.49",
             "CUSTO": "8.53",
             "EAN": "07896243135189",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30669,7 +30669,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "5.20",
             "EAN": "07896243147649",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30678,7 +30678,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "5.20",
             "EAN": "07896243147632",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30687,7 +30687,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "5.20",
             "EAN": "07896243147670",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30696,7 +30696,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "5.20",
             "EAN": "07896243147656",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30705,7 +30705,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "5.20",
             "EAN": "07896243147663",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30714,7 +30714,7 @@ function DATA(){
             "PRECO": "16.99",
             "CUSTO": "8.97",
             "EAN": "07896243151073",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30723,7 +30723,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "5.20",
             "EAN": "07896243147687",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30732,7 +30732,7 @@ function DATA(){
             "PRECO": "9.49",
             "CUSTO": "5.20",
             "EAN": "07896243147694",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30741,7 +30741,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "11.00",
             "EAN": "07896243127504",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30750,7 +30750,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "11.00",
             "EAN": "07896243126071",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30759,7 +30759,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "11.00",
             "EAN": "07896243126101",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30768,7 +30768,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "11.00",
             "EAN": "07896243119615",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30777,7 +30777,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "11.00",
             "EAN": "07896243119646",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30786,7 +30786,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "11.00",
             "EAN": "07896243119707",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30795,7 +30795,7 @@ function DATA(){
             "PRECO": "11.99",
             "CUSTO": "6.58",
             "EAN": "07896243149582",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30804,7 +30804,7 @@ function DATA(){
             "PRECO": "16.99",
             "CUSTO": "8.97",
             "EAN": "07896243151059",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30813,7 +30813,7 @@ function DATA(){
             "PRECO": "16.99",
             "CUSTO": "8.97",
             "EAN": "07896243151066",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30822,7 +30822,7 @@ function DATA(){
             "PRECO": "16.99",
             "CUSTO": "8.97",
             "EAN": "07896243151080",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30831,7 +30831,7 @@ function DATA(){
             "PRECO": "16.99",
             "CUSTO": "8.97",
             "EAN": "07896243151097",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -30840,7 +30840,7 @@ function DATA(){
             "PRECO": "16.99",
             "CUSTO": "8.97",
             "EAN": "07896243151103",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -32082,7 +32082,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243118960",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -32091,7 +32091,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.68",
             "EAN": "07896243118977",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -32100,7 +32100,7 @@ function DATA(){
             "PRECO": "10.49",
             "CUSTO": "5.60",
             "EAN": "07896243126941",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -38753,7 +38753,7 @@ function DATA(){
             "PRECO": "17.49",
             "CUSTO": "9.23",
             "EAN": "07896243135806",
-            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA",
+            "FORNECEDOR": "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA",
             
         },
         {
@@ -39271,8 +39271,110 @@ function DATA(){
         }
     ]
     const color = {
+
+        //SÃO ROQUE-----------------------------------------
+
+        "CAFE BRASIL": 'CAFE BRASIL',
+        "TRANSPARENTE": 'TRANSPARENTE',
+        "TRANSPAREN TE": 'TRANSPARENTE',
+        "AZ COBAL TO": 'AZUL COBALTO',
+        "AZ TURQU ESA": 'AZUL TURQUESA',
+        "RX UVA": 'ROXO UVA',
+        "LR MANDA RIM": 'LARANJA MANDARIM',
+        "LR MA NDARIM": 'LARANJA MANDARIM',
+       "VM QUENTE": 'VERMELHO QUENTE',
+        "VERME LHO QUENTE": 'VERMELHO QUENTE',
+        "AM CITRI NO": 'AMARELO CITRINO',
+        "AMARE LO CITRINO": 'AMARELO CITRINO',
+        "PR EBANO": 'PRETO EBANO',
+        "BR POLAR": 'BRANCO POLAR',
+        "AZ BABY": 'AZUL BABY',
+        "RS BABY": 'ROSA BABY',
+        "VD MACA": 'VERDE MACA',
+        "DOURADO": 'DOURADO',
+        "PRATEADO": 'PRATEADO',
+        "VD LIMA": 'VERDE LIMA',
+        "VD FOLHA": 'VERDE FOLHA',
+        "AZ COBALTO": 'AZUL COBALTO',
+        "LR MANDARIM": 'LARANJA MANDARIM',
+        "AM CITRINO": 'AMARELO CITRINO',
+        "RS SHOCK": 'ROSA SHOCK',
+        "VD BANDEIRA": 'VERDE BANDEIRA',
+        "AZ TURQUESA": 'AZUL TURQUESA',
+        "RS TT FRUTTI": 'ROSA TUTTI FRUTTI',
+        "RS TT FRUIT T": 'ROSA TUTTI FRUTTI',
+        "RS TT FR UTTI": 'ROSA TUTTI FRUTTI',
+        "LILA BABY": 'LILAS BABY',
+        "VD EUCAL IPTO": 'VERDE EUCALIPTO',
+        "VD EUCALIPTO": 'VERDE EUCALIPTO',
+        "DOURAD O": 'DOURADO',
+        "AM SOL": 'AMARELO SOL',
+        "AZ CELESTE": 'AZUL CELESTE',
+        "PR EB ANO": 'PRETO EBANO',
+        "VM QUENT E": "VERMELHO QUENTE",
+        "P INK": "PINK",
+        "CAFE": "CAFE",
+        "BR ANCO": "BRANCO",
+        "SOR TIDO": "SORTIDO",
+        "SO RTIDO": "SORTIDO",
+        "SORTI DO": "SORTIDO",
+        "SORT IDO": "SORTIDO",
+        "SORTID O": "SORTIDO",
+        "VERM ELHO QUENTE": "VERMELHO QUENTE",
+        "BR ABSOLUTO": "BRANCO ABSOLUTO",
+        "VM INTENSO": "VERMELHO INTENSO",
+        "LR AMBAR": "LARANJA AMBAR",
+        "RS PROFUNDO": "ROSA PROFUNDO",
+        "VD FLORESTA": "VERDE FLORESTA",
+        "MARRO TERRA": "MARROM TERRA",
+        "VD CITRICO": "VERDE CITRICO",
+        "LIL LAVANDA": "LILAS LAVANDA",
+        "VD SALVIA": "VERDE SALVIA",
+        "ROXO PURPLE": "ROXO PURPLE",
+        "AM CITRUS": "AMARELO CITRUS",
+        "AZ CLASSICO": "AZUL CLASSICO",
+        "CZ GRANITO": "CINZA GRANITO",
+        "AZ TOPAZIO": "AZUL TOPAZIO",
+        "AZ CIANO": "AZUL CIANO",
+        "RS BLOSSOM": "ROSA BLOSSOM",
+        "PESS EGO": "PESSEGO",
+        "AMA RELO": "AMARELO",
+        "VERD E MENTA": "VERDE MENTA",
+        "LILA S": "LILAS",
+        "ROXO": "ROXO",
+        "VERD E": "VERDE",
+        "COBRE": "COBRE",
+        "LARA NJA": "LARANJA",
+        "AMAR ELO": "AMAR ELO",
+        "LR CITRICO": "LARANJA CITRICO",
+        "BORDO": "BORDO",
+        "AM OCRE": "AMARELO OCRE",
+        "TERRACOT A": "TERRACOTA",
+        "VD HORTE LA": "VERDE HORTELA",
+        "AREIA": "AREIA",
+        "TIFFANY": "TIFFANY",
+        "TERRACOTA": "TERRACOTA",
+        "VD HORTELA": "VERDE HORTELA",
+        "VD MUSGO": "VERDE MUSGO",
+        "CR ISTA": "CRISTA",
+        "PESSEGO": "PESSEGO",
+        "TRAN SPARENTE": "TRANSPARENTE",
+        "AZU L": "AZUL",
+        "VER DE": "VERDE",
+        "LAR ANJA": "LAR ANJA",
+        "ROS A": "ROSA",
+        "LIL AS": "LILAS",
+        "AM  SOL": "AMARELO SOL",
+        "RUBI": 'RUBI',
+        "RUBY": 'RUBY',
+
+
+        
+        //PICPIC --------------------------------------------        
         // candy
+
         "AZUL CANDY": "AZUL CANDY",
+        "BRANC O POLAR": "BRANCO POLAR",
         "verde CANDY": "verde CANDY",
         "AMARELO CANDY": "AMARELO CANDY",
         "LARANJA CANDY":"LARANJA CANDY",
@@ -39343,6 +39445,17 @@ function DATA(){
     
     }
     const type = {
+        // TIPO SÃO ROQUE
+        "TEMA": 'TEMATICO',
+        "METALLIC": 'METALLIC',
+        "CINTIL": 'CINTILANTE',
+        "SUPER GIGANTE": 'SUPER GIGANTE',
+        "GIGANTE": 'GIGANTE',
+        "CANUDO": 'CANUDO',
+        "UNIQ": 'UNIQ',
+
+
+
         //TIPOS PIC PIC
         "ESPECIAL": "ESPECIAL",
         "FANTASIA": "FANTASIA",
@@ -39369,6 +39482,7 @@ function DATA(){
 
     }
     const size = {
+
         // TAMANHOS PIC PIC
         " 250 ": '250"',
         " 260 ": '260"',
@@ -39383,9 +39497,99 @@ function DATA(){
        " 05 ": '5" - 13cm',
        " 2.5 ":'2.5" - 6cm',
        " 12 ": '12" - 30cm',
+       
+       // são roque --------------------
+       " GIGANTE ": '250"',
+       " CANUDO ": '260"',
+       " 8 ": '8" - 20cm',
+       " 5 ": '5" - 13cm',
+       " 9 ": '9" - 23cm',
+       " 7 ":'7" - 18cm',
+       " 11 ":'11" - 28cm',
     }
     const amount = {
+        //REMOVER
+        'BALAO GIGANTE LISO VD LIMA': '1 UNIDADE',
+        'BALAO GIGANTE TRANSPARENTE': '1 UNIDADE',
+        'BALAO GIGANTE LISO VD FOLHA': '1 UNIDADE',
+        'BALAO GIGANTE LISO AZ COBALTO': '1 UNIDADE',
+        'BALAO GIGANTE LISO LR MANDARIM': '1 UNIDADE',
+        'BALAO GIGANTE LISO VM QUENTE': '1 UNIDADE',
+        'BALAO GIGANTE LISO RS TT FRUIT T': '1 UNIDADE',
+        'BALAO GIGANTE LISO AM CITRINO': '1 UNIDADE',
+        'BALAO GIGANTE LISO PR EBANO': '1 UNIDADE',
+        'BALAO GIGANTE LISO BR POLAR': '1 UNIDADE',
+        'BALAO GIGANTE LISO AZ BABY': '1 UNIDADE',
+        'BALAO GIGANTE LISO NEW PINK': '1 UNIDADE',
+        // 'BALAO GIGANTE LISO AZ CELESTE 125104201': '1 UNIDADE',
+        '125106601': '1 UNIDADE',
+        '1351013001': '1 UNIDADE',
+        '135102601': '1 UNIDADE',
+        '135102601': '1 UNIDADE',
+        '135104201': '1 UNIDADE',
+        '135104801': '1 UNIDADE',
+        '135105001': '1 UNIDADE',
+        '135105401': '1 UNIDADE',
+        '135105601': '1 UNIDADE',
+        '135105701': '1 UNIDADE',
+        '135105801': '1 UNIDADE',
+        '135106001': '1 UNIDADE',
+        '135106101': '1 UNIDADE',
+        '135106201': '1 UNIDADE',
+        '135106401': '1 UNIDADE',
+        '135106601': '1 UNIDADE',
+        '135106801': '1 UNIDADE',
+        '135111201': '1 UNIDADE',
+        '135111301': '1 UNIDADE',
+        
+
+
+
+
+        
     
+        //QUANTIDADE SÃO ROQUE ---------------------------------
+        'C/1': '1 UNIDADE',
+        'C/ 1': '1 UNIDADE',
+        'C /1': '1 UNIDADE',
+        '1 un': '1 UNIDADE',
+        '1 UN': '1 UNIDADE',
+        '1UN': '1 UNIDADE',
+        '1un': '1 UNIDADE',
+
+        'C/10': '10 UNIDADES',
+        'C/ 10': '10 UNIDADES',
+        'C /10': '10 UNIDADES',
+        '10 UN': '10 UNIDADES',
+        '10 un': '10 UNIDADES',
+        '10UN': '10 UNIDADES',
+        '10un': '10 UNIDADES',
+
+        'C/15': "15 UNIDADES",
+        'C/ 15': '15 UNIDADES',
+        'C /15': '15 UNIDADES',
+        '15 UN': '15 UNIDADES',
+        '15 un': '15 UNIDADES',
+        '15UN': '15 UNIDADES',
+        '15un': '15 UNIDADES',
+
+        'C/25': "25 UNIDADES",
+        'C /25': "25 UNIDADES",
+        'C/ 25': '25 UNIDADES',
+        '25 UN': '25 UNIDADES',
+        '25 un': '25 UNIDADES',
+        '25un': '25 UNIDADES',
+
+        'C/50': "50 UNIDADES",
+        'C/ 50': '50 UNIDADES',
+        'C /50': '50 UNIDADES',
+        '50 UN': '50 UNIDADES',
+        '50 un': '50 UNIDADES',
+        '50UN': '50 UNIDADES',
+        '50un': '50 UNIDADES',
+
+
+        //QUANTIDADE PICPIC ---------------------------------
         '50 UNIDADES': "50 UNIDADES",
         '25 UNIDADES': "25 UNIDADES", 
         '1 UNIDADE': "1 UNIDADE", 
@@ -39395,7 +39599,13 @@ function DATA(){
         '25 UN': '25 UNIDADES',
         '1 UN': '1 UNIDADE',
         '12 UN': '12 UNIDADES',
+
+        //ULTIMO RECURSO-----------------------------------------
         ' 50 ': '50 UNIDADES',
+        ' 1 ': '1 UNIDADE',
+        ' 25 ': '25 UNIDADES',
+        ' 15 ': '15 UNIDADES',
+        ' 10 ': '10 UNIDADES',
 
     
     }
@@ -39404,7 +39614,7 @@ function DATA(){
     "GAUCHO IND COM IMPORTACAO E EXPORTACAO DE POLIMEROS EIRELI (JOY)": "JOY",
     "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)": "PIC PIC",
     "FESTCOLOR ARTIGOS DE FESTAS LTDA": "FESTCOLOR",
-    "FABRICA DE ARTEF.DE LATEX SAO ROQUE LTDA": "SAO ROQUE",
+    "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA": "SÃO ROQUE",
     "ANDREIA NEGRI BERNARDT LTDA": "ANDREIA",
     "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA": "KLF",
     "ABSTRATA COMERCIO IMPORTACAO E EXPORTACAO LTDA": "ABSTRATA",
@@ -39472,6 +39682,7 @@ function DATA(){
         "Branco com Colorido":"Branco com Colorido","Azul Claro com Colorido":"Azul Claro com Colorido","Rosa Forte com Colorido":"Rosa Forte com Colorido",
 
         "CORACAO": "CORACAO",
+
     }
     let output = {
         "singleProduct": [],
@@ -39544,7 +39755,6 @@ function TOOLS(){
                     }
                 }
             }
-            
             else if(object == 'brand'){
                 for(let i =0; i<repeat.length; i++){
                     if(repeat[i]== element.brand){push = false}
@@ -39558,7 +39768,6 @@ function TOOLS(){
                     }
                 }
             }
-            
             else if(object == 'color'){
                 for(let i =0; i<repeat.length; i++){
                     if(repeat[i]== element.color){push = false}
@@ -39573,7 +39782,6 @@ function TOOLS(){
 
                 }
             }
-
             else if(object == 'size'){
                 for(let i =0; i<repeat.length; i++){
                     if(repeat[i]== element.size){push = false}
@@ -39639,8 +39847,6 @@ function TOOLS(){
     }
     function buildDescription(name, brand, color, size, amount){
 
-
-
         let description = `<p>${name.toUpperCase()} <br><br>
         Marca: ${brand.toUpperCase()}, <br>
         Cor: ${color.toUpperCase()}, <br>
@@ -39682,10 +39888,14 @@ function TOOLS(){
                 url += 'super-gigante/'
             }
             else{
-                url += type.replace(' ', '-').toLowerCase() + '/'
+                url += type.replace(' ', '-') + '/'
             }
 
-            url += color.toLowerCase() 
+            url += color.replace(' ', '-')
+            
+
+            url += '.png'
+            let tratamento = url.toLowerCase()
             .replace(' ', '-')
             .replace('í', 'i')
             .replace('á', 'a')
@@ -39693,6 +39903,7 @@ function TOOLS(){
             .replace('ã', 'a')
             .replace('â', 'a')
             .replace('ó', 'o')
+            .replace('ç', 'c')
             .replace('ô', 'o')
             .replace('.', '')
             .replace(',', '')
@@ -39706,8 +39917,7 @@ function TOOLS(){
             .replace('^', '')
             .replace('~', '')
 
-            url += '.png'
-            return url.replace(' ', '-').toLowerCase()
+            return tratamento
         }
     }
     function getRootProduct(){
@@ -39973,12 +40183,14 @@ function RUN(){
 
         //CONFIÇÃO PARA SALVAR ####################################################################################
         if(
-            product.brand == 'PIC PIC'
+            product.brand == 'SÃO ROQUE'
         ){
             data.output.product.push(product)
         }
         
     })
+
+    // tools.printSingleItem('size')
 
     tools.getRootProduct()
 } RUN()
