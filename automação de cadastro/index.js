@@ -39641,11 +39641,11 @@ function TOOLS(){
 
 
 
-        let description = `<p>${name} <br><br>
-        Marca: ${brand}, <br>
-        Cor: ${color}, <br>
-        Tamanho: ${size}, <br>
-        Quantidade: Pacote com ${amount}.
+        let description = `<p>${name.toUpperCase()} <br><br>
+        Marca: ${brand.toUpperCase()}, <br>
+        Cor: ${color.toUpperCase()}, <br>
+        Tamanho: ${size.toUpperCase()}, <br>
+        Quantidade: Pacote com ${amount.toUpperCase()}.
         </p>
         `
         return description
