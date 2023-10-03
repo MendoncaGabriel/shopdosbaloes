@@ -39906,7 +39906,6 @@ function TOOLS(){
             .replace('ó', 'o')
             .replace('ç', 'c')
             .replace('ô', 'o')
-            .replace('.', '')
             .replace(',', '')
             .replace('<', '')
             .replace('>', '')
