@@ -39892,11 +39892,11 @@ function TOOLS(){
                 url += type.replace(' ', '-') + '/'
             }
 
-            url += color.toUpperCase().replace(/ /g, '-')
+            url += color.toUpperCase().replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-')
             
 
             url += '.png'
-            let tratamento = url.toLowerCase().replace(/ /g, '-')
+            let tratamento = url.toLowerCase()
             .replace(' ', '-')
             .replace('í', 'i')
             .replace('á', 'a')
@@ -39911,9 +39911,9 @@ function TOOLS(){
             .replace('<', '')
             .replace('>', '')
             .replace('?', '')
-            .replace(':', '')
+
             .replace(';', '')
-            .replace('/', '')
+
             .replace('!', '')
             .replace('^', '')
             .replace('~', '')
