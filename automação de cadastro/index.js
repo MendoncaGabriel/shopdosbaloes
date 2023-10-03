@@ -40098,7 +40098,7 @@ function RUN(){
         product.url = ''                     //imagem do produto         //J Endereço da imagem principal do produto
         product.description = ''             //descrição do produto      //K HTML da descrição completa
         product.display = 'Sim'              //exibir                    //L Exibir produto ativo
-        product.type = ''                    //tipo                      //M Nome da categoria - nível 2
+        product.type = ''                    //tipo                      //M Nome da categoria - nível 2as
         product.amount = ''                  //quantidade                //N
         product.size = ''                    //tamanho                   //O
         product.model = ''                   //modelo                    //P
