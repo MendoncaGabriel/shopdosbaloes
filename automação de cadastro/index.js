@@ -39447,7 +39447,7 @@ function DATA(){
     }
     const type = {
         // TIPO SÃO ROQUE
-        "TEMA": 'TEMATICO',
+        // "TEMA": 'TEMATICO',
         "METALLIC": 'METALLIC',
         "CINTIL": 'CINTILANTE',
         "SUPER GIGANTE": 'SUPER GIGANTE',
@@ -40184,7 +40184,8 @@ function RUN(){
 
         //CONFIÇÃO PARA SALVAR ####################################################################################
         if(
-            product.brand == 'SÃO ROQUE'
+            product.brand == 'SÃO ROQUE' &&
+            product.color && product.type
         ){
             data.output.product.push(product)
         }
