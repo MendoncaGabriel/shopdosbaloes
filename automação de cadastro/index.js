@@ -13583,7 +13583,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000005198",
-            "DESCRICAO": "BALAO 5 CANDY COLORS C/25 AMAR ELO 105560425",
+            "DESCRICAO": "BALAO 5 CANDY COLORS C/25 AMARELO 105560425",
             "PRECO": "4.99",
             "CUSTO": "2.65",
             "EAN": "07896243144402",
@@ -13808,7 +13808,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000005223",
-            "DESCRICAO": "BALAO 9 CANDY COLORS C/25 AMAR ELO 108560425",
+            "DESCRICAO": "BALAO 9 CANDY COLORS C/25 AMARELO 108560425",
             "PRECO": "7.99",
             "CUSTO": "4.14",
             "EAN": "07896243144464",
@@ -29855,7 +29855,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000007529",
-            "DESCRICAO": "BALAO 7 CANDY COLORS C/25 AMAR ELO 106560425",
+            "DESCRICAO": "BALAO 7 CANDY COLORS C/25 AMARELO 106560425",
             "PRECO": "4.49",
             "CUSTO": "2.34",
             "EAN": "07896243137619",
@@ -39273,7 +39273,7 @@ function DATA(){
     const color = {
 
         //SÃO ROQUE-----------------------------------------
-
+        
         "CAFE BRASIL": 'CAFE BRASIL',
         "TRANSPARENTE": 'TRANSPARENTE',
         "TRANSPAREN TE": 'TRANSPARENTE',
@@ -39282,7 +39282,7 @@ function DATA(){
         "RX UVA": 'ROXO UVA',
         "LR MANDA RIM": 'LARANJA MANDARIM',
         "LR MA NDARIM": 'LARANJA MANDARIM',
-       "VM QUENTE": 'VERMELHO QUENTE',
+        "VM QUENTE": 'VERMELHO QUENTE',
         "VERME LHO QUENTE": 'VERMELHO QUENTE',
         "AM CITRI NO": 'AMARELO CITRINO',
         "AMARE LO CITRINO": 'AMARELO CITRINO',
@@ -39291,8 +39291,6 @@ function DATA(){
         "AZ BABY": 'AZUL BABY',
         "RS BABY": 'ROSA BABY',
         "VD MACA": 'VERDE MACA',
-        "DOURADO": 'DOURADO',
-        "PRATEADO": 'PRATEADO',
         "VD LIMA": 'VERDE LIMA',
         "VD FOLHA": 'VERDE FOLHA',
         "AZ COBALTO": 'AZUL COBALTO',
@@ -39313,7 +39311,7 @@ function DATA(){
         "PR EB ANO": 'PRETO EBANO',
         "VM QUENT E": "VERMELHO QUENTE",
         "P INK": "PINK",
-        "CAFE": "CAFE",
+        
         "BR ANCO": "BRANCO",
         "SOR TIDO": "SORTIDO",
         "SO RTIDO": "SORTIDO",
@@ -39341,19 +39339,14 @@ function DATA(){
         "AMA RELO": "AMARELO",
         "VERD E MENTA": "VERDE MENTA",
         "LILA S": "LILAS",
-        "ROXO": "ROXO",
-        "VERD E": "VERDE",
-        "COBRE": "COBRE",
         "LARA NJA": "LARANJA",
-        "AMAR ELO": "AMAR ELO",
+        "AMARELO": "AMARELO",
         "LR CITRICO": "LARANJA CITRICO",
         "BORDO": "BORDO",
         "AM OCRE": "AMARELO OCRE",
         "TERRACOT A": "TERRACOTA",
         "VD HORTE LA": "VERDE HORTELA",
         "AREIA": "AREIA",
-        "TIFFANY": "TIFFANY",
-        "TERRACOTA": "TERRACOTA",
         "VD HORTELA": "VERDE HORTELA",
         "VD MUSGO": "VERDE MUSGO",
         "CR ISTA": "CRISTA",
@@ -39361,13 +39354,21 @@ function DATA(){
         "TRAN SPARENTE": "TRANSPARENTE",
         "AZU L": "AZUL",
         "VER DE": "VERDE",
-        "LAR ANJA": "LAR ANJA",
+        "LAR ANJA": "LARANJA",
         "ROS A": "ROSA",
         "LIL AS": "LILAS",
         "AM  SOL": "AMARELO SOL",
         "RUBI": 'RUBI',
         "RUBY": 'RUBY',
-
+        "LAR ANJA": 'LARANJA',
+        "DOURADO": 'DOURADO',
+        "PRATEADO": 'PRATEADO',
+        "CAFE": "CAFE",
+        "ROXO": "ROXO",
+        "VERD E": "VERDE",
+        "COBRE": "COBRE",
+        "TIFFANY": "TIFFANY",
+        "TERRACOTA": "TERRACOTA",
 
         
         //PICPIC --------------------------------------------        
@@ -39891,11 +39892,11 @@ function TOOLS(){
                 url += type.replace(' ', '-') + '/'
             }
 
-            url += color.replace(' ', '-')
+            url += color.toUpperCase().replace(/ /g, '-')
             
 
             url += '.png'
-            let tratamento = url.toLowerCase()
+            let tratamento = url.toLowerCase().replace(/ /g, '-')
             .replace(' ', '-')
             .replace('í', 'i')
             .replace('á', 'a')
@@ -39949,7 +39950,7 @@ function TOOLS(){
             });
             tools.saveInExcel(singleProduct, 'produtos') ; //salvar produtos raiz
             
-
+            
 
         //VERIFICAR VARIANTES ---------------------------------------------
             var variable = [];
@@ -40190,7 +40191,11 @@ function RUN(){
         
     })
 
-    // tools.printSingleItem('size')
+     tools.printSingleItem('color')
 
     tools.getRootProduct()
 } RUN()
+
+
+
+
