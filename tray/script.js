@@ -112,7 +112,7 @@ function addComponnestButtonsFloat(){ //ADICIONAR COMPONENTE DE REDES SOCIAIS
     },
     {
       img:'https://img.freepik.com/premium-vector/gradient-social-media-logo_197792-2599.jpg', 
-      url:'https://www.instagram.com/shopdosbaloes/tray', 
+      url:'https://www.instagram.com/shopdosbaloes/', 
       size: 120 
     }
   ]
@@ -162,7 +162,7 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     text.style.fontSize = '12px';
     
     const img = document.createElement('img');
-    img.src = 'https://mendoncagabriel.github.io/shopdosbaloes/icons/icons8-whatsapp-96.png';
+    img.src = 'https://mendoncagabriel.github.io/shopdosbaloes/tray/icons/icons8-whatsapp-96.png';
     img.style.height = '60%';
     img.style.marginRight = '5px';
     
@@ -250,9 +250,9 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
     
     //BANNERS
     let ContainerBanners = [
-      'https://mendoncagabriel.github.io/shopdosbaloes/images/banner/Banner%20pc%20v2-min.png',
-      'https://mendoncagabriel.github.io/shopdosbaloes/images/banner/Banner%20pc%20v2-min.png',
-      'https://mendoncagabriel.github.io/shopdosbaloes/images/banner/Banner%20pc%20v2-min.png'
+      'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png',
+      'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png',
+      'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png'
     ];
     
     //ADICIONAR BANNER
@@ -490,7 +490,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
   prevButton.style.backgroundPosition = 'center'
   prevButton.style.backgroundRepeat = 'no-repeat'
   prevButton.style.backgroundSize = '80%'
-  prevButton.style.backgroundImage = 'url(https://mendoncagabriel.github.io/shopdosbaloes/tray/icons/btnPass.png)'
+  prevButton.style.backgroundImage = 'url(https://mendoncagabriel.github.io/tray/shopdosbaloes/tray/icons/btnPass.png)'
   prevButton.addEventListener('click', () => scrollCarrossel('left'));
 
   const nextButton = document.createElement('button');
