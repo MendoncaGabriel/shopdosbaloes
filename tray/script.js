@@ -112,7 +112,7 @@ function addComponnestButtonsFloat(){ //ADICIONAR COMPONENTE DE REDES SOCIAIS
     },
     {
       img:'https://img.freepik.com/premium-vector/gradient-social-media-logo_197792-2599.jpg', 
-      url:'https://www.instagram.com/shopdosbaloes/', 
+      url:'https://www.instagram.com/shopdosbaloes/tray', 
       size: 120 
     }
   ]
