@@ -158,9 +158,9 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     const productValue = productContainer.querySelector('.current-price')?.innerText || 'Valor do Produto não encontrado';
     const productLink = e.children[0].href || 'Link não encontrado';
 
-    const mensagem = `👋 Olá! Bom ${bomDia()} %0D%0A
-    Quero saber mais sobre o produto: ${productName} %0D%0A
-    🔗 Link: ${productLink}%0D%0A
+    const mensagem = `👋 Olá! Bom ${bomDia()} %0A
+    Quero saber mais sobre o produto: ${productName} %0A
+    🔗 Link: ${productLink}%0A
     💰 Valor: ${productValue}`;
 
     // mensagem.replace('á', 'a')
@@ -182,10 +182,10 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     // mensagem.replace('û', 'u')
     // mensagem.replace('ç', 'c')
 
-    
+    const mensagemCodificada = encodeURIComponent(mensagem);
     const saibaMais = document.createElement('a');
     saibaMais.target = '_blank';
-    saibaMais.href = `https://api.whatsapp.com/send?phone=5592992376689&text=${mensagem}`;
+    saibaMais.href = `https://api.whatsapp.com/send?phone=5592992376689&text=${mensagemCodificada}`;
     saibaMais.style.display = 'flex';
     saibaMais.style.alignItems = 'center';
     saibaMais.style.justifyContent = 'center';
