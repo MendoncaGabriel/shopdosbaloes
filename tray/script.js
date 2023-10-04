@@ -169,7 +169,7 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     .replace(/[ÓÒÕÔ]/g, 'O')  // Substitui caracteres acentuados por 'o'
     .replace(/[úùû]/g, 'u')   // Substitui caracteres acentuados por 'u'
     .replace(/[ÚÙÛ]/g, 'U')   // Substitui caracteres acentuados por 'u'
-    .replace(/[ç]/g, 'c');     // Substitui 'ç' por 'c'
+    .replace(/[ç]/g, 'c')    // Substitui 'ç' por 'c'
     .replace(/[Ç]/g, 'C');     // Substitui 'ç' por 'c'
     
 
