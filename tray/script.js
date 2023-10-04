@@ -136,13 +136,29 @@ function zoomCorrection(){            //SOLUÇÃO ZOOM PRODUTO
   }
 };
 function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
+
+  function bomDia(){
+    const date = new Date()
+    const hora = date.getHours()
+
+    if(hora >= 5 && hora < 12){
+      return 'dia'
+    }
+    else if(hora >= 12 && hora < 18){
+      return 'tarde'
+    }
+    else if(hora >= 18 && hora < 23){
+      return 'noite'
+    }
+  }
+
   document.querySelectorAll('div .actions').forEach((e) => {
     const productContainer = e.parentElement.querySelector('.product-info');
     const productName = productContainer.querySelector('.product-name')?.innerText || 'Nome do Produto não encontrado';
     const productValue = productContainer.querySelector('.current-price')?.innerText || 'Valor do Produto não encontrado';
     const productLink = e.children[0].href || 'Link não encontrado';
-    const mensagem = `Ola! bom dia! %0D%0A Gostaria de saber mais sobre o %0D%0A produto: ${productName}, %0D%0A Link: ${productLink} e %0D%0A Valor: ${productValue}`;
-    const mensagem2 = `👋 Olá! Como você está? %0D%0A
+
+    const mensagem = `👋 Olá! Bom ${bomDia()} %0D%0A
     Quero saber mais sobre o produto: ${productName} %0D%0A
     🔗 Link: ${productLink}%0D%0A
     💰 Valor: ${productValue}`;
