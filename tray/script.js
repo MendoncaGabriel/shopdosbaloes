@@ -141,7 +141,7 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     const productName = productContainer.querySelector('.product-name')?.innerText || 'Nome do Produto não encontrado';
     const productValue = productContainer.querySelector('.current-price')?.innerText || 'Valor do Produto não encontrado';
     const productLink = e.children[0].href || 'Link não encontrado';
-    const mensagem = `Oi, tudo bem? Quero saber mais sobre o produto: ${productName}, Link: ${productLink} e Valor: ${productValue}`;
+    const mensagem = `Ola! bom dia! %0A Gostaria de saber mais sobre o %0A produto: ${productName}, %0A Link: ${productLink} e %0A Valor: ${productValue}`;
     mensagem.replace('á', 'a')
     mensagem.replace('à', 'a')
     mensagem.replace('ã', 'a')
