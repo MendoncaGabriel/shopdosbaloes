@@ -155,35 +155,23 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
   document.querySelectorAll('div .actions').forEach((e) => {
     const productContainer = e.parentElement.querySelector('.product-info');
     const productName = productContainer.querySelector('.product-name')?.innerText || 'Nome do Produto não encontrado'
-    productName.replace('á', 'a')
-    .replace('à', 'a')
-    .replace('ã', 'a')
-    .replace('â', 'a')
-    .replace('é', 'e')
-    .replace('è', 'e')
-    .replace('ê', 'e')
-    .replace('í', 'i')
-    .replace('ì', 'i')
-    .replace('î', 'i')
-    .replace('ó', 'o')
-    .replace('ò', 'o')
-    .replace('õ', 'o')
-    .replace('ô', 'o')
-    .replace('ú', 'u')
-    .replace('ù', 'u')
-    .replace('û', 'u')
-    .replace('ç', 'c')
-    
     const productValue = productContainer.querySelector('.current-price')?.innerText || 'Valor do Produto não encontrado';
     const productLink = e.children[0].href || 'Link não encontrado';
 
-
+    const productNameWithoutSpecialChars = productName
+    .replace(/- SHOP DOS BALÕES/g, '')  // Remove '- SHOP DOS BALÕES' em toda a string
+    .replace(/[áàãâ]/g, 'a')  // Substitui caracteres acentuados por 'a'
+    .replace(/[éèê]/g, 'e')   // Substitui caracteres acentuados por 'e'
+    .replace(/[íìî]/g, 'i')   // Substitui caracteres acentuados por 'i'
+    .replace(/[óòõô]/g, 'o')  // Substitui caracteres acentuados por 'o'
+    .replace(/[úùû]/g, 'u')   // Substitui caracteres acentuados por 'u'
+    .replace(/[ç]/g, 'c');     // Substitui 'ç' por 'c'
     
 
 
 const mensagem = `👋 Olá,  ${bomDia()}! 
 Quero saber mais sobre.
-🎈 produto: *${productName.toUpperCase()}*,
+🎈 produto: *${productNameWithoutSpecialChars.toUpperCase()}*,
 💰 Valor: ${productValue},;
 🔗 Link: ${productLink}.`
 
