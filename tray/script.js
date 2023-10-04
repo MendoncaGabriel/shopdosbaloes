@@ -154,29 +154,31 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
 
   document.querySelectorAll('div .actions').forEach((e) => {
     const productContainer = e.parentElement.querySelector('.product-info');
-    const productName = productContainer.querySelector('.product-name')?.innerText || 'Nome do Produto não encontrado';
+    const productName = productContainer.querySelector('.product-name')?.innerText || 'Nome do Produto não encontrado'
+    productName.replace('á', 'a')
+    .replace('à', 'a')
+    .replace('ã', 'a')
+    .replace('â', 'a')
+    .replace('é', 'e')
+    .replace('è', 'e')
+    .replace('ê', 'e')
+    .replace('í', 'i')
+    .replace('ì', 'i')
+    .replace('î', 'i')
+    .replace('ó', 'o')
+    .replace('ò', 'o')
+    .replace('õ', 'o')
+    .replace('ô', 'o')
+    .replace('ú', 'u')
+    .replace('ù', 'u')
+    .replace('û', 'u')
+    .replace('ç', 'c')
+    
     const productValue = productContainer.querySelector('.current-price')?.innerText || 'Valor do Produto não encontrado';
     const productLink = e.children[0].href || 'Link não encontrado';
 
 
-    productName.replace('á', 'a')
-    productName.replace('à', 'a')
-    productName.replace('ã', 'a')
-    productName.replace('â', 'a')
-    productName.replace('é', 'e')
-    productName.replace('è', 'e')
-    productName.replace('ê', 'e')
-    productName.replace('í', 'i')
-    productName.replace('ì', 'i')
-    productName.replace('î', 'i')
-    productName.replace('ó', 'o')
-    productName.replace('ò', 'o')
-    productName.replace('õ', 'o')
-    productName.replace('ô', 'o')
-    productName.replace('ú', 'u')
-    productName.replace('ù', 'u')
-    productName.replace('û', 'u')
-    productName.replace('ç', 'c')
+    
 
 
 const mensagem = `👋 Olá,  ${bomDia()}! 
