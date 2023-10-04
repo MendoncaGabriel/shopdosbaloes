@@ -158,29 +158,33 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     const productValue = productContainer.querySelector('.current-price')?.innerText || 'Valor do Produto não encontrado';
     const productLink = e.children[0].href || 'Link não encontrado';
 
+
+    productName.replace('á', 'a')
+    productName.replace('à', 'a')
+    productName.replace('ã', 'a')
+    productName.replace('â', 'a')
+    productName.replace('é', 'e')
+    productName.replace('è', 'e')
+    productName.replace('ê', 'e')
+    productName.replace('í', 'i')
+    productName.replace('ì', 'i')
+    productName.replace('î', 'i')
+    productName.replace('ó', 'o')
+    productName.replace('ò', 'o')
+    productName.replace('õ', 'o')
+    productName.replace('ô', 'o')
+    productName.replace('ú', 'u')
+    productName.replace('ù', 'u')
+    productName.replace('û', 'u')
+    productName.replace('ç', 'c')
+
+
     const mensagem = `👋 Olá! Bom ${bomDia()} 
   Quero saber mais sobre o produto: ${productName}
   🔗 Link: ${productLink}
   💰 Valor: ${productValue}`;
 
-    // mensagem.replace('á', 'a')
-    // mensagem.replace('à', 'a')
-    // mensagem.replace('ã', 'a')
-    // mensagem.replace('â', 'a')
-    // mensagem.replace('é', 'e')
-    // mensagem.replace('è', 'e')
-    // mensagem.replace('ê', 'e')
-    // mensagem.replace('í', 'i')
-    // mensagem.replace('ì', 'i')
-    // mensagem.replace('î', 'i')
-    // mensagem.replace('ó', 'o')
-    // mensagem.replace('ò', 'o')
-    // mensagem.replace('õ', 'o')
-    // mensagem.replace('ô', 'o')
-    // mensagem.replace('ú', 'u')
-    // mensagem.replace('ù', 'u')
-    // mensagem.replace('û', 'u')
-    // mensagem.replace('ç', 'c')
+
 
     const mensagemCodificada = encodeURIComponent(mensagem);
     const saibaMais = document.createElement('a');
