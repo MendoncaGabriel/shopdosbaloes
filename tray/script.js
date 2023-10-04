@@ -387,7 +387,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
       url: 'http://www.shopdosbaloes.com.br/marcas/'
     },
     {
-      img: 'https://scontent.fpll5-1.fna.fbcdn.net/v/t39.30808-6/326344835_721177849628699_305930153760403698_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeFgvG0KttJxwzomNu6_GoYezaZYT41A3u_NplhPjUDe71Ud8DS00MmHT9AjQx1jgK0N_M5au1kgc3G-BHd8NS7T&_nc_ohc=ekKGPtqeLa4AX9Y49Dp&_nc_ht=scontent.fpll5-1.fna&oh=00_AfDUwg9RCOaLqiIzZWjbAQQQd2ADG-K3b0ALJ1lxj-Lzgw&oe=6508B81A',
+      img: 'https://www.aeroflex.ind.br/img/logo/seo.png',
       url: 'http://www.shopdosbaloes.com.br/marcas/'
     },
     {
@@ -411,11 +411,11 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
       url: 'http://www.shopdosbaloes.com.br/marcas/'
     },
     {
-      img: 'https://scontent.fpll5-1.fna.fbcdn.net/v/t39.30808-6/311142047_515780363891232_6888447216743803146_n.png?_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeEYPiTOch8Ze1kGx55NGh_l7qGv-2sDHujuoa_7awMe6HJ79UTQbYTObdVCTj3O1EBSy_9D4K3Fa1lCebg_FIW_&_nc_ohc=4sLLNZjeL20AX8mVV-A&_nc_ht=scontent.fpll5-1.fna&oh=00_AfAQNdAtKDfAmMvlCQGfzD6u7yYy-p14uLf4oERP1DiAaw&oe=650906CD',
+      img: 'https://boletos.cromus.com.br/img/logo_empresa.png',
       url: 'http://www.shopdosbaloes.com.br/marcas/'
     },
     {
-      img: 'https://scontent.fpll5-1.fna.fbcdn.net/v/t39.30808-6/308663825_528233512639642_8925920543360737427_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeGKdnGaiDXO8pUM_ar8F3gQ8IA5f3OO-gTwgDl_c476BLmNfVDMZpgpskiiH4DR5X8qKrKBiCRCW8_EIHu2DbME&_nc_ohc=9jqV8JgqtTwAX_UUOQG&_nc_ht=scontent.fpll5-1.fna&oh=00_AfDcnYlKZZdDTGLk8FUielfZzQSCkdu5DsZANeF17nle4A&oe=6508A7E4',
+      img: 'https://static.wixstatic.com/media/1c4367_e4e1c599c93a408d985b6d49f0445bc0~mv2_d_2482_1382_s_2.png',
       url: 'http://www.shopdosbaloes.com.br/marcas/'
     },
     {
@@ -428,6 +428,10 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
     },
     {
       img: 'http://silverplastic.com.br/wp-content/themes/default/img/home/logo-party-box.png',
+      url: 'http://www.shopdosbaloes.com.br/marcas/'
+    },
+    {
+      img: 'https://megatoon.org/pub/media//marcas/image_2020_12_01T14_45_09_258Z.png',
       url: 'http://www.shopdosbaloes.com.br/marcas/'
     },
   ]
