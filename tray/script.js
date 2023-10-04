@@ -163,29 +163,29 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     🔗 Link: ${productLink}%0D%0A
     💰 Valor: ${productValue}`;
 
-    mensagem.replace('á', 'a')
-    mensagem.replace('à', 'a')
-    mensagem.replace('ã', 'a')
-    mensagem.replace('â', 'a')
-    mensagem.replace('é', 'e')
-    mensagem.replace('è', 'e')
-    mensagem.replace('ê', 'e')
-    mensagem.replace('í', 'i')
-    mensagem.replace('ì', 'i')
-    mensagem.replace('î', 'i')
-    mensagem.replace('ó', 'o')
-    mensagem.replace('ò', 'o')
-    mensagem.replace('õ', 'o')
-    mensagem.replace('ô', 'o')
-    mensagem.replace('ú', 'u')
-    mensagem.replace('ù', 'u')
-    mensagem.replace('û', 'u')
-    mensagem.replace('ç', 'c')
+    // mensagem.replace('á', 'a')
+    // mensagem.replace('à', 'a')
+    // mensagem.replace('ã', 'a')
+    // mensagem.replace('â', 'a')
+    // mensagem.replace('é', 'e')
+    // mensagem.replace('è', 'e')
+    // mensagem.replace('ê', 'e')
+    // mensagem.replace('í', 'i')
+    // mensagem.replace('ì', 'i')
+    // mensagem.replace('î', 'i')
+    // mensagem.replace('ó', 'o')
+    // mensagem.replace('ò', 'o')
+    // mensagem.replace('õ', 'o')
+    // mensagem.replace('ô', 'o')
+    // mensagem.replace('ú', 'u')
+    // mensagem.replace('ù', 'u')
+    // mensagem.replace('û', 'u')
+    // mensagem.replace('ç', 'c')
 
     
     const saibaMais = document.createElement('a');
     saibaMais.target = '_blank';
-    saibaMais.href = `https://api.whatsapp.com/send?phone=5592992376689&text=${encodeURIComponent(mensagem)}`;
+    saibaMais.href = `https://api.whatsapp.com/send?phone=5592992376689&text=${mensagem}`;
     saibaMais.style.display = 'flex';
     saibaMais.style.alignItems = 'center';
     saibaMais.style.justifyContent = 'center';
