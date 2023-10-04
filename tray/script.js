@@ -512,4 +512,4 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
   CCCarrosel.appendChild(nextButton);
   document.querySelector('main').appendChild(container)
 };
-addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas();
+addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas(); //
