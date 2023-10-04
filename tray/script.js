@@ -161,11 +161,16 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     const productNameWithoutSpecialChars = productName
     .replace(/- SHOP DOS BALÕES/g, '')  // Remove '- SHOP DOS BALÕES' em toda a string
     .replace(/[áàãâ]/g, 'a')  // Substitui caracteres acentuados por 'a'
+    .replace(/[ÁÀÃÂ]/g, 'A')  // Substitui caracteres acentuados por 'a'
     .replace(/[éèê]/g, 'e')   // Substitui caracteres acentuados por 'e'
+    .replace(/[ÉÈÊ]/g, 'E')   // Substitui caracteres acentuados por 'e'
     .replace(/[íìî]/g, 'i')   // Substitui caracteres acentuados por 'i'
-    .replace(/[óòõô]/g, 'o')  // Substitui caracteres acentuados por 'o'
+    .replace(/[ÍÌÎ]/g, 'I')   // Substitui caracteres acentuados por 'i'
+    .replace(/[ÓÒÕÔ]/g, 'O')  // Substitui caracteres acentuados por 'o'
     .replace(/[úùû]/g, 'u')   // Substitui caracteres acentuados por 'u'
+    .replace(/[ÚÙÛ]/g, 'U')   // Substitui caracteres acentuados por 'u'
     .replace(/[ç]/g, 'c');     // Substitui 'ç' por 'c'
+    .replace(/[Ç]/g, 'C');     // Substitui 'ç' por 'c'
     
 
 
