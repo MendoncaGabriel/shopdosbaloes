@@ -179,10 +179,11 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     productName.replace('ç', 'c')
 
 
-    const mensagem = `👋 Olá,  ${bomDia()}! 
-Quero saber mais sobre o produto: ${productName}
-🔗 Link: ${productLink}
-💰 Valor: ${productValue}`;
+const mensagem = `👋 Olá,  ${bomDia()}! 
+Quero saber mais sobre.
+🎈 produto: *${productName.toUpperCase()}*,
+💰 Valor: ${productValue},;
+🔗 Link: ${productLink}.`
 
 
 
