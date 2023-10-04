@@ -142,13 +142,13 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     const hora = date.getHours()
 
     if(hora >= 5 && hora < 12){
-      return 'dia'
+      return 'Bom dia'
     }
     else if(hora >= 12 && hora < 18){
-      return 'tarde'
+      return 'Boa tarde'
     }
     else if(hora >= 18 && hora < 23){
-      return 'noite'
+      return 'Boa noite'
     }
   }
 
@@ -179,10 +179,10 @@ function addButtonSaibaMais(){        //ADICIONAR BOTÃO SAIBA MAIS NO WHATSAPP
     productName.replace('ç', 'c')
 
 
-    const mensagem = `👋 Olá! Bom ${bomDia()} 
-  Quero saber mais sobre o produto: ${productName}
-  🔗 Link: ${productLink}
-  💰 Valor: ${productValue}`;
+    const mensagem = `👋 Olá,  ${bomDia()}! 
+Quero saber mais sobre o produto: ${productName}
+🔗 Link: ${productLink}
+💰 Valor: ${productValue}`;
 
 
 
