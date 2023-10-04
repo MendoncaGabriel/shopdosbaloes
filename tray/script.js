@@ -494,7 +494,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
   prevButton.style.backgroundPosition = 'center'
   prevButton.style.backgroundRepeat = 'no-repeat'
   prevButton.style.backgroundSize = '80%'
-  prevButton.style.backgroundImage = 'url(https://mendoncagabriel.github.io/tray/shopdosbaloes/tray/icons/btnPass.png)'
+  prevButton.style.backgroundImage = 'url(https://mendoncagabriel.github.io/shopdosbaloes/tray/icons/btnPass.png)'
   prevButton.addEventListener('click', () => scrollCarrossel('left'));
 
   const nextButton = document.createElement('button');
