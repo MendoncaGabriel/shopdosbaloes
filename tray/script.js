@@ -356,83 +356,83 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
     
     {
       img: 'https://yt3.googleusercontent.com/ytc/AOPolaRIK3refq6Kt0pcLPz0zR0yPb_TCvti7HoBDP5L=s900-c-k-c0x00ffffff-no-rj',
-      url: 'http://www.shopdosbaloes.com.br/marcas/pic-pic'
+      url: 'http://www.shopdosbaloes.com.br/pic-pic'
     },
     {
       img: 'https://baloessaoroque.com.br/wp-content/uploads/2020/11/logo.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/sao-roque'
+      url: 'http://www.shopdosbaloes.com.br/sao-roque'
     },
     {
       img: 'https://www.festcolor.com.br/static/images/logo-festcolor.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/fest-color'
+      url: 'http://www.shopdosbaloes.com.br/fest-color'
     },
     {
       img: 'https://img.elo7.com.br/product/zoom/3A1E403/pacote-balao-branco-n-9-50-unidades-art-latex-bexigas-brancos-art-latex.jpg',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://baloesjoy.com.br/wp-content/uploads/2022/06/logo-joy.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://yt3.googleusercontent.com/ytc/AOPolaRLgeq-QOb5GtXR2WIU3zq7ri5zfKaGk78BRnrR=s900-c-k-c0x00ffffff-no-rj',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://baloesfestball.com.br/web/img/logo.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://diskempresarial.com.br/img/produtos/zoom/1565807613f05cdfc3b6b43c54b3cfc75242b65b3f.jpg',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://www.aeroflex.ind.br/img/logo/seo.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://seeklogo.com//images/S/sempertex-logo-743D32B199-seeklogo.com.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://pontodasfestas.com.br/wp-content/uploads/2023/04/Logo-Fox-import-hr.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://funchalpapeis.cdn.plataformaneo.com.br/produto/78920210511401_78920210511401.JPG',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://www.produtosmakemais.com.br/make/wp-content/themes/Make/images/logo-make.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://rhegia.com.br/wp-content/uploads/2021/03/mac.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://boletos.cromus.com.br/img/logo_empresa.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://static.wixstatic.com/media/1c4367_e4e1c599c93a408d985b6d49f0445bc0~mv2_d_2482_1382_s_2.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://yt3.googleusercontent.com/a6D4tzOSCRw5OYL5G1dRiJajlZ_cVjVJ7B4mncq5hDYmxbkBBwDo9L-fLZo6qNXEms6cUoKPRw=s900-c-k-c0x00ffffff-no-rj',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'https://static.wixstatic.com/media/99b010_640e9e9c3f514128a81953a6ec033d27~mv2.jpg/v1/fit/w_2500,h_1330,al_c/99b010_640e9e9c3f514128a81953a6ec033d27~mv2.jpg',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
       img: 'http://silverplastic.com.br/wp-content/themes/default/img/home/logo-party-box.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      url: 'http://www.shopdosbaloes.com.br/'
     },
     {
-      img: 'https://megatoon.org/pub/media//marcas/image_2020_12_01T14_45_09_258Z.png',
-      url: 'http://www.shopdosbaloes.com.br/marcas/'
+      img: 'https://megatoon.org/pub/media//image_2020_12_01T14_45_09_258Z.png',
+      url: 'http://www.shopdosbaloes.com.br/'
     },
   ]
 
