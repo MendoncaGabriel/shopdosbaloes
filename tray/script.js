@@ -471,7 +471,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
       url: 'http://www.shopdosbaloes.com.br/'
     },
     {
-      img: 'https://megatoon.org/pub/media//image_2020_12_01T14_45_09_258Z.png',
+      img: 'https://megatoon.org/pub/media/image_2020_12_01T14_45_09_258Z.png',
       url: 'http://www.shopdosbaloes.com.br/'
     },
   ]
