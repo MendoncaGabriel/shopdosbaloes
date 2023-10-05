@@ -1,9 +1,7 @@
 import fs from 'fs'
 import XLSX from 'xlsx';
 
-
 //DADOS E FERRAMENTAS ##########################################################
-
 function DATA(){
     const product = [
         {
@@ -38839,7 +38837,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000010023",
-            "DESCRICAO": "BALAO IMP. ESPECIAL PRETO FLAMENGO 2023  111017",
+            "DESCRICAO": "BALAO IMP. ESPECIAL PRETO FLAMENGO 2023  111017 C/25",
             "PRECO": "22.99",
             "CUSTO": "11.15",
             "EAN": "07908561312262",
@@ -39507,9 +39505,17 @@ function DATA(){
        " 9 ": '9" - 23cm',
        " 7 ":'7" - 18cm',
        " 11 ":'11" - 28cm',
+
+       //festcolor
+       '10X25':'25 UNIDADES',
+       'C/25':'25 UNIDADES'
+
+       
     }
     const amount = {
+        // 'BALAO IMP. ESPECIAL PRETO FLAMENGO ': 'IGNORAR',
         //REMOVER
+        '10X25': '25 UNIDADES',
         'BALAO GIGANTE LISO VD LIMA': '1 UNIDADE',
         'BALAO GIGANTE TRANSPARENTE': '1 UNIDADE',
         'BALAO GIGANTE LISO VD FOLHA': '1 UNIDADE',
@@ -39608,7 +39614,7 @@ function DATA(){
         ' 15 ': '15 UNIDADES',
         ' 10 ': '10 UNIDADES',
 
-    
+        '': '',
     }
     const brand = {
     "DEL REI INDUSTRIA DE ARTEFATOS DE LATEX LTDA - ME (FESTBALL)": "FESTBALL",
@@ -39638,6 +39644,133 @@ function DATA(){
     "BRDECOR COM E IMP DE ARTIGOS PARA FESTA": "BRDECOR",
     }
     const model = {
+        //Ignorar
+        'BALAO IMP. AZUL ESCURO METALLIC 10X25': '-',
+        'BALAO IMP. PRATA METALLIC 10X25 106783': '-',
+        'BALAO IMP. ROSA CITRICO METALLIC 10X25 106785': '-',
+        'BALAO IMP. VERMELHO METALLIC 10X25 106786': '-',
+        'BALAO IMP. BRANCO METALLIC 10X25    106782': '-',
+        'BALAO IMP. DOURADO METALLIC 10X25  106784': '-',
+  
+
+        //festcolor
+        ' PALMEIRAS ':'PALMEIRAS',
+        'NATAL CLASSICO':'NATAL CLASSICO',
+        'UNICORNIO':'UNICORNIO',
+        'CHUVA DE AMOR':'CHUVA DE AMOR',
+        'BOTECO':'BOTECO',
+        'FLAMENGO':'FLAMENGO','NUVEM':'NUVEM',
+        'BATMAN GEEK':'BATMAN GEEK',
+        'MELANCIA':'MELANCIA',
+        'MAGALI MELANCIA':'MAGALI MELANCIA',
+        'JURASSIC WORLD 2':'JURASSIC WORLD 2',
+        'GALINHA PINTADINHA':'GALINHA PINTADINHA',
+        'CORACAO':'CORACAO',
+        'BOLA DE FUTEBOL':'BOLA DE FUTEBOL',
+        'ONCINHA':'ONCINHA',
+        'TEIA DE ARANHA':'TEIA DE ARANHA',
+        'VAQUINHA':'VAQUINHA',
+        'GIRASSOL':'GIRASSOL',
+        'MUNDO ANIMAL ZEBRA':'MUNDO ANIMAL ZEBRA',
+        'NUVEM':'NUVEM',
+        'FLAMENGO':'FLAMENGO',
+        'VASCO DA GAMA':'VASCO DA GAMA',
+        'FREE FIRE':'FREE FIRE',
+        'VAMPIRINA':'VAMPIRINA',
+        'REVELACAO':'REVELACAO',
+        'ESQUELETO':'ESQUELETO',
+        'CAVEIRA':'CAVEIRA',
+        'ABOBORA':'ABOBORA',
+        'GIRASSOL':'GIRASSOL',
+        'PATINHAS E OSSINHOS':'PATINHAS E OSSINHOS',
+        'BOLOFOFOS':'BOLOFOFOS',
+        'APAIXONADOS POR FUTEBOL':'APAIXONADOS POR FUTEBOL',
+        'RAIO DE SOL':'RAIO DE SOL',
+        'JARDIM DAS BORBOLETAS':'JARDIM DAS BORBOLETAS',
+        'DINO BABY':'DINO BABY',
+        'SUPERMAN GEEK':'SUPERMAN GEEK',
+        'CORACOES LOVE':'CORACOES LOVE',
+        'SEREIA':'SEREIA',
+        'TURMA DA MONICA':'TURMA DA MONICA',
+        'NARUTO':'NARUTO',
+        'BRAHMA':'BRAHMA',
+        'HARRY POTTER':'HARRY POTTER',
+        'MONICA':'MONICA',
+        'CORINTHIANS':'CORINTHIANS',
+        'DRAGON BALL':'DRAGON BALL',
+        'LIGA DA JUSTICA ILUSTRADA':'LIGA DA JUSTICA ILUSTRADA',
+        'PALMEIRAS':'PALMEIRAS',
+        'SAO PAULO':'SAO PAULO',
+        'CEBOLINHA':'CEBOLINHA',
+        'GALINHA PINTADINHA':'GALINHA PINTADINHA',
+        'MULHER MARAVILHA KIDS':'MULHER MARAVILHA KIDS',
+        'BARBIE':'BARBIE',
+        'SAFARI':'SAFARI',
+        'FAZENDINHA':'FAZENDINHA',
+        'DECORADO':'DECORADO',
+        'ARABESCO':'ARABESCO',
+        'MINIONS':'MINIONS',
+        'AUTHENTIC GAMES':'AUTHENTIC GAMES',
+        'FELIZ ANIVERSARIO':'FELIZ ANIVERSARIO',
+        'FORMATURA':'FORMATURA',
+        '15 ANOS':'15 ANOS',
+        'CELEBRE A VIDA':'CELEBRE A VIDA',
+        'HARRY POTTER KIDS':'HARRY POTTER KIDS',
+        'TARDEZINHA':'TARDEZINHA',
+        'FREE FIRE':'FREE FIRE',
+        'POOH E SUA TURMA':'POOH E SUA TURMA',
+        'STITCH':'STITCH',
+        'FADAS DISNEY':'FADAS DISNEY',
+        'HOT WHEELS':'HOT WHEELS',
+        'MARIE':'MARIE',
+        'MONSTROS SA':'MONSTROS SA',
+        'JURASSIC WORLD 3':'JURASSIC WORLD 3',
+        'ONE PIECE':'ONE PIECE',
+        'PLAYSTATION 5':'',
+        'CHA REVELACAO':'CHA REVELACAO',
+        'AS MENINAS SUPER PODEROSAS':'AS MENINAS SUPER PODEROSAS',
+        'CHA REVELACAO':'CHA REVELACAO',
+        'AS MENINAS SUPER PODEROSAS':'AS MENINAS SUPER PODEROSAS',
+        'BRASIL':'BRASIL',
+        'FELIZ NIVER':'FELIZ NIVER',
+        'ESTRELA':'ESTRELA',
+        'CLASSICO NATAL':'CLASSICO NATAL',
+        'FELIZ NATAL':'FELIZ NATAL',
+        'CLASSICO NATAL':'CLASSICO NATAL',
+        'HALLOWEEN':'HALLOWEEN',
+        'HO HO HO NATAL':'HO HO HO NATAL',
+        'PAPAI NOEL NATAL':'PAPAI NOEL NATAL',
+        'ANO NOVO':'ANO NOVO',
+        'HAPPY NEW YEAR':'HAPPY NEW YEAR',
+        'PASCOA':'PASCOA',
+        'COELHOS':'COELHOS','MINIONS 2':'MINIONS 2',
+        'MACARRON':'MACARRON',
+        'FLASH':'FLASH',
+        'CORINTHIANS':'CORINTHIANS',
+        'MULHER MARAVILHA LUXO':'MULHER MARAVILHA LUXO',
+        'UM HEROI DO CORACAO':'UM HEROI DO CORACAO',
+        'MULHER MARAVILHA':'MULHER MARAVILHA',
+        'LUXO':'LUXO',
+        'PASCOA FLORK':'PASCOA FLORK',
+        'AMONG US':'AMONG US',
+        'BUFFET':'BUFFET',
+        'CHA DE COZINHA':'CHA DE COZINHA',
+        'CHA LINGERIE':'CHA LINGERIE',
+        'WANDINHA':'WANDINHA',
+        'AMOR':'AMOR',
+        'JUNINA TRADICIONAL':'JUNINA TRADICIONAL',
+        'JUNINA SERTAO':'JUNINA SERTAO',
+        'JUNINA DIVERTIDA':'JUNINA DIVERTIDA',
+        'CHA REVELACAO':'CHA REVELACAO',
+        'BOTECO DELAS':'BOTECO DELAS',
+        'PALMEIRAS':'',
+        'CORINTHIANS':'CORINTHIANS',
+        'ARLEQUINA':'ARLEQUINA',
+        'LIGA DA JUSTICA':'LIGA DA JUSTICA',
+
+
+
+        //pic pic
         "Branco com Preto":"Branco com Preto","Amarelo com Preto":"Amarelo com Preto","Vermelho com Preto":"Vermelho com Preto","Azul Claro com Preto":"Azul Claro com Preto","Verde com Preto":"Verde com Preto","Rosa Baby com Preto":"Rosa Baby com Preto","Lilás com Preto":"Lilás com Preto",
         "Amarelo com Branco":"Amarelo com Branco","Vermelho com Branco":"Vermelho com Branco","Azul com Branco":"Azul com Branco","Verde com Branco":"Verde com Branco","Rosa Forte com Branco":"Rosa Forte com Branco","Violeta com Branco":"Violeta com Branco",
         "Amarelo com Colorido":"Amarelo com Colorido","Azul Turquesa com Colorido":"Azul Turquesa com Colorido","Rosa Forte com Colorido":"Rosa Forte com Colorido","Violeta com Colorido":"Violeta com Colorido","Amarelo com Colorido":"Amarelo com Colorido","Azul com Colorido":"Azul com Colorido",
@@ -39683,7 +39816,7 @@ function DATA(){
         "Branco com Colorido":"Branco com Colorido","Azul Claro com Colorido":"Azul Claro com Colorido","Rosa Forte com Colorido":"Rosa Forte com Colorido",
 
         "CORACAO": "CORACAO",
-
+  
     }
     let output = {
         "singleProduct": [],
@@ -39693,6 +39826,7 @@ function DATA(){
 
     return {product, color, type, size, amount, amount, brand, model, output}
 }
+
 function TOOLS(){
     function prinAllItems(object){
         data.output.product.forEach((element)=>{
@@ -39738,7 +39872,7 @@ function TOOLS(){
                     repeat.push(element.model)
 
                     // IDENTIFICA ITEM FALTANDO
-                    if(element.color == '' || !element.color && element.model == ''){
+                    if(element.model == '' || !element.model && element.model == ''){
                         console.log('Modelo faltando:', element)
                     }
                 }
@@ -39860,39 +39994,46 @@ function TOOLS(){
     }
     function buildName(type, color, amount, model, brand, size){
         //BALÃO DE LÁTEX GIGANTE - AMARELO - 01 UNIDADE - PIC PIC - SHOP DOS BALÕES
-        let name = 'BALÃO DE LATEX'
-
+        let name = 'BALÃO DECORADO'
+        
         if(size == '250"'){name += ' ' + 'GIGANTE'}
         if(size == '350"'){name += ' ' + 'SUPER GIGANTE'}
-        if(type && type !== ''){name += ' ' + type.toUpperCase()}
+        
+        if(model !== '' && model !== '-'){name += ' ' + model.toUpperCase()}
+        name += ' 9" - 23CM'
         if(color && color !== ''){name += ' ' + color.toUpperCase()}
+        // if(type && type !== ''){name += ' ' + type.toUpperCase()}
         if(amount && amount !== ''){name += ' ' + amount.toUpperCase()}
-        if(model && model !== '' && color == ''){name += ' ' + model.toUpperCase()}
         if(brand && brand !== ''){name += ' ' + brand.toUpperCase()}
 
-        name += ' '+ '- SHOP DOS BALÕES'
+        name += ' - SHOP DOS BALÕES'
     
         return name
     }
+    let cont = 0
     function buildImg(brand, type, color, size){
-        if(brand && type && color){
+        if(brand && brand == 'FESTCOLOR'){
             let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
-            url += brand + '/'
+            url += brand + '/' 
 
-            if(size.includes('250"')){
-                url += 'gigante/'
-            }
-            else if(size.includes('260"')){
-                url += 'tripinha/'
-            }
-            else if(size.includes('350"')){
-                url += 'super-gigante/'
-            }
-            else{
-                url += type.replace(' ', '-') + '/'
-            }
+            url += cont
 
-            url += color.toUpperCase().replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-')
+            cont++
+
+            // if(size.includes('250"')){
+            //     url += 'gigante/'
+            // }
+            // else if(size.includes('260"')){
+            //     url += 'tripinha/'
+            // }
+            // else if(size.includes('350"')){
+            //     url += 'super-gigante/'
+            // }
+            // else{
+            //     url += type.replace(' ', '-') + '/'
+            // }
+
+            // url += color.toUpperCase().replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-')
             
 
             url += '.png'
@@ -39928,25 +40069,31 @@ function TOOLS(){
             let singleProduct = [];
 
             product.forEach((element)=>{
-                let push = true
+                singleProduct.push(element)
+
+                let push = false
 
                 for(let i = 0; i < singleProduct.length; i++){
+
+                    //REQUISITOS PARA IMPORTAÇÃO
                     if(
-                        element.brand == singleProduct[i].brand &&
+                        element.brand == singleProduct[i].brand  &&
                         element.color == singleProduct[i].color &&
                         element.type == singleProduct[i].type &&
-                        element.amount == singleProduct[i].amount 
-                    
+                        element.amount == singleProduct[i].amount &&
+                        element.size == singleProduct[i].size &&
+                        element.model == singleProduct[i].model //para pegar razes com modelo
                     ){
                         push = false
                         break
                     }
-                }
+                };
 
                 if(push == true){
                     singleProduct.push(element)
-                } 
+                };
             });
+
             tools.saveInExcel(singleProduct, 'produtos') ; //salvar produtos raiz
             
             
@@ -39957,12 +40104,15 @@ function TOOLS(){
 
                 let push = true
                 for(let i = 0; i<variable.length;i++){ //remover repetidos
+
+                    //REQUISITOS PARA IMPORTAÇÃO
                     if(
                         element.brand == variable[i].brand &&
                         element.color == variable[i].color &&
                         element.amount == variable[i].amount &&
                         element.size == variable[i].size &&
-                        element.type == variable[i].type
+                        element.type == variable[i].type &&
+                        element.model == variable[i].model 
                     ){
                         push = false
                         break
@@ -39980,10 +40130,11 @@ function TOOLS(){
             variable.forEach((variante)=>{
                 singleProduct.forEach((raiz)=>{
                     if(
+                        variante.brand == raiz.brand &&
                         variante.color == raiz.color &&
-                        variante.amount == raiz.amount &&
-                        variante.type == raiz.type 
-        
+                        variante.amount == raiz.amount 
+
+
                     ){
 
                         let variableproduct = {}
@@ -40183,19 +40334,36 @@ function RUN(){
 
         //CONFIÇÃO PARA SALVAR ####################################################################################
         if(
-            product.brand == 'SÃO ROQUE' &&
-            product.color && product.type
+            product.brand == 'FESTCOLOR' //&&
+            // product.color && product.type
         ){
             data.output.product.push(product)
         }
         
     })
 
-     tools.printSingleItem('color')
+    //tools.printSingleItem('color')
 
-    tools.getRootProduct()
+   tools.getRootProduct()
 } RUN()
 
 
 
+// document.addEventListener('click', (event)=>{
+//     let url = event.target.src
 
+//     if(url){
+//         copiarParaClipboard(event.target.src)
+//     }
+//     console.log(
+//     )})
+
+//     function copiarParaClipboard(texto) {
+//         var inputTemporario = document.createElement("input");
+//         inputTemporario.setAttribute("value", texto);
+//         document.body.appendChild(inputTemporario);
+//         inputTemporario.select();
+//         document.execCommand("copy");
+//         document.body.removeChild(inputTemporario);
+//     }
+    
