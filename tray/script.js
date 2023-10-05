@@ -556,4 +556,13 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
   CCCarrosel.appendChild(nextButton);
   document.querySelector('main').appendChild(container)
 };
-addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas(); //
+function removerParcelamento(){
+  let productInstallments = document.querySelectorAll('.product-installments')
+  if(productInstallments){
+    productInstallments.forEach((element)=>{
+      element.style.display = 'none'
+    })
+  }
+
+}
+addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas(); removerParcelamento() //
