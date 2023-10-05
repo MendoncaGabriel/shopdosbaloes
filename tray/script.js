@@ -404,7 +404,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
     },
     {
       img: 'https://www.festcolor.com.br/static/images/logo-festcolor.png',
-      url: 'http://www.shopdosbaloes.com.br/fest-color'
+      url: 'http://www.shopdosbaloes.com.br/festcolor'
     },
     {
       img: 'https://img.elo7.com.br/product/zoom/3A1E403/pacote-balao-branco-n-9-50-unidades-art-latex-bexigas-brancos-art-latex.jpg',
