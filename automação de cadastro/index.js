@@ -39444,6 +39444,12 @@ function DATA(){
     
     }
     const type = {
+        //festcolor
+        "DECORADO": 'DECORADO',
+        
+
+
+
         // TIPO SÃO ROQUE
         // "TEMA": 'TEMATICO',
         "METALLIC": 'METALLIC',
@@ -39506,15 +39512,17 @@ function DATA(){
        " 7 ":'7" - 18cm',
        " 11 ":'11" - 28cm',
 
-       //festcolor
-       '10X25':'25 UNIDADES',
-       'C/25':'25 UNIDADES'
+
 
        
     }
     const amount = {
+        //festcolor
+        '10X25':'25 UNIDADES',
+        'C/25':'25 UNIDADES',
+
+
         // 'BALAO IMP. ESPECIAL PRETO FLAMENGO ': 'IGNORAR',
-        //REMOVER
         '10X25': '25 UNIDADES',
         'BALAO GIGANTE LISO VD LIMA': '1 UNIDADE',
         'BALAO GIGANTE TRANSPARENTE': '1 UNIDADE',
@@ -39994,16 +40002,19 @@ function TOOLS(){
     }
     function buildName(type, color, amount, model, brand, size){
         //BALÃO DE LÁTEX GIGANTE - AMARELO - 01 UNIDADE - PIC PIC - SHOP DOS BALÕES
-        let name = 'BALÃO DECORADO'
+        let name = 'BALÃO DE LATEX'
         
         if(size == '250"'){name += ' ' + 'GIGANTE'}
         if(size == '350"'){name += ' ' + 'SUPER GIGANTE'}
         
         if(model !== '' && model !== '-'){name += ' ' + model.toUpperCase()}
+
+        if(!type){name += ' DECORADO'}
         name += ' 9" - 23CM'
         if(color && color !== ''){name += ' ' + color.toUpperCase()}
         // if(type && type !== ''){name += ' ' + type.toUpperCase()}
-        if(amount && amount !== ''){name += ' ' + amount.toUpperCase()}
+        if(amount && amount !== '' ){name += ' ' + amount.toUpperCase()}
+        if(!amount){name += ' 25 UNIDADES'}
         if(brand && brand !== ''){name += ' ' + brand.toUpperCase()}
 
         name += ' - SHOP DOS BALÕES'
