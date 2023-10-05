@@ -471,7 +471,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
       url: 'http://www.shopdosbaloes.com.br/'
     },
     {
-      img: 'https://megatoon.org/pub/media/image_2020_12_01T14_45_09_258Z.png',
+      img: 'https://megatoon.org/pub/media/logo/stores/1/logo-megatoon.png',
       url: 'http://www.shopdosbaloes.com.br/'
     },
   ]
@@ -565,7 +565,6 @@ function removerParcelamento(){
   }
 
 }
-
 function animacaoFlutuacao() {
   const elementosFlutuantes = document.querySelectorAll('.lazyload');
   const amplitude = 7;
@@ -598,76 +597,6 @@ function animacaoFlutuacao() {
   });
 }
 
-animacaoFlutuacao();
-undefined
-function animacaoFlutuacao() {
-  const elementosFlutuantes = document.querySelectorAll('.lazyload');
-  const amplitude = 7;
-  const frequencia = 0.005;
-
-  function animarElementoFlutuante(elemento, delay) {
-    const iniciarAnimacao = Date.now() + delay;
-
-    function animacao() {
-      const tempoAtual = Date.now();
-      const tempoDecorrido = tempoAtual - iniciarAnimacao;
-      const posicaoVertical = amplitude * Math.sin(frequencia * tempoDecorrido);
-
-      elemento.style.transform = `translateY(${posicaoVertical}px)`;
-
-      requestAnimationFrame(animacao);
-
-      // Você pode adicionar uma condição para parar a animação após um certo período, se desejar.
-      // if (tempoDecorrido > DURACAO_MAXIMA) {
-      //   cancelAnimationFrame(idDaAnimacao);
-      // }
-    }
-
-    animacao();
-  }
-
-  elementosFlutuantes.forEach((elemento) => {
-    const delay = Math.random() * 3000; // Delay aleatório de até 2 segundos (2000 milissegundos)
-    animarElementoFlutuante(elemento, delay);
-  });
-}
 
 
-function animacaoFlutuacao() {
-  const elementosFlutuantes = document.querySelectorAll('.lazyload');
-  const amplitude = 7;
-  const frequencia = 0.002;
-
-  function animarElementoFlutuante(elemento, delay) {
-    const iniciarAnimacao = Date.now() + delay;
-
-    function animacao() {
-      const tempoAtual = Date.now();
-      const tempoDecorrido = tempoAtual - iniciarAnimacao;
-      const posicaoVertical = amplitude * Math.sin(frequencia * tempoDecorrido);
-
-      elemento.style.transform = `translateY(${posicaoVertical}px)`;
-
-      requestAnimationFrame(animacao);
-
-      // Você pode adicionar uma condição para parar a animação após um certo período, se desejar.
-      // if (tempoDecorrido > DURACAO_MAXIMA) {
-      //   cancelAnimationFrame(idDaAnimacao);
-      // }
-    }
-
-    animacao();
-  }
-
-  elementosFlutuantes.forEach((elemento) => {
-    const delay = Math.random() * 3000; // Delay aleatório de até 2 segundos (2000 milissegundos)
-    animarElementoFlutuante(elemento, delay);
-  });
-}
-
-animacaoFlutuacao();
-
-
-
-
-addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas(); removerParcelamento() //
+addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas(); removerParcelamento();  animacaoFlutuacao();//
