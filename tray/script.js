@@ -567,8 +567,9 @@ function removerParcelamento(){
 }
 function animacaoFlutuacao() {
   const elementosFlutuantes = document.querySelectorAll('.lazyload');
-  const amplitude = 7;
-  const frequencia = 0.001;
+  const amplitudeVertical = 6;
+  const amplitudeHorizontal = 3; // Amplitude horizontal reduzida para um movimento mais suave
+  const frequencia = 0.002;
 
   function animarElementoFlutuante(elemento, delay) {
     const iniciarAnimacao = Date.now() + delay;
@@ -576,27 +577,23 @@ function animacaoFlutuacao() {
     function animacao() {
       const tempoAtual = Date.now();
       const tempoDecorrido = tempoAtual - iniciarAnimacao;
-      const posicaoVertical = amplitude * Math.sin(frequencia * tempoDecorrido);
+      const posicaoVertical = amplitudeVertical * Math.sin(frequencia * tempoDecorrido);
+      const posicaoHorizontal = amplitudeHorizontal * Math.cos(frequencia * tempoDecorrido);
 
-      elemento.style.transform = `translateY(${posicaoVertical}px)`;
+      elemento.style.transform = `translateY(${posicaoVertical}px) translateX(${posicaoHorizontal}px)`;
 
       requestAnimationFrame(animacao);
-
-      // Você pode adicionar uma condição para parar a animação após um certo período, se desejar.
-      // if (tempoDecorrido > DURACAO_MAXIMA) {
-      //   cancelAnimationFrame(idDaAnimacao);
-      // }
     }
 
     animacao();
   }
 
   elementosFlutuantes.forEach((elemento) => {
-    const delay = Math.random() * 3000; // Delay aleatório de até 2 segundos (2000 milissegundos)
+    const delay = Math.random() * 3000; // Delay aleatório de até 3 segundos (3000 milissegundos)
     animarElementoFlutuante(elemento, delay);
   });
 }
+animacaoFlutuacao()
 
 
-
-addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas(); removerParcelamento();  animacaoFlutuacao();//
+addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas(); removerParcelamento();  

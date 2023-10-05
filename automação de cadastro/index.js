@@ -39269,9 +39269,8 @@ function DATA(){
         }
     ]
     const color = {
-
+ 
         //SÃO ROQUE-----------------------------------------
-        
         "CAFE BRASIL": 'CAFE BRASIL',
         "TRANSPARENTE": 'TRANSPARENTE',
         "TRANSPAREN TE": 'TRANSPARENTE',
@@ -39371,7 +39370,6 @@ function DATA(){
         
         //PICPIC --------------------------------------------        
         // candy
-
         "AZUL CANDY": "AZUL CANDY",
         "BRANC O POLAR": "BRANCO POLAR",
         "verde CANDY": "verde CANDY",
@@ -39441,15 +39439,28 @@ function DATA(){
         "Branco":"Branco",
         "Prata":"Prata",
         "Ouro":"Ouro",
+
+        //happyday----------------------------------
+        "TRUFA": "TRUFA",
+        "ALUMINIO MARSALA": 'ALUMINIO MARSALA',
+        "ALUMINIO GELO": 'ALUMINIO GELO',
+        "FLOCOS DE NEVE": 'FLOCOS DE NEVE', 
+        "ALUMINIO NATURAL": 'ALUMINIO NATURAL',
+        "ALUMINIO ONIX": 'ALUMINIO ONIX',
+        "ALUMINIO FUCSIA": 'ALUMINIO FUCSIA',
+        "TERRA COTA": 'TERRA COTA',
+        "MARSALA":"MARSALA",
+        "CHAMPAGNE":"CHAMPAGNE",
+        "UVA":"UVA",
+        "FUCSIA":"FUCSIA",
+        "COLORS": "COLORS",
+        " ":"COLORS",
     
     }
     const type = {
         //festcolor
         "DECORADO": 'DECORADO',
         
-
-
-
         // TIPO SÃO ROQUE
         // "TEMA": 'TEMATICO',
         "METALLIC": 'METALLIC',
@@ -39484,6 +39495,10 @@ function DATA(){
         "REDONDO": "REDONDO", 
         "GRANFESTA": "GRANFESTA", 
         "GF": "GRANFESTA", 
+
+        //SEM TYPE
+        " ":"DECORADO",
+
 
     }
     const size = {
@@ -39622,7 +39637,6 @@ function DATA(){
         ' 15 ': '15 UNIDADES',
         ' 10 ': '10 UNIDADES',
 
-        '': '',
     }
     const brand = {
     "DEL REI INDUSTRIA DE ARTEFATOS DE LATEX LTDA - ME (FESTBALL)": "FESTBALL",
@@ -39652,6 +39666,7 @@ function DATA(){
     "BRDECOR COM E IMP DE ARTIGOS PARA FESTA": "BRDECOR",
     }
     const model = {
+
         //Ignorar
         'BALAO IMP. AZUL ESCURO METALLIC 10X25': '-',
         'BALAO IMP. PRATA METALLIC 10X25 106783': '-',
@@ -39824,6 +39839,39 @@ function DATA(){
         "Branco com Colorido":"Branco com Colorido","Azul Claro com Colorido":"Azul Claro com Colorido","Rosa Forte com Colorido":"Rosa Forte com Colorido",
 
         "CORACAO": "CORACAO",
+
+        //happy day
+        "LISO":"-",
+        "REDONDO":"-",
+        "ARABESCO":"-",
+        "PEROLIZADO":"-",
+        "CRISTAL":"-",
+
+        "CORACOES":"CORACOES",
+        "CHA DE BEBE":"CHA DE BEBE",
+        "ARANHA":"ARANHA",
+        "CHA DE REVELECAO":"CHA DE REVELECAO",
+        "FLOCOS DE NEVE":"FLOCOS DE NEVE",
+        "HAPPY WONDER":"HAPPY WONDER",
+        "CONFETE":"CONFETE",
+        "HAPPY WONDER":"HAPPY WONDER",
+        "I LOVE YOU":"I LOVE YOU",
+        "MANCHAS DE VACA":"MANCHAS DE VACA",
+        "NOTAS MUSICAIS":"NOTAS MUSICAIS",
+        "PATAS DE CACHORRO":"PATAS DE CACHORRO",
+        "TROPICAL ABACAXI":"TROPICAL ABACAXI",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
+        "XXXXX":"XXXXX",
   
     }
     let output = {
@@ -39881,7 +39929,7 @@ function TOOLS(){
 
                     // IDENTIFICA ITEM FALTANDO
                     if(element.model == '' || !element.model && element.model == ''){
-                        console.log('Modelo faltando:', element)
+                        console.log('Modelo faltando:', element.varejo)
                     }
                 }
             }
@@ -40010,142 +40058,88 @@ function TOOLS(){
         if(model !== '' && model !== '-'){name += ' ' + model.toUpperCase()}
 
         if(!type){name += ' DECORADO'}
-        name += ' 9" - 23CM'
         if(color && color !== ''){name += ' ' + color.toUpperCase()}
         // if(type && type !== ''){name += ' ' + type.toUpperCase()}
         if(amount && amount !== '' ){name += ' ' + amount.toUpperCase()}
-        if(!amount){name += ' 25 UNIDADES'}
+        if(!amount && amount == ''){name += ' 25 UNIDADES'}
         if(brand && brand !== ''){name += ' ' + brand.toUpperCase()}
 
         name += ' - SHOP DOS BALÕES'
     
         return name
     }
-    let cont = 0
-    function buildImg(brand, type, color, size){
-        if(brand && brand == 'FESTCOLOR'){
+ 
+    let contBrand = 0
+    function buildImg(brand){
+        
+        if(brand == 'HAPPY DAY'){
+            contBrand++
             let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
-            url += brand + '/' 
-
-            url += cont
-
-            cont++
-
-            // if(size.includes('250"')){
-            //     url += 'gigante/'
-            // }
-            // else if(size.includes('260"')){
-            //     url += 'tripinha/'
-            // }
-            // else if(size.includes('350"')){
-            //     url += 'super-gigante/'
-            // }
-            // else{
-            //     url += type.replace(' ', '-') + '/'
-            // }
-
-            // url += color.toUpperCase().replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-').replace(' ', '-')
-            
-
-            url += '.png'
-            let tratamento = url.toLowerCase()
-            .replace(' ', '-')
-            .replace('í', 'i')
-            .replace('á', 'a')
-            .replace('à', 'a')
-            .replace('ã', 'a')
-            .replace('â', 'a')
-            .replace('ó', 'o')
-            .replace('ç', 'c')
-            .replace('ô', 'o')
-            .replace(',', '')
-            .replace('<', '')
-            .replace('>', '')
-            .replace('?', '')
-
-            .replace(';', '')
-
-            .replace('!', '')
-            .replace('^', '')
-            .replace('~', '')
-
-            return tratamento
+            url += brand.toLowerCase().replace(' ', '') + '/' 
+            url += contBrand; 
+            url += '.png' //formato da imagem
+            return url
         }
     }
+
     function getRootProduct(){
         let product = data.output.product;
     
         
-        //CONDIÇÕES PARA SER UM PRODUTO RAIZ ------------------------------
+        //RAIZES UNICAS
             let singleProduct = [];
-
             product.forEach((element)=>{
-                singleProduct.push(element)
-
-                let push = false
-
+                let push = true
                 for(let i = 0; i < singleProduct.length; i++){
-
-                    //REQUISITOS PARA IMPORTAÇÃO
                     if(
-                        element.brand == singleProduct[i].brand  &&
-                        element.color == singleProduct[i].color &&
-                        element.type == singleProduct[i].type &&
-                        element.amount == singleProduct[i].amount &&
-                        element.size == singleProduct[i].size &&
-                        element.model == singleProduct[i].model //para pegar razes com modelo
+                        element.brand == singleProduct[i].brand  
+                        && element.color == singleProduct[i].color
+                        && element.type == singleProduct[i].type 
+                        && element.amount == singleProduct[i].amount 
+                        && element.model == singleProduct[i].model 
+
                     ){
                         push = false
                         break
                     }
                 };
-
-                if(push == true){
-                    singleProduct.push(element)
-                };
+                if(push == true){singleProduct.push(element)};
             });
-
             tools.saveInExcel(singleProduct, 'produtos') ; //salvar produtos raiz
             
             
-
-        //VERIFICAR VARIANTES ---------------------------------------------
+        //VARIANTES UNICAS
             var variable = [];
             product.forEach((element)=>{
-
                 let push = true
                 for(let i = 0; i<variable.length;i++){ //remover repetidos
-
-                    //REQUISITOS PARA IMPORTAÇÃO
                     if(
-                        element.brand == variable[i].brand &&
-                        element.color == variable[i].color &&
-                        element.amount == variable[i].amount &&
-                        element.size == variable[i].size &&
-                        element.type == variable[i].type &&
-                        element.model == variable[i].model 
+                        element.brand == variable[i].brand 
+                        && element.color == variable[i].color 
+                        && element.amount == variable[i].amount
+                        && element.size == variable[i].size 
+                        && element.type == variable[i].type 
+                        && element.model == variable[i].model 
                     ){
                         push = false
                         break
                     }
                 }
-                if(push == true){
-                    variable.push(element)
-                }    
+                if(push == true){variable.push(element)}    
             })
 
 
 
-        //IMPRESSÃO EXCEL VARIAVEIS ------------------------------
+        //GERAR RAZES E VARIANTES
             let variableExcel = []
             variable.forEach((variante)=>{
                 singleProduct.forEach((raiz)=>{
                     if(
-                        variante.brand == raiz.brand &&
-                        variante.color == raiz.color &&
-                        variante.amount == raiz.amount 
-
-
+                        variante.brand == raiz.brand
+                        && variante.color == raiz.color 
+                        && variante.amount == raiz.amount 
+                        && variante.model == raiz.model 
+                        && variante.type == raiz.type 
                     ){
 
                         let variableproduct = {}
@@ -40236,6 +40230,7 @@ function TOOLS(){
 
     return{buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName, printSingleItem, prinAllItems, getRootProduct}
 }
+
 const data = DATA()
 const tools = TOOLS()
 
@@ -40267,8 +40262,6 @@ function RUN(){
         product.varejo = element.DESCRICAO   //descrição do varejo       //R
         product.categ1 = ''
         product.categ2 = ''
-
-
 
         // TRATAR E SUBSTITUIT PALAVRAS ####################################################################################
         for (const color in data.color) { //identifica a cor
@@ -40317,64 +40310,40 @@ function RUN(){
             }
         }
 
-
-
         //POS CONTRUÇÃO ####################################################################################
         product.name = tools.buildName(product.type, product.color, product.amount, product.model, product.brand, product.size)
         product.description = tools.buildDescription(product.name, product.brand, product.color, product.size, product.amount)
-        product.url = tools.buildImg(product.brand, product.type, product.color, product.size)
+        product.url = tools.buildImg(product.brand)
+        
 
         //CAREGORIAS
         product.categ1 = product.brand
-        
-
         if(product.size == '250"' || product.size == '350"'){
             product.categ2 = 'GIGANTE E SUPER GIGANTE'
         }else{
             product.categ2 = product.type
         }
 
+        //TAMANHO
         if(product.size.includes('260"')){
             product.categ2 = 'TRIPINHA'
         }
 
-     
-        
-
-
-
         //CONFIÇÃO PARA SALVAR ####################################################################################
-        if(
-            product.brand == 'FESTCOLOR' //&&
-            // product.color && product.type
+        if(product.brand == 'HAPPY DAY' &&
+            product.color && product.type
         ){
             data.output.product.push(product)
         }
         
     })
 
-    //tools.printSingleItem('color')
+    // console.log(data.output.product.length)
 
-   tools.getRootProduct()
+
+
+   // tools.printSingleItem('model')
+    tools.getRootProduct()
 } RUN()
 
-
-
-// document.addEventListener('click', (event)=>{
-//     let url = event.target.src
-
-//     if(url){
-//         copiarParaClipboard(event.target.src)
-//     }
-//     console.log(
-//     )})
-
-//     function copiarParaClipboard(texto) {
-//         var inputTemporario = document.createElement("input");
-//         inputTemporario.setAttribute("value", texto);
-//         document.body.appendChild(inputTemporario);
-//         inputTemporario.select();
-//         document.execCommand("copy");
-//         document.body.removeChild(inputTemporario);
-//     }
     
