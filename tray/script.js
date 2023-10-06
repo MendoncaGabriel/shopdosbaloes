@@ -84,6 +84,7 @@ function addComponnestButtonsFloat(){ //ADICIONAR COMPONENTE DE REDES SOCIAIS
       if(cont == 0){
         backToTop(button)
         button.style.display = 'none'
+
         cont++
 
         // Evite o comportamento padrão do botão (atualizar a página)

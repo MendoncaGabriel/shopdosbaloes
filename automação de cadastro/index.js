@@ -6513,7 +6513,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000004147",
-            "DESCRICAO": "BALAO REDONDO 5 LISO TERRA COTA C/50 CX10 EAN: 7898444575344 RLL05TRCT5010",
+            "DESCRICAO": "BALAO REDONDO 5 LISO TERRACOTA C/50 CX10 EAN: 7898444575344 RLL05TRCT5010",
             "PRECO": "9.50",
             "CUSTO": "4.74",
             "EAN": "07898444575344",
@@ -6810,7 +6810,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000004180",
-            "DESCRICAO": "BALAO REDONDO 8 LISO TERRA COTA C/50 CX10 EAN: 7898444575368 RLL08TRCT5010",
+            "DESCRICAO": "BALAO REDONDO 8 LISO TERRACOTA C/50 CX10 EAN: 7898444575368 RLL08TRCT5010",
             "PRECO": "7.89",
             "CUSTO": "4.33",
             "EAN": "07898444575368",
@@ -9600,7 +9600,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000004613",
-            "DESCRICAO": "BALAO REDONDO 16 LISO TERRA COTA C/10 CX 10 EAN: 7898444575405 RLL16TRCT1010",
+            "DESCRICAO": "BALAO REDONDO 16 LISO TERRACOTA C/10 CX 10 EAN: 7898444575405 RLL16TRCT1010",
             "PRECO": "13.99",
             "CUSTO": "6.94",
             "EAN": "07898444575405",
@@ -39269,6 +39269,9 @@ function DATA(){
         }
     ]
     const color = {
+        //happy day
+        "AZUL CELESTE": "AZUL CELESTE",
+        "ROSA BEBE":"ROSA BEBE",
  
         //SÃO ROQUE-----------------------------------------
         "CAFE BRASIL": 'CAFE BRASIL',
@@ -39448,7 +39451,7 @@ function DATA(){
         "ALUMINIO NATURAL": 'ALUMINIO NATURAL',
         "ALUMINIO ONIX": 'ALUMINIO ONIX',
         "ALUMINIO FUCSIA": 'ALUMINIO FUCSIA',
-        "TERRA COTA": 'TERRA COTA',
+        "TERRACOTA": 'TERRACOTA',
         "MARSALA":"MARSALA",
         "CHAMPAGNE":"CHAMPAGNE",
         "UVA":"UVA",
@@ -39458,11 +39461,17 @@ function DATA(){
     
     }
     const type = {
+        //happy day
+        'PEROLIZADO CANDY': "PEROLIZADO CANDY",
+        'PEROLIZADO': "PEROLIZADO",
+
+
         //festcolor
         "DECORADO": 'DECORADO',
         
         // TIPO SÃO ROQUE
         // "TEMA": 'TEMATICO',
+
         "METALLIC": 'METALLIC',
         "CINTIL": 'CINTILANTE',
         "SUPER GIGANTE": 'SUPER GIGANTE',
@@ -39496,8 +39505,14 @@ function DATA(){
         "GRANFESTA": "GRANFESTA", 
         "GF": "GRANFESTA", 
 
+
+        "CANDY": "CANDY",
+
         //SEM TYPE
         " ":"DECORADO",
+
+
+
 
 
     }
@@ -39674,8 +39689,16 @@ function DATA(){
         'BALAO IMP. VERMELHO METALLIC 10X25 106786': '-',
         'BALAO IMP. BRANCO METALLIC 10X25    106782': '-',
         'BALAO IMP. DOURADO METALLIC 10X25  106784': '-',
-  
 
+        
+  
+        //HAPPY DAY
+        'FESTA DO BOTECO':' FESTA DO BOTECO',
+        'ARANHA': 'ARANHA',
+        "CONFETE JOANINHA": "CONFETE JOANINHA",
+        'ARABESCO': 'ARABESCO',
+        'TROPICAL MELANCIA': 'TROPICAL MELANCIA',
+        
         //festcolor
         ' PALMEIRAS ':'PALMEIRAS',
         'NATAL CLASSICO':'NATAL CLASSICO',
@@ -40058,6 +40081,7 @@ function TOOLS(){
         if(model !== '' && model !== '-'){name += ' ' + model.toUpperCase()}
 
         if(!type){name += ' DECORADO'}
+        if(type){name += ' ' + type}
         if(color && color !== ''){name += ' ' + color.toUpperCase()}
         // if(type && type !== ''){name += ' ' + type.toUpperCase()}
         if(amount && amount !== '' ){name += ' ' + amount.toUpperCase()}
@@ -40069,14 +40093,39 @@ function TOOLS(){
         return name
     }
  
-    let contBrand = 0
-    function buildImg(brand){
+
+    var imgContainer = [];
+    var contId = 0
+    function buildImg(brand, element){
         
         if(brand == 'HAPPY DAY'){
-            contBrand++
+            var pushItem = true
+            for(let i = 0; i<imgContainer.length; i++){
+                if(
+                    imgContainer[i].color.toUpperCase().replace(' ', '') == element.color.toUpperCase().replace(' ', '')
+                    && imgContainer[i].type == element.type
+                    && imgContainer[i].brand == element.brand
+                    && imgContainer[i].model.toUpperCase().replace(' ', '') == element.model.toUpperCase().replace(' ', '')
+                ){
+                    pushItem = false
+                    element.idd = imgContainer[i].idd
+                    break
+                }
+            }
+
+            if(pushItem == true){
+                contId++
+                element.idd = contId
+                imgContainer.push(element)
+                
+            }
+            
+          
+
+
             let url = 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/'
             url += brand.toLowerCase().replace(' ', '') + '/' 
-            url += contBrand; 
+            url += element.idd; 
             url += '.png' //formato da imagem
             return url
         }
@@ -40127,7 +40176,6 @@ function TOOLS(){
                 }
                 if(push == true){variable.push(element)}    
             })
-
 
 
         //GERAR RAZES E VARIANTES
@@ -40313,7 +40361,7 @@ function RUN(){
         //POS CONTRUÇÃO ####################################################################################
         product.name = tools.buildName(product.type, product.color, product.amount, product.model, product.brand, product.size)
         product.description = tools.buildDescription(product.name, product.brand, product.color, product.size, product.amount)
-        product.url = tools.buildImg(product.brand)
+        product.url = tools.buildImg(product.brand, product)
         
 
         //CAREGORIAS
