@@ -597,25 +597,51 @@ function animacaoFlutuacao() {
 
 
 function MsgAvisoVendaAmazonas(){
-  // Crie um novo elemento div
   var novoElemento = document.createElement("div");
   novoElemento.style.padding = '8px'
   novoElemento.style.textAlign = 'center'
   novoElemento.style.backgroundColor = '#2196F3'
   novoElemento.style.color = 'white'
   novoElemento.style.fontWeight = 'bold'
-
-  // Adicione algum conteúdo ao novo elemento (opcional)
   novoElemento.textContent = "Atenção, vendas somente para o estado do Amazonas";
 
-  // Obtenha uma referência ao corpo da página
-  var corpoPagina = document.body;
-
-  // Insira o novo elemento antes do primeiro filho do corpo
-  corpoPagina.insertBefore(novoElemento, corpoPagina.firstChild);
-
+  if(window.innerWidth <= 720){
+    let corpoPagina = document.body;
+    corpoPagina.insertBefore(novoElemento, corpoPagina.firstChild);
+  }
+  if(window.innerWidth >= 720){
+    let corpoPagina = document.querySelector('.header');
+    corpoPagina.insertBefore(novoElemento, corpoPagina.firstChild);
+  }
 }
 
+function popupPaginaManutencao(){
+  let container = document.createElement('div')
+  container.style.width = '100%'
+  container.style.height = '100%'
+  container.style.backgroundColor = 'black'
+  container.style.position = 'fixed'
+  container.style.top = '50%'
+  container.style.left = '50%'
+  container.style.transform = 'translate(-50%, -50%)'
+  container.style.zIndex = '999'
+  container.style.display = 'grid'
+  container.style.justifyContent = 'center'
+  container.style.alignItems = 'center'
+  let logo = document.createElement('img')
+  logo.src = 'https://images.tcdn.com.br/img/img_prod/1238052/1692902488_logotipo_03.png'
+  logo.style.width = '70%'
+  logo.style.margin = 'auto'
+  logo.style.display = 'block'
+  container.appendChild(logo)
+  let h1 = document.createElement('h1')
+  h1.innerText = 'LOJA EM MANUTENÇÃO!'
+  h1.style.color = 'white'
+  h1.style.textAlign = 'center'
+  container.appendChild(h1)
+  document.querySelector('body').appendChild(container)
+}
+popupPaginaManutencao()
 
 animacaoFlutuacao();MsgAvisoVendaAmazonas();
 addCarouselCustom(); zoomCorrection(); 
