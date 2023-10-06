@@ -594,8 +594,6 @@ function animacaoFlutuacao() {
     animarElementoFlutuante(elemento, delay);
   });
 }
-
-
 function MsgAvisoVendaAmazonas(){
   var novoElemento = document.createElement("div");
   novoElemento.style.padding = '8px'
@@ -614,7 +612,6 @@ function MsgAvisoVendaAmazonas(){
     corpoPagina.insertBefore(novoElemento, corpoPagina.firstChild);
   }
 }
-
 function popupPaginaManutencao(){
   let container = document.createElement('div')
   container.style.width = '100%'
@@ -641,7 +638,7 @@ function popupPaginaManutencao(){
   container.appendChild(h1)
   document.querySelector('body').appendChild(container)
 }
-popupPaginaManutencao()
+// popupPaginaManutencao()
 
 animacaoFlutuacao();MsgAvisoVendaAmazonas();
 addCarouselCustom(); zoomCorrection(); 
