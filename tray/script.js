@@ -408,6 +408,10 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
       url: 'http://www.shopdosbaloes.com.br/festcolor'
     },
     {
+      img: 'https://diskempresarial.com.br/img/produtos/zoom/1565807613f05cdfc3b6b43c54b3cfc75242b65b3f.jpg',
+      url: 'http://www.shopdosbaloes.com.br/happy-day'
+    },
+    {
       img: 'https://img.elo7.com.br/product/zoom/3A1E403/pacote-balao-branco-n-9-50-unidades-art-latex-bexigas-brancos-art-latex.jpg',
       url: 'http://www.shopdosbaloes.com.br/'
     },
@@ -421,10 +425,6 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
     },
     {
       img: 'https://baloesfestball.com.br/web/img/logo.png',
-      url: 'http://www.shopdosbaloes.com.br/'
-    },
-    {
-      img: 'https://diskempresarial.com.br/img/produtos/zoom/1565807613f05cdfc3b6b43c54b3cfc75242b65b3f.jpg',
       url: 'http://www.shopdosbaloes.com.br/'
     },
     {
@@ -594,7 +594,31 @@ function animacaoFlutuacao() {
     animarElementoFlutuante(elemento, delay);
   });
 }
-animacaoFlutuacao()
 
 
-addCarouselCustom(); zoomCorrection(); addComponnestButtonsFloat(); addButtonSaibaMais(); borderRadius(); addComponenteMarcas(); removerParcelamento();  
+function MsgAvisoVendaAmazonas(){
+  // Crie um novo elemento div
+  var novoElemento = document.createElement("div");
+  novoElemento.style.padding = '8px'
+  novoElemento.style.textAlign = 'center'
+  novoElemento.style.backgroundColor = '#2196F3'
+  novoElemento.style.color = 'white'
+  novoElemento.style.fontWeight = 'bold'
+
+  // Adicione algum conteúdo ao novo elemento (opcional)
+  novoElemento.textContent = "Atenção, vendas somente para o estado do Amazonas";
+
+  // Obtenha uma referência ao corpo da página
+  var corpoPagina = document.body;
+
+  // Insira o novo elemento antes do primeiro filho do corpo
+  corpoPagina.insertBefore(novoElemento, corpoPagina.firstChild);
+
+}
+
+
+animacaoFlutuacao();MsgAvisoVendaAmazonas();
+addCarouselCustom(); zoomCorrection(); 
+addComponnestButtonsFloat(); addButtonSaibaMais(); 
+borderRadius(); addComponenteMarcas();
+removerParcelamento();  
