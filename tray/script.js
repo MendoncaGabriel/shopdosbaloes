@@ -565,7 +565,7 @@ function removerParcelamento(){
     })
   }
 
-}
+};
 function animacaoFlutuacao() {
   const elementosFlutuantes = document.querySelectorAll('.lazyload');
   const amplitudeVertical = 6;
@@ -593,15 +593,56 @@ function animacaoFlutuacao() {
     const delay = Math.random() * 3000; // Delay aleatório de até 3 segundos (3000 milissegundos)
     animarElementoFlutuante(elemento, delay);
   });
-}
+};
 function MsgAvisoVendaAmazonas(){
   var novoElemento = document.createElement("div");
   novoElemento.style.padding = '8px'
-  novoElemento.style.textAlign = 'center'
   novoElemento.style.backgroundColor = '#2196F3'
-  novoElemento.style.color = 'white'
-  novoElemento.style.fontWeight = 'bold'
-  novoElemento.textContent = "Atenção, vendas somente para o estado do Amazonas";
+  novoElemento.style.height = '30px'
+  novoElemento.style.overflow = 'hidden'
+  novoElemento.style.position = 'relative'
+
+  var container = document.createElement('div')
+  container.style.display = 'flex'
+  container.style.alignItems = 'center'
+  container.style.justifyContent = 'center'
+  container.style.position = 'relative'
+  container.style.transform = 'translate(0%, -50%)'
+  container.style.position = 'absolute'
+  container.style.top = '50%'
+  container.style.left = '100%'
+
+  var img2 = document.createElement('img')
+  img2.src = 'https://static.todamateria.com.br/upload/ba/nd/bandeira-do-brasil-og.jpg'
+  img2.style.height = '20px'
+  img2.style.width = '35px'
+  img2.style.marginRight = '10px'
+  container.appendChild(img2)
+
+  var texto = document.createElement("h4")
+  texto.style.color = 'white'
+  texto.style.fontWeight = 'bold'
+  texto.style.display = 'flex none'
+  texto.style.whiteSpace = 'nowrap'
+  texto.textContent = "Atenção, vendas somente para o estado do Amazonas";
+  container.appendChild(texto)
+
+  var img = document.createElement('img')
+  img.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bandeira_do_Amazonas.svg/1280px-Bandeira_do_Amazonas.svg.png'
+  img.style.height = '20px'
+  img.style.width = '35px'
+  img.style.marginLeft = '10px'
+  container.appendChild(img)
+  novoElemento.appendChild(container)
+
+  let x = window.innerWidth
+  setInterval(() => {
+    x-=1
+    container.style.left = x + 'px'
+    if(x == container.offsetWidth*-1){
+      x = window.innerWidth
+    }
+  }, 16);
 
   if(window.innerWidth <= 720){
     let corpoPagina = document.body;
@@ -611,7 +652,7 @@ function MsgAvisoVendaAmazonas(){
     let corpoPagina = document.querySelector('.header');
     corpoPagina.insertBefore(novoElemento, corpoPagina.firstChild);
   }
-}
+};
 function popupPaginaManutencao(){
   let container = document.createElement('div')
   container.style.width = '100%'
@@ -637,9 +678,9 @@ function popupPaginaManutencao(){
   h1.style.textAlign = 'center'
   container.appendChild(h1)
   document.querySelector('body').appendChild(container)
-}
-// popupPaginaManutencao()
+};
 
+// popupPaginaManutencao()
 animacaoFlutuacao();MsgAvisoVendaAmazonas();
 addCarouselCustom(); zoomCorrection(); 
 addComponnestButtonsFloat(); addButtonSaibaMais(); 
