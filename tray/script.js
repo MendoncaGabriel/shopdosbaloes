@@ -566,8 +566,6 @@ function removerParcelamento(){
   }
 
 };
-
-
 function animacaoFlutuacao() {
   const elementosFlutuantes = document.querySelectorAll('.lazyload');
   const amplitudeVertical = 6;
@@ -596,8 +594,6 @@ function animacaoFlutuacao() {
     animarElementoFlutuante(elemento, delay);
   });
 };
-
-
 function MsgAvisoVendaAmazonas(){
   var novoElemento = document.createElement("div");
   novoElemento.style.padding = '8px'
@@ -688,19 +684,23 @@ function addBannerFornecedor(){
   let fornecedores = [
     {
       marca: 'pic-pic',
-      img: 'https://img.freepik.com/fotos-premium/ilustracao-de-arte-digital-de-festa-de-balao-de-aniversario_442940-2262.jpg'
+      img: 'https://img.freepik.com/fotos-premium/ilustracao-de-arte-digital-de-festa-de-balao-de-aniversario_442940-2262.jpg',
+      img2: 'https://img.freepik.com/fotos-premium/ilustracao-de-arte-digital-de-festa-de-balao-de-aniversario_442940-2262.jpg'
     }, 
     {
       marca:'sao-roque',
-      img: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexd_118124-22379.jpg'
+      img: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexd_118124-22379.jpg',
+      img2: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexd_118124-22379.jpg'
     }, 
     {
       marca:'festcolor',
-      img: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-12095.jpg'
+      img: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-12095.jpg',
+      img2: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-12095.jpg'
     }, 
     {
       marca:'happy-day',
-      img: 'https://img.freepik.com/fotos-premium/fundo-de-festa-de-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-6287.jpg'
+      img: 'https://img.freepik.com/fotos-premium/fundo-de-festa-de-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-6287.jpg',
+      img2: 'https://img.freepik.com/fotos-premium/fundo-de-festa-de-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-6287.jpg'
     }
   ]
 
@@ -718,16 +718,24 @@ function addBannerFornecedor(){
   banner.style.boxShadow = '1px 1px 5px 0px'
   banner.style.borderRadius = '8px'
   banner.style.width = '100%'
-  banner.style.height = '350px'
+  banner.style.height = '250px'
   banner.style.marginBottom = '20px'
-  banner.style.backgroundImage = `url(${item.img})`
   banner.style.backgroundPosition = 'center'
   banner.style.backgroundSize = 'cover'
+  
 
+  //Banner para pc
+  if(window.innerWidth > 720){
+    banner.style.backgroundImage = `url(${item.img})`
+  }else{
+    //Banner para mobile
+    banner.style.backgroundImage = `url(${item.img2})`
+  }
 
   let paiDoCatalog = catalog.parentNode;
   paiDoCatalog.insertBefore(banner, catalog.nextSibling);
 };
+
 addBannerFornecedor();
 // popupPaginaManutencao()
 animacaoFlutuacao();MsgAvisoVendaAmazonas();
