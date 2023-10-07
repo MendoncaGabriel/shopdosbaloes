@@ -235,8 +235,14 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
     containerBanner.style.width = '100%';
     containerBanner.style.position = 'relative';
     containerBanner.style.overflow = 'hidden';
-    if(window.innerWidth < 720){containerBanner.style.height = '25vh'}
-    else{containerBanner.style.height = '80vh';}
+
+    if(
+      window.innerWidth < 720){containerBanner.style.height = '25vh'
+    }
+    else{
+      containerBanner.style.height = '80vh';
+      containerBanner.style.marginTop = '72px';
+    }
 
     //VOLTAR BTN
     let Voltar = document.createElement('button')
