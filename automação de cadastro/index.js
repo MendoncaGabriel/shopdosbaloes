@@ -1,5 +1,6 @@
 import fs from 'fs'
 import XLSX from 'xlsx';
+var MARCA = ''
 
 //DADOS E FERRAMENTAS ##########################################################
 function DATA(){
@@ -39594,13 +39595,7 @@ function DATA(){
         
     
         //QUANTIDADE SÃO ROQUE ---------------------------------
-        'C/1': '1 UNIDADE',
-        'C/ 1': '1 UNIDADE',
-        'C /1': '1 UNIDADE',
-        '1 un': '1 UNIDADE',
-        '1 UN': '1 UNIDADE',
-        '1UN': '1 UNIDADE',
-        '1un': '1 UNIDADE',
+
 
         'C/10': '10 UNIDADES',
         'C/ 10': '10 UNIDADES',
@@ -39647,10 +39642,19 @@ function DATA(){
 
         //ULTIMO RECURSO-----------------------------------------
         ' 50 ': '50 UNIDADES',
-        ' 1 ': '1 UNIDADE',
         ' 25 ': '25 UNIDADES',
         ' 15 ': '15 UNIDADES',
         ' 10 ': '10 UNIDADES',
+        
+        
+        ' 1 ': '1 UNIDADE',
+        'C/1': '1 UNIDADE',
+        'C/ 1': '1 UNIDADE',
+        'C /1': '1 UNIDADE',
+        '1 un': '1 UNIDADE',
+        '1 UN': '1 UNIDADE',
+        '1UN': '1 UNIDADE',
+        '1un': '1 UNIDADE',
 
     }
     const brand = {
@@ -39905,7 +39909,6 @@ function DATA(){
 
     return {product, color, type, size, amount, amount, brand, model, output}
 }
-
 function TOOLS(){
     function prinAllItems(object){
         data.output.product.forEach((element)=>{
@@ -40093,12 +40096,11 @@ function TOOLS(){
         return name
     }
  
-
     var imgContainer = [];
     var contId = 0
     function buildImg(brand, element){
         
-        if(brand == 'HAPPY DAY'){
+        if(brand == MARCA){
             var pushItem = true
             for(let i = 0; i<imgContainer.length; i++){
                 if(
@@ -40130,7 +40132,6 @@ function TOOLS(){
             return url
         }
     }
-
     function getRootProduct(){
         let product = data.output.product;
     
@@ -40284,6 +40285,7 @@ const tools = TOOLS()
 
 
 //EXECUÇÃO ####################################################################
+
 function RUN(){
 
     data.product.forEach((element)=>{
@@ -40378,7 +40380,7 @@ function RUN(){
         }
 
         //CONFIÇÃO PARA SALVAR ####################################################################################
-        if(product.brand == 'HAPPY DAY' &&
+        if(product.brand == MARCA &&
             product.color && product.type
         ){
             data.output.product.push(product)
@@ -40387,11 +40389,8 @@ function RUN(){
     })
 
     // console.log(data.output.product.length)
-
-
-
-   // tools.printSingleItem('model')
-    tools.getRootProduct()
+    tools.printSingleItem('model')
+    //tools.getRootProduct()
 } RUN()
 
     

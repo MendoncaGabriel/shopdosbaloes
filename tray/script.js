@@ -566,11 +566,13 @@ function removerParcelamento(){
   }
 
 };
+
+
 function animacaoFlutuacao() {
   const elementosFlutuantes = document.querySelectorAll('.lazyload');
   const amplitudeVertical = 6;
   const amplitudeHorizontal = 3; // Amplitude horizontal reduzida para um movimento mais suave
-  const frequencia = 0.002;
+  const frequencia = 0.003;
 
   function animarElementoFlutuante(elemento, delay) {
     const iniciarAnimacao = Date.now() + delay;
@@ -590,10 +592,12 @@ function animacaoFlutuacao() {
   }
 
   elementosFlutuantes.forEach((elemento) => {
-    const delay = Math.random() * 3000; // Delay aleatório de até 3 segundos (3000 milissegundos)
+    const delay = Math.random() * 4000; // Delay aleatório de até 3 segundos (3000 milissegundos)
     animarElementoFlutuante(elemento, delay);
   });
 };
+
+
 function MsgAvisoVendaAmazonas(){
   var novoElemento = document.createElement("div");
   novoElemento.style.padding = '8px'
@@ -684,7 +688,7 @@ function addBannerFornecedor(){
   let fornecedores = [
     {
       marca: 'pic-pic',
-      img: 'https://img.freepik.com/fotos-premium/ilustracao-de-festa-de-aniversario-com-bolo-e-baloes-de-ar_798986-1103.jpg'
+      img: 'https://img.freepik.com/fotos-premium/ilustracao-de-arte-digital-de-festa-de-balao-de-aniversario_442940-2262.jpg'
     }, 
     {
       marca:'sao-roque',
