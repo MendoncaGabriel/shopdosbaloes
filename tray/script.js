@@ -714,26 +714,30 @@ function addBannerFornecedor(){
 
   //criar banner
   let catalog = document.querySelector('.catalog-header')
-  let banner = document.createElement('div')
-  banner.style.boxShadow = '1px 1px 5px 0px'
-  banner.style.borderRadius = '8px'
-  banner.style.width = '100%'
-  banner.style.height = '250px'
-  banner.style.marginBottom = '20px'
-  banner.style.backgroundPosition = 'center'
-  banner.style.backgroundSize = 'cover'
   
-
-  //Banner para pc
-  if(window.innerWidth > 720){
-    banner.style.backgroundImage = `url(${item.img})`
-  }else{
-    //Banner para mobile
-    banner.style.backgroundImage = `url(${item.img2})`
+  if(catalog){
+    let banner = document.createElement('div')
+    banner.style.boxShadow = '1px 1px 5px 0px'
+    banner.style.borderRadius = '8px'
+    banner.style.width = '100%'
+    banner.style.height = '250px'
+    banner.style.marginBottom = '20px'
+    banner.style.backgroundPosition = 'center'
+    banner.style.backgroundSize = 'cover'
+    
+  
+    //Banner para pc
+    if(window.innerWidth > 720){
+      banner.style.backgroundImage = `url(${item.img})`
+    }else{
+      //Banner para mobile
+      banner.style.backgroundImage = `url(${item.img2})`
+    }
+  
+    let paiDoCatalog = catalog.parentNode;
+    paiDoCatalog.insertBefore(banner, catalog.nextSibling);
   }
-
-  let paiDoCatalog = catalog.parentNode;
-  paiDoCatalog.insertBefore(banner, catalog.nextSibling);
+  
 };
 
 addBannerFornecedor();
