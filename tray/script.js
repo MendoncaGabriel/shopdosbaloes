@@ -714,7 +714,7 @@ function addBannerFornecedor(){
   banner.style.boxShadow = '1px 1px 5px 0px'
   banner.style.borderRadius = '8px'
   banner.style.width = '100%'
-  banner.style.height = '400px'
+  banner.style.height = '350px'
   banner.style.marginBottom = '20px'
   banner.style.backgroundImage = `url(${item.img})`
   banner.style.backgroundPosition = 'center'
