@@ -679,10 +679,61 @@ function popupPaginaManutencao(){
   container.appendChild(h1)
   document.querySelector('body').appendChild(container)
 };
+function addBannerFornecedor(){
+  //detectar fornecedor
+  let fornecedores = [
+    {
+      marca: 'pic-pic',
+      img: 'https://img.freepik.com/fotos-premium/ilustracao-de-festa-de-aniversario-com-bolo-e-baloes-de-ar_798986-1103.jpg'
+    }, 
+    {
+      marca:'sao-roque',
+      img: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexd_118124-22379.jpg'
+    }, 
+    {
+      marca:'festcolor',
+      img: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-12095.jpg'
+    }, 
+    {
+      marca:'happy-day',
+      img: 'https://img.freepik.com/fotos-premium/fundo-de-festa-de-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-6287.jpg'
+    }
+  ]
 
+  let url = window.location.href
+  let item = {}
+  fornecedores.forEach((i)=>{
+    if(url.toLocaleLowerCase().replace('/', ' ').includes(i.marca)){
+      item = i
+    }
+  })
+
+  //criar banner
+  let catalog = document.querySelector('.catalog-header')
+  let banner = document.createElement('div')
+  banner.style.boxShadow = '1px 1px 5px 0px'
+  banner.style.borderRadius = '8px'
+  banner.style.width = '100%'
+  banner.style.height = '400px'
+  banner.style.marginBottom = '20px'
+  banner.style.backgroundImage = `url(${item.img})`
+  banner.style.backgroundPosition = 'center'
+  banner.style.backgroundSize = 'cover'
+
+
+  let paiDoCatalog = catalog.parentNode;
+  paiDoCatalog.insertBefore(banner, catalog.nextSibling);
+};
+addBannerFornecedor();
 // popupPaginaManutencao()
 animacaoFlutuacao();MsgAvisoVendaAmazonas();
 addCarouselCustom(); zoomCorrection(); 
 addComponnestButtonsFloat(); addButtonSaibaMais(); 
 borderRadius(); addComponenteMarcas();
 removerParcelamento();  
+
+
+
+
+
+
