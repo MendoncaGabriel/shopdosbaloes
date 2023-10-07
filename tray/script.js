@@ -241,7 +241,7 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
     }
     else{
       containerBanner.style.height = '90vh';
-      containerBanner.style.marginTop = '72px';
+      // containerBanner.style.marginTop = '10px';
     }
 
     //VOLTAR BTN
