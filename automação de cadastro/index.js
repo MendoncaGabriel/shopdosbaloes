@@ -1,6 +1,6 @@
 import fs from 'fs'
 import XLSX from 'xlsx';
-var MARCA = ''
+var MARCA = 'ART LATEX'
 
 //DADOS E FERRAMENTAS ##########################################################
 function DATA(){
@@ -17866,7 +17866,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000005763",
-            "DESCRICAO": "BALAO ZERINHO C/100 SORTIDO A000014",
+            "DESCRICAO": "BALAO ZERINHO 2.5 C/100 SORTIDO A000014",
             "PRECO": "4.21",
             "CUSTO": "2.28",
             "EAN": "07896872419117",
@@ -32023,7 +32023,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000008165",
-            "DESCRICAO": "BALAO 16 CANDY C/12 AMARELO14779",
+            "DESCRICAO": "BALAO 16 CANDY C/12 AMARELO 14779",
             "PRECO": "14.99",
             "CUSTO": "8.39",
             "EAN": "07896872451285",
@@ -39270,11 +39270,30 @@ function DATA(){
         }
     ]
     const color = {
-        //happy day
+
+        "VERDE MUSG":"VERDE MUSG",
+        "AZUL CELESTE":"AZUL CELESTE",
+        "AZUL MARINHO":"AZUL MARINHO",
+        "VERDE FOLHA":"VERDE FOLHA",
+        "AZUL TIFFANY":"AZUL TIFFANY",
+        "ROSA MARAVILHA":"ROSA MARAVILHA",
+        "VERM.RUBI":"VERMELHO RUBI",
+        "VERDE MUSGO":"VERDE MUSGO",
+        "LARANJA FIRE":"NEON LARANJA FIRE",
+        "VERM./BRANCO":"VERMELHO E BRANCO",
+        "BRANCO/VERMELHO":"BRANCO E VERMELHO",
+
+        "TANGERINA":"TANGERINA",
+        "FUCSIA":"FUCSIA",
+        "TANGERINA":"TANGERINA",
+        "ONIX":"ONIX",
+        "OLIVA":"OLIVA",
+        "SALMAO":"SALMAO",
+
+
+        //CORES COMPOSTAS
         "AZUL CELESTE": "AZUL CELESTE",
         "ROSA BEBE":"ROSA BEBE",
- 
-        //SÃO ROQUE-----------------------------------------
         "CAFE BRASIL": 'CAFE BRASIL',
         "TRANSPARENTE": 'TRANSPARENTE',
         "TRANSPAREN TE": 'TRANSPARENTE',
@@ -39292,6 +39311,9 @@ function DATA(){
         "AZ BABY": 'AZUL BABY',
         "RS BABY": 'ROSA BABY',
         "VD MACA": 'VERDE MACA',
+        "VERDE LIMA": 'VERDE LIMA',
+        "VERDE LIMAO": 'VERDE LIMAO',
+        "VERDE LIMÃO": 'VERDE LIMAO',
         "VD LIMA": 'VERDE LIMA',
         "VD FOLHA": 'VERDE FOLHA',
         "AZ COBALTO": 'AZUL COBALTO',
@@ -39306,13 +39328,10 @@ function DATA(){
         "LILA BABY": 'LILAS BABY',
         "VD EUCAL IPTO": 'VERDE EUCALIPTO',
         "VD EUCALIPTO": 'VERDE EUCALIPTO',
-        "DOURAD O": 'DOURADO',
         "AM SOL": 'AMARELO SOL',
         "AZ CELESTE": 'AZUL CELESTE',
         "PR EB ANO": 'PRETO EBANO',
         "VM QUENT E": "VERMELHO QUENTE",
-        "P INK": "PINK",
-        
         "BR ANCO": "BRANCO",
         "SOR TIDO": "SORTIDO",
         "SO RTIDO": "SORTIDO",
@@ -39336,44 +39355,14 @@ function DATA(){
         "AZ TOPAZIO": "AZUL TOPAZIO",
         "AZ CIANO": "AZUL CIANO",
         "RS BLOSSOM": "ROSA BLOSSOM",
-        "PESS EGO": "PESSEGO",
-        "AMA RELO": "AMARELO",
         "VERD E MENTA": "VERDE MENTA",
-        "LILA S": "LILAS",
-        "LARA NJA": "LARANJA",
-        "AMARELO": "AMARELO",
         "LR CITRICO": "LARANJA CITRICO",
-        "BORDO": "BORDO",
         "AM OCRE": "AMARELO OCRE",
-        "TERRACOT A": "TERRACOTA",
         "VD HORTE LA": "VERDE HORTELA",
-        "AREIA": "AREIA",
         "VD HORTELA": "VERDE HORTELA",
         "VD MUSGO": "VERDE MUSGO",
         "CR ISTA": "CRISTA",
-        "PESSEGO": "PESSEGO",
         "TRAN SPARENTE": "TRANSPARENTE",
-        "AZU L": "AZUL",
-        "VER DE": "VERDE",
-        "LAR ANJA": "LARANJA",
-        "ROS A": "ROSA",
-        "LIL AS": "LILAS",
-        "AM  SOL": "AMARELO SOL",
-        "RUBI": 'RUBI',
-        "RUBY": 'RUBY',
-        "LAR ANJA": 'LARANJA',
-        "DOURADO": 'DOURADO',
-        "PRATEADO": 'PRATEADO',
-        "CAFE": "CAFE",
-        "ROXO": "ROXO",
-        "VERD E": "VERDE",
-        "COBRE": "COBRE",
-        "TIFFANY": "TIFFANY",
-        "TERRACOTA": "TERRACOTA",
-
-        
-        //PICPIC --------------------------------------------        
-        // candy
         "AZUL CANDY": "AZUL CANDY",
         "BRANC O POLAR": "BRANCO POLAR",
         "verde CANDY": "verde CANDY",
@@ -39384,8 +39373,6 @@ function DATA(){
         "LILAS CANDY":"ROSA CANDY",
         "LILÁS CANDY":"LILAS CANDY",
         "Sortido CANDY": "Sortido CANDY",
-        
-        //dupla
         "VERMELHO RUBI": "VERMELHO RUBI",
         "AZUL ROYAL": "AZUL ROYAL",
         "AZUL REGATA": "AZUL REGATA",
@@ -39413,8 +39400,39 @@ function DATA(){
         "Verde Bandeira":"Verde Bandeira",
         "lilas orquidea":"lilas orquidea",
         "ROSE GOLD":"ROSE GOLD",
+        "AMARELO OURO": "AMARELO OURO",
 
-        //solo
+        //CORES SINGULARES
+        "MOCHA": "MOCHA",
+        "VINHO": "VINHO",
+        "DOURAD O": 'DOURADO',
+        "P INK": "PINK",
+        "TERRACOT A": "TERRACOTA",
+        "AREIA": "AREIA",
+        "PESS EGO": "PESSEGO",
+        "AMA RELO": "AMARELO",
+        "BORDO": "BORDO",
+        "LILA S": "LILAS",
+        "LARA NJA": "LARANJA",
+        "AZU L": "AZUL",
+        "VER DE": "VERDE",
+        "LAR ANJA": "LARANJA",
+        "ROS A": "ROSA",
+        "LIL AS": "LILAS",
+        "AM  SOL": "AMARELO SOL",
+        "RUBI": 'RUBI',
+        "RUBY": 'RUBY',
+        "LAR ANJA": 'LARANJA',
+        "VERD E": "VERDE",
+        "COBRE": "COBRE",
+        "TIFFANY": "TIFFANY",
+        "TERRACOTA": "TERRACOTA",
+        "DOURADO": 'DOURADO',
+        "PRATEADO": 'PRATEADO',
+        "CAFE": "CAFE",
+        "ROXO": "ROXO",
+        "PESSEGO": "PESSEGO",
+        "AMARELO": "AMARELO",
         "MAGENTA":"MAGENTA",
         "NUDE":"NUDE",
         "SKIN":"SKIN",
@@ -39458,15 +39476,23 @@ function DATA(){
         "UVA":"UVA",
         "FUCSIA":"FUCSIA",
         "COLORS": "COLORS",
-        " ":"COLORS",
+ 
     
     }
     const type = {
+        //ARTE LATEX
+        "BUFFET":"BUFFET",
+        "CANUDO":"CANUDO STICK BALL",
+        "CROMADO":"CROMADO",
+        "ZERINHO":"ZERINHO",
+        "STICK BALL":"CANUDO STICK BALL",
+        "ESPIRAL":"ESPIRAL",
+        "METAL":"METAL",
+
         //happy day
         'PEROLIZADO CANDY': "PEROLIZADO CANDY",
         'PEROLIZADO': "PEROLIZADO",
-
-
+  
         //festcolor
         "DECORADO": 'DECORADO',
         
@@ -39543,7 +39569,11 @@ function DATA(){
        " 7 ":'7" - 18cm',
        " 11 ":'11" - 28cm',
 
-
+        //Arte latex
+        " 6,5 ":'6" - 16cm',
+        " 6 ":'6" - 15cm',
+        " 2.5 ": '2.5" - 6cm',
+        " 4:50 ":"4:50"
 
        
     }
@@ -39656,35 +39686,43 @@ function DATA(){
         '1UN': '1 UNIDADE',
         '1un': '1 UNIDADE',
 
+
+        //arte latex
+        "BIG": '1 UNIDADE',
+        "C/ 24": '24 UNIDADES',
+        "C/24": '24 UNIDADES'
+
     }
     const brand = {
-    "DEL REI INDUSTRIA DE ARTEFATOS DE LATEX LTDA - ME (FESTBALL)": "FESTBALL",
-    "GAUCHO IND COM IMPORTACAO E EXPORTACAO DE POLIMEROS EIRELI (JOY)": "JOY",
-    "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)": "PIC PIC",
-    "FESTCOLOR ARTIGOS DE FESTAS LTDA": "FESTCOLOR",
-    "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA": "SÃO ROQUE",
-    "ANDREIA NEGRI BERNARDT LTDA": "ANDREIA",
-    "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA": "KLF",
-    "ABSTRATA COMERCIO IMPORTACAO E EXPORTACAO LTDA": "ABSTRATA",
-    "IBRINK COMERCIO ATACADISTA DE ARTIGOS PARA FESTA EIRELI- ME": "IBRINK",
-    "INDUSTRIA BRASILEIRA DE BALOES LTDA (HAPPY DAY)": "HAPPY DAY",
-    "ART-LATEX IND. E COM. DE ARTEFATOS DE LATEX LTDA": "ART LATEX",
-    "NEOTRENTINA ARTIGOS P/FESTAS LTDA EPP": "NEOTRENTINA",
-    "FESTA SHOW IMPORTACAO E DISTRIBUICAO EIRELI": "POPPER",
-    "KLEFA COMERCIO IMPORTACAO E EXPORTACAO LTDA": "PARTIU FESTA",
-    "SILENE DOMINGUES SCHLOSSMACHER METTE EPP": "SILENE",
-    "BRASIMPEX COMERCIO IMPORTACAO E EXPORTACAO LTDA": "BRASIMPEX",
-    "FOX IMPORT LTDA ME (PONTO DAS FESTAS)": "PONTO DAS FESTAS",
-    "CROMUS EMBALAGENS IND. E COM. LTDA (CROMUS BALOES)": "CROMUS",
-    "GATE GATE 72 COMERCIAL IMPORTADORA E EXPORTADORA LTDA": "MAKE+",
-    "REGINA INDUSTRIA E COMERCIO S/A.": "REGINA",
-    "FESTPLASTIK ARTIGOS PARA FESTAS LTDA": "FESTPLASTIK",
-    "IDEATEX IND. E COM. LTDA": "MACBALL",
-    "ART FESTA": "ART FESTA",
-    "SILVER PLASTIC COM. IMP. EXP. LTDA EPP": "SILVER PLASTIC",
-    "BRDECOR COM E IMP DE ARTIGOS PARA FESTA": "BRDECOR",
+        "DEL REI INDUSTRIA DE ARTEFATOS DE LATEX LTDA - ME (FESTBALL)": "FESTBALL",
+        "GAUCHO IND COM IMPORTACAO E EXPORTACAO DE POLIMEROS EIRELI (JOY)": "JOY",
+        "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)": "PIC PIC",
+        "FESTCOLOR ARTIGOS DE FESTAS LTDA": "FESTCOLOR",
+        "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA": "SÃO ROQUE",
+        "ANDREIA NEGRI BERNARDT LTDA": "ANDREIA",
+        "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA": "KLF",
+        "ABSTRATA COMERCIO IMPORTACAO E EXPORTACAO LTDA": "ABSTRATA",
+        "IBRINK COMERCIO ATACADISTA DE ARTIGOS PARA FESTA EIRELI- ME": "IBRINK",
+        "INDUSTRIA BRASILEIRA DE BALOES LTDA (HAPPY DAY)": "HAPPY DAY",
+        "ART-LATEX IND. E COM. DE ARTEFATOS DE LATEX LTDA": "ART LATEX",
+        "NEOTRENTINA ARTIGOS P/FESTAS LTDA EPP": "NEOTRENTINA",
+        "FESTA SHOW IMPORTACAO E DISTRIBUICAO EIRELI": "POPPER",
+        "KLEFA COMERCIO IMPORTACAO E EXPORTACAO LTDA": "PARTIU FESTA",
+        "SILENE DOMINGUES SCHLOSSMACHER METTE EPP": "SILENE",
+        "BRASIMPEX COMERCIO IMPORTACAO E EXPORTACAO LTDA": "BRASIMPEX",
+        "FOX IMPORT LTDA ME (PONTO DAS FESTAS)": "PONTO DAS FESTAS",
+        "CROMUS EMBALAGENS IND. E COM. LTDA (CROMUS BALOES)": "CROMUS",
+        "GATE GATE 72 COMERCIAL IMPORTADORA E EXPORTADORA LTDA": "MAKE+",
+        "REGINA INDUSTRIA E COMERCIO S/A.": "REGINA",
+        "FESTPLASTIK ARTIGOS PARA FESTAS LTDA": "FESTPLASTIK",
+        "IDEATEX IND. E COM. LTDA": "MACBALL",
+        "ART FESTA": "ART FESTA",
+        "SILVER PLASTIC COM. IMP. EXP. LTDA EPP": "SILVER PLASTIC",
+        "BRDECOR COM E IMP DE ARTIGOS PARA FESTA": "BRDECOR",
     }
     const model = {
+
+
 
         //Ignorar
         'BALAO IMP. AZUL ESCURO METALLIC 10X25': '-',
@@ -39693,6 +39731,19 @@ function DATA(){
         'BALAO IMP. VERMELHO METALLIC 10X25 106786': '-',
         'BALAO IMP. BRANCO METALLIC 10X25    106782': '-',
         'BALAO IMP. DOURADO METALLIC 10X25  106784': '-',
+
+
+
+        //ARTE LATEX
+        "CORACAO":"CORACAO",
+        "LINHA AMALU":"LINHA AMALU",
+        "FELIZ NATAL":"FELIZ NATAL",
+        "HAPPY NEW YEAR":"HAPPY NEW YEAR",
+        "EU AMO JESUS":"EU AMO JESUS",
+        "REVELACAO":"REVELACAO",
+        "BORBOLETAS":"BORBOLETAS",
+        "PATINHAS DE CACHORRO":"PATINHAS DE CACHORRO",
+        "VACA":"VACA",
 
         
   
@@ -39803,7 +39854,6 @@ function DATA(){
         'LUXO':'LUXO',
         'PASCOA FLORK':'PASCOA FLORK',
         'AMONG US':'AMONG US',
-        'BUFFET':'BUFFET',
         'CHA DE COZINHA':'CHA DE COZINHA',
         'CHA LINGERIE':'CHA LINGERIE',
         'WANDINHA':'WANDINHA',
@@ -39887,19 +39937,10 @@ function DATA(){
         "NOTAS MUSICAIS":"NOTAS MUSICAIS",
         "PATAS DE CACHORRO":"PATAS DE CACHORRO",
         "TROPICAL ABACAXI":"TROPICAL ABACAXI",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
-        "XXXXX":"XXXXX",
   
+  
+        //IGNORAR SE NAO ESTIVER
+        " ": "-"
     }
     let output = {
         "singleProduct": [],
@@ -40388,9 +40429,7 @@ function RUN(){
         
     })
 
-    // console.log(data.output.product.length)
-    tools.printSingleItem('model')
-    //tools.getRootProduct()
-} RUN()
-
-    
+    //console.log(data.output.product.length)
+    //tools.printSingleItem('model')
+    tools.getRootProduct()
+}RUN()
