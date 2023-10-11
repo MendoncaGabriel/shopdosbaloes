@@ -419,7 +419,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
     },
     {
       img: 'https://img.elo7.com.br/product/zoom/3A1E403/pacote-balao-branco-n-9-50-unidades-art-latex-bexigas-brancos-art-latex.jpg',
-      url: 'http://www.shopdosbaloes.com.br/'
+      url: 'http://www.shopdosbaloes.com.br/art-latex'
     },
     {
       img: 'https://baloesjoy.com.br/wp-content/uploads/2022/06/logo-joy.png',
