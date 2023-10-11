@@ -39583,50 +39583,11 @@ function DATA(){
         'C/25':'25 UNIDADES',
 
 
-        // 'BALAO IMP. ESPECIAL PRETO FLAMENGO ': 'IGNORAR',
-        '10X25': '25 UNIDADES',
-        'BALAO GIGANTE LISO VD LIMA': '1 UNIDADE',
-        'BALAO GIGANTE TRANSPARENTE': '1 UNIDADE',
-        'BALAO GIGANTE LISO VD FOLHA': '1 UNIDADE',
-        'BALAO GIGANTE LISO AZ COBALTO': '1 UNIDADE',
-        'BALAO GIGANTE LISO LR MANDARIM': '1 UNIDADE',
-        'BALAO GIGANTE LISO VM QUENTE': '1 UNIDADE',
-        'BALAO GIGANTE LISO RS TT FRUIT T': '1 UNIDADE',
-        'BALAO GIGANTE LISO AM CITRINO': '1 UNIDADE',
-        'BALAO GIGANTE LISO PR EBANO': '1 UNIDADE',
-        'BALAO GIGANTE LISO BR POLAR': '1 UNIDADE',
-        'BALAO GIGANTE LISO AZ BABY': '1 UNIDADE',
-        'BALAO GIGANTE LISO NEW PINK': '1 UNIDADE',
-        // 'BALAO GIGANTE LISO AZ CELESTE 125104201': '1 UNIDADE',
-        '125106601': '1 UNIDADE',
-        '1351013001': '1 UNIDADE',
-        '135102601': '1 UNIDADE',
-        '135102601': '1 UNIDADE',
-        '135104201': '1 UNIDADE',
-        '135104801': '1 UNIDADE',
-        '135105001': '1 UNIDADE',
-        '135105401': '1 UNIDADE',
-        '135105601': '1 UNIDADE',
-        '135105701': '1 UNIDADE',
-        '135105801': '1 UNIDADE',
-        '135106001': '1 UNIDADE',
-        '135106101': '1 UNIDADE',
-        '135106201': '1 UNIDADE',
-        '135106401': '1 UNIDADE',
-        '135106601': '1 UNIDADE',
-        '135106801': '1 UNIDADE',
-        '135111201': '1 UNIDADE',
-        '135111301': '1 UNIDADE',
         
-
-
-
-
-        
-    
         //QUANTIDADE SÃO ROQUE ---------------------------------
 
 
+        ' C/10 ': '10 UNIDADES',
         'C/10': '10 UNIDADES',
         'C/ 10': '10 UNIDADES',
         'C /10': '10 UNIDADES',
@@ -39635,6 +39596,17 @@ function DATA(){
         '10UN': '10 UNIDADES',
         '10un': '10 UNIDADES',
 
+        ' C/12 ': '12 UNIDADES',
+        'C/12': '12 UNIDADES',
+        'C/ 12': '12 UNIDADES',
+        'C /12': '12 UNIDADES',
+        '12 UN': '12 UNIDADES',
+        '12 un': '12 UNIDADES',
+        '12UN': '12 UNIDADES',
+        '12un': '12 UNIDADES',
+
+        ' C/15 ': "15 UNIDADES",
+        'C/15 ': "15 UNIDADES",
         'C/15': "15 UNIDADES",
         'C/ 15': '15 UNIDADES',
         'C /15': '15 UNIDADES',
@@ -39643,6 +39615,7 @@ function DATA(){
         '15UN': '15 UNIDADES',
         '15un': '15 UNIDADES',
 
+        ' C/25 ': "25 UNIDADES",
         'C/25': "25 UNIDADES",
         'C /25': "25 UNIDADES",
         'C/ 25': '25 UNIDADES',
@@ -39650,6 +39623,7 @@ function DATA(){
         '25 un': '25 UNIDADES',
         '25un': '25 UNIDADES',
 
+        ' C/50 ': "50 UNIDADES",
         'C/50': "50 UNIDADES",
         'C/ 50': '50 UNIDADES',
         'C /50': '50 UNIDADES',
@@ -39670,14 +39644,8 @@ function DATA(){
         '1 UN': '1 UNIDADE',
         '12 UN': '12 UNIDADES',
 
-        //ULTIMO RECURSO-----------------------------------------
-        ' 50 ': '50 UNIDADES',
-        ' 25 ': '25 UNIDADES',
-        ' 15 ': '15 UNIDADES',
-        ' 10 ': '10 UNIDADES',
+
         
-        
-        ' 1 ': '1 UNIDADE',
         'C/1': '1 UNIDADE',
         'C/ 1': '1 UNIDADE',
         'C /1': '1 UNIDADE',
@@ -39690,7 +39658,15 @@ function DATA(){
         //arte latex
         "BIG": '1 UNIDADE',
         "C/ 24": '24 UNIDADES',
-        "C/24": '24 UNIDADES'
+        " C/24 ": '24 UNIDADES',
+        "C/24": '24 UNIDADES',
+
+        //ULTIMO RECURSO-----------------------------------------
+        ' 50 ': '50 UNIDADES',
+        ' 25 ': '25 UNIDADES',
+        ' 15 ': '15 UNIDADES',
+        ' 10 ': '10 UNIDADES',
+        ' 1 ': '1 UNIDADE',
 
     }
     const brand = {
