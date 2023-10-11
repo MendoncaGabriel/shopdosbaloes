@@ -1,6 +1,6 @@
 import fs from 'fs'
 import XLSX from 'xlsx';
-var MARCA = 'ART LATEX'
+var MARCA = 'REGINA'
 
 //DADOS E FERRAMENTAS ##########################################################
 function DATA(){
@@ -17402,7 +17402,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07899743821088",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17411,16 +17411,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07899743843240",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
-            
-        },
-        {
-            "CODIGOS": "00000000005713",
-            "DESCRICAO": "07899743843240",
-            "PRECO": "15.79",
-            "CUSTO": "8.41",
-            "EAN": "07899895735059",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17429,7 +17420,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.41",
             "EAN": "07899895757396",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17438,7 +17429,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.41",
             "EAN": "07891175363358",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17447,7 +17438,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.64",
             "EAN": "07891175400565",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17456,7 +17447,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.69",
             "EAN": "07891175400596",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17465,7 +17456,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175400602",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17474,7 +17465,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175400572",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17483,7 +17474,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175400626",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17492,7 +17483,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.69",
             "EAN": "07891175400619",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17501,7 +17492,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175400633",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17510,7 +17501,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.69",
             "EAN": "07891175400640",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17519,7 +17510,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175400664",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17528,7 +17519,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.69",
             "EAN": "07891175400671",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17537,7 +17528,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175401173",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17546,7 +17537,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175401272",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17555,7 +17546,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.41",
             "EAN": "07891175401340",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17564,7 +17555,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175401364",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17582,7 +17573,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "7.57",
             "EAN": "07891175406673",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17591,7 +17582,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "7.57",
             "EAN": "07891175402484",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17600,7 +17591,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "5.89",
             "EAN": "07891175402552",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17609,7 +17600,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.50",
             "EAN": "07891175402712",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17618,7 +17609,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "7.57",
             "EAN": "07891175402910",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17627,7 +17618,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "7.57",
             "EAN": "07891175406604",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17636,7 +17627,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "7.57",
             "EAN": "07891175407038",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17645,7 +17636,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175411103",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17654,7 +17645,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.41",
             "EAN": "07891175417044",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17663,7 +17654,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175417402",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17672,7 +17663,7 @@ function DATA(){
             "PRECO": "22.99",
             "CUSTO": "12.65",
             "EAN": "07891175428026",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17699,7 +17690,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175428736",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17726,7 +17717,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175428743",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17735,7 +17726,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175428767",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17753,7 +17744,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.69",
             "EAN": "07891175428798",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17762,7 +17753,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175428804",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17771,7 +17762,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "7.57",
             "EAN": "07891175432641",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17780,7 +17771,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175437721",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -17789,7 +17780,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.50",
             "EAN": "07891175438117",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25880,7 +25871,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07899743821095",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25889,7 +25880,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07899895767876",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25898,7 +25889,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "3.27",
             "EAN": "07891175365581",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25907,7 +25898,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175365956",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25916,7 +25907,7 @@ function DATA(){
             "PRECO": "21.05",
             "CUSTO": "11.69",
             "EAN": "07891175400688",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25925,7 +25916,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.41",
             "EAN": "07891175425575",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25934,7 +25925,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175426848",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25943,7 +25934,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175427715",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25952,7 +25943,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175428750",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25961,7 +25952,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175430708",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25970,7 +25961,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175431705",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25979,7 +25970,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175442817",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25988,7 +25979,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175444170",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -25997,7 +25988,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175444668",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -26006,7 +25997,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175460880",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -26015,7 +26006,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.41",
             "EAN": "07891175297530",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -26839,7 +26830,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006881",
-            "DESCRICAO": "BALAO MODELAGEM PRATA CROMADO C25 UN SP850",
+            "DESCRICAO": "BALAO MODELAGEM PRATA 9 CROMADO C25 UN SP850",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413320",
@@ -26848,7 +26839,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006883",
-            "DESCRICAO": "BALAO MODELAGEM OURO CROMADO C25 UN SP850",
+            "DESCRICAO": "BALAO MODELAGEM 260 OURO CROMADO C25 UN SP850",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413313",
@@ -26866,7 +26857,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006885",
-            "DESCRICAO": "BALAO MODELAGEM BRONZE CROMADO C25 UN SP853",
+            "DESCRICAO": "BALAO MODELAGEM 9 BRONZE CROMADO C25 UN SP853",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413290",
@@ -26875,7 +26866,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006886",
-            "DESCRICAO": "BALAO MODELAGEM ROSE GOLD CROMADO C25 UN SP854",
+            "DESCRICAO": "BALAO MODELAGEM 260 ROSE GOLD CROMADO C25 UN SP854",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413399",
@@ -26884,7 +26875,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006887",
-            "DESCRICAO": "BALAO MODELAGEM ROSA CROMADO C25 UN SP855",
+            "DESCRICAO": "BALAO MODELAGEM 5 ROSA CROMADO C25 UN SP855",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413344",
@@ -26893,7 +26884,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006888",
-            "DESCRICAO": "BALAO MODELAGEM VERMELHO CROMADO C25 UN SP856",
+            "DESCRICAO": "BALAO MODELAGEM 5 VERMELHO CROMADO C25 UN SP856",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413375",
@@ -26902,7 +26893,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006889",
-            "DESCRICAO": "BALAO MODELAGEM MARSALA CROMADO C25 UN SP857",
+            "DESCRICAO": "BALAO MODELAGEM 260 MARSALA CROMADO C25 UN SP857",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413306",
@@ -26911,7 +26902,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006890",
-            "DESCRICAO": "BALAO MODELAGEM VIOLETA CROMADO C25 UN SP858",
+            "DESCRICAO": "BALAO MODELAGEM 260 VIOLETA CROMADO C25 UN SP858",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413382",
@@ -26929,7 +26920,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006892",
-            "DESCRICAO": "BALAO MODELAGEM AZUL CROMADO C25 UN SP859",
+            "DESCRICAO": "BALAO MODELAGEM 260 AZUL CROMADO C25 UN SP859",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413283",
@@ -26938,7 +26929,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006893",
-            "DESCRICAO": "BALAO MODELAGEM PRETO CHUMBO CROMADO C25 UN SP860",
+            "DESCRICAO": "BALAO MODELAGEM 9 PRETO CHUMBO CROMADO C25 UN SP860",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413337",
@@ -26947,7 +26938,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006894",
-            "DESCRICAO": "BALAO MODELAGEM VERDE CROMADO C25 UN SP862",
+            "DESCRICAO": "BALAO MODELAGEM 5 VERDE CROMADO C25 UN SP862",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413368",
@@ -26956,7 +26947,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000006895",
-            "DESCRICAO": "BALAO MODELAGEM SORTIDO CROMADO C25 UN SP863",
+            "DESCRICAO": "BALAO MODELAGEM 5 SORTIDO CROMADO C25 UN SP863",
             "PRECO": "12.63",
             "CUSTO": "6.58",
             "EAN": "07908070413351",
@@ -27986,7 +27977,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.50",
             "EAN": "07899895734830",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -27995,7 +27986,7 @@ function DATA(){
             "PRECO": "19.99",
             "CUSTO": "10.43",
             "EAN": "07891175460408",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -30137,7 +30128,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "8.41",
             "EAN": "07899895735066",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -30146,7 +30137,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07899895754357",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -30155,7 +30146,7 @@ function DATA(){
             "PRECO": "21.69",
             "CUSTO": "11.69",
             "EAN": "07891175400657",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -30164,7 +30155,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.50",
             "EAN": "07891175402651",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -30173,7 +30164,7 @@ function DATA(){
             "PRECO": "15.79",
             "CUSTO": "7.57",
             "EAN": "07891175406246",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -30182,7 +30173,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.50",
             "EAN": "07891175433167",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -30191,7 +30182,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175441872",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -30200,7 +30191,7 @@ function DATA(){
             "PRECO": "14.49",
             "CUSTO": "7.50",
             "EAN": "07891175454834",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39157,7 +39148,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07899895735042",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39166,7 +39157,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175401449",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39175,7 +39166,7 @@ function DATA(){
             "PRECO": "6.99",
             "CUSTO": "3.27",
             "EAN": "07891175418515",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39184,7 +39175,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175425087",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39193,7 +39184,7 @@ function DATA(){
             "PRECO": "13.49",
             "CUSTO": "6.97",
             "EAN": "07891175441643",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39202,7 +39193,7 @@ function DATA(){
             "PRECO": "13.49",
             "CUSTO": "6.97",
             "EAN": "07891175441650",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39211,7 +39202,7 @@ function DATA(){
             "PRECO": "16.99",
             "CUSTO": "8.95",
             "EAN": "07891175463966",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39220,7 +39211,7 @@ function DATA(){
             "PRECO": "20.99",
             "CUSTO": "10.74",
             "EAN": "07891175463973",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39229,7 +39220,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175468831",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39238,7 +39229,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175473460",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39247,7 +39238,7 @@ function DATA(){
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07891175478632",
-            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A.",
+            "FORNECEDOR": "REGINA INDUSTRIA E COMERCIO S/A",
             
         },
         {
@@ -39481,6 +39472,8 @@ function DATA(){
     }
     const type = {
         //ARTE LATEX
+        "METALIZADO":"METALIZADO",
+        "METALICO":"METALICO",
         "BUFFET":"BUFFET",
         "CANUDO":"CANUDO STICK BALL",
         "CROMADO":"CROMADO",
@@ -39536,7 +39529,7 @@ function DATA(){
         "CANDY": "CANDY",
 
         //SEM TYPE
-        " ":"DECORADO",
+        //" ":"DECORADO",
 
 
 
@@ -39544,51 +39537,47 @@ function DATA(){
 
     }
     const size = {
-
-        // TAMANHOS PIC PIC
+        "BIG": '250"',
+        " BIG ": '250"',
+        " GIGANTE ": '250"',
+        " CANUDO ": '260"',
         " 250 ": '250"',
         " 260 ": '260"',
         " 150 ": '150"',
         " 350 ": '350"',
-       " 7.0 ":'7" - 18cm',
-       " 09 ": '9" - 23cm',
-       " 10 ": '10" - 25cm',
-       " 16 ": '16" - 41cm',
-       " 06 ": '6" - 15cm',
-       " 08 ": '8" - 20cm',
-       " 05 ": '5" - 13cm',
-       " 2.5 ":'2.5" - 6cm',
-       " 12 ": '12" - 30cm',
-       
-       // são roque --------------------
-       " GIGANTE ": '250"',
-       " CANUDO ": '260"',
-       " 8 ": '8" - 20cm',
-       " 5 ": '5" - 13cm',
-       " 9 ": '9" - 23cm',
-       " 7 ":'7" - 18cm',
-       " 11 ":'11" - 28cm',
-
-        //Arte latex
+        'N.8': '8" - 20cm',
         " 6,5 ":'6" - 16cm',
+
+        " 8 ": '8" - 20cm',
+        " 5 ": '5" - 13cm',
+        " 9 ": '9" - 23cm',
+        " 7 ":'7" - 18cm',
+        " 11 ":'11" - 28cm',
         " 6 ":'6" - 15cm',
         " 2.5 ": '2.5" - 6cm',
-        " 4:50 ":"4:50"
-
-       
+        " 4:50 ":"4:50",
+        " 7.0 ":'7" - 18cm',
+        " 09 ": '9" - 23cm',
+        " 10 ": '10" - 25cm',
+        " 16 ": '16" - 41cm',
+        " 06 ": '6" - 15cm',
+        " 08 ": '8" - 20cm',
+        " 05 ": '5" - 13cm',
+        " 2.5 ":'2.5" - 6cm',
+        " 12 ": '12" - 30cm',
+        " 14 ": '14" - 35cm',
     }
     const amount = {
         //festcolor
         '10X25':'25 UNIDADES',
-        'C/25':'25 UNIDADES',
 
-
-        
         //QUANTIDADE SÃO ROQUE ---------------------------------
 
 
         ' C/10 ': '10 UNIDADES',
         'C/10': '10 UNIDADES',
+        ' C10 ': '10 UNIDADES',
+        'C10': '10 UNIDADES',
         'C/ 10': '10 UNIDADES',
         'C /10': '10 UNIDADES',
         '10 UN': '10 UNIDADES',
@@ -39608,6 +39597,8 @@ function DATA(){
         ' C/15 ': "15 UNIDADES",
         'C/15 ': "15 UNIDADES",
         'C/15': "15 UNIDADES",
+        'C15': "15 UNIDADES",
+        ' C15 ': "15 UNIDADES",
         'C/ 15': '15 UNIDADES',
         'C /15': '15 UNIDADES',
         '15 UN': '15 UNIDADES',
@@ -39617,14 +39608,19 @@ function DATA(){
 
         ' C/25 ': "25 UNIDADES",
         'C/25': "25 UNIDADES",
+        'C25': "25 UNIDADES",
+        ' C25 ': "25 UNIDADES",
         'C /25': "25 UNIDADES",
         'C/ 25': '25 UNIDADES',
         '25 UN': '25 UNIDADES',
         '25 un': '25 UNIDADES',
         '25un': '25 UNIDADES',
+  
 
         ' C/50 ': "50 UNIDADES",
         'C/50': "50 UNIDADES",
+        'C50': "50 UNIDADES",
+        ' C50 ': "50 UNIDADES",
         'C/ 50': '50 UNIDADES',
         'C /50': '50 UNIDADES',
         '50 UN': '50 UNIDADES',
@@ -39644,8 +39640,6 @@ function DATA(){
         '1 UN': '1 UNIDADE',
         '12 UN': '12 UNIDADES',
 
-
-        
         'C/1': '1 UNIDADE',
         'C/ 1': '1 UNIDADE',
         'C /1': '1 UNIDADE',
@@ -39653,7 +39647,6 @@ function DATA(){
         '1 UN': '1 UNIDADE',
         '1UN': '1 UNIDADE',
         '1un': '1 UNIDADE',
-
 
         //arte latex
         "BIG": '1 UNIDADE',
@@ -39689,7 +39682,7 @@ function DATA(){
         "FOX IMPORT LTDA ME (PONTO DAS FESTAS)": "PONTO DAS FESTAS",
         "CROMUS EMBALAGENS IND. E COM. LTDA (CROMUS BALOES)": "CROMUS",
         "GATE GATE 72 COMERCIAL IMPORTADORA E EXPORTADORA LTDA": "MAKE+",
-        "REGINA INDUSTRIA E COMERCIO S/A.": "REGINA",
+        "REGINA INDUSTRIA E COMERCIO S/A": "REGINA",
         "FESTPLASTIK ARTIGOS PARA FESTAS LTDA": "FESTPLASTIK",
         "IDEATEX IND. E COM. LTDA": "MACBALL",
         "ART FESTA": "ART FESTA",
@@ -39915,8 +39908,8 @@ function DATA(){
         "TROPICAL ABACAXI":"TROPICAL ABACAXI",
   
   
-        //IGNORAR SE NAO ESTIVER
-        " ": "-"
+        //IGNORAR SE NAO TIVER OS MODELOS ACIMA
+        //" ": "-"
     }
     let output = {
         "singleProduct": [],
@@ -39944,94 +39937,121 @@ function TOOLS(){
             }
         })
     }
-    function printSingleItem(object){
-        let repeat = []
-    
-        data.output.product.forEach((element)=>{
-            let push = true
+    function CheckProducts(){
+        let color = 0
+        let type = 0
+        let model = 0
+        let amount = 0
+        let size = 0
 
-            if(object == 'type'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.type){push = false}
-                }
-                if(push == true){
-                    repeat.push(element.type)
-
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.type == ''){
-                        console.log('Tipo faltando:', element)
+        data.output.product.forEach((element)=>{ //produtos
+            //verificar ausencia de amount ------------------------------------------------------------------------
+                let AusenciaAmount = true;
+                for (const amount in data.amount) { //identifica a cor
+                    let includedIn =  tools.checkIncludedWord(element.description, amount)
+                    if(includedIn == true){
+                        AusenciaAmount = false
+                        break;
                     }
                 }
-            }
-            if(object == 'model'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.model){push = false}
+                if(AusenciaAmount == true){
+                    console.log('MODEL NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
+                }else{
+                    //cor identificada incrementa color
+                    amount++
                 }
-                if(push == true){
-                    repeat.push(element.model)
 
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.model == '' || !element.model && element.model == ''){
-                        console.log('Modelo faltando:', element.varejo)
+            //verificar ausencia de cor ------------------------------------------------------------------------
+                let AusenciaCor = true;
+                for (const color in data.color) { //identifica a cor
+                    let includedIn =  tools.checkIncludedWord(element.description, color)
+                    if(includedIn == true){
+                        AusenciaCor = false
+                        break;
                     }
                 }
-            }
-            if(object == 'amount'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.amount){push = false}
+                if(AusenciaCor == true && model == 0){
+                    console.log('COR NÃO IDENTIFICADA: ' + element.varejo + ', EAN: ' + element.ean)
+                }else{
+                    //cor identificada incrementa color
+                    color++
                 }
-                if(push == true){
-                    repeat.push(element.amount)
 
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.amount == ''){
-                        console.log('Quantidade faltando:', element)
+
+            //verificar ausencia de type ------------------------------------------------------------------------
+                let AusenciaType = true;
+                for (const type in data.type) { //identifica a cor
+                    let includedIn =  tools.checkIncludedWord(element.description, type)
+                    if(includedIn == true){
+                        AusenciaType = false
+                        break;
                     }
                 }
-            }
-            else if(object == 'brand'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.brand){push = false}
+                if(AusenciaType == true){
+                    console.log('TYPE NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
+                }else{
+                    //cor identificada incrementa color
+                    type++
                 }
-                if(push == true){
-                    repeat.push(element.brand)
 
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.brand == ''){
-                        console.log('Marca faltando:', element)
+
+
+
+            //verificar ausencia SIZE ------------------------------------------------------------------------
+                let AusenciaSize = true;
+                for (const size in data.size) { //identifica a cor
+                    let includedIn =  tools.checkIncludedWord(element.varejo, size)
+                    if(includedIn == true){
+                        AusenciaSize = false
+                        break;
                     }
                 }
-            }
-            else if(object == 'color'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.color){push = false}
+                if(AusenciaSize == true){
+                    console.log('SIZE NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
+                }else{
+                    //cor identificada incrementa color
+                    size++
                 }
-                if(push == true){
-                    repeat.push(element.color)
 
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.color == ''){
-                        console.log('Cor faltando:', element)
+            //verificar ausencia MODEL ------------------------------------------------------------------------
+                let AusenciaModel = true;
+                for (const model in data.model) { //identifica a cor
+                    let includedIn =  tools.checkIncludedWord(element.description, model)
+                    if(includedIn == true){
+                        AusenciaModel = false
+                        break;
                     }
-
                 }
-            }
-            else if(object == 'size'){
-                for(let i =0; i<repeat.length; i++){
-                    if(repeat[i]== element.size){push = false}
+                if(AusenciaModel == true){
+                    console.log('MODELO NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
+                }else{
+                    //cor identificada incrementa color
+                    model++
                 }
-                if(push == true){
-                    repeat.push(element.size)
 
-                    // IDENTIFICA ITEM FALTANDO
-                    if(element.size == ''){
-                        console.log('Tamanho faltando:', element)
-                    }
-
-                }
-            }
         })
-        console.log(repeat)
+
+        if(color !== 0){
+            console.log('CORES - [100% IDENTIFICADO!]')
+        }
+        if(type !== 0){
+            console.log('TIPOS - [100% IDENTIFICADO!]')
+        }
+        if(model !== 0){
+            console.log('MODELOS - [100% IDENTIFICADO!]')
+        }
+        if(amount !== 0){
+            console.log('QUANTIDADES - [100% IDENTIFICADO!]')
+        }
+        if(size !== 0){
+            console.log('TAMANHOS - [100% IDENTIFICADO!]')
+        }
+        if(model !== 0){
+            console.log('MODELOS - [100% IDENTIFICADO!]')
+        }
+
+        console.log('------------------------------------------------------------')
+       
     }
     function saveInExcel(array, nomeArquivo) {
 
@@ -40149,7 +40169,7 @@ function TOOLS(){
             return url
         }
     }
-    function getRootProduct(){
+    function SaveProductsInExcel(){
         let product = data.output.product;
     
         
@@ -40294,7 +40314,7 @@ function TOOLS(){
             ]);
     }
 
-    return{buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName, printSingleItem, prinAllItems, getRootProduct}
+    return{buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName, CheckProducts, prinAllItems, SaveProductsInExcel}
 }
 
 const data = DATA()
@@ -40302,7 +40322,6 @@ const tools = TOOLS()
 
 
 //EXECUÇÃO ####################################################################
-
 function RUN(){
 
     data.product.forEach((element)=>{
@@ -40397,15 +40416,18 @@ function RUN(){
         }
 
         //CONFIÇÃO PARA SALVAR ####################################################################################
-        if(product.brand == MARCA &&
-            product.color && product.type
+        if(product.brand == MARCA 
+            //&& product.color && product.type
         ){
             data.output.product.push(product)
         }
         
     })
+    console.log('------------------------------------------------------------')
+    console.log('[PRODUTOS: ' + data.output.product.length + ']')
 
-    //console.log(data.output.product.length)
-    //tools.printSingleItem('model')
-    tools.getRootProduct()
 }RUN()
+
+
+tools.CheckProducts()
+//tools.SaveProductsInExcel()
