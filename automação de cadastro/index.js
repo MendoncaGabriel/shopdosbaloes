@@ -1,6 +1,6 @@
 import fs from 'fs'
 import XLSX from 'xlsx';
-var MARCA = 'REGINA'
+var MARCA = 'IBRINK'
 
 //DADOS E FERRAMENTAS ##########################################################
 function DATA(){
@@ -17398,7 +17398,7 @@ function DATA(){
         },
         {
             "CODIGOS": "00000000005711",
-            "DESCRICAO": "BALAO LATEX REDONDO 9 POL. BELA 25 UN. 101958.9",
+            "DESCRICAO": "BALAO LATEX REDONDO 9 BELA E A FERA POL. BELA 25 UN. 101958.9",
             "PRECO": "16.49",
             "CUSTO": "8.83",
             "EAN": "07899743821088",
@@ -39537,6 +39537,39 @@ function DATA(){
 
     }
     const size = {
+
+
+        '36 POLE': '24" - 91cm',
+        '24 POLE': '24" - 61cm',
+
+        '5""': '5" - 13cm',
+        '32""': '32" - 81cm',
+        '16""': '16" - 40cm',
+
+        "80CM": '31" - 80cm',
+        "35CM": '14" - 35cm',
+        "75CM": '30" - 75cm',
+        "100CM": '39" - 100cm',
+        "45 CM": '18" - 45cm',
+        " 45 CM ": '18" - 45cm',
+        " 45CM ": '18" - 45cm',
+        "45CM": '18" - 45cm',
+        " 40 CM ": '16" - 40cm',
+        "40 CM": '16" - 40cm',
+        "18POL": '18" - 46cm',
+        "18 POL": '18" - 46cm',
+
+        " 12 POL. ": '12" - 30cm',
+        "12 POL.": '12" - 30cm',
+        "12 POL": '12" - 30cm',
+        " 12 POL ": '12" - 30cm',
+
+        " 9 POL. ": '9" - 23',
+        "9 POL.": '9" - 23',
+        "9 POL": '9" - 23',
+        " 9 POL ": '9" - 23',
+
+
         "BIG": '250"',
         " BIG ": '250"',
         " GIGANTE ": '250"',
@@ -39566,6 +39599,7 @@ function DATA(){
         " 2.5 ":'2.5" - 6cm',
         " 12 ": '12" - 30cm',
         " 14 ": '14" - 35cm',
+        " 4 ": '4" - 10cm',
     }
     const amount = {
         //festcolor
@@ -39663,17 +39697,17 @@ function DATA(){
 
     }
     const brand = {
-        "DEL REI INDUSTRIA DE ARTEFATOS DE LATEX LTDA - ME (FESTBALL)": "FESTBALL",
-        "GAUCHO IND COM IMPORTACAO E EXPORTACAO DE POLIMEROS EIRELI (JOY)": "JOY",
-        "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)": "PIC PIC",
-        "FESTCOLOR ARTIGOS DE FESTAS LTDA": "FESTCOLOR",
-        "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA": "SÃO ROQUE",
-        "ANDREIA NEGRI BERNARDT LTDA": "ANDREIA",
-        "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA": "KLF",
-        "ABSTRATA COMERCIO IMPORTACAO E EXPORTACAO LTDA": "ABSTRATA",
+        "DEL REI INDUSTRIA DE ARTEFATOS DE LATEX LTDA - ME (FESTBALL)": "FESTBALL", //ok
+        "GAUCHO IND COM IMPORTACAO E EXPORTACAO DE POLIMEROS EIRELI (JOY)": "JOY", //ok
+        "RIBERBALL MERCANTIL E INDUSTRIAL LTDA (PIC PIC)": "PIC PIC", //ok
+        "FESTCOLOR ARTIGOS DE FESTAS LTDA": "FESTCOLOR", //ok
+        "FABRICA DE ARTEF.DE LATEX SÃO ROQUE LTDA": "SÃO ROQUE", //ok
+        "ANDREIA NEGRI BERNARDT LTDA": "ANDREIA", //ok
+        "E-KLF COMERCIO E DIST DE ARTIGOS PARA FESTA LTDA": "KLF", //OFF
+        "ABSTRATA COMERCIO IMPORTACAO E EXPORTACAO LTDA": "ABSTRATA", //ok
         "IBRINK COMERCIO ATACADISTA DE ARTIGOS PARA FESTA EIRELI- ME": "IBRINK",
-        "INDUSTRIA BRASILEIRA DE BALOES LTDA (HAPPY DAY)": "HAPPY DAY",
-        "ART-LATEX IND. E COM. DE ARTEFATOS DE LATEX LTDA": "ART LATEX",
+        "INDUSTRIA BRASILEIRA DE BALOES LTDA (HAPPY DAY)": "HAPPY DAY", //ok
+        "ART-LATEX IND. E COM. DE ARTEFATOS DE LATEX LTDA": "ART LATEX", //ok
         "NEOTRENTINA ARTIGOS P/FESTAS LTDA EPP": "NEOTRENTINA",
         "FESTA SHOW IMPORTACAO E DISTRIBUICAO EIRELI": "POPPER",
         "KLEFA COMERCIO IMPORTACAO E EXPORTACAO LTDA": "PARTIU FESTA",
@@ -39690,6 +39724,81 @@ function DATA(){
         "BRDECOR COM E IMP DE ARTIGOS PARA FESTA": "BRDECOR",
     }
     const model = {
+        "N.0": 'N.0',
+        "N.1": 'N.1',
+        "N.2": 'N.2',
+        "N.3": 'N.3',
+        "N.4": 'N.4',
+        "N.5": 'N.5',
+        "N.6": 'N.6',
+        "N.7": 'N.7',
+        "N.8": 'N.8',
+        "N.9": 'N.9',
+        "N.10": 'N.10',
+        "BELA E A FERA": "BELA E A FERA",
+        "BELA":"BELA",
+        "SOFIA THE FIRST":"SOFIA THE FIRST",
+        "MUNDO BITA":"MUNDO BITA",
+        "JARDIM DAS PRINCESAS":"JARDIM DAS PRINCESAS",
+        "PATRULHA CANINA CORE":"PATRULHA CANINA CORE",
+        "SPIDER MAN ANIMACAO":"SPIDER MAN ANIMACAO",
+        "TOY STORY 4":"TOY STORY 4",
+        "AVENGERS ANIMATED":"AVENGERS ANIMATED",
+        "RED MINNIE":"RED MINNIE",
+        "MICKEY CLASSICO":"MICKEY CLASSICO",
+        "FROZEN II":"FROZEN II",
+        "MASHA E O URSO":"MASHA E O URSO",
+        "MUNDO BITA":"MUNDO BITA",
+        "LUCCAS NETO":"LUCCAS NETO",
+        "ARIEL SEREISMO":"ARIEL SEREISMO",
+        "SPIDER MAN ANIMACAO":"SPIDER MAN ANIMACAO",
+        "CAPITAO AMERICA ANIMACAO":"CAPITAO AMERICA ANIMACAO",
+        "PET GATO":"PET GATO",
+        "FESTA FLAMINGO":"FESTA FLAMINGO",
+        "FESTA TROPICA":"FESTA TROPICA",
+        "FESTA FAZENDINHA":"FESTA FAZENDINHA",
+        "FESTA CHA REVELACAO":"FESTA CHA REVELACAO",
+        "PET DOG":"PET DOG",
+        "FESTA DI BUTECO":"FESTA DI BUTECO",
+        "CARS 3":"CARS 3",
+        "HOMEM DE FERRO":"HOMEM DE FERRO",
+        "MINNIE MOUSE":"MINNIE MOUSE",
+        "SONIC":"SONIC",
+        "LADYBUG":"LADYBUG",
+        "MOANA":"MOANA",
+        "BRANCA DE NEVE CLASSICA":"BRANCA DE NEVE CLASSICA",
+        "CINDERELA CLASSICA":"CINDERELA CLASSICA",
+        "DISNEY CARROS":"DISNEY CARROS",
+        "DINOSSAURO":"DINOSSAURO",
+        "SPIDEY":"SPIDEY",
+        "HULK ANIMACAO":"HULK ANIMACAO",
+        "MICKEY MOUSE":"MICKEY MOUSE",
+        "DISNEY FROZEN":"DISNEY FROZEN",
+        "CINDERELA CLASSICA":"CINDERELA CLASSICA",
+        "HULK ANIMACAO":"HULK ANIMACAO",
+        "MARVEL QUADRINHOS":"MARVEL QUADRINHOS",
+        "ENCANTO":"ENCANTO",
+        "AVENGERS":"AVENGERS",
+        "FESTA HALLOWEEN":"FESTA HALLOWEEN",
+        "HALLOWEEN":"HALLOWEEN",
+        "MASKS":"MASKS",
+        "O REI LEAO":"O REI LEAO",
+        "FESTA FUTEBOL":"FESTA FUTEBOL",
+        "GAMES":"GAMES",
+        "FESTA FUTEBOL":"FESTA FUTEBOL",
+        "ESPACIAL":"ESPACIAL",
+        "FESTA SAFARI":"FESTA SAFARI",
+        "LADYBUG CORE":"LADYBUG CORE",
+        "BONECA LOL":"BONECA LOL",
+        "PJ MASKS":"PJ MASKS",
+        "RAYA E O ULTIMO DRAGAO":"RAYA E O ULTIMO DRAGAO",
+        "MASHA E O URSO CLASSICA":"MASHA E O URSO CLASSICA",
+        "PARABENS":" PARABENS","MENINO OU MENINA":"MENINO OU MENINA",
+        "ANO NOVO":"ANO NOVO",
+        " MOANA DISNEY":" MOANA DISNEY",
+        "PEPPA PIG":"PEPPA PIG",
+
+
 
 
 
@@ -39945,6 +40054,23 @@ function TOOLS(){
         let size = 0
 
         data.output.product.forEach((element)=>{ //produtos
+            //verificar ausencia MODEL ------------------------------------------------------------------------
+                let AusenciaModel = true;
+                for (const model in data.model) { //identifica a cor
+                    let includedIn =  tools.checkIncludedWord(element.description, model)
+                    if(includedIn == true){
+                        AusenciaModel = false
+                        break;
+                    }
+                }
+                if(AusenciaModel == true){
+                    console.log('MODELO NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
+                }else{
+                    //cor identificada incrementa color
+                    model++
+                }
+
+
             //verificar ausencia de amount ------------------------------------------------------------------------
                 let AusenciaAmount = true;
                 for (const amount in data.amount) { //identifica a cor
@@ -39955,11 +40081,12 @@ function TOOLS(){
                     }
                 }
                 if(AusenciaAmount == true){
-                    console.log('MODEL NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
+                    console.log('AMOUNT NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
                 }else{
                     //cor identificada incrementa color
                     amount++
                 }
+
 
             //verificar ausencia de cor ------------------------------------------------------------------------
                 let AusenciaCor = true;
@@ -40013,41 +40140,27 @@ function TOOLS(){
                     size++
                 }
 
-            //verificar ausencia MODEL ------------------------------------------------------------------------
-                let AusenciaModel = true;
-                for (const model in data.model) { //identifica a cor
-                    let includedIn =  tools.checkIncludedWord(element.description, model)
-                    if(includedIn == true){
-                        AusenciaModel = false
-                        break;
-                    }
-                }
-                if(AusenciaModel == true){
-                    console.log('MODELO NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
-                }else{
-                    //cor identificada incrementa color
-                    model++
-                }
+
 
         })
 
         if(color !== 0){
-            console.log('CORES - [100% IDENTIFICADO!]')
+            console.log('CORES - [100% IDENTIFICADO!]' + ` (${color})` )
         }
         if(type !== 0){
-            console.log('TIPOS - [100% IDENTIFICADO!]')
+            console.log('TIPOS - [100% IDENTIFICADO!]' + ` (${type})`)
         }
         if(model !== 0){
-            console.log('MODELOS - [100% IDENTIFICADO!]')
+            console.log('MODELOS - [100% IDENTIFICADO!]' + ` (${model})`)
         }
         if(amount !== 0){
-            console.log('QUANTIDADES - [100% IDENTIFICADO!]')
+            console.log('QUANTIDADES - [100% IDENTIFICADO!]' + ` (${amount})`)
         }
         if(size !== 0){
-            console.log('TAMANHOS - [100% IDENTIFICADO!]')
+            console.log('TAMANHOS - [100% IDENTIFICADO!]' + ` (${size})`)
         }
         if(model !== 0){
-            console.log('MODELOS - [100% IDENTIFICADO!]')
+            console.log('MODELOS - [100% IDENTIFICADO!]' + ` (${model})`)
         }
 
         console.log('------------------------------------------------------------')
@@ -40429,5 +40542,5 @@ function RUN(){
 }RUN()
 
 
-tools.CheckProducts()
-//tools.SaveProductsInExcel()
+//tools.CheckProducts()
+tools.SaveProductsInExcel()
