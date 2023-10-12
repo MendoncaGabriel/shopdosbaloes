@@ -40255,8 +40255,8 @@ function TOOLS(){
             for(let i = 0; i<imgContainer.length; i++){
                 if(
                     imgContainer[i].color.toUpperCase().replace(' ', '') == element.color.toUpperCase().replace(' ', '')
-                    && imgContainer[i].type == element.type
-                    && imgContainer[i].brand == element.brand
+                    && imgContainer[i].type.toUpperCase().replace(' ', '') == element.type.toUpperCase().replace(' ', '')
+                    && imgContainer[i].brand.toUpperCase().replace(' ', '') == element.brand.toUpperCase().replace(' ', '')
                     && imgContainer[i].model.toUpperCase().replace(' ', '') == element.model.toUpperCase().replace(' ', '')
                 ){
                     pushItem = false
