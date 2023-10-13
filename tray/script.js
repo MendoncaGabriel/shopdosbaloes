@@ -422,6 +422,10 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
       url: 'http://www.shopdosbaloes.com.br/art-latex'
     },
     {
+      img: 'https://baloesfestball.com.br/web/img/logo.png',
+      url: 'http://www.shopdosbaloes.com.br/festball'
+    },
+    {
       img: 'https://baloesjoy.com.br/wp-content/uploads/2022/06/logo-joy.png',
       url: 'http://www.shopdosbaloes.com.br/'
     },
@@ -429,10 +433,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
       img: 'https://yt3.googleusercontent.com/ytc/AOPolaRLgeq-QOb5GtXR2WIU3zq7ri5zfKaGk78BRnrR=s900-c-k-c0x00ffffff-no-rj',
       url: 'http://www.shopdosbaloes.com.br/'
     },
-    {
-      img: 'https://baloesfestball.com.br/web/img/logo.png',
-      url: 'http://www.shopdosbaloes.com.br/festball'
-    },
+
     {
       img: 'https://www.aeroflex.ind.br/img/logo/seo.png',
       url: 'http://www.shopdosbaloes.com.br/'
