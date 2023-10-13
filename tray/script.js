@@ -431,7 +431,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
     },
     {
       img: 'https://baloesfestball.com.br/web/img/logo.png',
-      url: 'http://www.shopdosbaloes.com.br/'
+      url: 'http://www.shopdosbaloes.com.br/festball'
     },
     {
       img: 'https://www.aeroflex.ind.br/img/logo/seo.png',
