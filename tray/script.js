@@ -660,32 +660,7 @@ function MsgAvisoVendaAmazonas(){
     corpoPagina.insertBefore(novoElemento, corpoPagina.firstChild);
   }
 };
-function popupPaginaManutencao(){
-  let container = document.createElement('div')
-  container.style.width = '100%'
-  container.style.height = '100%'
-  container.style.backgroundColor = 'black'
-  container.style.position = 'fixed'
-  container.style.top = '50%'
-  container.style.left = '50%'
-  container.style.transform = 'translate(-50%, -50%)'
-  container.style.zIndex = '999'
-  container.style.display = 'grid'
-  container.style.justifyContent = 'center'
-  container.style.alignItems = 'center'
-  let logo = document.createElement('img')
-  logo.src = 'https://images.tcdn.com.br/img/img_prod/1238052/1692902488_logotipo_03.png'
-  logo.style.width = '70%'
-  logo.style.margin = 'auto'
-  logo.style.display = 'block'
-  container.appendChild(logo)
-  let h1 = document.createElement('h1')
-  h1.innerText = 'LOJA EM MANUTENÇÃO!'
-  h1.style.color = 'white'
-  h1.style.textAlign = 'center'
-  container.appendChild(h1)
-  document.querySelector('body').appendChild(container)
-};
+
 function addBannerFornecedor(){
   //detectar fornecedor
   let fornecedores = [
@@ -747,13 +722,105 @@ function addBannerFornecedor(){
   
 };
 
+function blockSite(){
+  if(!localStorage.SenhA || localStorage.SenhA !== 'Shop@baloes23'){
+    let body = document.querySelector('body')
+
+    let screen = document.createElement('div')
+    screen.style.backgroundColor = '#F7F7F7'
+    screen.style.width = '100vw'
+    screen.style.height = '100vh'
+    screen.style.backgroundColor = 'white'
+    screen.style.position = 'fixed'
+    screen.style.zIndex = '9999999'
+    screen.style.top = '0px'
+    screen.style.left = '0px'
+    screen.style.display = 'grid'
+    screen.style.alignItems = 'center'
+    screen.style.justifyContent = 'center'
+    screen.id = 'screen123'
+  
+    let containerLogin = document.createElement('div')
+    containerLogin.style.margin = 'auto'
+    containerLogin.style.display = 'grid'
+    containerLogin.style.alignItems = 'center'
+    containerLogin.style.justifyContent = 'center'
+    containerLogin.style.padding = '20px'
+    containerLogin.style.maxWidth = '500px'
+  
+    let img = document.createElement('img')
+    img.src = 'https://images.tcdn.com.br/img/img_prod/1238052/1692902488_logotipo_03.png'
+    img.style.margin = 'auto'
+    img.style.width = '50%'
+    containerLogin.appendChild(img)
+  
+    
+    let h2 = document.createElement('h2')
+    h2.style.textAlign = 'center'
+    h2.style.fontSize  = '20px'
+    h2.innerText = 'Atenção: Esta loja está em Implantação. Nenhum pedido deverá ser considerado. Itens expostos são apenas testes. Aguarde e volte em breve!, shop dos balões agradece a compreenção!'
+    containerLogin.appendChild(h2)
+  
+    let input = document.createElement('input')
+    input.type = 'password'
+    input.placeholder = 'Digite sua senha...'
+    input.style.margin = 'auto'
+    input.style.padding = '8px'
+    input.style.borderRadius = '4px'
+    input.style.width = '100%'
+    input.style.marginTop = '20px'
+    containerLogin.appendChild(input)
+  
+    let btnSubmit = document.createElement('button')
+    btnSubmit.innerText = `DESTRAVAR`
+    btnSubmit.style.padding ='10px'
+    btnSubmit.style.paddingLeft ='20px'
+    btnSubmit.style.paddingRight ='20px'
+    btnSubmit.style.backgroundColor = '#0091D4'
+    btnSubmit.style.color = 'white'
+    btnSubmit.style.margin = 'auto'
+    btnSubmit.style.borderRadius = '20px'
+    btnSubmit.style.marginTop = '10px'
+    btnSubmit.style.fontWeight = 'bold'
+    containerLogin.appendChild(btnSubmit)
+  
+    let checkSenha = true
+    btnSubmit.addEventListener('click', ()=>{
+      if(checkSenha == true){
+        if(input.value == 'Shop@baloes23'){
+          localStorage.SenhA == 'Shop@baloes23'
+          document.querySelector('#screen123').style.display = 'none'
+        }else{
+          alert('Senha Errada!, espere 5s')
+          checkSenha = false
+          
+          setTimeout(() => {
+            checkSenha = true
+          }, 5000);
+    
+        }
+        input.value = ''
+      }else{
+        alert('Aguarde!')
+      }
+  
+    })
+  
+    screen.appendChild(containerLogin)
+    body.appendChild(screen)
+  }
+  
+}
+
+
 addBannerFornecedor();
-// popupPaginaManutencao()
+
 animacaoFlutuacao();MsgAvisoVendaAmazonas();
 addCarouselCustom(); zoomCorrection(); 
 addComponnestButtonsFloat(); addButtonSaibaMais(); 
 borderRadius(); addComponenteMarcas();
-removerParcelamento();  
+removerParcelamento();  blockSite()
+
 
 
 
