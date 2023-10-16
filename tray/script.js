@@ -788,7 +788,7 @@ function blockSite(){
     btnSubmit.addEventListener('click', ()=>{
       if(checkSenha == true){
         if(input.value == 'Shop@baloes23'){
-          localStorage.SenhA == 'Shop@baloes23'
+          localStorage.SenhA = 'Shop@baloes23'
           document.querySelector('#screen123').style.display = 'none'
         }else{
           alert('Senha Errada!, espere 5s')
