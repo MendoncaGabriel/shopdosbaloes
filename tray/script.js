@@ -723,7 +723,7 @@ function addBannerFornecedor(){
 };
 
 function blockSite(){
-  if(!localStorage.SenhA || localStorage.SenhA !== 'Shop@baloes23'){
+  if(!localStorage.SenhA){
     let body = document.querySelector('body')
 
     let screen = document.createElement('div')
