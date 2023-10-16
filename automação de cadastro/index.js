@@ -1,6 +1,6 @@
 import fs from 'fs'
 import XLSX from 'xlsx';
-var MARCA = 'IBRINK'
+var MARCA = 'PONTO DAS FESTAS'
 
 //DADOS E FERRAMENTAS ##########################################################
 function DATA(){
@@ -39537,39 +39537,235 @@ function DATA(){
 
     }
     const size = {
+        "5X67":"5X67",
 
+        "5X55":"5X55",
+        "42X41":"42X41",
+"82X53":"82X53",
+"82X53":"82X53",
+"5X83":"5X83",
+"50X71":"50X71",
+"83X36":"83X36",
+"5X61":"5X61",
+"48X68":"48X68",
+"38X47":"38X47",
+"83X36":"83X36",
+"83X36":"83X36",
+"60X70":"60X70",
+"43CM":"43CM",
+"42X41":"42X41",
+"17 POL":"17 POL",
+"17 POL":"17 POL",
 
+"40X61":"40X61",
+"50X56":"50X56",
+"48X55":"48X55",
+"5X66":"5X66",
+"5X55":"5X55",
+"50X57":"50X57",
+"46X63":"46X63",
+"64X84":"64X84",
+"59X77":"59X77",
+"81X81":"81X81",
+"38,5X37":"38,5X37",
+"5X37":"5X37",
+"5X60":"5X60",
+"5X60":"5X60",
+"53X54":"53X54",
+"43X51":"43X51",
+"34X41":"34X41",
+"52X52":"52X52",
+"34X42":"34X42",
+"5X49":"5X49",
+"5X65":"5X65",
+"48X65":"48X65",
+"58X51":"58X51",
+"108X31":"108X31",
+
+        "52X56":"52X56",
+"5X82":"5X82",
+"73X69":"73X69",
+"5X40":"5X40",
+"51X51":"51X51",
+
+        "5X43":"5X43",
+        "75X60":"75X60",
+        "48X44":"48X44",
+        "37X75":"37X75",
+        "57X54":"57X54",
+        "5X94":"5X94",
+        "5X62":"5X62",
+        "71X62":"71X62",
+        "5X95":"5X95",
+        "44X53":"44X53",
+        "7X67":"7X67",
+        "48X72":"48X72",
+        "40X51":"40X51",
+        "5X87":"5X87",
+        "49X62":"49X62",
+        "48X69":"48X69",
+    
+        "36,5X43,5":"36,5X43,5CM",
+    
+        "43X52":"43X52CM",
+        "52X85":"52X85CM",
+        "39X98":"39X98",
+        "51X100":"51X100",
+        "96X33":"96X33CM",
+        "107X31":"107X31CM",
+        "60X94":"60X94",
+        "17X17":"17X17CM",
+        "60X94,5":"60X94,5CM",
+        "100X36":"100X36",
+        "10,6X37,5":"10,6X37,5CM",
+        "59X73":"59X73CM",
+        "49,4X76,6":"49,4X76,6CM",
+        "51X54,5":"51X54,5CM",
+        "53X73":"53X73CM",
+        "48X67":"48X67CM",
+        "52X60":"52X60CM",
+        "96X27":"96X27CM",
+        "96X27":"96X27CM",
+        "103X34":"103X34CM",
+        "43X102,5":"43X102,5CM",
+        "43,5X46":"43,5X46CM",
+        "58X43,5":"58X43,5CM",
+        "59X43":"59X43CM",
+        "49X48,5":"49X48,5CM",
+        "59X43":"59X43CM",
+        "48X54":"48X54CM",
+        "58X61":"58X61CM",
+        "91X56,5":"91X56,5CM",
+        "117X60":"117X60CM",
+        "72X48":"72X48CM",
+        "50X48":"50X48CM",
+        "101X67":"101X67CM",
+        "91X36":"91X36CM",
+        "54X67":"54X67CM",
+        "17 POLEGADAS":"17 POLEGADAS",
+        "92X48":"92X48CM",
+        "47X102.5":"47X102.5CM",
+        "58X90":"58X90CM",
+    
+        "43X52":"43X52CM",
+        "52X85":"52X85CM",
+        "39X98":"39X98",
+        "51X100":"51X100",
+        "96X33":"96X33CM",
+        "107X31":"107X31CM",
+        "60X94":"60X94",
+        "17X17":"17X17CM",
+        "60X94,5":"60X94,5CM",
+        "100X36":"100X36",
+        "10,6X37,5":"10,6X37,5CM",
+        "59X73":"59X73CM",
+        "49,4X76,6":"49,4X76,6CM",
+        "51X54,5":"51X54,5CM",
+        "53X73":"53X73CM",
+        "48X67":"48X67CM",
+        "52X60":"52X60CM",
+        "96X27":"96X27CM",
+        "96X27":"96X27CM",
+        "103X34":"103X34CM",
+        "43X102,5":"43X102,5CM",
+        "43,5X46":"43,5X46CM",
+        "58X43,5":"58X43,5CM",
+        "59X43":"59X43CM",
+        "49X48,5":"49X48,5CM",
+        "59X43":"59X43CM",
+        "48X54":"48X54CM",
+        "58X61":"58X61CM",
+        "91X56,5":"91X56,5CM",
+        "117X60":"117X60CM",
+        "72X48":"72X48CM",
+        "50X48":"50X48CM",
+        
+        ' 49,565,5CM ':'49x565',
+        ' 62,5X28,5CM ':'5X28',
+        ' 56X77CM ':'56X77CM',
+        ' 44X48CM ':'44X48',
+        ' 60X72CM ':'60X72',
+        ' 43X43CM ':'43X43',
+        ' 70X79CM ':'70X79',
+        ' 65X79CM ':'70X79',
+        ' 51X66CM ':'51X66',
+        ' 42X69CM ':'42XZ69',
+        ' 92X58,5CM  ':'92X58',
+        ' 44X61,5CM ':'44X61',
+        ' 74X79CM ':'74X79',
+        ' 70X62CM ':'70X62',
+        ' 36X96CM ':'36X96',
+        ' 45X51CM ':'45X51',
+        ' 47X97CM ':'47X97',    
+        ' 60X72CM ':'60X72',
+        ' 43X49CM ':'43X49',
+        ' 60X85CM ':'60X85',
+        ' 54X65CM ':'54X65',
+        ' 50X79CM ':'50X79',
+        ' 44X48CM ':'44X48',
+        ' 91X76CM ':'91X76',
+        ' 18X20CM ':'18X20',
+        ' 56X77CM ':'56X77',
+        ' 5X28 ':'5X28',
+        '62,5X28,5':'5X28',
+        '56X77':'56X77CM',
+        '44X48':'44X48',
+        '60X72':'60X72',
+        '43X43':'43X43',
+        '70X79':'70X79',
+        '65X79':'70X79',
+        '51X66':'51X66',
+        '42X69':'42XZ69',
+        '92X58,5':'92X58',
+        '44X61,5':'44X61',
+        '74X79':'74X79',
+        '70X62':'70X62',
+        '36X96':'36X96',
+        '45X51':'45X51',
+        '47X97':'47X97',
+        '60X72':'60X72',
+        '43X49':'43X49',
+        '60X85':'60X85',
+        '54X65':'54X65',
+        '50X79':'50X79',
+        '44X48':'44X48',
+        '91X76':'91X76',
+        '18X20':'18X20',
+        '56X77':'56X77',
+        '5X28':'5X28',
+    
+    
         '36 POLE': '24" - 91cm',
         '24 POLE': '24" - 61cm',
-
+    
         '5""': '5" - 13cm',
         '32""': '32" - 81cm',
         '16""': '16" - 40cm',
-
-        "80CM": '31" - 80cm',
-        "35CM": '14" - 35cm',
-        "75CM": '30" - 75cm',
-        "100CM": '39" - 100cm',
-        "45 CM": '18" - 45cm',
+    
+        "80": '31" - 80cm',
+        "35": '14" - 35cm',
+        "75": '30" - 75cm',
+        "100": '39" - 100cm',
+        "45 ": '18" - 45cm',
         " 45 CM ": '18" - 45cm',
         " 45CM ": '18" - 45cm',
-        "45CM": '18" - 45cm',
+        "45": '18" - 45cm',
         " 40 CM ": '16" - 40cm',
-        "40 CM": '16" - 40cm',
+        "40 ": '16" - 40cm',
         "18POL": '18" - 46cm',
         "18 POL": '18" - 46cm',
-
+    
         " 12 POL. ": '12" - 30cm',
         "12 POL.": '12" - 30cm',
         "12 POL": '12" - 30cm',
         " 12 POL ": '12" - 30cm',
-
+    
         " 9 POL. ": '9" - 23',
         "9 POL.": '9" - 23',
         "9 POL": '9" - 23',
         " 9 POL ": '9" - 23',
-
-
+    
+    
         "BIG": '250"',
         " BIG ": '250"',
         " GIGANTE ": '250"',
@@ -39580,7 +39776,7 @@ function DATA(){
         " 350 ": '350"',
         'N.8': '8" - 20cm',
         " 6,5 ":'6" - 16cm',
-
+    
         " 8 ": '8" - 20cm',
         " 5 ": '5" - 13cm',
         " 9 ": '9" - 23cm',
@@ -39724,6 +39920,89 @@ function DATA(){
         "BRDECOR COM E IMP DE ARTIGOS PARA FESTA": "BRDECOR",
     }
     const model = {
+        "GLOBO 4D":"GLOBO 4D",
+        "FORMATO LUA":"FORMATO LUA",
+        "GATO PRETO":"GATO PRETO",
+        "MORCEGO GATO":"MORCEGO GATO",
+        "FANTASMA GATO":"FANTASMA GATO",
+        "GATO":"GATO",
+        "QUADRADO FANTASMINHA":"QUADRADO FANTASMINHA",
+        "QUADRADO GATO":"QUADRADO GATO",
+        "REDONDO CASA ASSOMBRADA":"REDONDO CASA ASSOMBRADA",
+        "DONUT INTEIRO":"DONUT INTEIRO",
+        "DONUT METADE":"DONUT METADE",
+        "OCULOS DE SOL":"OCULOS DE SOL",
+        "PNEU":"PNEU",
+        "CUP CAKE":"CUP CAKE",
+        "LACO":"LACO",
+        "DINO COROA":"DINO COROA",
+        "DINO":"DINO",
+        "ABOBORA FELIZ":"ABOBORA FELIZ",
+        "HAPPY HALLOWEEN BLACK":"HAPPY HALLOWEEN BLACK",
+        "CAVEIRA CASTELO":"CAVEIRA CASTELO",
+        "ABOBORA GATO":"ABOBORA GATO",
+        "FANTASMINHA C/CHAPEU":"FANTASMINHA C/CHAPEU",
+        "ABOBORA":"ABOBORA",
+        "FLORZINHA":"FLORZINHA",
+        "DINOSSAURO REX":"DINOSSAURO REX",
+        "POLVO":"POLVO",
+        "PEIXE":"PEIXE",
+        "CRAB":"CRAB",
+        "CAVALO MARINHO":"CAVALO MARINHO",
+        "LUA":"LUA",
+        "SOL FELIZ":"SOL FELIZ",
+        "RCO IRIS":"RCO IRIS",
+        "BABY GIRL":"BABY GIRL",
+        "HAPPY BIRTHDAY":"HAPPY BIRTHDAY",
+        "VACA":"VACA",
+        "TROFEU":"TROFEU",
+        "ANEL":"ANEL",
+        "FLOR":"FLOR",
+        "BRUXINHA":"BRUXINHA",
+        "GIRASOL":"GIRASOL",
+        "FOLHAGEM":"FOLHAGEM",
+        "SEREIA":"SEREIA",
+        "ELEFANTE":"ELEFANTE",
+        "ANEL E CORACAO":"ANEL E CORACAO",
+        "RAPOSA FLORESTA":"RAPOSA FLORESTA",
+        "BASQUETE ESTRELAS ANIVERSARIO":"BASQUETE ESTRELAS ANIVERSARIO",
+        "DINOSSAURO REX":"DINOSSAURO REX",
+        "MINI CABECA DE GIRAFA":"MINI CABECA DE GIRAFA",
+        "CAPACETE":"CAPACETE",
+        "CAUDA DE SEREIA":"CAUDA DE SEREIA",
+        "PORCO ESPINHO":"PORCO ESPINHO",
+        "PORCO ESPINHO":"PORCO ESPINHO",
+        "CAUDA DE SEREIA":"CAUDA DE SEREIA",
+        "RACCON":"RACCON",
+        "KIT SOL ARCO IRIS":"KIT SOL ARCO IRIS",
+        " CORACAO SMOKE":" CORACAO SMOKE",
+        "TRES COQUEIROS":"TRES COQUEIROS",
+        "HAPPY BIRTHDAY ":"HAPPY BIRTHDAY ",
+        "FADA":"FADA",
+        "TETO ESTRELA":"TETO ESTRELA",
+        "BALA":"BALA",
+        "SOL":"SOL",
+        "BUQUE FLAMINGO":"BUQUE FLAMINGO",
+        "BALAO ARCO IRIS":"BALAO ARCO IRIS",
+        "METALIZADO CARRINHO BABY BOY":"METALIZADO CARRINHO BABY BOY",
+        "METALIZADO CARRINHO BABY GIRL":"METALIZADO CARRINHO BABY GIRL",
+        "METALIZADO BABY":"METALIZADO BABY",
+        "LOVE":"LOVE",
+        "LETRA":"LETRA",
+        "ARROBA":"ARROBA",
+        "HASHTAG":"HASHTAG",
+        "I LOVE YOU VALENTINE":"I LOVE YOU VALENTINE",
+        "CAUDA DE SEREIA":"CAUDA DE SEREIA",
+        "CORACAO TE AMO":"CORACAO TE AMO",
+        "KIT BEER":"KIT BEER",
+        "KIT SAFARI TIGRE":"KIT SAFARI TIGRE",
+        "KIT SAFARI GIRAFA":"KIT SAFARI GIRAFA",
+        "KIT SAFARI ZEBRA":"KIT SAFARI ZEBRA",
+        "KIT SAFARI VACA":"KIT SAFARI VACA",
+        "KIT SAFARI LEAO":"KIT SAFARI LEAO",
+
+
+
         "N.0": 'N.0',
         "N.1": 'N.1',
         "N.2": 'N.2',
@@ -40029,6 +40308,20 @@ function DATA(){
     return {product, color, type, size, amount, amount, brand, model, output}
 }
 function TOOLS(){
+    function ordenarObjetoPorPalavras(objeto) {
+        const items = Object.keys(objeto).map(key => [key, objeto[key]]);
+        items.sort((a, b) => {
+            const palavrasA = a[0].split(' ').length;
+            const palavrasB = b[0].split(' ').length;
+            // Ordenar por número de palavras (descendente), em seguida, por ordem alfabética (ascendente)
+            return palavrasB - palavrasA || a[0].localeCompare(b[0]);
+        });
+        const resultado = {};
+        items.forEach(item => {
+            resultado[item[0]] = item[1];
+        });
+        return resultado;
+    }
     function prinAllItems(object){
         data.output.product.forEach((element)=>{
             if(!object || object == 'objeto'){
@@ -40427,11 +40720,12 @@ function TOOLS(){
             ]);
     }
 
-    return{buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName, CheckProducts, prinAllItems, SaveProductsInExcel}
+    return{ordenarObjetoPorPalavras, buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName, CheckProducts, prinAllItems, SaveProductsInExcel}
 }
 
 const data = DATA()
 const tools = TOOLS()
+
 
 
 //EXECUÇÃO ####################################################################
@@ -40463,48 +40757,57 @@ function RUN(){
         product.categ2 = ''
 
         // TRATAR E SUBSTITUIT PALAVRAS ####################################################################################
-        for (const color in data.color) { //identifica a cor
+        let dataColor = tools.ordenarObjetoPorPalavras(data.color);
+        for (const color in dataColor) { //identifica a cor
             let includedIn =  tools.checkIncludedWord(element.DESCRICAO, color) //verifica se a palavra esta inclusa na descrição
             if(includedIn == true){
-                product.color = data.color[color]
+                product.color = dataColor[color]
                 break;
             }
         }
-        for (const brand in data.brand) { //identifica a marca
+    
+        let dataBrand = tools.ordenarObjetoPorPalavras(data.brand);
+        for (const brand in dataBrand) { //identifica a marca
             let includedIn =  tools.checkIncludedWord(element.FORNECEDOR, brand) //verifica se a palavra esta inclusa na descrição
             if(includedIn == true){
-                product.brand = data.brand[brand]
+                product.brand = dataBrand[brand]
                 break;
             }
         }
-        for (const amount in data.amount) { //identifica a quantidade
+
+        let dataAmount = tools.ordenarObjetoPorPalavras(data.amount);
+        for (const amount in dataAmount) { //identifica a quantidade
             let includedIn =  tools.checkIncludedWord(element.DESCRICAO, amount) //verifica se a palavra esta inclusa na descrição
             if(includedIn == true){
-                product.amount = data.amount[amount]
+                product.amount = dataAmount[amount]
                 break;
             }
         }
-        for (const model in data.model) { //identifica o modelo
+
+        let dataModel = tools.ordenarObjetoPorPalavras(data.model);
+        for (const model in dataModel) { //identifica o modelo
             let includedIn =  tools.checkIncludedWord(element.DESCRICAO, model) //verifica se a palavra esta inclusa na descrição
             if(includedIn == true){
-                product.model = data.model[model]
+                product.model = dataModel[model]
                 break;
             }
         }
-        for (const type in data.type) { //identifica o tipo do produto
+
+        let dataType = tools.ordenarObjetoPorPalavras(data.type);
+        for (const type in dataType) { //identifica o tipo do produto
             let includedIn =  tools.checkIncludedWord(element.DESCRICAO, type) //verifica se a palavra esta inclusa na descrição
             if(includedIn == true){
-                product.type = data.type[type]
+                product.type = dataType[type]
 
                 break;
             }
         }
-        for (const size in data.size) { //identifica a quantidade
+
+        let dataSize = tools.ordenarObjetoPorPalavras(data.size);
+        for (const size in dataSize) { //identifica a quantidade
             let includedIn =  tools.checkIncludedWord(element.DESCRICAO, size) //verifica se a palavra esta inclusa na descrição
             if(includedIn == true){
-                product.size = data.size[size]
-
-
+                product.size = dataSize[size]
                 break;
             }
         }
@@ -40530,6 +40833,7 @@ function RUN(){
 
         //CONFIÇÃO PARA SALVAR ####################################################################################
         if(product.brand == MARCA 
+            && !product.varejo.includes('CONFETE')
             //&& product.color && product.type
         ){
             data.output.product.push(product)
@@ -40542,5 +40846,5 @@ function RUN(){
 }RUN()
 
 
-//tools.CheckProducts()
-tools.SaveProductsInExcel()
+tools.CheckProducts()
+//tools.SaveProductsInExcel()
