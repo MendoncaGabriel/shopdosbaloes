@@ -809,7 +809,7 @@ function blockSite(){
     screen.appendChild(containerLogin)
     body.appendChild(screen)
   }else{
-    alert('Usuario logado!')
+    console.log('Usuario logado!')
   }
   
 }
