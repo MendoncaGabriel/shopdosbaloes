@@ -426,6 +426,10 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
       url: 'http://www.shopdosbaloes.com.br/festball'
     },
     {
+      img: 'https://pontodasfestas.com.br/wp-content/uploads/2023/04/Logo-Fox-import-hr.png',
+      url: 'http://www.shopdosbaloes.com.br/ponto-das-festas'
+    },
+    {
       img: 'https://baloesjoy.com.br/wp-content/uploads/2022/06/logo-joy.png',
       url: 'http://www.shopdosbaloes.com.br/'
     },
@@ -440,10 +444,6 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
     },
     {
       img: 'https://seeklogo.com//images/S/sempertex-logo-743D32B199-seeklogo.com.png',
-      url: 'http://www.shopdosbaloes.com.br/'
-    },
-    {
-      img: 'https://pontodasfestas.com.br/wp-content/uploads/2023/04/Logo-Fox-import-hr.png',
       url: 'http://www.shopdosbaloes.com.br/'
     },
     {
