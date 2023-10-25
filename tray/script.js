@@ -666,24 +666,35 @@ function addBannerFornecedor(){
   let fornecedores = [
     {
       marca: 'pic-pic',
-      img: 'https://img.freepik.com/fotos-premium/ilustracao-de-arte-digital-de-festa-de-balao-de-aniversario_442940-2262.jpg',
-      img2: 'https://img.freepik.com/fotos-premium/ilustracao-de-arte-digital-de-festa-de-balao-de-aniversario_442940-2262.jpg'
+      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PIC-PIC.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PIC-PIC.png',
     }, 
     {
-      marca:'sao-roque',
-      img: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexd_118124-22379.jpg',
-      img2: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexd_118124-22379.jpg'
+      marca: 'sao-roque',
+      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/SAO-ROQUE.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/SAO-ROQUE.png',
     }, 
     {
-      marca:'festcolor',
-      img: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-12095.jpg',
-      img2: 'https://img.freepik.com/fotos-premium/fundo-de-feliz-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-12095.jpg'
+      marca: 'happy-day',
+      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/HAPPY-DAY.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/HAPPY-DAY.png',
     }, 
     {
-      marca:'happy-day',
-      img: 'https://img.freepik.com/fotos-premium/fundo-de-festa-de-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-6287.jpg',
-      img2: 'https://img.freepik.com/fotos-premium/fundo-de-festa-de-aniversario-com-ilustracao-de-baloes-ai-generativexa_115919-6287.jpg'
-    }
+      marca: 'art-latex',
+      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/ARTE-LATEX.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/ARTE-LATEX.png',
+    }, 
+    {
+      marca: 'festball',
+      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/FEST-BALL.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/FEST-BALL.png',
+    }, 
+    {
+      marca: 'ponto-das-festas',
+      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
+    }, 
+
   ]
 
   let url = window.location.href
