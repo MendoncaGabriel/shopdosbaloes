@@ -694,6 +694,11 @@ function addBannerFornecedor(){
       img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
       img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
     }, 
+    {
+      marca: 'ponto-das-festas2',
+      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
+    }, 
 
   ]
 
