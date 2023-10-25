@@ -667,22 +667,22 @@ function addBannerFornecedor(){
     {
       marca: 'pic-pic',
       img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PIC-PIC.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PIC-PIC.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/picpic-mobile.png',
     }, 
     {
       marca: 'sao-roque',
       img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/SAO-ROQUE.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/SAO-ROQUE.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/saoroque-mobile.png',
     }, 
     {
       marca: 'happy-day',
       img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/HAPPY-DAY.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/HAPPY-DAY.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/happyday-mobile.png',
     }, 
     {
       marca: 'art-latex',
       img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/ARTE-LATEX.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/ARTE-LATEX.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/artelatex-mobile.png',
     }, 
     {
       marca: 'festball',
@@ -692,12 +692,12 @@ function addBannerFornecedor(){
     {
       marca: 'ponto-das-festas',
       img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/pontodasfestas-mobile.png',
     }, 
     {
       marca: 'festcolor',
       img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/FEST-COLOR.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/FEST-COLOR.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/festcolor-mobile.png',
     }, 
 
   ]
