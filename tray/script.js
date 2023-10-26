@@ -833,6 +833,7 @@ function addCard(){
   let container = document.createElement('div')
   container.style.width = '80%'
   container.style.margin = 'auto'
+  container.style.marginTop = '20px'
   container.style.height = 'auto'
   container.style.alignItems = 'center'
   container.style.justifyContent = 'space-around'
