@@ -240,7 +240,7 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
       window.innerWidth < 720){containerBanner.style.height = '25vh'
     }
     else{
-      containerBanner.style.height = '90vh';
+      containerBanner.style.height = '85vh';
       // containerBanner.style.marginTop = '10px';
     }
 
@@ -827,11 +827,6 @@ function blockSite(){
   }
   
 }
-
-
-
-
-
 function addCard(){
 
   //container
@@ -911,11 +906,9 @@ function addCard(){
   parent.insertBefore(container, root);
 }
 
+
 addCard()
-
-
 addBannerFornecedor();
-
 animacaoFlutuacao();MsgAvisoVendaAmazonas();
 addCarouselCustom(); zoomCorrection(); 
 addComponnestButtonsFloat(); addButtonSaibaMais(); 
