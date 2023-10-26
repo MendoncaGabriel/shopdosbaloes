@@ -860,10 +860,10 @@ function addCard(){
 
 
   let banner = [
-    {img: 'images/banner/segurança.png'},
-    {img: 'images/banner/cartao.png'},
-    {img: 'images/banner/frete.png'},
-    {img: 'images/banner/pix.png'},
+    {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/segurança.png'},
+    {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/cartao.png'},
+    {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/frete.png'},
+    {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/pix.png'},
 
     // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
     // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
