@@ -828,83 +828,84 @@ function blockSite(){
   
 }
 function addCard(){
+  if(document.location.href == 'http://www.shopdosbaloes.com.br/' || document.location.href == 'https://www.shopdosbaloes.com.br/'){
+    //container
+    let container = document.createElement('div')
+    container.style.width = '80%'
+    container.style.margin = 'auto'
+    container.style.marginTop = '20px'
+    container.style.height = 'auto'
+    container.style.alignItems = 'center'
+    container.style.justifyContent = 'space-around'
+    container.style.display = 'grid'
 
-  //container
-  let container = document.createElement('div')
-  container.style.width = '80%'
-  container.style.margin = 'auto'
-  container.style.marginTop = '20px'
-  container.style.height = 'auto'
-  container.style.alignItems = 'center'
-  container.style.justifyContent = 'space-around'
-  container.style.display = 'grid'
-
-  function check(){
-    if(window.innerWidth > 1650){
-      container.style.width = '80%'
-      container.style.gridTemplateColumns = '1fr 1fr 1fr 1fr'
-    }
-    else if(window.innerWidth < 1650 && window.innerWidth > 870){
-      container.style.gridTemplateColumns = '1fr 1fr'
-      container.style.width = '80%'
-    }
-    else if(window.innerWidth < 870){
-      container.style.gridTemplateColumns = '1fr 1fr'
-      container.style.overflow = `hidden`   
-      container.style.padding = '20px'
-      container.style.gap = '10px'
-      container.style.width = '100%'
+    function check(){
+      if(window.innerWidth > 1650){
+        container.style.width = '80%'
+        container.style.gridTemplateColumns = '1fr 1fr 1fr 1fr'
+      }
+      else if(window.innerWidth < 1650 && window.innerWidth > 870){
+        container.style.gridTemplateColumns = '1fr 1fr'
+        container.style.width = '80%'
+      }
+      else if(window.innerWidth < 870){
+        container.style.gridTemplateColumns = '1fr 1fr'
+        container.style.overflow = `hidden`   
+        container.style.padding = '20px'
+        container.style.gap = '10px'
+        container.style.width = '100%'
+      }
+      requestAnimationFrame(check)
     }
     requestAnimationFrame(check)
+
+
+    let banner = [
+      {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/segurança.png'},
+      {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/cartao.png'},
+      {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/frete.png'},
+      {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/pix.png'},
+
+      // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
+      // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
+      // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
+      // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
+    ]
+
+    for(let i = 0; i<banner.length; i++){
+        let bannerImg = document.createElement('img')
+    
+        bannerImg.style.width = `320px`
+        if(window.innerWidth < 870){
+          bannerImg.style.width = `100%`
+        }
+        bannerImg.style.flex = `none`
+        bannerImg.style.borderRadius = '8px'
+        bannerImg.style.margin = 'auto'
+        bannerImg.style.marginTop = '10px'
+        bannerImg.style.marginBottom = '10px'
+        bannerImg.src = banner[i].img
+
+        bannerImg.style.transition = '400ms'
+
+        bannerImg.addEventListener('mouseenter', ()=>{
+          bannerImg.style.transform = 'scale(1.1)'
+        })
+        bannerImg.addEventListener('mouseleave', ()=>{
+          bannerImg.style.transform = 'scale(1)'
+        })
+
+        container.appendChild(bannerImg)
+    }
+
+    let root = document.querySelector('main')
+      // Obtém uma referência ao pai de root
+      var parent = root.parentNode;
+
+    // root.appendChild(container)
+    // Insere o container antes do root
+    parent.insertBefore(container, root);
   }
-  requestAnimationFrame(check)
-
-
-  let banner = [
-    {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/segurança.png'},
-    {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/cartao.png'},
-    {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/frete.png'},
-    {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/pix.png'},
-
-    // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
-    // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
-    // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
-    // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
-  ]
-
-  for(let i = 0; i<banner.length; i++){
-      let bannerImg = document.createElement('img')
-  
-      bannerImg.style.width = `320px`
-      if(window.innerWidth < 870){
-        bannerImg.style.width = `100%`
-      }
-      bannerImg.style.flex = `none`
-      bannerImg.style.borderRadius = '8px'
-      bannerImg.style.margin = 'auto'
-      bannerImg.style.marginTop = '10px'
-      bannerImg.style.marginBottom = '10px'
-      bannerImg.src = banner[i].img
-
-      bannerImg.style.transition = '400ms'
-
-      bannerImg.addEventListener('mouseenter', ()=>{
-        bannerImg.style.transform = 'scale(1.1)'
-      })
-      bannerImg.addEventListener('mouseleave', ()=>{
-        bannerImg.style.transform = 'scale(1)'
-      })
-
-      container.appendChild(bannerImg)
-  }
-
-  let root = document.querySelector('main')
-    // Obtém uma referência ao pai de root
-    var parent = root.parentNode;
-
-  // root.appendChild(container)
-  // Insere o container antes do root
-  parent.insertBefore(container, root);
 }
 
 
