@@ -36,14 +36,26 @@ function TOOLS(MARCA){
             }
         });
     }
+    function saveInJSON(array, nomeArquivo) {
+        const jsonString = JSON.stringify(array);
+    
+        fs.writeFile(`${nomeArquivo}.json`, jsonString, (err) => {
+            if (err) {
+                console.error('Erro ao salvar o arquivo JSON:', err);
+            } else {
+                console.log(`O arquivo ${nomeArquivo}.json foi salvo com sucesso.`);
+            }
+        });
+    }
 
     function checkIncludedWord(word, check){ //verifica se a palavra esta inclusa
-        if (word.toUpperCase().includes(check.toUpperCase())) {
-            return true
-        }else{
-            return false
-        }
-    }
+   
+        let A = word.toUpperCase()
+        let B = check.toUpperCase()
+
+
+        return A.includes(B);
+    }    
     function buildDescription(name, brand, color, size, amount){
 
         let description = `<p>${name.toUpperCase()} <br><br>
@@ -74,11 +86,39 @@ function TOOLS(MARCA){
         return name
     }
 
+    //remover parametros duplicados
+    function removeDuplicates(obj) {
+        const uniqueValues = [...new Set(Object.values(obj))];
+        const uniqueObject = {};
+    
+        uniqueValues.forEach(value => {
+            Object.keys(obj).forEach(key => {
+                if (obj[key] === value) {
+                    uniqueObject[key] = value.toUpperCase(); // Converte o valor para caixa alta
+                }
+            });
+        });
+    
+        return uniqueObject;
+    }
+
+    //ordenar maior para o menor
+    function sortByCharacterCount(obj) {
+        const sortedKeys = Object.keys(obj).sort((a, b) => b.length - a.length);
+        const sortedObject = {};
+    
+        sortedKeys.forEach(key => {
+            sortedObject[key] = obj[key];
+        });
+    
+        return sortedObject;
+    }
+
     var imgContainer = [];
     var contId = 0
     function buildImg(brand, element){
         
-        if(brand == MARCA){
+        if(brand == MARCA ){
             var pushItem = true
             for(let i = 0; i<imgContainer.length; i++){
                 if(
@@ -108,7 +148,39 @@ function TOOLS(MARCA){
     }
 
 
-    return{ordenarObjetoPorPalavras, buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName}
+    return{ordenarObjetoPorPalavras, sortByCharacterCount, buildImg, checkIncludedWord, saveInExcel, buildDescription, buildName, saveInJSON, removeDuplicates}
 }
 
 export default TOOLS
+
+
+
+function downloadAndRenameImage(url, nome) {
+    fetch(url)
+        .then(response => response.blob())
+        .then(blob => {
+            const nomeArquivo = nome.toLowerCase().replace(/[^a-z0-9]/g, '') + '.jpg'; // Força a extensão para .jpg
+            const urlBlob = URL.createObjectURL(blob);
+            
+            const link = document.createElement('a');
+            link.href = urlBlob;
+            link.download = nomeArquivo;
+            link.click();
+            
+            URL.revokeObjectURL(urlBlob); // Liberar o objeto URL da memória
+        })
+        .catch(error => console.error('Erro:', error));
+}
+
+// Exemplo de uso:
+// const url = 'https://baloesjoy.com.br/wp-content/uploads/2023/01/violeta-450x450.jpg';
+// const nome = 'Nome_da_Imagem';
+
+// downloadAndRenameImage(url, nome);
+
+
+// // Exemplo de uso:
+// const url = 'URL_DA_IMAGEM_AQUI';
+// const nome = 'Nome_da_Imagem';
+
+// downloadAndRenameImage(url, nome);

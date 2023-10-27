@@ -1,12 +1,12 @@
 import  DATABASE  from './Data/parametros.js';
 import TOOLS from './tools.js'
 
-var MARCA = 'PONTO DAS FESTAS'
+var MARCA = 'JOY'
 const data = DATABASE()
 const tools = TOOLS(MARCA)
 
 let output = []
-//FILTRO E TRATAMENTO -------------------------------------------------------------------------------------------------------------------------------
+function clearData(){
     data.product.forEach((element)=>{
 
         // PRE CONSTRUÇÃO DO PRODUTO -------------------------------------------------------------------------------------------------------------------------------
@@ -33,7 +33,13 @@ let output = []
             product.categ2 = ''
 
         // IDENTIFICADORES DE PARAMETROS -------------------------------------------------------------------------------------------------------------------------------
-            let dataColor = tools.ordenarObjetoPorPalavras(data.color);
+            let dataColor = data.color
+            let dataBrand = data.brand
+            let dataAmount = data.amount
+            let dataModel = data.model
+            let dataType = data.type
+            let dataSize = data.size
+
             for (const color in dataColor) { //identifica a cor
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, color) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -41,8 +47,6 @@ let output = []
                     break;
                 }
             }
-
-            let dataBrand = tools.ordenarObjetoPorPalavras(data.brand);
             for (const brand in dataBrand) { //identifica a marca
                 let includedIn =  tools.checkIncludedWord(element.FORNECEDOR, brand) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -50,8 +54,6 @@ let output = []
                     break;
                 }
             }
-
-            let dataAmount = tools.ordenarObjetoPorPalavras(data.amount);
             for (const amount in dataAmount) { //identifica a quantidade
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, amount) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -59,8 +61,6 @@ let output = []
                     break;
                 }
             }
-
-            let dataModel = tools.ordenarObjetoPorPalavras(data.model);
             for (const model in dataModel) { //identifica o modelo
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, model) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -68,18 +68,13 @@ let output = []
                     break;
                 }
             }
-
-            let dataType = tools.ordenarObjetoPorPalavras(data.type);
             for (const type in dataType) { //identifica o tipo do produto
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, type) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
                     product.type = dataType[type]
-
                     break;
                 }
             }
-
-            let dataSize = tools.ordenarObjetoPorPalavras(data.size);
             for (const size in dataSize) { //identifica a quantidade
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, size) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -92,34 +87,21 @@ let output = []
             product.name = tools.buildName(product.type, product.color, product.amount, product.model, product.brand, product.size)
             product.description = tools.buildDescription(product.name, product.brand, product.color, product.size, product.amount)
             product.url = tools.buildImg(product.brand, product)
-        
-
-        //AJUSTES DE TAMANHO -------------------------------------------------------------------------------------------------------------------------------
-            product.categ1 = product.brand
-            if(product.size == '250"' || product.size == '350"'){
-                product.categ2 = 'GIGANTE E SUPER GIGANTE'
-            }else{
-                product.categ2 = product.type
-            }
-            if(product.size.includes('260"')){
-                product.categ2 = 'TRIPINHA'
-            }
 
         //REQUISITOS PARA EXPORTAR -------------------------------------------------------------------------------------------------------------------------------
-            if(product.brand == MARCA 
-                && !product.varejo.includes('CONFETE')
-                //&& product.color && product.type
-            ){
+            if(product.brand == MARCA){
                 output.push(product)
             }
         
     })
     console.log('------------------------------------------------------------')
     console.log('[PRODUTOS EM OUTPUT: ' + output.length + ']')
+}clearData()
 
 
 
-function CheckProducts(){
+
+function CheckProducts(comander){
     let color = 0
     let type = 0
     let model = 0
@@ -129,7 +111,7 @@ function CheckProducts(){
     output.forEach((element)=>{ //produtos
         //verificar ausencia MODEL ----------------------------------------------------------------------------------------------------------------
         let AusenciaModel = true;
-        for (const model in data.model) { //identifica a cor
+        for (const model in data.model) { 
             let includedIn =  tools.checkIncludedWord(element.description, model)
             if(includedIn == true){
                 AusenciaModel = false
@@ -145,7 +127,7 @@ function CheckProducts(){
 
         //verificar ausencia de amount ----------------------------------------------------------------------------------------------------------------
         let AusenciaAmount = true;
-        for (const amount in data.amount) { //identifica a cor
+        for (const amount in data.amount) { 
             let includedIn =  tools.checkIncludedWord(element.description, amount)
             if(includedIn == true){
                 AusenciaAmount = false
@@ -213,24 +195,22 @@ function CheckProducts(){
 
     //Console identificadores------------------------------------------------------------------------------------------------------------------------
 
-    if(color !== 0){
+    if(color !== 0 && comander !== 'coloroff'){
         console.log('CORES - [100% IDENTIFICADO!]' + ` (${color})` )
     }
-    if(type !== 0){
+    if(type !== 0 && comander !== 'typeoff'){
         console.log('TIPOS - [100% IDENTIFICADO!]' + ` (${type})`)
     }
-    if(model !== 0){
+    if(model !== 0 && comander !== 'modeloff'){
         console.log('MODELOS - [100% IDENTIFICADO!]' + ` (${model})`)
     }
-    if(amount !== 0){
+    if(amount !== 0 && comander !== 'amountoff'){
         console.log('QUANTIDADES - [100% IDENTIFICADO!]' + ` (${amount})`)
     }
-    if(size !== 0){
+    if(size !== 0 && comander !== 'sizeoff'){
         console.log('TAMANHOS - [100% IDENTIFICADO!]' + ` (${size})`)
     }
-    if(model !== 0){
-        console.log('MODELOS - [100% IDENTIFICADO!]' + ` (${model})`)
-    }
+
 
     console.log('------------------------------------------------------------')
    
@@ -388,6 +368,33 @@ function SaveProductsInExcel(){
             { 'Categoria': 'VARIANTE', 'Quantidade': variable.length }
         ])
 }
+let report = []
+function PrintReport(){
 
-//CheckProducts()
+    output.forEach((element)=>{
+        report.push({
+            brand: element.brand,
+            color: element.clor,
+            model: element.model,
+            type: element.type,
+            amount: element.amount,
+            price: element.price,
+            varejo: element.varejo,
+            url: tools.buildImg(MARCA, element)
+        })
+        
+    })
+    let nome = MARCA.replace(/ /g, '')
+    tools.saveInJSON(report, nome)
+}
+
+
+//PrintReport()
+// CheckProducts('modeloff')
 SaveProductsInExcel()
+
+//remover itens repetido
+//console.log(tools.removeDuplicates(data.model))
+
+//organizar maior para o menor
+//console.log(tools.sortByCharacterCount(data.model))
