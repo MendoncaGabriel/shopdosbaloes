@@ -1,7 +1,9 @@
 import  DATABASE  from './Data/parametros.js';
 import TOOLS from './tools.js'
+import readline from "readline";
 
-var MARCA = 'JOY'
+var MARCA = 'PARTIU FESTA'
+
 const data = DATABASE()
 const tools = TOOLS(MARCA)
 
@@ -33,13 +35,9 @@ function clearData(){
             product.categ2 = ''
 
         // IDENTIFICADORES DE PARAMETROS -------------------------------------------------------------------------------------------------------------------------------
+            
+        
             let dataColor = data.color
-            let dataBrand = data.brand
-            let dataAmount = data.amount
-            let dataModel = data.model
-            let dataType = data.type
-            let dataSize = data.size
-
             for (const color in dataColor) { //identifica a cor
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, color) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -47,6 +45,7 @@ function clearData(){
                     break;
                 }
             }
+            let dataBrand = data.brand
             for (const brand in dataBrand) { //identifica a marca
                 let includedIn =  tools.checkIncludedWord(element.FORNECEDOR, brand) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -54,6 +53,7 @@ function clearData(){
                     break;
                 }
             }
+            let dataAmount = data.amount
             for (const amount in dataAmount) { //identifica a quantidade
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, amount) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -61,6 +61,7 @@ function clearData(){
                     break;
                 }
             }
+            let dataModel = data.model
             for (const model in dataModel) { //identifica o modelo
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, model) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -68,6 +69,7 @@ function clearData(){
                     break;
                 }
             }
+            let dataType = data.type
             for (const type in dataType) { //identifica o tipo do produto
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, type) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -75,6 +77,7 @@ function clearData(){
                     break;
                 }
             }
+            let dataSize = data.size
             for (const size in dataSize) { //identifica a quantidade
                 let includedIn =  tools.checkIncludedWord(element.DESCRICAO, size) //verifica se a palavra esta inclusa na descrição
                 if(includedIn == true){
@@ -97,22 +100,20 @@ function clearData(){
     console.log('------------------------------------------------------------')
     console.log('[PRODUTOS EM OUTPUT: ' + output.length + ']')
 }clearData()
-
-
-
-
 function CheckProducts(comander){
-    let color = 0
-    let type = 0
-    let model = 0
-    let amount = 0
-    let size = 0
+    console.log('------------------------------------------------------------')
+
+    let color = 0;
+    let type = 0;
+    let model = 0;
+    let amount = 0;
+    let size = 0;
 
     output.forEach((element)=>{ //produtos
         //verificar ausencia MODEL ----------------------------------------------------------------------------------------------------------------
         let AusenciaModel = true;
-        for (const model in data.model) { 
-            let includedIn =  tools.checkIncludedWord(element.description, model)
+        for (const Model in data.model) { 
+            let includedIn =  tools.checkIncludedWord(element.description, Model)
             if(includedIn == true){
                 AusenciaModel = false
                 break;
@@ -127,14 +128,13 @@ function CheckProducts(comander){
 
         //verificar ausencia de amount ----------------------------------------------------------------------------------------------------------------
         let AusenciaAmount = true;
-        for (const amount in data.amount) { 
-            let includedIn =  tools.checkIncludedWord(element.description, amount)
+        for (const Amount in data.amount) { 
+            let includedIn =  tools.checkIncludedWord(element.description, Amount)
             if(includedIn == true){
                 AusenciaAmount = false
                 break;
             }
         }
-
         if(AusenciaAmount == true){
             console.log('AMOUNT NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
         }else{
@@ -144,14 +144,13 @@ function CheckProducts(comander){
 
         //verificar ausencia de cor ----------------------------------------------------------------------------------------------------------------
         let AusenciaCor = true;
-        for (const color in data.color) { //identifica a cor
-            let includedIn =  tools.checkIncludedWord(element.description, color)
+        for (const Color in data.color) { //identifica a cor
+            let includedIn =  tools.checkIncludedWord(element.description, Color)
             if(includedIn == true){
                 AusenciaCor = false
                 break;
             }
         }
-
         if(AusenciaCor == true && model == 0){
             console.log('COR NÃO IDENTIFICADA: ' + element.varejo + ', EAN: ' + element.ean)
         }else{
@@ -161,30 +160,29 @@ function CheckProducts(comander){
 
         //verificar ausencia de type ----------------------------------------------------------------------------------------------------------------
         let AusenciaType = true;
-        for (const type in data.type) { //identifica a cor
-            let includedIn =  tools.checkIncludedWord(element.description, type)
+        for (const Type in data.type) { //identifica a cor
+            let includedIn =  tools.checkIncludedWord(element.description, Type)
             if(includedIn == true){
                 AusenciaType = false
                 break;
             }
         }
-
         if(AusenciaType == true){
             console.log('TYPE NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
         }else{
             type++
         }
 
+
         //verificar ausencia SIZE ----------------------------------------------------------------------------------------------------------------
         let AusenciaSize = true;
-        for (const size in data.size) { //identifica a cor
-            let includedIn =  tools.checkIncludedWord(element.varejo, size)
+        for (const Size in data.size) { //identifica a cor
+            let includedIn =  tools.checkIncludedWord(element.varejo, Size)
             if(includedIn == true){
                 AusenciaSize = false
                 break;
             }
         }
-
         if(AusenciaSize == true){
             console.log('SIZE NÃO IDENTIFICADO: ' + element.varejo+ ', EAN: ' + element.ean)
         }else{
@@ -192,28 +190,7 @@ function CheckProducts(comander){
         }
 
     })
-
-    //Console identificadores------------------------------------------------------------------------------------------------------------------------
-
-    if(color !== 0 && comander !== 'coloroff'){
-        console.log('CORES - [100% IDENTIFICADO!]' + ` (${color})` )
-    }
-    if(type !== 0 && comander !== 'typeoff'){
-        console.log('TIPOS - [100% IDENTIFICADO!]' + ` (${type})`)
-    }
-    if(model !== 0 && comander !== 'modeloff'){
-        console.log('MODELOS - [100% IDENTIFICADO!]' + ` (${model})`)
-    }
-    if(amount !== 0 && comander !== 'amountoff'){
-        console.log('QUANTIDADES - [100% IDENTIFICADO!]' + ` (${amount})`)
-    }
-    if(size !== 0 && comander !== 'sizeoff'){
-        console.log('TAMANHOS - [100% IDENTIFICADO!]' + ` (${size})`)
-    }
-
-
-    console.log('------------------------------------------------------------')
-   
+    console.log('------------------------------------------------------------')   
 }
 let save = []
 function SaveProductsInExcel(){
@@ -254,8 +231,6 @@ function SaveProductsInExcel(){
                 ){
                     push = false
                     break
-                }else{
-                    console.log('ITEM REPETIDO: ' + element.brand, element.color, element.type, element.amount, element.model)
                 }
             };
             if(push == true){
@@ -368,33 +343,43 @@ function SaveProductsInExcel(){
             { 'Categoria': 'VARIANTE', 'Quantidade': variable.length }
         ])
 }
-let report = []
-function PrintReport(){
+function quest(){
+    const reader = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+      });
+      
+const msg = `
+O que quer fazer?: 
+[0] SAIR,
+[1] CHECAR,
+[2] SALVAR,
+[3] REMOVER REPETIDOS,
+[4] ORDENAR PARAMETROS
 
-    output.forEach((element)=>{
-        report.push({
-            brand: element.brand,
-            color: element.clor,
-            model: element.model,
-            type: element.type,
-            amount: element.amount,
-            price: element.price,
-            varejo: element.varejo,
-            url: tools.buildImg(MARCA, element)
-        })
+>`
+      
+      reader.question(msg, (resposta) => {
+        if(resposta === "0") {
+            process.exit();
+        }else if(resposta === "1") {
+          CheckProducts() ; quest()
+        }else if(resposta === "2"){
+          SaveProductsInExcel() ; quest()
+        }else if(resposta === "3"){
+          console.log(tools.removeDuplicates(data.model)) ;  quest() 
+        }else if(resposta === "4"){
+          console.log(tools.sortByCharacterCount(data.model)) ; quest()
+        }
         
-    })
-    let nome = MARCA.replace(/ /g, '')
-    tools.saveInJSON(report, nome)
+        else{
+          console.log('[OPÇÃO INVALIDA!]');  quest()
+        }
+      });
+     
+      reader.on("close", () => {
+        // O programa terminou
+        
+      });
 }
-
-
-//PrintReport()
-// CheckProducts('modeloff')
-SaveProductsInExcel()
-
-//remover itens repetido
-//console.log(tools.removeDuplicates(data.model))
-
-//organizar maior para o menor
-//console.log(tools.sortByCharacterCount(data.model))
+quest()
