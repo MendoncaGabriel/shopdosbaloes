@@ -431,7 +431,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
     },
     {
       img: 'https://baloesjoy.com.br/wp-content/uploads/2022/06/logo-joy.png',
-      url: 'http://www.shopdosbaloes.com.br/'
+      url: 'https://www.shopdosbaloes.com.br/joy'
     },
     {
       img: 'https://yt3.googleusercontent.com/ytc/AOPolaRLgeq-QOb5GtXR2WIU3zq7ri5zfKaGk78BRnrR=s900-c-k-c0x00ffffff-no-rj',
