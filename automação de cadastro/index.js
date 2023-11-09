@@ -279,7 +279,7 @@ function SaveProductsInExcel(){
                     let variableproduct = {}
                     variableproduct.id = ''
                     variableproduct.idRef = raiz.reference
-                    variableproduct.reference = variante.reference+1
+                    variableproduct.reference = variante.reference+"1"
                     variableproduct.variante = 'tamanho'
                     variableproduct.amount = variante.amount
                     variableproduct.price = variante.price
