@@ -698,6 +698,11 @@ function addBannerFornecedor(){
       img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/FEST-COLOR.png',
       img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/festcolor-mobile.png',
     }, 
+    {
+      marca: 'joy',
+      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/JOY.png',
+      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/joy-mobile.png',
+    }, 
 
   ]
 
